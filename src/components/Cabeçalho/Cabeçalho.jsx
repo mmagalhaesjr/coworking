@@ -1,25 +1,37 @@
+
+
 import { StyledCabeçalho, StyledprimeiraFaixa } from "./styled"
 import logo from '../../assets/logo.png'
+
+
+
 
 
 export default function Cabeçalho() {
     return (
         <>
-<StyledprimeiraFaixa>
+            <StyledprimeiraFaixa>
+            
 
-</StyledprimeiraFaixa>
-            <StyledCabeçalho>
+            
+           
+            
                 
+
+            </StyledprimeiraFaixa>
+            <StyledCabeçalho>
+
 
                 <div>
                     <img src={logo} alt='logo' />
                 </div>
                 <section>
-                    <p>Quem Somos</p>
-                    <p>Serviços</p>
-                    <p>Planos</p>
-                    <p>Espaço</p>
-                    <p>Contato</p>
+                    <p>QUEM SOMOS</p>
+                    <p>SERVIÇOS</p>
+                    <p>PLANOS</p>
+                    <p>ESPAÇO</p>
+                    <p>CONTATO</p>
+                    <button>RESERVAS</button>
                 </section>
 
             </StyledCabeçalho>

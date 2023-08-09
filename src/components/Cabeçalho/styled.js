@@ -12,6 +12,8 @@ position: fixed;
 
 
 
+
+
 `
 
 export const StyledCabeçalho = styled.div`
@@ -64,6 +66,27 @@ img{
     width:300px;
     height: 60px;
 }
+button{
+        background-color: #2A2A2A;
+        color: #ffffff;
+        width: 150px;
+        height: 60px;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 10px;
+        position:relative;
+        top:20px;
 
+       
+        
+
+    &:hover{
+        border: 2px solid #ffffff;
+        color:#307A69;
+
+    }
+
+
+}
 
 `
