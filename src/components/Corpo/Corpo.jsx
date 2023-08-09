@@ -1,10 +1,12 @@
 import { StyledCorpo } from "./styled"
 
 import Espaços from "../Espaços/Espaços"
-import Formulario from "../Formulario/Formulario"
+import Rodape from "../Rodape/Rodape"
+// import Formulario from "../Formulario/Formulario"
 
 import salao from "../../assets/salao.png"
 import whatsapp from "../../assets/whatsapp.png"
+
 
 
 
@@ -24,10 +26,8 @@ export default function Corpo() {
 
 
             </section>
+            <Rodape />
 
-            <div id="rodape">
-
-            </div>
         </StyledCorpo>
     )
 }

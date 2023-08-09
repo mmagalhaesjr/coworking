@@ -6,6 +6,7 @@ export const StyledCorpo = styled.div`
 img{
     width: 100%;
     height: 900px;
+    background-color: #171B1E;
 }
 #whatsapp{
     width: 150px;
@@ -21,19 +22,14 @@ img{
 section{
     width: 100%;
     height: 1900px;
+    background-color: #171B1E;
 }
 
 #textoConheçaNossaSoluçoes{
     font-size:200px;
 }
  
-#rodape{
-    width: 100%;
-    height: 200px;
-    background-color:#171B1E;
-   
-    bottom:0;
-}
+
 
 
 `
