@@ -16,11 +16,13 @@ export default function Corpo() {
     return (
         <StyledCorpo>
             <img src={salao} alt="imagem salão" />
-            
+
             <h1></h1>
             <section>
-                <h1 id="textoConheçaNossaSoluçoes">Conheça nossas soluções.</h1>
-
+                <div id="divTextoConheçaNossaSoluçoes">
+                    <h1 id="textoConheçaNossaSoluçoes">Nosso Espaço</h1>
+                </div>
+                
                 <Espaços />
                 {/* <Formulario/> */}
 

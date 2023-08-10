@@ -23,10 +23,18 @@ section{
     width: 100%;
     height: 1900px;
     background-color: #171B1E;
+   
 }
-
+#divTextoConheçaNossaSoluçoes{
+    display: flex;
+    justify-content: center;
+   
+    
+}
 #textoConheçaNossaSoluçoes{
-    font-size:200px;
+    font-size:80px;
+    margin-top: 100px;
+    color:#ffffff;
 }
  
 

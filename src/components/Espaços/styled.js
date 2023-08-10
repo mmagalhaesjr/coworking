@@ -7,21 +7,8 @@ export const StyledEspaços = styled.div`
     margin-left:5px;
     margin-top:100px;
 
+    align-items: center;
     
-
-
-.espaço{
-    width: 400px;
-    height: 300px;
-    border-radius: 15px;
-    cursor: pointer;
-    
-
-    &:hover {
-  transform: scale(1.1);
-  transition: transform 0.5s ease;
-}
-}
 
 .espaçoDiv{
     @font-face {
@@ -37,13 +24,26 @@ export const StyledEspaços = styled.div`
     background-color: #425F50;
     color:#AD9A70;
 
-    margin-left:5px;
+    margin-left: 10px;
+    margin-right: 10px;
 
-    overflow: hidden;
-
-  
-    
+    overflow: hidden; 
 }
+
+.espaço{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    cursor: pointer;
+
+    &:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+  z-index: 5;
+}
+
+}
+
 h2{
     font-size: 30px;
     text-align: center;

@@ -8,6 +8,7 @@ background-color: #111111;
 position: fixed;
 display: flex;
 justify-content: space-between;
+z-index: 1;
 
 a {
   text-decoration: none; 
