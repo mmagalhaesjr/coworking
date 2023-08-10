@@ -12,6 +12,15 @@ export const StyledEspaços = styled.div`
     width: 400px;
     height: 300px;
     border-radius: 15px;
+    cursor: pointer;
+    
+
+    
+
+    &:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
 }
 
 .espaçoDiv{
@@ -27,6 +36,8 @@ export const StyledEspaços = styled.div`
     border-radius: 15px;
     background-color: #425F50;
     color:#AD9A70;
+
+    overflow: hidden;
     
 }
 h2{

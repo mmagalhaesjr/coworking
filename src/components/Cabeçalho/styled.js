@@ -1,19 +1,36 @@
 import styled from 'styled-components';
 
 
-
-
-
 export const StyledprimeiraFaixa = styled.div`
 width:100%;
 height: 60px;
 background-color: #111111;
 position: fixed;
+display: flex;
+justify-content: space-between;
 
 
 
+#icones{
+    width: 20%;
+    height: 100%;
+    color:#ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
 
+#telefone{
 
+    width: 20%;
+    margin-top: 15px;
+    color:#ffffff;
+    font-size: 25px;
+    text-align:center;
+
+}
 `
 
 export const StyledCabeçalho = styled.div`
@@ -55,6 +72,7 @@ p{
     
 &:hover{
         color:#307A69; 
+        transition:0.3s;
     }
 }
 div{
@@ -83,6 +101,7 @@ button{
     &:hover{
         border: 2px solid #ffffff;
         color:#307A69;
+        transition:0.7s;
 
     }
 
