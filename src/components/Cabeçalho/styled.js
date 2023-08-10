@@ -9,7 +9,15 @@ position: fixed;
 display: flex;
 justify-content: space-between;
 
+a {
+  text-decoration: none; 
+  color: inherit; 
 
+  &:hover{
+        color:#307A69; 
+        transition:0.3s;
+    }
+}
 
 #icones{
     width: 20%;
@@ -20,6 +28,7 @@ justify-content: space-between;
     display: flex;
     justify-content: space-around;
     margin-top: 15px;
+    
 }
 
 #telefone{

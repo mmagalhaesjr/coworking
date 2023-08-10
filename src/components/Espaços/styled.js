@@ -3,9 +3,11 @@ import styled from 'styled-components';
 export const StyledEspaços = styled.div`
 
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     margin-left:5px;
     margin-top:100px;
+
+    
 
 
 .espaço{
@@ -13,8 +15,6 @@ export const StyledEspaços = styled.div`
     height: 300px;
     border-radius: 15px;
     cursor: pointer;
-    
-
     
 
     &:hover {
@@ -37,13 +37,17 @@ export const StyledEspaços = styled.div`
     background-color: #425F50;
     color:#AD9A70;
 
+    margin-left:5px;
+
     overflow: hidden;
+
+  
     
 }
 h2{
     font-size: 30px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 p{
     text-align: center;
