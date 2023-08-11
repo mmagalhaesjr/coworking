@@ -1,13 +1,12 @@
 import styled from 'styled-components';
 
-export const StyledFormulario = styled.div`
+export const StyledServiços = styled.div`
 
 width: 100%;
-height: 400px;
+height: 600px;
 
 margin-top: 40px;
 
-border: solid 1px green;
+border: solid 1px red;
 color:#ffffff;
 `
-

@@ -2,7 +2,8 @@ import { StyledCorpo } from "./styled"
 
 import Espaços from "../Espaços/Espaços"
 import Rodape from "../Rodape/Rodape"
-// import Formulario from "../Formulario/Formulario"
+import Serviços from "../Serviços/Serviços"
+import Formulario from "../Formulario/Formulario"
 
 import salao from "../../assets/salao.png"
 
@@ -24,7 +25,11 @@ export default function Corpo() {
                 </div>
                 
                 <Espaços />
-                {/* <Formulario/> */}
+                <Serviços />
+
+                <Formulario/>
+
+
 
 
             </section>
