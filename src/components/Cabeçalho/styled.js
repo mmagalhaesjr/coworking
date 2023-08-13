@@ -37,7 +37,7 @@ a {
     width: 20%;
     margin-top: 15px;
     color:#ffffff;
-    font-size: 25px;
+    font-size: 27px;
     text-align:center;
 
 }
