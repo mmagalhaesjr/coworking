@@ -1,26 +1,40 @@
 import styled from 'styled-components';
 
-export const StyledFormulario = styled.div`
+export const StyledFormulario = styled.section`
+display: flex;
+flex-direction: column;
+height: 100vh;
+background-color:#171B1E;
 
-color: white;
+
+form{
+    width:80%; 
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
+    color: white;
     top: 10%;
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     border-radius: 15px;
-    width: 70%;
-    height:500px ;
-    display: flex;
-    margin-top: 50px;
+   
 
-form{
-    width:100%;   
+  
+
+    
+}
+#titulos{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    top:-150px;
+    margin-bottom: 0px;
+     
 }
 
 input{
@@ -28,7 +42,8 @@ input{
 }
 .inputBox{
     position: relative;
-    width: 80%;        
+    width: 80%;    
+     
 }
 .inputUser{
     background: none;

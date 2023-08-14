@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 
-export const StyledprimeiraFaixa = styled.div`
+export const StyledprimeiraFaixa = styled.header`
+
 width:100%;
 height: 60px;
 background-color: #111111;
@@ -9,10 +10,6 @@ position: fixed;
 display: flex;
 justify-content: space-between;
 z-index: 1;
-
-html{
-    scroll-behavior:smooth;
-}
 a {
 text-decoration: none; 
 color: inherit; 
@@ -50,8 +47,8 @@ width:100%;
 position: fixed;
 z-index: 1;
 margin-top:60px ;
-
 display: flex;
+
 
 section{
 height:100px;
@@ -63,12 +60,15 @@ align-items: flex-end;
 
 position:relative;
 left: 150px;
+
+
 }
 
 a{
 font-family:Arial, Helvetica, sans-serif;
 color: #ffffff;
 cursor: pointer;
+
     
 &:hover{
     color:#307A69; 

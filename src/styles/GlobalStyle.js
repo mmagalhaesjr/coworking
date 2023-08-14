@@ -22,7 +22,10 @@ const GlobalStyle = createGlobalStyle`
         vertical-align: baseline;
         background-color:171B1E;
     }
-
+    html{
+    scroll-behavior:smooth;
+    height: 100vh; 
+}
     /* HTML5 display-role reset for older browsers */
     article, aside, details, figcaption, figure,
     footer, header, hgroup, menu, nav, section {
@@ -32,9 +35,9 @@ const GlobalStyle = createGlobalStyle`
     body {
         line-height: 1;
         width: 100%;
-        height: 100%;
+        height: 100vh;
         font-family: 'Lexend Deca', sans-serif;
-        background-color:#171B1E;
+        
     }
 
     ol, ul {

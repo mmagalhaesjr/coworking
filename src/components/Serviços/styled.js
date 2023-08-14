@@ -1,20 +1,34 @@
 import styled from 'styled-components';
 
-export const StyledServiços = styled.div`
 
+export const StyledServiços = styled.section`
 width: 100%;
-height: 600px;
+height: 100vh;
+color:#ffffff;
+
+display: flex;
+flex-direction: column;
+background-color:#171B1E;
+
+
+
+.titulos{
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+}
+h1{
+    text-align: center;
+}
+
+#container{
 display:flex;
 justify-content:space-evenly;
-margin-top: 40px;
-
-position: relative;
-top:15%;
-left: 50%;
-transform: translate(-50%,-50%);
 flex-wrap: wrap;
+margin-top:70px;
 
-color:#ffffff;
+
+}
 
 .serviços{
 width: 400px;
@@ -24,13 +38,12 @@ display: flex;
 flex-direction:column;
 align-items:center;
 text-align:center;
-
-
-
 }
 h2{
     font-size: 25px;
 }
+
+
 p{
     font-size:15px;
     margin-top: 15px;
