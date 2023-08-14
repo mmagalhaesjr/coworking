@@ -21,17 +21,17 @@ img{
 
 section{
     width: 100%;
-    height: 1900px;
+    height: 2400px;
     background-color: #171B1E;
    
 }
-#divTextoConheçaNossaSoluçoes{
+#titulos{
     display: flex;
     justify-content: center;
    
     
 }
-#textoConheçaNossaSoluçoes{
+#titulos{
     font-size:80px;
     margin-top: 100px;
     color:#ffffff;

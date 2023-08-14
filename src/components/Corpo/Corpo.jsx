@@ -18,20 +18,15 @@ export default function Corpo() {
         <StyledCorpo>
             <img src={salao} alt="imagem salão" />
 
-            <h1></h1>
             <section>
-                <div id="divTextoConheçaNossaSoluçoes">
-                    <h1 id="textoConheçaNossaSoluçoes">Nosso Espaço</h1>
-                </div>
-                
+                <div id="titulos"><h1 id="titulos">Nosso Espaço</h1></div>
+
                 <Espaços />
+
+                <div id="titulos"><h1 id="titulos">Serviços</h1></div>
+
                 <Serviços />
-
-                <Formulario/>
-
-
-
-
+                <Formulario />
             </section>
             <Rodape />
 
