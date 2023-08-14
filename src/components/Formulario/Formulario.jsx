@@ -3,7 +3,7 @@ import { StyledFormulario } from "./styled";
 
 export default function Formulario() {
     return (
-        <StyledFormulario>
+        <StyledFormulario id="contato">
             {/* <form action="">
                 <div className="inputBox">
                     <input type="text" name="nome" id="nome" className="inputUser" required />

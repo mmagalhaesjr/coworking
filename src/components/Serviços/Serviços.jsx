@@ -10,11 +10,11 @@ import {BsMicrosoftTeams} from 'react-icons/bs';
 
 export default function Serviços() {
     return (
-        <StyledServiços>
+        <StyledServiços id="serviços">
             <div className="serviços">
                 <AiOutlineWifi />
                 <h2>Wifi</h2>
-                <p>Fornecemos internet sem fio de alta velocidade confiável.</p>
+                <p>Fornecemos internet sem fio de alta velocidade.</p>
 
             </div>
             <div className="serviços">
@@ -26,7 +26,7 @@ export default function Serviços() {
             <div className="serviços">
                 <TbAirConditioning/>
                 <h2>Ambientes Climatizados</h2>
-                <p>Salas climatizadas para reuniões e conferências, com tecnologia para receber sua equipe e convidados. </p>
+                <p>salas climatizadas e equipadas para acomodar sua equipe e convidados em reuniões e conferências.</p>
             </div>
             <div className="serviços">
                 <AiFillPrinter/>

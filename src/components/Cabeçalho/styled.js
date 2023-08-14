@@ -10,6 +10,9 @@ display: flex;
 justify-content: space-between;
 z-index: 1;
 
+html{
+    scroll-behavior:smooth;
+}
 a {
 text-decoration: none; 
 color: inherit; 
@@ -62,7 +65,7 @@ position:relative;
 left: 150px;
 }
 
-p{
+a{
 font-family:Arial, Helvetica, sans-serif;
 color: #ffffff;
 cursor: pointer;

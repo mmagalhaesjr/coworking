@@ -33,12 +33,12 @@ export default function Cabeçalho() {
                     <img src={logo} alt='logo' />
                 </div>
                 <section>
-                    <p>QUEM SOMOS</p>
-                    <p>SERVIÇOS</p>
-                    <p>PLANOS</p>
-                    <p>ESPAÇO</p>
-                    <p>BLOG</p>
-                    <p>CONTATO</p>
+                    <a href="#">QUEM SOMOS</a>
+                    <a href="#serviços">SERVIÇOS</a>
+                    <a href="#">PLANOS</a>
+                    <a href="#espaços">ESPAÇOS</a>
+                    <a href="#">BLOG</a>
+                    <a href="#contato">CONTATO</a>
                     <button>RESERVAS</button>
                 </section>
 
