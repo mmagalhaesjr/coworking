@@ -11,35 +11,32 @@ justify-content: space-between;
 z-index: 1;
 
 a {
-  text-decoration: none; 
-  color: inherit; 
+text-decoration: none; 
+color: inherit; 
 
   &:hover{
-        color:#307A69; 
-        transition:0.3s;
+    color:#307A69; 
+    transition:0.3s;
     }
 }
 
 #icones{
-    width: 20%;
-    height: 100%;
-    color:#ffffff;
-    font-size: 25px;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 15px;
-    
+width: 20%;
+height: 100%;
+color:#ffffff;
+font-size: 25px;
+cursor: pointer;
+display: flex;
+justify-content: space-around;
+margin-top: 15px;  
 }
 
 #telefone{
-
-    width: 20%;
-    margin-top: 15px;
-    color:#ffffff;
-    font-size: 27px;
-    text-align:center;
-
+width: 20%;
+margin-top: 15px;
+color:#ffffff;
+font-size: 27px;
+text-align:center;
 }
 `
 
@@ -63,56 +60,42 @@ align-items: flex-end;
 
 position:relative;
 left: 150px;
-
 }
 
-
-
 p{
-    @font-face {
-        font-family:aktiv ;
-        src: url('AktivGrotesk-MediumItalic') format('opentype'), url('AktivGrotesk-MediumItalic') format('truetype');
-        font-weight:normal;
-        font-style: normal;
-      
-    }
-    font-family: aktiv;
-    color: #ffffff;
-    cursor: pointer;
+font-family:Arial, Helvetica, sans-serif;
+color: #ffffff;
+cursor: pointer;
     
 &:hover{
-        color:#307A69; 
-        transition:0.3s;
+    color:#307A69; 
+    transition:0.3s;
     }
 }
 div{
-    display: flex;
-    align-items:center;
+display: flex;
+align-items:center;
 }
 
 img{
-    width:300px;
-    height: 60px;
+ width:300px;
+height: 60px;
 }
 button{
-        background-color: #2A2A2A;
-        color: #ffffff;
-        width: 150px;
-        height: 60px;
-        font-size: 15px;
-        cursor: pointer;
-        border-radius: 10px;
-        position:relative;
-        top:20px;
-
-       
-        
+background-color: #2A2A2A;
+color: #ffffff;
+width: 150px;
+height: 60px;
+font-size: 15px;
+cursor: pointer;
+border-radius: 10px;
+position:relative;
+top:20px;
 
     &:hover{
         border: 2px solid #ffffff;
         color:#307A69;
         transition:0.7s;
-
     }
 
 

@@ -17,7 +17,7 @@ export const StyledEspaços = styled.div`
         font-weight:normal;
         font-style: normal;
     }
-    font-family: aktiv;
+    font-family: Arial, Helvetica, sans-serif;
     width: 400px;
     height:500px;
     border-radius: 15px;

@@ -25,16 +25,25 @@ section{
     background-color: #171B1E;
    
 }
-#titulos{
-    display: flex;
-    justify-content: center;
-   
-    
-}
-#titulos{
+
+.titulos{
     font-size:80px;
     margin-top: 100px;
     color:#ffffff;
+
+    display: flex;
+    justify-content: center;
+
+    
+}
+#titulos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+p{font-size:20px;
 }
  
 
