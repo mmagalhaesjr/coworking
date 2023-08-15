@@ -44,7 +44,7 @@ import styled from 'styled-components';
 export const StyledCabeçalho = styled.header`
 
 nav{
-background: rgba(0, 0, 0, 0.7);
+background: rgba(0, 0, 0, 1);
 height:100px;
 width:100%;
 position: fixed;
