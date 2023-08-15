@@ -4,7 +4,7 @@ import { StyledFormulario } from "./styled";
 export default function Formulario() {
     return (
         <StyledFormulario id="contato">
-            <div id="titulos" className="titulos">
+            <div id="titulos">
                 <h1 >CONTATO</h1>
                 <p> Interessado em saber mais sobre nossos serviços?  Entre em contato com a gente!</p>
             </div>

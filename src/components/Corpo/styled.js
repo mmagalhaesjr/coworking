@@ -9,15 +9,7 @@ img{
     margin-bottom:-10px;
 }
 
-.titulos{
-    font-size:80px;
-    margin-top: 100px;
-    color:#ffffff;
-    display: flex;
-    justify-content: center;
 
-    
-}
 #titulos{
     display: flex;
     justify-content: center;

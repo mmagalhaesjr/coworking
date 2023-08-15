@@ -6,7 +6,6 @@ flex-direction: column;
 height: 100vh;
 background-color:#171B1E;
 
-
 form{
     width:80%; 
     height:100%;
@@ -22,10 +21,6 @@ form{
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     border-radius: 15px;
-   
-
-  
-
     
 }
 #titulos{
@@ -33,8 +28,9 @@ form{
     flex-direction: column;
     position: relative;
     top:-150px;
-    margin-bottom: 0px;
-     
+    margin-bottom: 0px;   
+    text-align: center;
+    color:#ffffff;
 }
 
 input{
@@ -118,13 +114,21 @@ button{
 
     }
 }
+h1{
+    font-size: 100px;
+}
 
 @media(max-width:940px ){
+    #titulos{
+        left: 50%;
+    transform: translate(-50%,-50%);
+    }
     h1{
         font-size: 60px;
     }
     p{
         font-size:15px;
+        
     }
     button{
         top:5px;

@@ -13,6 +13,8 @@ background-color:#171B1E;
     flex-direction: column;
     align-items: center;
     font-size: 100px;
+    color: #ffffff;
+    margin-top: 30px;
   
 }
 
