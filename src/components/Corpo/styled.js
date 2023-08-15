@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const StyledCorpo = styled.div`
 
 img{
-    width: 100%;
-    height: 730px;
+    width: 100vw;
+    height: 100vh;
     background-color: #171B1E;
     margin-bottom:-10px;
 }
@@ -27,7 +27,8 @@ img{
 }
 p{font-size:20px;
 }
- 
+
+
 
 
 

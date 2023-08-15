@@ -23,7 +23,7 @@ h1{
 
 #container{
 display:flex;
-justify-content:space-evenly;
+justify-content:space-between;
 flex-wrap: wrap;
 margin-top:70px;
 
@@ -31,9 +31,9 @@ margin-top:70px;
 }
 
 .serviços{
-width: 400px;
+width: 300px;
 height: 150px;
-font-size: 60px;
+font-size: 50px;
 display: flex;
 flex-direction:column;
 align-items:center;
