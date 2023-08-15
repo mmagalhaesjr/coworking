@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const StyledFormulario = styled.section`
 display: flex;
 flex-direction: column;
-height: 100vh;
+height: 1000px;
 background-color:#171B1E;
 
 form{
@@ -21,6 +21,8 @@ form{
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     border-radius: 15px;
+
+    margin-top: 50px;
     
 }
 #titulos{
@@ -133,6 +135,7 @@ h1{
     }
     button{
         top:5px;
+        width: 80%;
     }
 }
 `
