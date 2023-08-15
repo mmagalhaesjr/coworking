@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const StyledCorpo = styled.div`
 
 img{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: #171B1E;
     margin-bottom:-10px;

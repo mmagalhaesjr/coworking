@@ -121,7 +121,8 @@ h1{
 @media(max-width:940px ){
     #titulos{
         left: 50%;
-    transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        margin-top: 300px;
     }
     h1{
         font-size: 60px;
