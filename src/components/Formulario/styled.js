@@ -111,15 +111,23 @@ button{
         border-radius: 10px;
         position:relative;
         top:20px;
-
-       
-        
-
     &:hover{
         border: 2px solid #ffffff;
         color:#307A69;
         transition:0.7s;
 
+    }
+}
+
+@media(max-width:940px ){
+    h1{
+        font-size: 60px;
+    }
+    p{
+        font-size:15px;
+    }
+    button{
+        top:5px;
     }
 }
 `

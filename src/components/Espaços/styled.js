@@ -54,11 +54,46 @@ background-color:#171B1E;
 h2{
     font-size: 30px;
     text-align: center;
+    margin-top: 20px;
 }
 p{
     text-align: center;
     margin-top: 30px;
     font-size: 20px;
+}
+
+@media(max-width:940px ){
+    #espaços{
+        height: 2000px;
+    }
+  #container{
+    flex-direction: column;
+    gap:20px;
+    margin-top: 30px;
+  }  
+  .espaçoDiv{
+    display: flex;
+    width: 350px;
+    height:150px;
+
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .espaço{
+    width: 70%;
+    height:100%
+  }
+  h2{
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  p{
+    font-size: 0;
+  }
+ h1{
+    font-size: 50px;
+ }
 }
 
 

@@ -52,13 +52,15 @@ z-index: 1;
 display: flex;
 justify-content:space-evenly;  
 flex-direction: row;
+
+
 }
 
 ul{
 display: flex;
 gap:30px;
 align-items: center;
-border: solid 1px red;
+
 }
 
 
@@ -114,7 +116,7 @@ top:20px;
     margin-top: 5px;
 }
 
-@media(max-width:900px){
+@media(max-width:940px){
    
     /* ul{
         flex-direction: column;

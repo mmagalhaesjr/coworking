@@ -5,7 +5,7 @@ export default function Formulario() {
     return (
         <StyledFormulario id="contato">
             <div id="titulos" className="titulos">
-                <h3 >CONTATO</h3>
+                <h1 >CONTATO</h1>
                 <p> Interessado em saber mais sobre nossos serviços?  Entre em contato com a gente!</p>
             </div>
             
