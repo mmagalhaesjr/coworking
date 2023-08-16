@@ -7,7 +7,7 @@ import espaço3 from "../../assets/espaço3.jpg"
 export default function Espaços() {
     return (
         
-        <StyledEspaços  id="espaços">
+        <StyledEspaços id="espaços">
             <div className="titulos">
                <h1>Nosso Espaço</h1>
             </div>

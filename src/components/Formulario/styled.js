@@ -6,6 +6,8 @@ flex-direction: column;
 height: 1000px;
 background-color:#171B1E;
 
+
+
 form{
     width:80%; 
     height:100%;
@@ -21,8 +23,13 @@ form{
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     border-radius: 15px;
+    margin-top: 60px;
+    
 
-    margin-top: 90px;
+   
+    
+
+    
     
 }
 #titulos{
@@ -30,9 +37,9 @@ form{
     flex-direction: column;
     position: relative;
     top:-150px;
-    margin-bottom: 0px;   
     text-align: center;
     color:#ffffff;
+    margin-top: 240px;
 }
 
 input{

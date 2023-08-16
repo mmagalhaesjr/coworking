@@ -10,7 +10,7 @@ import { BsMicrosoftTeams } from 'react-icons/bs';
 
 export default function Serviços() {
     return (
-        <StyledServiços id="serviços">
+        <StyledServiços  id="serviços">
 
             <div className="titulos">
                 <h1>Serviços</h1>

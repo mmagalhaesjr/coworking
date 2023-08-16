@@ -10,6 +10,8 @@ display: flex;
 flex-direction: column;
 background-color:#307A69;
 
+
+
 @media(max-width: 600px){
     height:1500px; 
 }
@@ -19,6 +21,7 @@ background-color:#307A69;
     flex-direction: column;
     font-size: 100px;
     font-weight: 700;
+    margin-top: 99px;
 }
 h1{
     text-align: center;
