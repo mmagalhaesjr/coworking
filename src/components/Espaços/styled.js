@@ -81,6 +81,11 @@ p{
     margin-top: 20px;
     margin-left: 0;
     margin-right: 0;
+
+    display: flex;
+    
+    align-items:center;
+    
   }
   .espaço{
     width: 70%;
@@ -89,9 +94,10 @@ p{
   h2{
     font-size: 30px;
     margin-top: 10px;
+   
   }
   p{
-    font-size: 0;
+    display: none;
   }
  h1{
     font-size: 50px;
