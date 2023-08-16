@@ -65,7 +65,6 @@ align-items: center;
 
 
 ul li a{
-font-family:Arial, Helvetica, sans-serif;
 color: #ffffff;
 cursor: pointer;
 &:hover{

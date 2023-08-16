@@ -118,6 +118,7 @@ button{
 }
 h1{
     font-size: 100px;
+    font-weight: 700;
 }
 
 @media(max-width:940px ){

@@ -13,6 +13,7 @@ background-color:#171B1E;
     flex-direction: column;
     align-items: center;
     font-size: 100px;
+    font-weight: 700;
     color: #ffffff;
     margin-top: 30px;
   
@@ -33,7 +34,7 @@ background-color:#171B1E;
     height:500px;
     border-radius: 15px;
     background-color: #425F50;
-    color:#AD9A70;
+    color:#ffffff;
     margin-left: 10px;
     margin-right: 10px;
     overflow: hidden; 
@@ -57,11 +58,14 @@ h2{
     font-size: 30px;
     text-align: center;
     margin-top: 20px;
+    font-weight:400;
 }
 p{
     text-align: center;
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 17px;
+    color:#ffffff;
+    font-weight: 100;
 }
 
 @media(max-width:1033px ){
@@ -92,7 +96,7 @@ p{
     height:100%
   }
   h2{
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 10px;
    
   }

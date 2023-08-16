@@ -14,7 +14,7 @@ export default function Espaços() {
             <div id="container">
                 <div className="espaçoDiv">
                     <img className="espaço" src={espaço1} alt="imagem salão" />
-                    <h2>Estação de Trabalho Individual</h2>
+                    <h2>Estação de Trabalho <br/> Individual</h2>
                     <p>Ideal para autônomos e profissionais liberais que buscam uma estrutura profissional para trabalhar e receber clientes.</p>
                 </div>
                 <div className="espaçoDiv">

@@ -8,7 +8,7 @@ color:#ffffff;
 
 display: flex;
 flex-direction: column;
-background-color:#171B1E;
+background-color:#307A69;
 
 @media(max-width: 600px){
     height:1500px; 
@@ -18,6 +18,7 @@ background-color:#171B1E;
     display: flex;
     flex-direction: column;
     font-size: 100px;
+    font-weight: 700;
 }
 h1{
     text-align: center;
