@@ -21,13 +21,11 @@ export default function Serviços() {
                     <AiOutlineWifi />
                     <h2>Wifi</h2>
                     <p>Fornecemos internet sem fio de alta velocidade.</p>
-
                 </div>
                 <div className="serviços">
                     <AiOutlineCoffee />
                     <h2>Coffee break</h2>
                     <p>A copa compartilhada oferece máquina de café e água para chá.</p>
-
                 </div>
                 <div className="serviços">
                     <TbAirConditioning />
@@ -43,7 +41,6 @@ export default function Serviços() {
                     <GiLockers />
                     <h2>Armários</h2>
                     <p>Armários para armazenar seus pertences com segurança.</p>
-
                 </div>
                 <div className="serviços">
                     <RiBodyScanFill />

@@ -64,7 +64,7 @@ p{
     font-size: 20px;
 }
 
-@media(max-width:940px ){
+@media(max-width:1033px ){
     #espaços{
         height: 2000px;
     }

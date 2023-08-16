@@ -22,7 +22,7 @@ form{
     padding: 15px;
     border-radius: 15px;
 
-    margin-top: 50px;
+    margin-top: 90px;
     
 }
 #titulos{
@@ -124,7 +124,7 @@ h1{
     #titulos{
         left: 50%;
         transform: translate(-50%,-50%);
-        margin-top: 300px;
+        margin-top: 500px;
     }
     h1{
         font-size: 60px;
@@ -137,6 +137,15 @@ h1{
         top:5px;
         width: 80%;
     }
+    form{
+        margin-top: 50px;
+    }
+    
+}
+
+@media(max-width:600px ){
+   form{ margin-top: 0px;
+   }
 }
 `
 
