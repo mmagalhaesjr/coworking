@@ -10,10 +10,14 @@ display: flex;
 flex-direction: column;
 background-color:#307A69;
 
-
-
-@media(max-width: 600px){
-    height:1500px; 
+@media(max-width: 1320px){
+    height:900px; 
+}
+@media(max-width: 1200px){
+    height:1000px; 
+}
+@media(max-width: 950px){
+    height:1700px; 
 }
 
 .titulos{
@@ -29,9 +33,10 @@ h1{
 
 #container{
 display:flex;
-justify-content:space-between;
+justify-content:space-around;
 flex-wrap: wrap;
 margin-top:70px;
+gap: 40px;
 }
 
 .serviços{
@@ -50,6 +55,7 @@ p{
     font-size:15px;
     margin-top: 15px;
 }
+
 @media(max-width:940px) {
     #container{
         height: 100%;
@@ -66,6 +72,7 @@ p{
         font-size: 60px;
     }
 }
+
 
 
 `
