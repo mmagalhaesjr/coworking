@@ -26,6 +26,23 @@ background-color:#171B1E;
     justify-content:center;
     margin-left:5px;
     align-items: center;
+
+    @media(max-height: 732px){
+        margin-bottom: 20px;
+        overflow: auto; 
+        .div-exemplo::-webkit-scrollbar {
+    width: 1em; 
+}
+
+.div-exemplo::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 4px; 
+}
+
+.div-exemplo::-webkit-scrollbar-track {
+    background-color: #f5f5f5; 
+}
+}
 }
 
 .espaçoDiv{
@@ -76,6 +93,8 @@ p{
     flex-direction: column;
     gap:20px;
     margin-top: 30px;
+
+    
   }  
   .espaçoDiv{
     display: flex;
@@ -107,6 +126,11 @@ p{
     font-size: 50px;
  }
 }
+
+
+#container{
+        
+    }
 
 
 `
