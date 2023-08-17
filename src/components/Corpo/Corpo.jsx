@@ -6,6 +6,8 @@ import Serviços from "../Serviços/Serviços"
 import Formulario from "../Formulario/Formulario"
 
 import salao from "../../assets/salao.png"
+import {  BsWhatsapp } from 'react-icons/bs';
+
 
 
 
@@ -15,6 +17,9 @@ export default function Corpo() {
     return (
         <StyledCorpo>
             <img src={salao} alt="imagem salão" />
+
+               <a  href="https://web.whatsapp.com/" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a> 
+
                 <Espaços />
                 <Serviços />
                 <Formulario />
