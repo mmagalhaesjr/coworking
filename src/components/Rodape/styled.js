@@ -14,11 +14,6 @@ color: #ffffff;
 @media(max-width:940px){
     height:1000px;
 }
-h6{
-    margin-bottom: 10px;
-    width: 80%;
-}
-
 #container{
     width: 100%;
     display: flex;
@@ -31,7 +26,6 @@ h6{
     flex-direction:column;
 }
 }
-
     .container{
         width: 400px;
         height: 200px;
@@ -87,7 +81,11 @@ img{
     width: 200px;
 }
 
-
+h6{
+    margin-bottom: 10px;
+    width: 80%;
+    text-align:center;
+}
    
 
 `
