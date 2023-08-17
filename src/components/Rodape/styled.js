@@ -10,8 +10,13 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 color: #ffffff;
+
+@media(max-width:940px){
+    height:1000px;
+}
 h6{
     margin-bottom: 10px;
+    width: 80%;
 }
 
 #container{
@@ -22,6 +27,9 @@ h6{
     gap:50px;
    
     bottom:0;
+    @media(max-width:940px){
+    flex-direction:column;
+}
 }
 
     .container{
@@ -78,6 +86,8 @@ font-size: 15px;
 img{
     width: 200px;
 }
+
+
    
 
 `
