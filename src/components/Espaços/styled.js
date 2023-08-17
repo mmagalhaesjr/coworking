@@ -74,7 +74,7 @@ background-color:#171B1E;
 h2{
     font-size: 30px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     font-weight:400;
 }
 p{

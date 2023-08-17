@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledCorpo = styled.div`
+export const StyledCorpo = styled.main`
  @media(max-width:940px){
         #whattsapp{
             display: none;
@@ -48,7 +48,7 @@ a{
     position: fixed;
     font-size: 80px;
     right: 25px;
-    top:550px;
+    top:650px;
     cursor: pointer;
     color: #000000;
     text-decoration: none;
