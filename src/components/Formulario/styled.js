@@ -23,13 +23,7 @@ form{
     background-color: rgba(0, 0, 0, 0.6);
     padding: 15px;
     border-radius: 15px;
-    margin-top: 60px;
-    
-
-   
-    
-
-    
+    margin-top: 60px;  
     
 }
 #titulos{

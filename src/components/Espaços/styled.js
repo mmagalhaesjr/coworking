@@ -62,13 +62,11 @@ background-color:#171B1E;
     height: 300px;
     border-radius: 15px;
     cursor: pointer;
-
     &:hover {
   transform: scale(1.1);
   transition: transform 0.5s ease;
   z-index: 5;
 }
-
 }
 
 h2{
@@ -83,6 +81,7 @@ p{
     font-size: 17px;
     color:#ffffff;
     font-weight: 100;
+    margin: 20px;
 }
 
 @media(max-width:1033px ){
@@ -93,26 +92,23 @@ p{
     flex-direction: column;
     gap:20px;
     margin-top: 30px;
-
-    
   }  
   .espaçoDiv{
     display: flex;
     width: 350px;
     height:150px;
-
-    margin-top: 20px;
-    margin-left: 0;
-    margin-right: 0;
+   margin: 0;
 
     display: flex;
-    
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     
   }
   .espaço{
     width: 70%;
-    height:100%
+    height:100%;
+   position: relative;
+   top: -5px;
   }
   h2{
     font-size: 20px;

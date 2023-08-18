@@ -17,7 +17,7 @@ export default function Corpo() {
         <StyledCorpo>
             <img src={salao} alt="imagem salão" />
 
-               <a  href="https://web.whatsapp.com/" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a> 
+               <a  href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a> 
 
                 <Espaços />
                 <Serviços />

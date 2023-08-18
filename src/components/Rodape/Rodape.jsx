@@ -26,9 +26,9 @@ export default function Rodape() {
                 <div className="container">
                     <h3>Redes Sociais</h3>
                     <ul className="contInterno" >
-                        <li><a href=""><AiOutlineInstagram /></a></li>
-                        <li><a href=""><AiOutlineFacebook /></a></li>
-                        <li><a href=""><AiFillLinkedin /></a></li>
+                        <li><a  href="https://www.instagram.com/temasekjf" target="_blank" rel="noreferrer"><AiOutlineInstagram /></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100095096174475" target="_blank" rel="noreferrer"><AiOutlineFacebook /></a></li>
+                        <li><a href="https://www.linkedin.com/company/temasek-jf/about/?viewAsMember=true" target="_blank" rel="noreferrer"><AiFillLinkedin /></a></li>
                     </ul>
                 </div>
                 <div className="container">
