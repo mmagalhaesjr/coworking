@@ -34,6 +34,7 @@ color: #ffffff;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
     }
     .contInterno{
         width: 100%;
@@ -42,6 +43,28 @@ color: #ffffff;
         color:#ffffff;
         font-size: 30px;
         margin-top: 30px;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        gap:30px;
+        cursor: pointer;  
+
+       
+}
+
+.containerRedesS{
+    width: 100%;
+        height: 100px;
+        display: flex;
+        color:#ffffff;
+        font-size: 30px;
+        margin-top: 30px;
+
+        justify-content: center;
+        align-items: center;
+        
         gap:30px;
         cursor: pointer;  
 }
@@ -55,7 +78,7 @@ cursor: pointer;
     }
 }
 ul{
-justify-content:space-evenly;
+justify-content:center;
 text-align: center;
 font-size: 15px; 
 }
@@ -75,6 +98,7 @@ gap:3px;
 text-align: center;
 flex-direction: column;
 font-size: 15px;
+
 }
 
 img{
@@ -85,6 +109,10 @@ h6{
     margin-bottom: 10px;
     width: 80%;
     text-align:center;
+}
+.icones{
+    display: flex;
+    gap:5px;
 }
    
 

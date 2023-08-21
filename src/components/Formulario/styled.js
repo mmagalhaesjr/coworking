@@ -38,6 +38,11 @@ form{
     font-weight: 700;
 }
 
+#titulos p{
+    font-size: 17px;
+    font-weight: 200;
+} 
+
 input{
     margin-bottom: 30px;
 }

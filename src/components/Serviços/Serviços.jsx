@@ -20,7 +20,7 @@ export default function Serviços() {
                 <div className="servicos">
                     <AiOutlineWifi />
                     <h2>Wifi</h2>
-                    <p>Fornecemos internct sem fio de alta velocidade.</p>
+                    <p>Fornecemos internet sem fio de alta velocidade.</p>
                 </div>
                 <div className="servicos">
                     <AiOutlineCoffee />
