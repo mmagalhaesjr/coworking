@@ -2,10 +2,12 @@ import { StyledCorpo } from "./styled"
 
 import Espaços from "../Espaços/Espaços"
 import Serviços from "../Serviços/Serviços"
+import Planos from "../Planos/Planos"
 import Formulario from "../Formulario/Formulario"
 
 import salao from "../../assets/salao.png"
 import {  BsWhatsapp } from 'react-icons/bs';
+
 
 
 
@@ -21,6 +23,7 @@ export default function Corpo() {
 
                 <Espaços />
                 <Serviços />
+                <Planos/>
                 <Formulario />
       
         </StyledCorpo>

@@ -47,7 +47,7 @@ background-color:#171B1E;
 
 .espacoDiv{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #425F50;
+    background-color: rgba(0, 0, 0, 0.6);
     width: 300px;
     height: 280px;
     border-radius: 15px;
@@ -60,6 +60,7 @@ background-color:#171B1E;
 }
 .espacoDiv p{
     color:#425F50;
+    color: #171B1E;
 }
 
 .espacoDiv:hover{
@@ -67,7 +68,7 @@ background-color:#171B1E;
     transform: translatey(-10%);
     transition: 0.5s;
     p{
-        color: #171B1E;
+        color:#425F50;
         transition: 3s;
         
     }
