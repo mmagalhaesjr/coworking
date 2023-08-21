@@ -2,7 +2,7 @@ import { StyledEspaços } from "./styled"
 
 import espaço1 from "../../assets/espaço1.jpg"
 import espaço2 from "../../assets/espaço2.jpg"
-import espaço3 from "../../assets/espaço3.jpg"
+import espaço3 from "../../assets/espaço3.jpeg"
 
 export default function Espaços() {
     return (
