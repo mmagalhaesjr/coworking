@@ -12,7 +12,7 @@ background-color:#171B1E;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    font-size: 100px;
+    font-size: 90px;
     font-weight: 700;
     color: #ffffff;
     margin-top: 99px;
@@ -27,7 +27,7 @@ background-color:#171B1E;
     margin-left:5px;
     align-items: center;
 
-    @media(max-height: 732px){
+    /* @media(max-height: 732px){
         margin-bottom: 20px;
         overflow: auto; 
         .div-exemplo::-webkit-scrollbar {
@@ -42,31 +42,50 @@ background-color:#171B1E;
 .div-exemplo::-webkit-scrollbar-track {
     background-color: #f5f5f5; 
 }
-}
+} */
 }
 
-.espaçoDiv{
+.espacoDiv{
     font-family: Arial, Helvetica, sans-serif;
-    width: 400px;
-    height:500px;
-    border-radius: 15px;
     background-color: #425F50;
+    width: 300px;
+    height: 280px;
+    border-radius: 15px;
+    
     color:#ffffff;
     margin-left: 10px;
     margin-right: 10px;
-    overflow: hidden; 
+    overflow: hidden;
+    cursor: pointer;
+}
+.espacoDiv p{
+    color:#425F50;
 }
 
-.espaço{
-    width: 400px;
-    height: 300px;
+.espacoDiv:hover{
+    height: 400px;
+    transform: translatey(-10%);
+    transition: 0.5s;
+    p{
+        color: #171B1E;
+        transition: 3s;
+        
+    }
+    .espaco{
+        height: 50%;
+        transform: scale(1.1);
+        transition: transform 1.5s ease;
+        z-index: 5;
+
+    }
+}
+
+
+.espaco{
+    width: 100%;
+    height: 80%;
     border-radius: 15px;
     cursor: pointer;
-    &:hover {
-  transform: scale(1.1);
-  transition: transform 0.5s ease;
-  z-index: 5;
-}
 }
 
 h2{
@@ -85,7 +104,7 @@ p{
 }
 
 @media(max-width:1033px ){
-    #espaços{
+    #espacos{
         height: 2000px;
     }
   #container{
@@ -93,18 +112,17 @@ p{
     gap:20px;
     margin-top: 30px;
   }  
-  .espaçoDiv{
+  .espacoDiv{
     display: flex;
     width: 350px;
     height:150px;
-   margin: 0;
+    margin: 0;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    
   }
-  .espaço{
+  .espaco{
     width: 70%;
     height:100%;
    position: relative;
@@ -119,14 +137,30 @@ p{
     display: none;
   }
  h1{
-    font-size: 50px;
+    font-size: 40%;
  }
+
+ .espacoDiv:hover{
+   
+    width: 350px;
+    height:150px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform:none;
+
+    .espaco{
+    width: 70%;
+    height:100%;
+    top: -5px;
+
+    }
+}
 }
 
 
-#container{
-        
-    }
+
 
 
 `

@@ -1,46 +1,5 @@
 import styled from 'styled-components';
 
-
-
-// export const StyledprimeiraFaixa = styled.header`
-
-// width:100%;
-// height: 60px;
-// background-color: #111111;
-// display: flex;
-// justify-content: space-between;
-// position: fixed;
-// z-index: 1;
-// a {
-// text-decoration: none; 
-// color: inherit; 
-
-//   &:hover{
-//     color:#307A69; 
-//     transition:0.3s;
-//     }
-// }
-
-// #icones{
-// width: 20%;
-// height: 100%;
-// color:#ffffff;
-// font-size: 25px;
-// cursor: pointer;
-// display: flex;
-// justify-content: space-around;
-// margin-top: 15px;  
-// }
-
-// #telefone{
-// width: 20%;
-// margin-top: 15px;
-// color:#ffffff;
-// font-size: 27px;
-// text-align:center;
-// }
-// `
-
 export const StyledCabeçalho = styled.header`
 
 nav{

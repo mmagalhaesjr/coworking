@@ -34,6 +34,8 @@ form{
     text-align: center;
     color:#ffffff;
     margin-top: 240px;
+    font-size: 90px;
+    font-weight: 700;
 }
 
 input{
@@ -117,10 +119,7 @@ button{
 
     }
 }
-h1{
-    font-size: 100px;
-    font-weight: 700;
-}
+
 
 @media(max-width:940px ){
     #titulos{

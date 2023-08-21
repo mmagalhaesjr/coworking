@@ -39,7 +39,7 @@ margin-top:70px;
 gap: 40px;
 }
 
-.serviços{
+.servicos{
 width: 300px;
 height: 150px;
 font-size: 50px;
@@ -63,7 +63,7 @@ p{
         flex-direction: column;
         align-items: center;
     }
-    .serviços{
+    .servicos{
         width: 300px;
         height: 150px;
         font-size:30px; 
