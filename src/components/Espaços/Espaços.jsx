@@ -25,7 +25,7 @@ export default function Espaços() {
                 <div className="espacoDiv">
                     <img className="espaco" src={espaço3} alt="imagem salão" />
                     <h2>Salas de Reuniões</h2>
-                    <p>Receba seus clientes em um ambiente profissional e equipado, oferecemos ainda água e café. Disponível nos planos de residentes ou aluguel sob demanda.</p>
+                    <p>Receba seus clientes em um ambiente profissional e equipado. Disponível nos planos ou aluguel sob demanda.</p>
                 </div>
             </div>
         </StyledEspaços>

@@ -8,6 +8,8 @@ background-color:#171B1E;
 
 
 
+
+
 form{
     width:80%; 
     height:100%;
@@ -34,13 +36,18 @@ form{
     text-align: center;
     color:#ffffff;
     margin-top: 240px;
-    font-size: 90px;
-    font-weight: 700;
+    
+    font-size: 70px;
+    font-weight: 400;
+
+    
 }
 
 #titulos p{
     font-size: 17px;
     font-weight: 200;
+    
+    margin-bottom: 10px;
 } 
 
 input{

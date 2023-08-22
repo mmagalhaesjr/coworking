@@ -10,6 +10,8 @@ display: flex;
 flex-direction: column;
 background-color:#307A69;
 
+
+
 @media(max-width: 1320px){
     height:900px; 
 }
@@ -23,9 +25,11 @@ background-color:#307A69;
 .titulos{
     display: flex;
     flex-direction: column;
-    font-size: 100px;
-    font-weight: 700;
     margin-top: 99px;
+    font-size: 70px;
+    font-weight: 400;
+
+    text-decoration:underline;
 }
 h1{
     text-align: center;

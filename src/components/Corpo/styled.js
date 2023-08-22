@@ -48,13 +48,13 @@ a{
     position: fixed;
     font-size: 80px;
     right: 25px;
-    top:650px;
+    top:500px;
     cursor: pointer;
     color: #000000;
     text-decoration: none;
 }
 #whattsapp:hover{
-    color:#307A69; 
+    color: #425F50;
     transition:0.3s;
 }
 

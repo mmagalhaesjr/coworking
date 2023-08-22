@@ -10,6 +10,7 @@ display: flex;
 flex-direction: column;
 background-color:#2A2A2A;
 
+
 @media(max-width: 1320px){
     height:1200px; 
 }
@@ -23,9 +24,15 @@ background-color:#2A2A2A;
 .titulos{
     display: flex;
     flex-direction: column;
-    font-size: 80px;
-    font-weight: 700;
     margin-top: 99px;
+    font-size: 70px;
+    font-weight: 400;
+
+    text-decoration:underline #425F50;
+
+    /* border-bottom:10px solid #425F50; 
+    border-bottom-right-radius: 50px; */
+   
 }
 h1{
     text-align: center;
@@ -41,7 +48,10 @@ gap: 40px;
 .planos{
     width: 300px;
     height: 400px;
-   border: solid 5px #307A69; 
+    border-radius: 15px;
+
+    background-color:rgba(0, 0, 0, 0.6);
+   border: solid 5px  #425F50; 
 }
 
 

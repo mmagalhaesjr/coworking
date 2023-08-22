@@ -12,11 +12,19 @@ background-color:#171B1E;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    font-size: 90px;
-    font-weight: 700;
     color: #ffffff;
     margin-top: 99px;
-  
+
+    text-decoration:underline #425F50;
+   
+    /* border-bottom:10px solid #425F50  ; 
+    border-bottom-right-radius: 50px; */
+   
+    
+
+    font-size: 70px;
+    font-weight: 400;
+    
 }
 
 #container{
@@ -46,7 +54,6 @@ background-color:#171B1E;
 }
 
 .espacoDiv{
-    font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(0, 0, 0, 0.6);
     width: 300px;
     height: 280px;
@@ -61,6 +68,7 @@ background-color:#171B1E;
 .espacoDiv p{
     color:#425F50;
     color: #171B1E;
+    font-weight: 400;
 }
 
 .espacoDiv:hover{
@@ -138,7 +146,7 @@ p{
     display: none;
   }
  h1{
-    font-size: 40%;
+    font-size: 60px;
  }
 
  .espacoDiv:hover{
