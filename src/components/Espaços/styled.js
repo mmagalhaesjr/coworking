@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledEspaços = styled.section`
+export const StyledEspaços = styled.form`
 
 display: flex;
 flex-direction: column;

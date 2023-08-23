@@ -34,27 +34,11 @@ cursor: pointer;
 
 img{
 width:300px;
-height: 60px;
+height: 70px;
 margin-top: 15px;
+background:none;
 }
 
-/* button{
-background-color: #2A2A2A;
-color: #ffffff;
-width: 150px;
-height: 60px;
-font-size: 15px;
-cursor: pointer;
-border-radius: 10px;
-position:relative;
-top:20px;
-
-    &:hover{
-        border: 2px solid #ffffff;
-        color:#307A69;
-        transition:0.7s;
-    }
-} */
 
 .hamburger{
     display:none;
@@ -76,21 +60,6 @@ top:20px;
 
 @media(max-width:940px){
    
-    /* ul{
-        flex-direction: column;
-        justify-content: space-around;
-        position: fixed;
-        top: 0;
-        left:0;
-        background: #307A69;
-        width: 100vw;
-        height: 100vh;
-        gap:0;
-
-        
-        pointer-events: none;
-        
-    } */
     ul{
         display:none;
     }

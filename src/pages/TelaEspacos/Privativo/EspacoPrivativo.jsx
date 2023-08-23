@@ -7,11 +7,11 @@ import { StyledEspacos } from "./styled";
 
 export default function TelaEspacoPrivativo() {
 
-// const navigate = useNavigate()
+    // const navigate = useNavigate()
 
-return(
-    <StyledEspacos>
-
-    </StyledEspacos>
-)
+    return (
+        <StyledEspacos>
+            <h1>espaço privado</h1>
+        </StyledEspacos>
+    )
 }

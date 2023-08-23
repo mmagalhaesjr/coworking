@@ -11,7 +11,7 @@ export default function TelaEspacosReuniao() {
 
 return(
     <StyledEspacos>
-
+            <h1>espaço pra reunião</h1>
     </StyledEspacos>
 )
 }

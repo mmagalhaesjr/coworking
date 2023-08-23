@@ -1,17 +1,26 @@
-
-
 import { StyledCabeçalho } from "./styled";
 import logo from '../../assets/logo.png';
 
+import { useNavigate } from 'react-router-dom';
+
+
 export default function Cabeçalho() {
+
+    const navegar = useNavigate();
+
+    function QuemSomos(e) {
+        e.preventDefault()
+        navegar("/QuemSomos")
+    }
+    
     return (
         
-            <StyledCabeçalho>
+            <StyledCabeçalho onSubmit={QuemSomos}>
                 <nav> 
                     <a href="/" className="logo"><img src={logo} alt='logo' /></a>
                     
                     <ul className="nav-list">
-                        <li><a href="#">QUEM SOMOS</a></li>
+                        <li><a type="submit">QUEM SOMOS</a></li>
                         <li><a href="#servicos">SERVIÇOS</a></li>
                         <li><a href="#planos">PLANOS</a></li>
                         <li><a href="#espacos">ESPAÇOS</a></li>

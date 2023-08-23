@@ -102,7 +102,9 @@ font-size: 15px;
 }
 
 img{
-    width: 200px;
+    width: 250px;
+    height: 50px;
+    background:none;
 }
 
 h6{

@@ -1,17 +1,11 @@
-// import { useNavigate } from "react-router-dom";
-import { StyledQuemSomos } from "./styled";
+import { StyledQuemSomos } from "./style";
 
 
-
-
-
-export default function TelaQuemSomos() {
-
-// const navigate = useNavigate()
+export default function QuemSomos() {
 
 return(
     <StyledQuemSomos>
-
+            <h1>tela quem somos</h1>
     </StyledQuemSomos>
 )
 }

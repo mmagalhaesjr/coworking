@@ -11,6 +11,7 @@ export default function TelaEspacosIndividual() {
 
 return(
     <StyledEspacos>
+        <h1>espaço individual</h1>
 
     </StyledEspacos>
 )
