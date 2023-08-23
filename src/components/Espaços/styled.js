@@ -86,6 +86,8 @@ background-color:#171B1E;
         transition: transform 1.5s ease;
         z-index: 5;
 
+        filter: brightness(60%);
+
     }
 }
 
