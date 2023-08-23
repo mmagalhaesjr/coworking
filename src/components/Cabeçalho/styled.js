@@ -3,7 +3,10 @@ import styled from 'styled-components';
 export const StyledCabeçalho = styled.header`
 
 nav{
-background: rgba(0, 0, 0, 2);
+/* background: rgba(0, 0, 0, 2); */
+backdrop-filter: blur(10px); 
+background-color: rgba(255, 255, 255, 0.2);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 height:100px;
 width:100%;
 position: fixed;

@@ -1,8 +1,8 @@
 import { StyledEspaços } from "./styled"
 
-import espaço1 from "../../assets/espaço1.jpg"
-import espaço2 from "../../assets/espaço2.jpg"
-import espaço3 from "../../assets/espaço3.jpeg"
+import espaço1 from "../../assets/individual.jpg"
+import espaço2 from "../../assets/privado.jpg"
+import espaço3 from "../../assets/reuniao.jpg"
 
 import { useNavigate } from 'react-router-dom';
 
