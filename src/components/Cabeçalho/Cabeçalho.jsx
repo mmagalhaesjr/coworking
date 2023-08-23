@@ -1,5 +1,5 @@
 import { StyledCabeçalho } from "./styled";
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo-preto.png';
 
 import { useNavigate } from 'react-router-dom';
 

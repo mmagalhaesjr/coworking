@@ -27,7 +27,7 @@ align-items: center;
 
 
 ul li a{
-color: #ffffff;
+color: #000000;
 cursor: pointer;
 &:hover{
     color:#307A69; 
