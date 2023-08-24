@@ -13,7 +13,7 @@ height: 150vh;
 /* background-size:cover; 
 background-position: center; */
 
-background-image: linear-gradient(-45deg, #ad9a70, #9c6839 );
+background-image: linear-gradient(-45deg, #ad9a70, #ffffff );
 
 @media(max-width:1033px ){
     height:0;
@@ -28,7 +28,7 @@ background-image: linear-gradient(-45deg, #ad9a70, #9c6839 );
     color:#71553d;
     margin-top: 99px;
 
-    text-decoration:underline #425F50;
+  
    
     /* border-bottom:10px solid #425F50  ; 
     border-bottom-right-radius: 50px; */
@@ -95,7 +95,7 @@ background-image: linear-gradient(-45deg, #ad9a70, #9c6839 );
     transform: translatey(-10%); //aberbuta do espaço
     transition: 1.5s;
     p{
-        color:#ffffff;
+        color:#71553d;
         transition: 2s;
     }
     .espaco{

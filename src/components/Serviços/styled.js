@@ -29,8 +29,6 @@ background-color: #425f50;
     margin-top: 99px;
     font-size: 70px;
     font-weight: 200;
-
-    text-decoration:underline;
 }
 h1{
     text-align: center;

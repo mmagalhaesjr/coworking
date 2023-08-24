@@ -10,7 +10,7 @@ display: flex;
 flex-direction: column;
 /* background-color:#2A2A2A; */
 
-background-image: linear-gradient(45deg, #ad9a70, #9c6839);
+background-image: linear-gradient(-45deg, #ad9a70, #ffffff );
 
 @media(max-width: 1320px){
     height:1200px; 
@@ -30,7 +30,7 @@ background-image: linear-gradient(45deg, #ad9a70, #9c6839);
     font-weight: 200;
     color:#71553d;
 
-    text-decoration:underline #425F50;
+    
 
     /* border-bottom:10px solid #425F50; 
     border-bottom-right-radius: 50px; */
