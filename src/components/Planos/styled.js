@@ -10,7 +10,7 @@ display: flex;
 flex-direction: column;
 /* background-color:#2A2A2A; */
 
-background-color: #a3a594;
+background-color:#ad9a70;
 
 @media(max-width: 1320px){
     height:1200px; 
@@ -28,7 +28,7 @@ background-color: #a3a594;
     margin-top: 99px;
     font-size: 70px;
     font-weight: 200;
-    color: #000000;
+    color:#71553d;
 
     text-decoration:underline #425F50;
 
@@ -52,7 +52,10 @@ gap: 40px;
     height: 400px;
     border-radius: 15px;
 
-    background-color:rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px); 
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    
    border: solid 5px  #425F50; 
 }
 
