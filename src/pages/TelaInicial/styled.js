@@ -60,7 +60,7 @@ a{
     text-decoration: none;
 }
 #whattsapp:hover{
-    color: #425F50;
+    color: #307a69;
     transition:0.3s;
 }
 

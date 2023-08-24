@@ -10,7 +10,7 @@ display: flex;
 flex-direction: column;
 /* background-color:#2A2A2A; */
 
-background-color:#ad9a70;
+background-image: linear-gradient(45deg, #ad9a70, #9c6839);
 
 @media(max-width: 1320px){
     height:1200px; 
@@ -67,6 +67,7 @@ gap: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top:-70px;
     }
     .planos{
         width: 300px;
@@ -77,7 +78,11 @@ gap: 40px;
         font-size: 60px;
     }
 }
-
+@media(max-width: 776px){
+    .titulos h1{
+        font-size: 35px;
+    } 
+}
 
 
 `

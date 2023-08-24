@@ -13,7 +13,7 @@ height: 150vh;
 /* background-size:cover; 
 background-position: center; */
 
-background-color:#ad9a70;
+background-image: linear-gradient(-45deg, #ad9a70, #9c6839 );
 
 @media(max-width:1033px ){
     height:0;
@@ -190,6 +190,9 @@ h2{
     #container{
         flex-direction: column;
         display: flex;
+    }
+    .titulos h1{
+        font-size: 35px;
     }
     
 }
