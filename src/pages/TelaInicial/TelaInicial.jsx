@@ -23,7 +23,7 @@ export default function TelaInicial() {
         <StyledTelaInicial>
             <Cabeçalho />
 
-            <img src={salao2} alt="imagem salão" />
+            <img  id="salao" src={salao2} alt="imagem salão" />
             <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
             <Espaços />

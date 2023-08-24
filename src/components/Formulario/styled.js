@@ -38,7 +38,7 @@ form{
     margin-top: 240px;
     
     font-size: 70px;
-    font-weight: 400;
+    font-weight: 200;
 
     
 }

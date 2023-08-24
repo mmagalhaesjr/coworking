@@ -12,7 +12,7 @@ export default function Planos() {
         <StyledPlanos id="planos">
 
             <div className="titulos">
-                <h1>Conheça nossos Planos</h1>
+                <h1>CONHEÇA NOSSOS PLANOS</h1>
             </div>
 
             <div id="container" >

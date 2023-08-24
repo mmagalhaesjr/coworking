@@ -25,24 +25,46 @@ export default function Espaços() {
         
         <StyledEspaços id="espacos" >
             <div className="titulos">
-               <h1>Espaços de Tabalho</h1>
+               <h1>ESPAÇO DE TRABALHO</h1>
             </div>
             <div id="container">
                 <div className="espacoDiv" onClick={individual}>
                     <img className="espaco" src={espaço1} alt="imagem salão" />
-                    <h2>Estações Individuais</h2>
+                    <h2>Mesas Dedicadas</h2>
                     <p>Ideal para autônomos e profissionais liberais que buscam uma estrutura profissional para trabalhar e receber clientes.</p>
                 </div>
                 <div className="espacoDiv" onClick={privativo}>
                     <img className="espaco" src={espaço2} alt="imagem salão" />
-                    <h2>Escritórios Privativos</h2>
+                    <h2>Mesas Compartilhadas</h2>
                     <p>Escritórios mobiliados com estrutura completa independentemente do tamanho da sua equipe. Oferece privacidade e possibilidade de personalização de acordo com as demandas de sua equipe</p>
                 </div>
                 <div  className="espacoDiv" onClick={reuniao}> 
                     <img  className="espaco" src={espaço3}  alt="imagem salão"/>
-                    <h2>Salas de Reuniões</h2>
+                    <h2>Salas Privativas</h2> 
                     <p>Receba seus clientes em um ambiente profissional e equipado. Disponível nos planos ou aluguel sob demanda.</p>
+                </div>  
+
+                <div className="espacoDiv" onClick={individual}>
+                    <img className="espaco" src={espaço1} alt="imagem salão" />
+                    <h2>Salas Atendimento</h2>
+                    <p>Ideal para autônomos e profissionais liberais que buscam uma estrutura profissional para trabalhar e receber clientes.</p>
                 </div>
+                <div  className="espacoDiv" onClick={reuniao}> 
+                    <img  className="espaco" src={espaço3}  alt="imagem salão"/>
+                    <h2>Endereço Comercial</h2>
+                    <p>Receba seus clientes em um ambiente profissional e equipado. Disponível nos planos ou aluguel sob demanda.</p>
+                </div>  
+                <div className="espacoDiv" onClick={privativo}>
+                    <img className="espaco" src={espaço2} alt="imagem salão" />
+                    <h2>Endereço Fiscal</h2>
+                    <p>Escritórios mobiliados com estrutura completa independentemente do tamanho da sua equipe. Oferece privacidade e possibilidade de personalização de acordo com as demandas de sua equipe</p>
+                </div>
+                <div  className="espacoDiv" onClick={reuniao}> 
+                    <img  className="espaco" src={espaço3}  alt="imagem salão"/>
+                    <h2>Endereço Comercial</h2>
+                    <p>Receba seus clientes em um ambiente profissional e equipado. Disponível nos planos ou aluguel sob demanda.</p>
+                </div>  
+
             </div>
         </StyledEspaços>
     )

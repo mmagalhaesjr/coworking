@@ -8,7 +8,7 @@ color:#ffffff;
 
 display: flex;
 flex-direction: column;
-background-color:#307A69;
+background-color:#307a69;
 
 
 
@@ -27,7 +27,7 @@ background-color:#307A69;
     flex-direction: column;
     margin-top: 99px;
     font-size: 70px;
-    font-weight: 400;
+    font-weight: 200;
 
     text-decoration:underline;
 }

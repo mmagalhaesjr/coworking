@@ -8,8 +8,9 @@ color:#ffffff;
 
 display: flex;
 flex-direction: column;
-background-color:#2A2A2A;
+/* background-color:#2A2A2A; */
 
+background-color: #a3a594;
 
 @media(max-width: 1320px){
     height:1200px; 
@@ -26,7 +27,8 @@ background-color:#2A2A2A;
     flex-direction: column;
     margin-top: 99px;
     font-size: 70px;
-    font-weight: 400;
+    font-weight: 200;
+    color: #000000;
 
     text-decoration:underline #425F50;
 
