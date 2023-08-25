@@ -30,7 +30,7 @@ export const StyledCabecalho = styled.header`
   }
 
   img {
-    width: 300px;
+    width: 350px;
     height: 70px;
     margin-top: 15px;
     background: none;
