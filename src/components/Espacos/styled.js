@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 
-export const StyledEspaços = styled.section`
+export const StyledEspacos = styled.section`
 
 display: flex;
 flex-direction: column;
