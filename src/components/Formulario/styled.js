@@ -3,46 +3,45 @@ import styled from 'styled-components';
 export const StyledFormulario = styled.section`
 display: flex;
 flex-direction: column;
+justify-content: center;
+align-items: center;
 height: 1000px;
 background-color:#171B1E;
 
-
-
-
+@media(max-width:600px ){
+    height: 820px;
+}
 
 form{
-    width:80%; 
-    height:100%;
+    width:60%; 
+    height:50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
     color: white;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%,-50%);
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 15px;
     border-radius: 15px;
-    margin-top: 60px;  
+    margin-top: -100px;
+    margin-bottom: 20px;
+ 
     
 }
 #titulos{
+    width: 90%;
     display: flex;
     flex-direction: column;
     position: relative;
     top:-150px;
     text-align: center;
     color:#ffffff;
-    margin-top: 240px;
-    
-    font-size: 70px;
-    font-weight: 200;
-
-    
+    margin-top: 10px;
+    font-weight:100; 
 }
 
+#titulos h1{
+    font-size:40px;
+}
 #titulos p{
     font-size: 17px;
     font-weight: 200;
@@ -134,11 +133,7 @@ button{
 
 @media(max-width:940px ){
     
-    #titulos{
-        left: 50%;
-        transform: translate(-50%,-50%);
-        margin-top: 500px;
-    }
+    
     h1{
         font-size: 60px;
     }
@@ -151,13 +146,22 @@ button{
         width:40%;
     }
     form{
-        margin-top: 50px;
+        height: 50%;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    form #titulos{
+        margin-top: 300px; 
     }
     
 }
 
 @media(max-width:600px ){
-   form{ margin-top: 0px;
+   form{ 
+    height: 70%;
+   }
+   #titulos{
+        margin-top: 270px;
    }
 }
 `

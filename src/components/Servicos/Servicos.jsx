@@ -30,7 +30,7 @@ export default function Servicos() {
                 <div className="servicos">
                     <TbAirConditioning />
                     <h2>Ambientes Climatizados</h2>
-                    <p>salas climatizadas e equipadas para acomodar sua equipe e convidados em reuniões e conferências.</p>
+                    <p>salas climatizadas e equipadas para acomodar sua equipe e convidados em reuniões.</p>
                 </div>
                 <div className="servicos">
                     <AiFillPrinter />
@@ -55,7 +55,7 @@ export default function Servicos() {
                 <div className="servicos">
                     <BsMicrosoftTeams />
                     <h2>Equipe Dedicada</h2>
-                    <p>A equipe de coworking oferece suporte e diversos serviços para otimizar o ambiente de trabalho compartilhado.</p>
+                    <p>A equipe de coworking oferece suporte  para otimizar o ambiente de trabalho compartilhado.</p>
                 </div>
 
             </div>

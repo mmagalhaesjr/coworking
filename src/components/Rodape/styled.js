@@ -13,6 +13,8 @@ color: #ffffff;
 
 @media(max-width:940px){
     height:1000px;
+
+    
 }
 #container{
     width: 100%;

@@ -1,6 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 
-import espaço1 from "../../assets/individual.jpg"
+import compartilhada from "../../assets/compartilhada.jpg"
+import reuniao2 from "../../assets/reuniao2.jpg"
+import espaço1 from "../../assets/reuniao.jpg"
 import espaço2 from "../../assets/privado.jpg"
 import espaço3 from "../../assets/reuniao.jpg"
 
@@ -28,14 +30,14 @@ export default function Espacos() {
             </div>
             <div id="container">
                 <div className="espacoDiv" onClick={individual}>
-                    <img className="espaco" src={espaço1} alt="imagem salão" />
+                    <img className="espaco" src={espaço2} alt="imagem salão" />
                     <div className='divTexto'><h2>Mesas Dedicadas</h2></div>
                     <p>Ideal para autônomos e profissionais liberais que buscam uma estrutura profissional para trabalhar e receber clientes.</p>
                 </div>
                 <div className="espacoDiv" onClick={privativo}>
-                    <img className="espaco" src={espaço2} alt="imagem salão" />
+                    <img className="espaco" src={compartilhada} alt="imagem salão" />
                     <div className='divTexto'><h2>Mesas Compartilhadas</h2></div>
-                    <p>Escritórios mobiliados com estrutura completa independentemente do tamanho da sua equipe. Oferece privacidade e possibilidade de personalização de acordo com as demandas de sua equipe</p>
+                    <p>Escritórios mobiliados com estrutura completa, Oferece privacidade e possibilidade de personalização de acordo com as demandas de sua equipe</p>
                 </div>
                 <div  className="espacoDiv" onClick={reuniao}> 
                     <img  className="espaco" src={espaço3}  alt="imagem salão"/>
@@ -49,14 +51,14 @@ export default function Espacos() {
                     <p>Ideal para autônomos e profissionais liberais que buscam uma estrutura profissional para trabalhar e receber clientes.</p>
                 </div>
                 <div  className="espacoDiv" onClick={reuniao}> 
-                    <img  className="espaco" src={espaço3}  alt="imagem salão"/>
-                    <div className='divTexto'><h2>Endereço Comercial</h2></div>
+                    <img  className="espaco" src={reuniao2}  alt="imagem salão"/>
+                    <div className='divTexto'><h2>Sala de reunião</h2></div>
                     <p>Receba seus clientes em um ambiente profissional e equipado. Disponível nos planos ou aluguel sob demanda.</p>
                 </div>  
                 <div className="espacoDiv" onClick={privativo}>
                     <img className="espaco" src={espaço2} alt="imagem salão" />
                     <div className='divTexto'><h2>Endereço Fiscal</h2></div>
-                    <p>Escritórios mobiliados com estrutura completa independentemente do tamanho da sua equipe. Oferece privacidade e possibilidade de personalização de acordo com as demandas de sua equipe</p>
+                    <p>Escritórios mobiliados com estrutura completa, Oferece privacidade e possibilidade de personalização de acordo com as demandas de sua equipe</p>
                 </div>
                 <div  className="espacoDiv" onClick={reuniao}> 
                     <img  className="espaco" src={espaço3}  alt="imagem salão"/>

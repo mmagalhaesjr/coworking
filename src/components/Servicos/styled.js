@@ -20,7 +20,7 @@ background-color: #425f50;
     height:1000px; 
 }
 @media(max-width: 950px){
-    height:1700px; 
+    height:1900px; 
 }
 
 .titulos{
@@ -51,6 +51,7 @@ flex-direction:column;
 align-items:center;
 text-align:center;
 }
+
 h2{
     font-size: 25px;
 }
