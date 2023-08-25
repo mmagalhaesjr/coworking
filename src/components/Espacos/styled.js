@@ -25,7 +25,6 @@ background-image: linear-gradient(-45deg, #ad9a70, #ffffff );
 
     font-size: 70px;
     font-weight: 200;
-    
 }
 
 #container{
@@ -95,7 +94,9 @@ h2{
     margin: 20px;
 }
 
-
+@media(max-width: 1435px){
+    height:1500px; 
+}
 
 @media(max-width: 1067px){
     height:1700px; 
@@ -118,13 +119,20 @@ h2{
 
    
   }
-  .espaco{
-    width: 70%;
-    height:100%;
-   position: relative;
-   top: -5px;
 
-   
+  .divTexto{
+        flex-wrap: wrap;
+        width: 150px;
+        height: 50%;
+        margin-left: 5px;
+        display: flex;
+        align-items: center;
+    }
+
+  .espaco{
+    width: 200px;
+    height:100%;
+    position: relative;
   }
   h2{
     font-size: 20px;
@@ -159,9 +167,19 @@ h2{
 @media(max-width: 776px){
     height:1700px; 
     
+    .espacoDiv{
+        display: flex;
+        justify-content: space-between;
+    }
     #container{
         flex-direction: column;
         display: flex;
+    }
+    .divTexto{
+        display: flex;
+        justify-content: space-between;
+
+        flex-wrap: wrap;
     }
     .titulos h1{
         font-size: 35px;
