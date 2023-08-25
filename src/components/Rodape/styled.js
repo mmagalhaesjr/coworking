@@ -83,6 +83,7 @@ ul{
 justify-content:center;
 text-align: center;
 font-size: 15px; 
+list-style: none;
 }
 
 h3{

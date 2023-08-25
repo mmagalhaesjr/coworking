@@ -18,9 +18,11 @@ export const StyledCabecalho = styled.header`
     display: flex;
     gap: 30px;
     align-items: center;
+    list-style: none;
   }
 
   ul li a {
+    
     color: #000000;
     cursor: pointer;
     &:hover {

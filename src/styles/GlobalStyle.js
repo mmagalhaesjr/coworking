@@ -42,9 +42,9 @@ const GlobalStyle = createGlobalStyle`
         
     }
 
-    ol, ul {
+    /* ol, ul {
         list-style: none;
-    }
+    } */
 
     blockquote, q {
         quotes: none;

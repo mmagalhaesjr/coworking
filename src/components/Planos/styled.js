@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
 
+
 export const StyledPlanos = styled.section`
 width: 100%;
 height:700px;
-color:#ffffff;
+color:#000000;
 
 display: flex;
 flex-direction: column;
@@ -42,6 +43,10 @@ margin-top:70px;
 gap: 40px;
 }
 .planos{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
     width: 300px;
     height: 400px;
     border-radius: 15px;
@@ -51,6 +56,22 @@ gap: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
     
    border: solid 5px  #425F50; 
+}
+h2{
+font-size: 30px;
+text-align: center;
+}
+.icone{
+    margin-top: 10px;
+    font-size: 50px;
+}
+ul{
+margin-top: -20px;
+
+}
+ul li{
+    margin-top: 30px;
+    font-weight:400;
 }
 
 
