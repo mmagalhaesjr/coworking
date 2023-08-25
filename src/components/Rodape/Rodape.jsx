@@ -1,9 +1,10 @@
-import { StyledRodape } from "./styled"
 import logo from '../../assets/logo.png';
 
 import { AiOutlineInstagram, AiOutlineFacebook, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { ImLocation2 } from 'react-icons/im';
+
+import { StyledRodape } from "./styled"
 
 export default function Rodape() {
     return (

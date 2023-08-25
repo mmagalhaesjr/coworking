@@ -1,16 +1,18 @@
-import { StyledTelaInicial } from "./styled";
-import Cabeçalho from "../../components/Cabeçalho/Cabeçalho"
-import Espaços from "../../components/Espaços/Espaços"
-import Serviços from "../../components/Serviços/Serviços"
+import { BsWhatsapp } from 'react-icons/bs';
+
+import salao2 from "../../assets/salao5.jpg"
+
+import Cabecalho from "../../components/Cabecalho/Cabecalho"
+import Espacos from "../../components/Espacos/Espacos"
+import Servicos from "../../components/Servicos/Servicos"
 import Planos from "../../components/Planos/Planos"
 import Formulario from "../../components/Formulario/Formulario"
 import Rodape from "../../components/Rodape/Rodape"
 
+import { StyledTelaInicial } from "./styled";
 
-import salao2 from "../../assets/salao5.jpg"
-import { BsWhatsapp } from 'react-icons/bs';
 
-// import { useNavigate } from "react-router-dom";
+
 
 
 
@@ -21,13 +23,13 @@ export default function TelaInicial() {
 
     return (
         <StyledTelaInicial>
-            <Cabeçalho />
+            <Cabecalho />
 
             <img  id="salao" src={salao2} alt="imagem salão" />
             <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
-            <Espaços />
-            <Serviços />
+            <Espacos />
+            <Servicos />
             <Planos />
             <Formulario />
             <Rodape />

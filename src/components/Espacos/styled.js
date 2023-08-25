@@ -7,11 +7,6 @@ export const StyledEspaços = styled.section`
 display: flex;
 flex-direction: column;
 height: 150vh;
-/* background-color:#171B1E; */
-
-/* background-image: url(src/assets/onda.jpg); */
-/* background-size:cover; 
-background-position: center; */
 
 background-image: linear-gradient(-45deg, #ad9a70, #ffffff );
 
@@ -26,14 +21,7 @@ background-image: linear-gradient(-45deg, #ad9a70, #ffffff );
     text-align:center;
     align-items: center;
     color:#71553d;
-    margin-top: 99px;
-
-  
-   
-    /* border-bottom:10px solid #425F50  ; 
-    border-bottom-right-radius: 50px; */
-   
-    
+    margin-top: 99px;    
 
     font-size: 70px;
     font-weight: 200;
@@ -48,23 +36,7 @@ background-image: linear-gradient(-45deg, #ad9a70, #ffffff );
     flex-wrap: wrap;
     margin-left:5px;
     align-items: center;
- 
-    /* @media(max-height: 732px){
-        margin-bottom: 20px;
-        overflow: auto; 
-        .div-exemplo::-webkit-scrollbar {
-    width: 1em; 
-}
 
-.div-exemplo::-webkit-scrollbar-thumb {
-    background-color: #888; 
-    border-radius: 4px; 
-}
-
-.div-exemplo::-webkit-scrollbar-track {
-    background-color: #f5f5f5; 
-}
-} */
 }
 
 .espacoDiv{

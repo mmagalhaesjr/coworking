@@ -1,8 +1,6 @@
 import { StyledPlanos } from "./styled"
 
 
-
-
 export default function Planos() {
 
 

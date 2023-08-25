@@ -1,22 +1,23 @@
 import styled from 'styled-components';
 
 
-export const StyledPlanos = styled.section`
+export const StyledServicos = styled.section`
 width: 100%;
 height:700px;
 color:#ffffff;
 
 display: flex;
 flex-direction: column;
-/* background-color:#2A2A2A; */
+/* background-color:#307a69; */
+background-color: #425f50;
 
-background-image: linear-gradient(-45deg, #ad9a70, #ffffff );
+
 
 @media(max-width: 1320px){
-    height:1200px; 
+    height:900px; 
 }
 @media(max-width: 1200px){
-    height:1300px; 
+    height:1000px; 
 }
 @media(max-width: 950px){
     height:1700px; 
@@ -28,7 +29,6 @@ background-image: linear-gradient(-45deg, #ad9a70, #ffffff );
     margin-top: 99px;
     font-size: 70px;
     font-weight: 200;
-    color:#71553d;   
 }
 h1{
     text-align: center;
@@ -36,24 +36,28 @@ h1{
 
 #container{
 display:flex;
-justify-content:space-evenly;
+justify-content:space-around;
 flex-wrap: wrap;
 margin-top:70px;
 gap: 40px;
 }
-.planos{
-    width: 300px;
-    height: 400px;
-    border-radius: 15px;
 
-    backdrop-filter: blur(10px); 
-    background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
-    
-   border: solid 5px  #425F50; 
+.servicos{
+width: 300px;
+height: 150px;
+font-size: 50px;
+display: flex;
+flex-direction:column;
+align-items:center;
+text-align:center;
 }
-
-
+h2{
+    font-size: 25px;
+}
+p{
+    font-size:15px;
+    margin-top: 15px;
+}
 
 @media(max-width:940px) {
     #container{
@@ -61,9 +65,8 @@ gap: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top:-70px;
     }
-    .planos{
+    .servicos{
         width: 300px;
         height: 150px;
         font-size:30px; 
@@ -72,11 +75,7 @@ gap: 40px;
         font-size: 60px;
     }
 }
-@media(max-width: 776px){
-    .titulos h1{
-        font-size: 35px;
-    } 
-}
+
 
 
 `

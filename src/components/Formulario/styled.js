@@ -132,8 +132,8 @@ button{
     }
 }
 
-
 @media(max-width:940px ){
+    
     #titulos{
         left: 50%;
         transform: translate(-50%,-50%);
@@ -148,7 +148,7 @@ button{
     }
     button{
         top:5px;
-        width: 80%;
+        width:40%;
     }
     form{
         margin-top: 50px;

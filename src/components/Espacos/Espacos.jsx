@@ -1,13 +1,12 @@
-import { StyledEspaços } from "./styled"
+import { useNavigate } from 'react-router-dom';
 
 import espaço1 from "../../assets/individual.jpg"
 import espaço2 from "../../assets/privado.jpg"
 import espaço3 from "../../assets/reuniao.jpg"
 
-import { useNavigate } from 'react-router-dom';
+import {StyledEspacos} from "./styled"
 
-
-export default function Espaços() {
+export default function Espacos() {
 
     const navegar = useNavigate();
 
@@ -23,7 +22,7 @@ export default function Espaços() {
     
     return (
         
-        <StyledEspaços id="espacos" >
+        <StyledEspacos id="espacos" >
             <div className="titulos">
                <h1>ESPAÇO DE TRABALHO</h1>
             </div>
@@ -66,6 +65,6 @@ export default function Espaços() {
                 </div>  
 
             </div>
-        </StyledEspaços>
+        </StyledEspacos>
     )
 }
