@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const StyledServicos = styled.section`
 width: 100%;
-height:700px;
+height:800px;
 color:#ffffff;
 
 display: flex;

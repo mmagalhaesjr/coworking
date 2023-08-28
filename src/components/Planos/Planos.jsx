@@ -1,6 +1,8 @@
 import { TbPremiumRights } from 'react-icons/tb';
 import { StyledPlanos } from "./styled"
 
+// import salao2 from "../../assets/salao2.jpg"
+
 
 export default function Planos() {
 
@@ -8,65 +10,75 @@ export default function Planos() {
 
 
     return (
-        <StyledPlanos id="planos">
 
-            <div className="titulos">
-                <h1>CONHEÇA NOSSOS PLANOS</h1>
-            </div>
+        // <StyledSlao2>
+        //     <img id="salao2" src={salao2} alt="imagem salão" />
 
-            <div id="container" >
-                <div className="planos">
-                    <h2>PLANO MASTER</h2>
-                    <div className='icone'><TbPremiumRights /></div>
-                    <ul>
-                        <li>Endereço fiscal;</li>
-                        <li>Endereço comercial;</li>
-                        <li>2 horas de sala de reunião</li>
-                        <li>Internet cabeada e wifi </li>
-                        <li>10 impressões P&B</li>
-                        <li>Gaveteiro com chave;</li>
-                    </ul>
+
+            <StyledPlanos id="planos">
+
+                <div className="titulos">
+                    <h1>CONHEÇA NOSSOS PLANOS</h1>
                 </div>
 
-                <div className="planos">
-                    <h2>PLANO MASTER</h2>
-                    <div className='icone'><TbPremiumRights /></div>
-                    <ul>
-                        <li>Endereço fiscal;</li>
-                        <li>Endereço comercial;</li>
-                        <li>2 horas de sala de reunião</li>
-                        <li>Internet cabeada e wifi </li>
-                        <li>10 impressões P&B</li>
-                        <li>Gaveteiro com chave;</li>
-                    </ul>
+                <div id="container" >
+                    <div className="planos">
+                        <h2>PLANO MASTER</h2>
+                        <div className='icone'><TbPremiumRights /></div>
+                        <ul>
+                            <li>Endereço fiscal;</li>
+                            <li>Endereço comercial;</li>
+                            <li>2 horas de sala de reunião</li>
+                            <li>Internet cabeada e wifi </li>
+                            <li>10 impressões P&B</li>
+                            <li>Gaveteiro com chave;</li>
+                        </ul>
+                    </div>
+
+                    <div className="planos">
+                        <h2>PLANO MASTER</h2>
+                        <div className='icone'><TbPremiumRights /></div>
+                        <ul>
+                            <li>Endereço fiscal;</li>
+                            <li>Endereço comercial;</li>
+                            <li>2 horas de sala de reunião</li>
+                            <li>Internet cabeada e wifi </li>
+                            <li>10 impressões P&B</li>
+                            <li>Gaveteiro com chave;</li>
+                        </ul>
+                    </div>
+
+                    <div className="planos">
+                        <h2>PLANO MASTER</h2>
+                        <div className='icone'><TbPremiumRights /></div>
+                        <ul>
+                            <li>Endereço fiscal;</li>
+                            <li>Endereço comercial;</li>
+                            <li>2 horas de sala de reunião</li>
+                            <li>Internet cabeada e wifi </li>
+                            <li>10 impressões P&B</li>
+                            <li>Gaveteiro com chave;</li>
+                        </ul>
+                    </div>
+
+                    <div className="planos">
+                        <h2>PLANO MASTER</h2>
+                        <div className='icone'><TbPremiumRights /></div>
+                        <ul>
+                            <li>Endereço fiscal;</li>
+                            <li>Endereço comercial;</li>
+                            <li>2 horas de sala de reunião</li>
+                            <li>Internet cabeada e wifi </li>
+                            <li>10 impressões P&B</li>
+                            <li>Gaveteiro com chave;</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div className="planos">
-                    <h2>PLANO MASTER</h2>
-                    <div className='icone'><TbPremiumRights /></div>
-                    <ul>
-                        <li>Endereço fiscal;</li>
-                        <li>Endereço comercial;</li>
-                        <li>2 horas de sala de reunião</li>
-                        <li>Internet cabeada e wifi </li>
-                        <li>10 impressões P&B</li>
-                        <li>Gaveteiro com chave;</li>
-                    </ul>
-                </div>
+            </StyledPlanos>
 
-                <div className="planos">
-                    <h2>PLANO MASTER</h2>
-                    <div className='icone'><TbPremiumRights /></div>
-                    <ul>
-                        <li>Endereço fiscal;</li>
-                        <li>Endereço comercial;</li>
-                        <li>2 horas de sala de reunião</li>
-                        <li>Internet cabeada e wifi </li>
-                        <li>10 impressões P&B</li>
-                        <li>Gaveteiro com chave;</li>
-                    </ul>
-                </div>
-            </div>
-        </StyledPlanos>
+
+        // </StyledSlao2>
+
     )
 }

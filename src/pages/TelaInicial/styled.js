@@ -51,6 +51,7 @@ a{
 }
 
 #whattsapp{
+    z-index: 1;
     position: fixed;
     font-size: 80px;
     right: 25px;

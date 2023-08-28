@@ -1,19 +1,13 @@
-import { useNavigate } from 'react-router-dom';
 import logo from '../../assets/logo-preto.png';
 import { StyledCabecalho } from "./styled";
 
 
 export default function Cabecalho() {
 
-    const navegar = useNavigate();
-    function QuemSomos(e) {
-        e.preventDefault()
-        navegar("/QuemSomos")
-    }
     
     return (
         
-            <StyledCabecalho onSubmit={QuemSomos}>
+            <StyledCabecalho >
                 <nav> 
                     <a href="/" className="logo"><img src={logo} alt='logo' /></a>
                     

@@ -1,17 +1,38 @@
 import styled from 'styled-components';
 
+// export const StyledSlao2 = styled.section`
 
+
+
+// #salao2{
+
+// width: 100%;
+// height: 100%;
+// position: absolute;
+// filter: brightness(0.2) opacity(0.9);
+
+// @media(max-width: 1322px){
+//     height: 259%;
+// }
+
+
+
+// }
+
+// `
 
 export const StyledPlanos = styled.section`
+
 width: 100%;
-height:700px;
+height:800px;
 color:#000000;
 
 display: flex;
 flex-direction: column;
-/* background-color:#2A2A2A; */
 
-background-image: linear-gradient(-45deg, #ad9a70, #ffffff );
+ background-image: linear-gradient(-45deg, #ad9a70, #ffffff );
+
+
 
 @media(max-width: 1320px){
     height:1200px; 
@@ -26,6 +47,8 @@ background-image: linear-gradient(-45deg, #ad9a70, #ffffff );
     height: 2400px;
 }
 
+
+
 .titulos{
     display: flex;
     flex-direction: column;
@@ -33,6 +56,8 @@ background-image: linear-gradient(-45deg, #ad9a70, #ffffff );
     font-size: 50px;
     font-weight: 200;
     color:#71553d;   
+    /* color: #ffffffff; */
+    z-index: 0;
 }
 h1{
     text-align: center;
@@ -53,12 +78,12 @@ gap: 40px;
     width: 300px;
     height: 400px;
     border-radius: 15px;
-
-    backdrop-filter: blur(10px); 
-    background-color: rgba(255, 255, 255, 0.2);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
     
    border: solid 5px  #425F50; 
+   background-color: rgba(260, 260, 260, 0.2);
+   backdrop-filter: blur(10px); 
+  
 }
 h2{
 font-size: 30px;
@@ -100,6 +125,7 @@ ul li{
     .titulos h1{
         font-size: 35px;
     } 
+   
 }
 
 

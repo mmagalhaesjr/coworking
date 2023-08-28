@@ -5,7 +5,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-height: 1000px;
+height: 800px;
 background-color:#171B1E;
 
 @media(max-width:600px ){
@@ -35,8 +35,8 @@ form{
     top:-150px;
     text-align: center;
     color:#ffffff;
-    margin-top: 10px;
     font-weight:100; 
+    
 }
 
 #titulos h1{

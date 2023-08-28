@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
 export const StyledCabecalho = styled.header`
+
+    z-index: 1;
+
   nav {
     width: 100%;
     height: 100px;
@@ -12,6 +15,7 @@ export const StyledCabecalho = styled.header`
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    
   }
 
   ul {

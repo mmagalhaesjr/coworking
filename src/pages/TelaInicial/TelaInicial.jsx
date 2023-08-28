@@ -12,11 +12,6 @@ import Rodape from "../../components/Rodape/Rodape"
 import { StyledTelaInicial } from "./styled";
 
 
-
-
-
-
-
 export default function TelaInicial() {
 
     // const navigate = useNavigate()
