@@ -23,9 +23,7 @@ form{
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 15px;
     margin-top: -100px;
-    margin-bottom: 20px;
- 
-    
+    margin-bottom: 20px; 
 }
 #titulos{
     width: 90%;
@@ -35,8 +33,7 @@ form{
     top:-150px;
     text-align: center;
     color:#ffffff;
-    font-weight:100; 
-    
+    font-weight:100;  
 }
 
 #titulos h1{
@@ -45,7 +42,6 @@ form{
 #titulos p{
     font-size: 17px;
     font-weight: 200;
-    
     margin-bottom: 10px;
 } 
 
@@ -55,7 +51,6 @@ input{
 .inputBox{
     position: relative;
     width: 80%;    
-     
 }
 .inputUser{
     background: none;
