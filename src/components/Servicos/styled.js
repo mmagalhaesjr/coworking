@@ -27,7 +27,7 @@ background-color: #425f50;
     display: flex;
     flex-direction: column;
     margin-top: 99px;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 200;
 }
 h1{

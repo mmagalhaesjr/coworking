@@ -25,7 +25,6 @@ export default function Planos() {
                         <li>Internet cabeada e wifi </li>
                         <li>10 impressões P&B</li>
                         <li>Gaveteiro com chave;</li>
-                       
                     </ul>
                 </div>
 
@@ -39,7 +38,6 @@ export default function Planos() {
                         <li>Internet cabeada e wifi </li>
                         <li>10 impressões P&B</li>
                         <li>Gaveteiro com chave;</li>
-                       
                     </ul>
                 </div>
 
@@ -53,7 +51,6 @@ export default function Planos() {
                         <li>Internet cabeada e wifi </li>
                         <li>10 impressões P&B</li>
                         <li>Gaveteiro com chave;</li>
-                       
                     </ul>
                 </div>
 
@@ -67,7 +64,6 @@ export default function Planos() {
                         <li>Internet cabeada e wifi </li>
                         <li>10 impressões P&B</li>
                         <li>Gaveteiro com chave;</li>
-                       
                     </ul>
                 </div>
             </div>

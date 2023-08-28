@@ -40,7 +40,7 @@ form{
 }
 
 #titulos h1{
-    font-size:40px;
+    font-size:50px;
 }
 #titulos p{
     font-size: 17px;

@@ -19,15 +19,18 @@ background-image: linear-gradient(-45deg, #ad9a70, #ffffff );
 @media(max-width: 1200px){
     height:1300px; 
 }
-@media(max-width: 950px){
+@media(max-width: 940px){
     height:1700px; 
+}
+@media(max-width: 840px){
+    height: 2400px;
 }
 
 .titulos{
     display: flex;
     flex-direction: column;
     margin-top: 99px;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 200;
     color:#71553d;   
 }
@@ -79,19 +82,19 @@ ul li{
 @media(max-width:940px) {
     #container{
         height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin-top:-70px;
+       
     }
     .planos{
-        width: 300px;
-        height: 150px;
-        font-size:30px; 
+        width: 400px;
+        height: 500px;
+        font-size:30px;  
     }
     h1{
         font-size: 60px;
+        margin-bottom:130px;
     }
+  
 }
 @media(max-width: 776px){
     .titulos h1{

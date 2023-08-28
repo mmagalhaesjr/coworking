@@ -23,7 +23,7 @@ background-image: linear-gradient(-45deg, #ad9a70, #ffffff );
     color:#71553d;
     margin-top: 99px;    
 
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 200;
 }
 
