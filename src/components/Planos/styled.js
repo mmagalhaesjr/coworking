@@ -25,7 +25,7 @@ export const StyledPlanos = styled.section`
 
 width: 100%;
 height:800px;
-color:#000000;
+color:#71553d;
 
 display: flex;
 flex-direction: column;
@@ -65,10 +65,10 @@ h1{
 
 #container{
 display:flex;
-justify-content:space-evenly;
+justify-content:center;
 flex-wrap: wrap;
 margin-top:70px;
-gap: 40px;
+gap: 10px;
 }
 .planos{
     display: flex;
@@ -78,7 +78,7 @@ gap: 40px;
     width: 300px;
     height: 400px;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); */
     
    border: solid 5px  #07653b; 
    background-color: rgba(260, 260, 260, 0.2);
