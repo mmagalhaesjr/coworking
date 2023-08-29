@@ -75,7 +75,7 @@ ul li a{
 color: #ffffff;
 cursor: pointer;
 &:hover{
-    color:#307A69; 
+    color:#07653b; 
     transition:0.3s;
     }
 }

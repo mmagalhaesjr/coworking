@@ -30,7 +30,7 @@ color:#000000;
 display: flex;
 flex-direction: column;
 
- background-image: linear-gradient(-45deg, #ad9a70, #ffffff );
+background: linear-gradient(45deg, #ffffff 0%, rgba(173,154,112,0.8576680672268908) 100%);
 
 
 
@@ -80,7 +80,7 @@ gap: 40px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
     
-   border: solid 5px  #425F50; 
+   border: solid 5px  #07653b; 
    background-color: rgba(260, 260, 260, 0.2);
    backdrop-filter: blur(10px); 
   

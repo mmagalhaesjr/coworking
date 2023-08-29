@@ -1,5 +1,7 @@
 import logo from '../../assets/logo-preto.png';
-import { StyledCabecalho } from "./styled";
+// import MenuMobile from '../MenuMobile/MenuMobile';
+import { StyledCabecalho } from './styled';
+
 
 
 export default function Cabecalho() {
@@ -7,7 +9,9 @@ export default function Cabecalho() {
     
     return (
         
-            <StyledCabecalho >
+            <>
+                 {/* <MenuMobile/> */}
+                <StyledCabecalho >
                 <nav> 
                     <a href="/" className="logo"><img src={logo} alt='logo' /></a>
                     
@@ -25,6 +29,7 @@ export default function Cabecalho() {
                     </div>
                 </nav>
             </StyledCabecalho>
+            </>
         
     );
 }

@@ -14,6 +14,8 @@ export const StyledTelaInicial = styled.section`
     background-color: #171B1E;
     margin-bottom:-10px;
 
+   
+
     @media(max-width:1120px){
     width: 100%;
     height: 500px;

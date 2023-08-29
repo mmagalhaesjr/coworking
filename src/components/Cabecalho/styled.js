@@ -30,7 +30,7 @@ export const StyledCabecalho = styled.header`
     color: #000000;
     cursor: pointer;
     &:hover {
-      color: #307a69;
+      color: #07653b;
       transition: 0.3s;
     }
   }

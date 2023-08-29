@@ -1,6 +1,6 @@
 import { BsWhatsapp } from 'react-icons/bs';
 
-import salao from "../../assets/salao.png"
+import salao from "../../assets/salao5.jpg"
 
 import Cabecalho from "../../components/Cabecalho/Cabecalho"
 import Espacos from "../../components/Espacos/Espacos"

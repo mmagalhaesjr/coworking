@@ -8,7 +8,8 @@ display: flex;
 flex-direction: column;
 height: 150vh;
 
-background-image: linear-gradient(-45deg, #ad9a70, #ffffff );
+background: rgb(0,0,0);
+background: linear-gradient(45deg, #ffffff 0%, rgba(173,154,112,0.8576680672268908) 100%);
 
 @media(max-width:1033px ){
     height:0;
