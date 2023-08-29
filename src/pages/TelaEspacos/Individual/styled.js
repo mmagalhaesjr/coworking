@@ -12,6 +12,8 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 
+
+
 }
 
 #s1{
@@ -44,5 +46,14 @@ align-items: center;
     margin-bottom: 30px;
     font-size: 30px;
 }
+.icone{
+    font-size: 30px;
+    position: relative;
+    top: -150px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
 
 `

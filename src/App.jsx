@@ -7,27 +7,30 @@ import TelaQuemSomos from './pages/TelaQuemSomos/QuemSomos';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import UserProvider from "./contexts/UserContext";
 
+
 export default function App() {
 
     return (
-        <>
-            <BrowserRouter>
+        
+            
+                <BrowserRouter>
 
-                <UserProvider>
-                    <div className="App">
-                        <Routes>
-                            <Route path="/" element={<TelaInicial />} />
-                            <Route path="/privativo" element={<TelaEspacoPrivativo />} />
-                            <Route path="/individual" element={<TelaEspacosIndividual />} />
-                            <Route path="/reuniao" element={<TelaEspacosReuniao />} />
+                    <UserProvider>
+                        <div className="App">
+                            <Routes>
+                                <Route path="/" element={<TelaInicial />} />
+                                <Route path="/privativo" element={<TelaEspacoPrivativo />} />
+                                <Route path="/individual" element={<TelaEspacosIndividual />} />
+                                <Route path="/reuniao" element={<TelaEspacosReuniao />} />
 
-                            <Route path="/quemSomos" element={<TelaQuemSomos />} />
-                        </Routes>
-                    </div>
-                </UserProvider>
+                                <Route path="/quemSomos" element={<TelaQuemSomos />} />
+                            </Routes>
+                        </div>
+                    </UserProvider>
 
-            </BrowserRouter>
-        </>
+                </BrowserRouter>
+           
+   
 
 
     )
