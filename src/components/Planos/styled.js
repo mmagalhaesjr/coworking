@@ -55,12 +55,14 @@ background: linear-gradient(45deg, #ffffff 0%, rgba(173,154,112,0.85766806722689
     margin-top: 99px;
     font-size: 50px;
     font-weight: 200;
-    color:#71553d;   
+    color:#71553d;
+       
     /* color: #ffffffff; */
     z-index: 0;
 }
 h1{
     text-align: center;
+    
 }
 
 #container{
@@ -80,8 +82,10 @@ gap: 10px;
     border-radius: 15px;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); */
     
-   border: solid 5px  #07653b; 
-   background-color: rgba(260, 260, 260, 0.2);
+   border: solid 5px #71553d ; 
+   
+   background-color: rgba(173,154,112,0.3);
+   
    backdrop-filter: blur(10px); 
   
 }

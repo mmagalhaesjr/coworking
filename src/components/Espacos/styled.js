@@ -8,8 +8,11 @@ display: flex;
 flex-direction: column;
 height: 150vh;
 
+
+
 background: rgb(0,0,0);
 background: linear-gradient(45deg, #ffffff 0%, rgba(173,154,112,0.8576680672268908) 100%);
+
 
 @media(max-width:1033px ){
     height:0;
@@ -26,6 +29,7 @@ background: linear-gradient(45deg, #ffffff 0%, rgba(173,154,112,0.85766806722689
 
     font-size: 50px;
     font-weight: 200;
+    
 }
 
 #container{
@@ -64,6 +68,7 @@ background: linear-gradient(45deg, #ffffff 0%, rgba(173,154,112,0.85766806722689
 }
 .espacoDiv:hover{
     height: 400px;
+    
     transform: translatey(-10%); //aberbuta do espaço
     transition: 1.5s;
     p{
@@ -74,7 +79,7 @@ background: linear-gradient(45deg, #ffffff 0%, rgba(173,154,112,0.85766806722689
         height: 50%;
         transform: scale(1.1);
         transition: transform 1.5 ease;
-        z-index: 5;
+        z-index: 1;
         filter: brightness(60%);
     }
 }

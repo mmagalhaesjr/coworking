@@ -1,8 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 
-import compartilhadas from "../../../assets/compartilhadas.jpg"
+import compartilhadas from "../../../assets/salao2.png"
 import vidro from "../../../assets/vidro.jpg"
-import dedicada from "../../../assets/dedicada.jpg"
+import dedicada from "../../../assets/salao4.jpg"
 
 import { AiFillHome } from 'react-icons/ai';
 
@@ -32,6 +32,7 @@ export default function TelaEspacosIndividual() {
 
             <div className="s" id="s1">
             <AiFillHome className="icone" onClick={inicio} />
+            <img src={compartilhadas} alt="imagem salão" />
  
             <div className="texto">
                     <h1>Nome da Sala</h1>
@@ -42,7 +43,7 @@ export default function TelaEspacosIndividual() {
                         Tempora tempore facilis incidunt enim accusantium, dolores atque expedita nulla explicabo quasi omnis aut,
                         neque deleniti voluptas, laudantium autem debitis cumque odio</p>
                 </div>
-                <img src={compartilhadas} alt="imagem salão" />
+                
             </div>
             <div className="s" id="s2">
                 <img src={vidro} alt="imagem salão" />
@@ -57,6 +58,7 @@ export default function TelaEspacosIndividual() {
                 </div>
             </div>
             <div className="s" id="s3">
+            <img src={dedicada} alt="imagem salão" />
             <div className="texto">
             <h1>Nome da Sala</h1>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -66,7 +68,7 @@ export default function TelaEspacosIndividual() {
                         Tempora tempore facilis incidunt enim accusantium, dolores atque expedita nulla explicabo quasi omnis aut,
                         neque deleniti voluptas, laudantium autem debitis cumque odio</p>
                 </div>
-                <img src={dedicada} alt="imagem salão" />
+                
             </div>
         </StyledEspacos>
     )
