@@ -23,10 +23,10 @@ const GlobalStyle = createGlobalStyle`
         background-color:171B1E;
     }
     html{
-    
-        
     scroll-behavior: smooth;
+    
     height: 100vh; 
+    
 }
     /* HTML5 display-role reset for older browsers */
     article, aside, details, figcaption, figure,
@@ -39,6 +39,7 @@ const GlobalStyle = createGlobalStyle`
         width: 100%;
         height: 100vh;
         font-family: 'Barlow', sans-serif;
+        
         
        
         
@@ -73,6 +74,7 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Barlow', sans-serif;
     }
+    
 `
 
 export default GlobalStyle

@@ -1,10 +1,22 @@
 import logo from '../../assets/logo-preto.png';
 // import MenuMobile from '../MenuMobile/MenuMobile';
+import { useNavigate } from 'react-router-dom';
 import { StyledCabecalho } from './styled';
 
 
 
 export default function Cabecalho() {
+
+    const navegar = useNavigate();
+
+    const blog = () => {
+        navegar('/blog');
+      };
+      const quemSomos = () => {
+        navegar('/quemSomos');
+        
+      };
+
 
     
     return (
@@ -16,12 +28,12 @@ export default function Cabecalho() {
                     <a href="/" className="logo"><img src={logo} alt='logo' /></a>
                     
                     <ul className="nav-list">
-                        <li><a >QUEM SOMOS</a></li>
+                        <li><a href="#espacos">ESPAÇOS</a></li>
                         <li><a href="#servicos">SERVIÇOS</a></li>
                         <li><a href="#planos">PLANOS</a></li>
-                        <li><a href="#espacos">ESPAÇOS</a></li>
-                        <li><a href="#">BLOG</a></li>
                         <li><a href="#contato">CONTATO</a></li>
+                        <li><a onClick={blog}>BLOG</a></li>
+                        <li><a onClick={quemSomos} >QUEM SOMOS</a></li>
                     </ul>
 
                     <div>

@@ -1,11 +1,13 @@
-import { StyledBlog } from "./style";
+import { StyledBlog } from "./styled";
+
 
 
 export default function Blog() {
+    
 
 return(
     <StyledBlog>
-            <h1>Tela quem somos</h1>
+            <h1>BLOG</h1>
     </StyledBlog>
 )
 }
