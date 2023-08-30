@@ -71,6 +71,8 @@ color: #ffffff;
         cursor: pointer;  
 }
 
+
+
 ul li a{
 color: #ffffff;
 cursor: pointer;
@@ -118,6 +120,13 @@ h6{
 .icones{
     display: flex;
     gap:5px;
+}
+
+#endereco li a #endereço{
+    &:hover{
+    color:#07653b; 
+    transition:0.3s;
+    }
 }
    
 
