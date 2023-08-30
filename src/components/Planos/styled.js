@@ -1,25 +1,5 @@
 import styled from 'styled-components';
 
-// export const StyledSlao2 = styled.section`
-
-
-
-// #salao2{
-
-// width: 100%;
-// height: 100%;
-// position: absolute;
-// filter: brightness(0.2) opacity(0.9);
-
-// @media(max-width: 1322px){
-//     height: 259%;
-// }
-
-
-
-// }
-
-// `
 
 export const StyledPlanos = styled.section`
 
@@ -77,7 +57,7 @@ gap: 10px;
     flex-direction: column;
    
     align-items: center;
-    width: 300px;
+    width: 20%;
     height: 400px;
     border-radius: 15px;
     margin-left:10px;
@@ -94,6 +74,7 @@ gap: 10px;
 h2{
 font-size: 30px;
 text-align: center;
+margin-top: 10px;
 }
 .icone{
     margin-top: 10px;
@@ -101,7 +82,9 @@ text-align: center;
 }
 ul{
 margin-top: -20px;
-margin-left:14px;
+margin-left: 15%;
+
+
 
 }
 ul li{
@@ -118,9 +101,9 @@ ul li{
        
     }
     .planos{
-        width: 400px;
+        width: 350px;
         height: 500px;
-        font-size:30px;  
+        font-size:20px;  
     }
     h1{
         font-size: 60px;
