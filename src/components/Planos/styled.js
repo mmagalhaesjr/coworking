@@ -80,6 +80,8 @@ gap: 10px;
     width: 300px;
     height: 400px;
     border-radius: 15px;
+    margin-left:10px;
+    margin-right:10px;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); */
     
    border: solid 5px #71553d ; 
@@ -99,6 +101,7 @@ text-align: center;
 }
 ul{
 margin-top: -20px;
+margin-left:14px;
 
 }
 ul li{

@@ -23,7 +23,9 @@ const GlobalStyle = createGlobalStyle`
         background-color:171B1E;
     }
     html{
-    scroll-behavior:smooth;
+    
+        
+    scroll-behavior: smooth;
     height: 100vh; 
 }
     /* HTML5 display-role reset for older browsers */
