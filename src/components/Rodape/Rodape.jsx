@@ -6,7 +6,7 @@ import { ImLocation2 } from 'react-icons/im';
 
 import { StyledRodape } from "./styled"
 
-export default function Rodape() {
+export default function Rodape() {  
     return (
 
         <StyledRodape>

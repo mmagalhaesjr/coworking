@@ -10,9 +10,9 @@ height: 150vh;
 
 
 
-background: rgb(0,0,0);
-background: linear-gradient(45deg, #ffffff 0%, rgba(173,154,112,0.8576680672268908) 100%);
 
+/* background: linear-gradient(45deg, #ffffff 0%, rgba(173,154,112,0.8576680672268908) 100%); */
+background-color: #e3e0df;
 
 @media(max-width:1033px ){
     height:0;
@@ -46,8 +46,9 @@ background: linear-gradient(45deg, #ffffff 0%, rgba(173,154,112,0.85766806722689
 .espacoDiv{
     /* background-color: rgba(0, 0, 0, 0.6); */
 
-    backdrop-filter: blur(10px); 
+    backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.2);
+
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
     width: 300px;
     height: 280px;
@@ -59,6 +60,8 @@ background: linear-gradient(45deg, #ffffff 0%, rgba(173,154,112,0.85766806722689
     margin-right: 10px;
     overflow: hidden;
     cursor: pointer;
+
+    
 }
 .espaco{
     width: 100%;

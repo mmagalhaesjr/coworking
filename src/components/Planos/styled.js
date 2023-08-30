@@ -10,7 +10,8 @@ color:#71553d;
 display: flex;
 flex-direction: column;
 
-background: linear-gradient(45deg, #ffffff 0%, rgba(173,154,112,0.8576680672268908) 100%);
+/* background: linear-gradient(45deg, #ffffff 0%, rgba(173,154,112,0.8576680672268908) 100%); */
+background-color: #e3e0df;
 
 
 
