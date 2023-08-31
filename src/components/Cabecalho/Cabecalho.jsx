@@ -23,6 +23,9 @@ export default function Cabecalho() {
     };
 
     // const [mobileAtivado, setMobileAtivado] = usestate(false);
+    // const mobile = ()=>{
+    //     setMobileAtivado(!mobileAtivado)
+    // }
 
     return (
 
@@ -43,7 +46,7 @@ export default function Cabecalho() {
                     </ul>
 
                     <div>
-                        <button className="hamburger"></button>
+                        {<button /* onClick={mobile}*/ className="hamburger"></button> }
                     </div>
 
                 </nav>
