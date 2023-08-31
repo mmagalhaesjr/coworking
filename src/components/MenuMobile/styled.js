@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 export const StyledMenuMobile = styled.div`
-.nav-mobile{
+
+
+
     
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(7,101,59,0.768032212885154) 100%);
@@ -16,8 +18,8 @@ export const StyledMenuMobile = styled.div`
     display: flex;
     flex-direction:column;
     text-align:center;
-}
-.nav-mobile li a{
+
+ li a{
     color:#ffffff;
     font-weight:200;
     text-decoration: none;
@@ -34,4 +36,7 @@ export const StyledMenuMobile = styled.div`
     
    }
 }
+
+
+
 `

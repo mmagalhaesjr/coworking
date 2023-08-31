@@ -60,11 +60,12 @@ export const StyledCabecalho = styled.header`
     margin-top: 5px;
   }
 
+
   @media (max-width: 940px) {
+
     ul {
       display: none;
     }
-
     .hamburger {
       display: block;
       position: absolute;
