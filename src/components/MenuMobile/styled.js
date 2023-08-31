@@ -12,12 +12,12 @@ export const StyledMenuMobile = styled.div`
     top:0;
     left: 0;
     width: 100%;
-    height: 4500px;
+    height: 100vh;
     z-index:1;
     top:100px;
-    display: flex;
-    flex-direction:column;
+    display: block;
     text-align:center;
+   
 
  li a{
     color:#ffffff;
@@ -28,6 +28,7 @@ export const StyledMenuMobile = styled.div`
     padding: 20px 30px;
     font-size: 16pxl;
     margin-top: 10px;
+   
    
     &:hover{
     background-color:#000000;

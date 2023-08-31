@@ -2,7 +2,7 @@
 import { StyledMenuMobile } from "./styled";
 
 
-export default function MenuMobile() {
+export default function MenuMobile({mobileAtivado, setMobileAtivado}) {
 
     // const navegar = useNavigate();
     const blog = () => {
@@ -16,7 +16,6 @@ export default function MenuMobile() {
 
     return (
         <StyledMenuMobile>
-           
 
             <ul className="nav-lista">
                 <li><a href="#espacos">ESPAÇOS</a></li>
@@ -26,6 +25,7 @@ export default function MenuMobile() {
                 <li><a onClick={blog} >BLOG</a></li>
                 <li><a onClick={quemSomos}  >QUEM SOMOS</a></li>
             </ul>
+
         </StyledMenuMobile>
 
     )

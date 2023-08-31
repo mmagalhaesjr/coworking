@@ -1,5 +1,5 @@
 import logo from '../../assets/logo-preto.png';
-// import { usestate } from "react";
+import { useState } from "react";
 // import { useNavigate } from 'react-router-dom';
 
 import MenuMobile from '../MenuMobile/MenuMobile';
@@ -22,15 +22,20 @@ export default function Cabecalho() {
 
     };
 
-    // const [mobileAtivado, setMobileAtivado] = usestate(false);
-    // const mobile = ()=>{
-    //     setMobileAtivado(!mobileAtivado)
-    // }
+    const [mobileAtivado, setMobileAtivado] = useState(false);
+    const mobile = () => {
+        setMobileAtivado(!mobileAtivado)
+    }
+
+    
 
     return (
 
         <>
-            <MenuMobile />
+            <MenuMobile
+                mobileAtivado={mobileAtivado}
+                setMobileAtivado={setMobileAtivado}
+            />
 
             <StyledCabecalho >
                 <nav>
@@ -46,7 +51,7 @@ export default function Cabecalho() {
                     </ul>
 
                     <div>
-                        {<button /* onClick={mobile}*/ className="hamburger"></button> }
+                        {<button onClick={mobile} className="hamburger"></button>}
                     </div>
 
                 </nav>
