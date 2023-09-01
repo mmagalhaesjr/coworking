@@ -40,8 +40,7 @@ nav{
     padding: 20px 30px;
     font-size: 16pxl;
     color: #ffffff;
-   
-   
+
     &:hover{
     background-color:#000000;
     width: 100%;
@@ -56,10 +55,13 @@ svg{
     right: 1rem;
     color: #ffffff;
 
+    transform: rotate(45deg);
+    transition: 2s;
+    
+
     &:hover{
     color: #000000;
-    transition: 0.5s;
-    
+    transition: 1.5s;
    }
 }
 
@@ -68,10 +70,14 @@ ${({mobile}) => mobile && css`
     opacity:1;
     pointer-events:auto;
 
-    transform: translatex(-190px);
+    transition: .7s;
+
+    transform: translatex(0);
+
+    svg{
+        transform: rotate(90deg);
+        transition: 2s;
+    }
 `}
-
-
-
 
 `

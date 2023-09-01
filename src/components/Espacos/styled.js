@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 
 
+
 export const StyledEspacos = styled.section`
 
 display: flex;
@@ -60,7 +61,7 @@ background-color: #e3e0df;
     margin-right: 10px;
     overflow: hidden;
     cursor: pointer;
-
+    
     
 }
 .espaco{
@@ -77,6 +78,8 @@ background-color: #e3e0df;
     p{
         color:#71553d;
         transition: 2s;
+        transform: scale(1.1);
+
     }
     .espaco{
         height: 50%;
@@ -101,6 +104,7 @@ h2{
     font-size: 17px;
     font-weight: 100;
     margin: 20px;
+   
 }
 
 @media(max-width: 1435px){

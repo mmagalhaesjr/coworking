@@ -2,6 +2,8 @@
 import { IoClose } from 'react-icons/io5'
 import { StyledMenuMobile } from "./styled";
 
+import { useEffect } from 'react';
+
 
 export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
 
@@ -15,10 +17,14 @@ export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
         // navegar('/quemSomos');
     };
 
+    useEffect(()=> {
+        document.body.style.overflowY = mobileAtivado ? 'hidden' : 'auto';
+    }, [mobileAtivado])
+
     return (
 
         <StyledMenuMobile mobile={mobileAtivado}>
-            <IoClose size={45} onClick={() => setMobileAtivado(true) }  />
+            {/* <IoClose size={45} onClick={() => setMobileAtivado(true) }  /> */}
 
             <nav className="nav-lista">
                 <a href="#espacos">ESPAÇOS</a>

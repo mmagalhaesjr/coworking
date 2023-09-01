@@ -50,7 +50,8 @@ export default function Cabecalho( ) {
                     </ul>
 
                     <div>
-                        {<button onClick={mobile} className="hamburger"></button>}
+                        {<button onClick={mobile}  className="hamburger"></button>}
+                        
                     </div>
 
                 </nav>
