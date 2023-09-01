@@ -10,7 +10,7 @@ import { StyledCabecalho } from './styled';
 
 
 
-export default function Cabecalho( ) {
+export default function Cabecalho() {
 
     // const navegar = useNavigate();
     const blog = () => {
@@ -28,7 +28,7 @@ export default function Cabecalho( ) {
         setMobileAtivado(!mobileAtivado)
     }
 
-    
+
     return (
 
         <>
@@ -51,8 +51,7 @@ export default function Cabecalho( ) {
                     </ul>
 
                     <div>
-                        {<button onClick={mobile}   className="hamburger"></button>}
-                        
+                        {<button onClick={mobile} className="hamburger"></button>}
                     </div>
 
                 </nav>

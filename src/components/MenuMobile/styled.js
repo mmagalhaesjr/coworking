@@ -27,6 +27,8 @@ nav{
     flex-direction: column;
     gap: 2rem;
     margin-top: 60PX;
+    transform: scale(0);
+    transition: 1s;
 }
 
  a{
@@ -49,6 +51,11 @@ ${({mobile}) => mobile && css`
     pointer-events:auto;
     transition: .7s;
     transform: translatex(0);
+    color: #ffffff;
+
+    nav{
+        transform: scale(1);
+    }
     
 `}
 `
