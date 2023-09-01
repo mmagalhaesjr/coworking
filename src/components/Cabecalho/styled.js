@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { css } from 'styled-components';
 
 
 export const StyledCabecalho = styled.header`
@@ -45,30 +46,58 @@ export const StyledCabecalho = styled.header`
     background: none;
   }
 
-  .hamburger {
+  button{
+ 
+    width: 100px;
+    height: 100px;
     display: none;
-    border: none;
     background: none;
+    border: none;
     cursor: pointer;
-    border-top: 3px solid #ffffff;
+    margin-top: -30px;
   }
-  .hamburger::before,
-  .hamburger::after {
-    content: ' ';
-    display: block;
-    width: 30px;
-    height: 3px;
-    background: #ffffff;
-    margin-top: 5px;
-  }
+ .linha{
+    position: relative;
+    width: 40px;
+    height: 5px;
+   background-color:#ffffff;
+    display:block;
+    margin: 10px auto;
+    transform-origin:center;
+    
+ }
 
+ .linha:nth-child(1){
+    transform: translateY(7px) rotate(-45deg);
+   }
+   .linha:nth-child(2){
+    display: none;
+    }
+    .linha:nth-child(3){
+    transform: translateY(-7px) rotate(45deg);
+    }
+ 
+ /* ${({ mobile }) => mobile && css`
+   .linha:nth-child(1){
+    transform: translateY(36px) rotate(-45deg);
+   }
+   .linha:nth-child(2){
+    display: none;
+    }
+    .linha:nth-child(3){
+    transform: translateY(-36px) rotate(45deg);
+    }
+    transform: 0.3s;
+    
+`} */
+  
 
   @media (max-width: 940px) {
 
     ul {
       display: none;
     }
-    .hamburger {
+    button{
       display: block;
       position: absolute;
       top: 40px;

@@ -28,6 +28,8 @@ export default function Cabecalho() {
         setMobileAtivado(!mobileAtivado)
     }
 
+   
+
 
     return (
 
@@ -50,9 +52,12 @@ export default function Cabecalho() {
                         <li><a onClick={quemSomos}  >QUEM SOMOS</a></li>
                     </ul>
 
-                    <div>
-                        {<button onClick={mobile} className="hamburger"></button>}
-                    </div>
+                        <button onClick={mobile}  >
+                            <span className='linha'></span>
+                            <span className='linha'></span>
+                            <span className='linha'></span>
+                        </button>
+                   
 
                 </nav>
 
