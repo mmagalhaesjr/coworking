@@ -17,7 +17,7 @@ export const StyledMenuMobile = styled.div`
 
     .nav-lista{
         margin-top: 200px;
-        text-align:center;
+        text-align:center; 
     }
    
 nav{
@@ -28,6 +28,7 @@ nav{
     gap: 2rem;
     margin-top: 60PX;
 }
+
  a{
     font-weight:200;
     text-decoration: none;
@@ -36,41 +37,18 @@ nav{
     padding: 20px 30px;
     font-size: 16pxl;
     color: #ffffff;
-
     &:hover{
     background-color:#000000;
     width: 100%;
     transition: 1s;
-    
    }
 }
-
-svg{
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    color: #ffffff;
-
-    transform: rotate(45deg);
-    transition: 2s;
-    
-
-    &:hover{
-    color: #000000;
-    transition: 1.5s;
-   }
-}
-
 
 ${({mobile}) => mobile && css`
     opacity:1;
     pointer-events:auto;
     transition: .7s;
     transform: translatex(0);
+    
 `}
-
-a{
-    color:#ffffff;
-}
-
 `

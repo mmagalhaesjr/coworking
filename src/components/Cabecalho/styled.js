@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import  { css } from 'styled-components';
+
 
 export const StyledCabecalho = styled.header`
 
@@ -30,6 +30,7 @@ export const StyledCabecalho = styled.header`
   ul li a {
     
     color: #000000;
+
     cursor: pointer;
     &:hover {
       color: #07653b;
@@ -74,9 +75,5 @@ export const StyledCabecalho = styled.header`
       right: 40px;
     }
   }
-  ${({mobile}) => mobile && css`
-   
 
-   
-`}
 `;
