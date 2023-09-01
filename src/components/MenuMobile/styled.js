@@ -1,28 +1,24 @@
 import styled from 'styled-components';
 import  { css } from 'styled-components';
 
+
 export const StyledMenuMobile = styled.div`
 
-
-
-    
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(7,101,59,0.768032212885154) 100%);
-
+    
     position: absolute;
-    top:0;
-    left: 0;
     width: 100%;
     height: 100vh;
-    top:100px;
-    display: block;
-    text-align:center;
     z-index:1;
-   
     opacity: 0;
     pointer-events:none;
-
     transition: 0.5s;
+
+    .nav-lista{
+        margin-top: 200px;
+        text-align:center;
+    }
    
 nav{
     display: flex;
@@ -69,15 +65,12 @@ svg{
 ${({mobile}) => mobile && css`
     opacity:1;
     pointer-events:auto;
-
     transition: .7s;
-
     transform: translatex(0);
-
-    svg{
-        transform: rotate(90deg);
-        transition: 2s;
-    }
 `}
+
+a{
+    color:#ffffff;
+}
 
 `

@@ -1,5 +1,4 @@
 // import { useNavigate } from 'react-router-dom';
-import { IoClose } from 'react-icons/io5'
 import { StyledMenuMobile } from "./styled";
 
 import { useEffect } from 'react';
@@ -27,10 +26,10 @@ export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
             {/* <IoClose size={45} onClick={() => setMobileAtivado(true) }  /> */}
 
             <nav className="nav-lista">
-                <a href="#espacos">ESPAÇOS</a>
-                <a href="#servicos">SERVIÇOS</a>
-                <a href="#planos">PLANOS</a>
-                <a href="#contato">CONTATO</a>
+                <a onClick={() => setMobileAtivado(false) } href="#espacos">ESPAÇOS</a>
+                <a onClick={() => setMobileAtivado(false) } href="#servicos">SERVIÇOS</a>
+                <a onClick={() => setMobileAtivado(false) } href="#planos">PLANOS</a>
+                <a onClick={() => setMobileAtivado(false) } href="#contato">CONTATO</a>
                 <a onClick={blog} >BLOG</a>
                 <a onClick={quemSomos}  >QUEM SOMOS</a>
             </nav>
