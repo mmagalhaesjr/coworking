@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import  { css } from 'styled-components';
 
 export const StyledMenuMobile = styled.div`
 
@@ -13,21 +14,32 @@ export const StyledMenuMobile = styled.div`
     left: 0;
     width: 100%;
     height: 100vh;
-    z-index:1;
     top:100px;
     display: block;
     text-align:center;
+    z-index:1;
    
+    opacity: 0;
+    pointer-events:none;
 
- li a{
-    color:#ffffff;
+    transition: 0.5s;
+   
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 60PX;
+}
+ a{
     font-weight:200;
     text-decoration: none;
     list-style: none;
     display: block;
     padding: 20px 30px;
     font-size: 16pxl;
-    margin-top: 10px;
+    color: #ffffff;
    
    
     &:hover{
@@ -37,6 +49,28 @@ export const StyledMenuMobile = styled.div`
     
    }
 }
+
+svg{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: #ffffff;
+
+    &:hover{
+    color: #000000;
+    transition: 0.5s;
+    
+   }
+}
+
+
+${({mobile}) => mobile && css`
+    opacity:1;
+    pointer-events:auto;
+
+    transform: translatex(-190px);
+`}
+
 
 
 

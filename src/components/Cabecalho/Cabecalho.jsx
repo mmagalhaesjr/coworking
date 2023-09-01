@@ -9,7 +9,7 @@ import { StyledCabecalho } from './styled';
 
 
 
-export default function Cabecalho() {
+export default function Cabecalho( ) {
 
     // const navegar = useNavigate();
     const blog = () => {
@@ -28,7 +28,6 @@ export default function Cabecalho() {
     }
 
     
-
     return (
 
         <>
