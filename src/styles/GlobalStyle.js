@@ -24,7 +24,6 @@ const GlobalStyle = createGlobalStyle`
     }
     html{
     scroll-behavior: smooth;
-    
     height: 100vh; 
     
 }
@@ -39,10 +38,6 @@ const GlobalStyle = createGlobalStyle`
         width: 100%;
         height: 100vh;
         font-family: 'Barlow', sans-serif;
-        
-        
-       
-        
     }
 
     /* ol, ul {

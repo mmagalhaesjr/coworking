@@ -38,9 +38,8 @@ export default function Cabecalho() {
         <>
             <MenuMobile
                 mobileAtivado={mobileAtivado}
-                setMobileAtivado={setMobileAtivado}
-            />
-
+                setMobileAtivado={setMobileAtivado} />
+            
             <StyledCabecalho mobile={mobileAtivado} >
                 <nav>
                     <a href="/" className="logo"><img src={logo} alt='logo' /></a>

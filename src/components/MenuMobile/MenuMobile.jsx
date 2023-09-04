@@ -36,5 +36,3 @@ export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
     )
 }
 
-//video 12:26 
-// https://www.youtube.com/watch?v=sWnXUPnCjl0&t=324s
