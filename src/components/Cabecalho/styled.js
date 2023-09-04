@@ -4,7 +4,7 @@ import { css } from 'styled-components';
 
 export const StyledCabecalho = styled.header`
 
-   
+  
 
   nav {
     width: 100%;
@@ -45,10 +45,12 @@ export const StyledCabecalho = styled.header`
     margin-top: 15px;
     background: none;
   }
+ 
 
   button{
- 
-    width: 100px;
+  
+   
+    
     height: 100px;
     display: none;
     background: none;
@@ -60,11 +62,10 @@ export const StyledCabecalho = styled.header`
     position: relative;
     width: 40px;
     height: 5px;
-   background-color:#ffffff;
+    background-color:#ffffff;
     display:block;
     margin: 10px auto;
     transform-origin:center;
-    
  }
 
  /* .linha:nth-child(1){
@@ -101,6 +102,9 @@ export const StyledCabecalho = styled.header`
       position: absolute;
       top: 40px;
       right: 40px;
+    }
+    nav{
+        justify-content: space-between;
     }
   }
 

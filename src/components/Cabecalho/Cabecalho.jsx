@@ -53,7 +53,7 @@ export default function Cabecalho() {
                         <li><a onClick={blog} >BLOG</a></li>
                         <li><a onClick={quemSomos}  >QUEM SOMOS</a></li>
                     </ul>
-
+                        
                         <button onClick={mobile}  >
                             <span className='linha'></span>
                             <span className='linha'></span>
