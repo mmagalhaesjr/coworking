@@ -17,7 +17,7 @@ export const StyledMenuMobile = styled.div`
 
   
     .nav-lista{
-        margin-top: 200px;
+        margin-top: 130px;
         text-align:center; 
         color: #ffffff;
     }
@@ -28,7 +28,6 @@ nav{
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
-    margin-top: 60PX;
     transform: scale(0);
     transition: 1s;
     color: #ffffff;
