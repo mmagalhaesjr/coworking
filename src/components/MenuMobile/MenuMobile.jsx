@@ -30,8 +30,7 @@ export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
                 <a onClick={() => setMobileAtivado(false) } href="#contato">CONTATO</a>
                 <a onClick={blog} >BLOG</a>
                 <a onClick={quemSomos}  >QUEM SOMOS</a>
-               
-                <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp fontSize={50}/></a>
+                <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp/> - WHATSAPP</a>
             </nav>
             
 
