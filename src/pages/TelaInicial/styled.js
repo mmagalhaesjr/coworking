@@ -48,7 +48,6 @@ p{font-size:20px;
 }
 
 a{
-    color: #000000; 
     text-decoration: none;
 }
 

@@ -22,7 +22,7 @@ export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
 
         <StyledMenuMobile mobile={mobileAtivado}>
             
-            <nav className="nav-lista">
+            <nav className="nav-lista" >
                 <a onClick={() => setMobileAtivado(false) } href="#espacos">ESPAÇOS</a>
                 <a onClick={() => setMobileAtivado(false) } href="#servicos">SERVIÇOS</a>
                 <a onClick={() => setMobileAtivado(false) } href="#planos">PLANOS</a>

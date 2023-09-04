@@ -4,7 +4,7 @@ import { css } from 'styled-components';
 
 export const StyledCabecalho = styled.header`
 
-  
+
 
   nav {
     width: 100%;
@@ -12,13 +12,13 @@ export const StyledCabecalho = styled.header`
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.2);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
-    position: fixed;
-    z-index: 1;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     z-index: 5;
     
+
+    position: fixed;    
   }
 
   ul {
@@ -40,7 +40,7 @@ export const StyledCabecalho = styled.header`
   }
 
   img {
-    width: 350px;
+    width: 310px;
     height: 70px;
     margin-top: 15px;
     background: none;
@@ -49,7 +49,7 @@ export const StyledCabecalho = styled.header`
 
   button{
   
-   
+   border: solid 1px red;
     
     height: 100px;
     display: none;
@@ -107,5 +107,19 @@ export const StyledCabecalho = styled.header`
         justify-content: space-between;
     }
   }
+  @media (max-width: 419px) {
+    img {
+    width: 250px;
+   
+  }
+  }
 
 `;
+
+// export const Primeirabarra = styled.header`
+// width: 100%;
+// height: 30px;
+// background-color:#000000;
+// position: absolute;
+
+// `

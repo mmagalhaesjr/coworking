@@ -5,19 +5,20 @@ import  { css } from 'styled-components';
 
 export const StyledMenuMobile = styled.div`
 
+    position: fixed;
+   
+    
     background: #07653b;
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(7,101,59,0.768032212885154) 100%);
     
-    position: absolute;
     width: 100%;
     height: 100vh;
-    z-index:1;
+    z-index:5;
     opacity: 0;
     pointer-events:none;
     transition: 0.5s;
     color: #ffffff;
   
-
     .nav-lista{
         margin-top: 200px;
         text-align:center; 
@@ -52,6 +53,7 @@ nav{
 }
 
 ${({mobile}) => mobile && css`
+
     opacity:1;
     pointer-events:auto;
     transition: .7s;

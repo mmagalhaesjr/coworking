@@ -1,23 +1,16 @@
 import styled from 'styled-components';
 
-
-
-
 export const StyledEspacos = styled.section`
 
 display: flex;
 flex-direction: column;
 height: 150vh;
-
-
-
-
-/* background: linear-gradient(45deg, #ffffff 0%, rgba(173,154,112,0.8576680672268908) 100%); */
 background-color: #e3e0df;
 
 @media(max-width:1033px ){
     height:0;
 }
+
 
 .titulos{
     display: flex;
@@ -114,6 +107,7 @@ h2{
 @media(max-width: 1067px){
     height:1700px; 
 }
+
 @media(max-width:1033px ){
   #container{
     flex-direction: column;
@@ -122,12 +116,12 @@ h2{
   }  
   .espacoDiv{
     display: flex;
-    width: 350px;
+    width: 70%;
     height:150px;
     margin: 0;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 
    
@@ -143,7 +137,7 @@ h2{
     }
 
   .espaco{
-    width: 200px;
+    width: 40%;
     height:100%;
     position: relative;
   }

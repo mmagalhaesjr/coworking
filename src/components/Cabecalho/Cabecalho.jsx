@@ -8,13 +8,13 @@ import { StyledCabecalho } from './styled';
 
 export default function Cabecalho() {
 
-    
+
     const [mobileAtivado, setMobileAtivado] = useState(false);
     const mobile = () => {
         setMobileAtivado(!mobileAtivado)
     }
 
-    useEffect(()=> {
+    useEffect(() => {
         document.body.style.overflowY = mobileAtivado ? 'hidden' : 'auto';
     }, [mobileAtivado])
 
@@ -30,7 +30,7 @@ export default function Cabecalho() {
     };
 
 
-   
+
 
 
     return (
@@ -39,7 +39,8 @@ export default function Cabecalho() {
             <MenuMobile
                 mobileAtivado={mobileAtivado}
                 setMobileAtivado={setMobileAtivado} />
-            
+          
+
             <StyledCabecalho mobile={mobileAtivado} >
                 <nav>
                     <a href="/" className="logo"><img src={logo} alt='logo' /></a>
@@ -52,13 +53,12 @@ export default function Cabecalho() {
                         <li><a onClick={blog} >BLOG</a></li>
                         <li><a onClick={quemSomos}  >QUEM SOMOS</a></li>
                     </ul>
-                        
-                        <button onClick={mobile}  >
-                            <span className='linha'></span>
-                            <span className='linha'></span>
-                            <span className='linha'></span>
-                        </button>
-                   
+
+                    <button onClick={mobile}  >
+                        <span className='linha'></span>
+                        <span className='linha'></span>
+                        <span className='linha'></span>
+                    </button>
 
                 </nav>
 
