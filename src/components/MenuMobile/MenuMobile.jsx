@@ -1,11 +1,9 @@
 // import { useNavigate } from 'react-router-dom';
 import { StyledMenuMobile } from "./styled";
-
 import { useEffect } from 'react';
 
 
 export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
-
     // const navegar = useNavigate();
     const blog = () => {
         window.open('/blog', "_blank");
@@ -23,8 +21,7 @@ export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
     return (
 
         <StyledMenuMobile mobile={mobileAtivado}>
-            {/* <IoClose size={45} onClick={() => setMobileAtivado(true) }  /> */}
-
+            
             <nav className="nav-lista">
                 <a onClick={() => setMobileAtivado(false) } href="#espacos">ESPAÇOS</a>
                 <a onClick={() => setMobileAtivado(false) } href="#servicos">SERVIÇOS</a>

@@ -67,7 +67,7 @@ export const StyledCabecalho = styled.header`
     
  }
 
- .linha:nth-child(1){
+ /* .linha:nth-child(1){
     transform: translateY(7px) rotate(-45deg);
    }
    .linha:nth-child(2){
@@ -75,25 +75,24 @@ export const StyledCabecalho = styled.header`
     }
     .linha:nth-child(3){
     transform: translateY(-7px) rotate(45deg);
-    }
+    } */
  
- /* ${({ mobile }) => mobile && css`
+ ${({ mobile }) => mobile && css`
    .linha:nth-child(1){
-    transform: translateY(36px) rotate(-45deg);
+    transform: translateY(0) rotate(-45deg);
+    transition: 1s;
    }
    .linha:nth-child(2){
     display: none;
     }
     .linha:nth-child(3){
-    transform: translateY(-36px) rotate(45deg);
+    transform: translateY(-15px) rotate(45deg);
+    transition: 1s;
     }
-    transform: 0.3s;
-    
-`} */
+`}
   
 
   @media (max-width: 940px) {
-
     ul {
       display: none;
     }

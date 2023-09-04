@@ -15,6 +15,8 @@ export const StyledMenuMobile = styled.div`
     pointer-events:none;
     transition: 0.5s;
 
+    color: #ffffff;
+
     .nav-lista{
         margin-top: 200px;
         text-align:center; 

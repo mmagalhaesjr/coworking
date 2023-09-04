@@ -1,16 +1,22 @@
 import logo from '../../assets/logo-preto.png';
 import { useState } from "react";
+import { useEffect } from 'react';
 // import { useNavigate } from 'react-router-dom';
-
 import MenuMobile from '../MenuMobile/MenuMobile';
-
 import { StyledCabecalho } from './styled';
 
 
-
-
-
 export default function Cabecalho() {
+
+    
+    const [mobileAtivado, setMobileAtivado] = useState(false);
+    const mobile = () => {
+        setMobileAtivado(!mobileAtivado)
+    }
+
+    useEffect(()=> {
+        document.body.style.overflowY = mobileAtivado ? 'hidden' : 'auto';
+    }, [mobileAtivado])
 
     // const navegar = useNavigate();
     const blog = () => {
@@ -23,10 +29,6 @@ export default function Cabecalho() {
 
     };
 
-    const [mobileAtivado, setMobileAtivado] = useState(false);
-    const mobile = () => {
-        setMobileAtivado(!mobileAtivado)
-    }
 
    
 
@@ -39,7 +41,7 @@ export default function Cabecalho() {
                 setMobileAtivado={setMobileAtivado}
             />
 
-            <StyledCabecalho >
+            <StyledCabecalho mobile={mobileAtivado} >
                 <nav>
                     <a href="/" className="logo"><img src={logo} alt='logo' /></a>
 
