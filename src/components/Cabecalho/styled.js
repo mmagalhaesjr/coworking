@@ -66,6 +66,7 @@ export const StyledCabecalho = styled.header`
     display:block;
     margin: 10px auto;
     transform-origin:center;
+    transition:.5s;
  }
 
  /* .linha:nth-child(1){

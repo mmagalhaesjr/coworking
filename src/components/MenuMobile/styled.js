@@ -4,13 +4,9 @@ import  { css } from 'styled-components';
 
 
 export const StyledMenuMobile = styled.div`
-
-    position: fixed;
-   
-    
     background: #07653b;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(7,101,59,0.768032212885154) 100%);
-    
+    /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(7,101,59,0.88032212885154) 100%); */
+    position: fixed;
     width: 100%;
     height: 100vh;
     z-index:5;
@@ -18,6 +14,7 @@ export const StyledMenuMobile = styled.div`
     pointer-events:none;
     transition: 0.5s;
     color: #ffffff;
+
   
     .nav-lista{
         margin-top: 200px;
@@ -45,6 +42,7 @@ nav{
     padding: 20px 30px;
     font-size: 16pxl;
     color: #ffffff;
+    
     &:hover{
     background-color:#000000;
     width: 100%;
