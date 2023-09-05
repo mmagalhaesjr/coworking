@@ -51,10 +51,6 @@ section:nth-of-type(6){
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-   
-
-    
 }
 .texto h1{
     margin-top: 5%;

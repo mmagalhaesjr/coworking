@@ -199,6 +199,10 @@ h2{
     }
     .titulos h1{
         font-size: 35px;
+        background-color: none;
+    }
+    .titulos{
+        background-color: transparent;
     }
     
 }

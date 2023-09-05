@@ -114,6 +114,9 @@ ul li{
     .titulos h1{
         font-size: 35px;
     } 
+    .titulos{
+        background-color: transparent;
+    }
    
 }
 
