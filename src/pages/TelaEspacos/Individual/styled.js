@@ -14,12 +14,12 @@ background-attachment: fixed;
 }
 
 section:nth-of-type(1){
-    background-image: url(src/assets/salao2.png);
+    background-image: url(src/assets/salao.png);
     height: 600px;
     
 }
 section:nth-of-type(3){
-    background-image: url(src/assets/salao3.jpg);
+    background-image: url(src/assets/salao2.jpg);
     height: 600px;
     
 }
