@@ -116,6 +116,7 @@ ul li{
     } 
     .titulos{
         background-color: transparent;
+        width: 100%;
     }
    
 }

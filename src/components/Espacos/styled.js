@@ -202,6 +202,7 @@ h2{
         background-color: none;
     }
     .titulos{
+        width: 100%;
         background-color: transparent;
     }
     
