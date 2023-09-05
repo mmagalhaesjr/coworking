@@ -1,14 +1,13 @@
 import { useNavigate } from 'react-router-dom';
 
 
-import dedicada from "../../assets/dedicada.jpg"
-import reuniao2 from "../../assets/reuniao2.jpg"
-import vidro from "../../assets/vidro.jpg"
-import compartilhadas from "../../assets/compartilhadas.jpg"
-import atendimento from "../../assets/atendimento.jpg"
-// import espaço1 from "../../assets/reuniao.jpg"
-import espaço2 from "../../assets/privado.jpg"
-import espaço3 from "../../assets/reuniao.jpg"
+import dedicada from "../../assets/1.jpg"
+import reuniao2 from "../../assets/2.jpg"
+import vidro from "../../assets/3.png"
+import compartilhadas from "../../assets/6.jpg"
+import atendimento from "../../assets/5.png"
+import espaço2 from "../../assets/6.jpg"
+import espaço3 from "../../assets/1.jpg"
 
 import { StyledEspacos } from "./styled"
 

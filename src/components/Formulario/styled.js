@@ -14,14 +14,14 @@ background-color:#171B1E;
 
 form{
     width:60%; 
-    height:50%;
+    height:60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.9);
+    /* border-radius: 15px; */
     margin-top: -100px;
     margin-bottom: 20px; 
 }
@@ -32,7 +32,7 @@ form{
     position: relative;
     top:-150px;
     text-align: center;
-    color:#ffffff;
+    color:#eae9e9;
     font-weight:100;  
 }
 
@@ -66,7 +66,7 @@ input{
 .inputUser:valid ~ .labelInput{
     top: -20px;
     font-size: 12px;
-    color: #07653b;
+    color: #398462;
 }
 
 .imputMesnsagem{
@@ -84,7 +84,7 @@ input{
 .imputMesnsagem:valid ~ .labelInput{
     top: -10px;
     font-size: 12px;
-    color: #07653b;
+    color: #398462;
 }
 
 .labelInput{
@@ -104,13 +104,11 @@ input{
     border-radius: 10px;
     width: 50%;
 }
-#submit:hover{
-    border: 2px solid #FFF509;
-}
+
 
 button{
         background-color: #2A2A2A;
-        color: #ffffff;
+        color:#eae9e9;
         width: 300px;
         height: 60px;
         font-size: 15px;
@@ -119,8 +117,8 @@ button{
         position:relative;
         top:20px;
     &:hover{
-        border: 2px solid #ffffff;
-        color:#07653b;
+        border: 2px solid #eae9e9;
+        color:#398462;
         transition:0.7s;
 
     }

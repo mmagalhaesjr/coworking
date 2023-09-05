@@ -4,7 +4,8 @@ import  { css } from 'styled-components';
 
 
 export const StyledMenuMobile = styled.div`
-    background: #07653b;
+background-color: #000000;
+    /* background: #07653b; */
     /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(7,101,59,0.88032212885154) 100%); */
     position: fixed;
     width: 100%;
@@ -43,7 +44,7 @@ nav{
     color: #ffffff;
     
     &:hover{
-    background-color:#000000;
+    background-color:#398462;
     width: 100%;
     transition: 1s;
    }

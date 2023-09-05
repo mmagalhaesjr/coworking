@@ -8,8 +8,8 @@ color:#ffffff;
 
 display: flex;
 flex-direction: column;
-/* background-color:#307a69; */
-background-color:#07653b;
+background-color:#398462;
+/* background-color:#07653b; */
 
 
 @media(max-width: 1320px){

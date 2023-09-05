@@ -77,7 +77,7 @@ ul li a{
 color: #ffffff;
 cursor: pointer;
 &:hover{
-    color:#07653b; 
+    color:#398462; 
     transition:0.3s;
     }
 }
@@ -124,7 +124,7 @@ h6{
 
 #endereco li a #endereço{
     &:hover{
-    color:#07653b; 
+    color:#398462; 
     transition:0.3s;
     }
 }

@@ -3,7 +3,7 @@ import { BsWhatsapp } from 'react-icons/bs';
 import { useEffect } from 'react';
 
 
-import salao from "../../assets/salao5.jpg"
+import salao from "../../assets/salao.png"
 
 import Cabecalho from "../../components/Cabecalho/Cabecalho"
 import Espacos from "../../components/Espacos/Espacos"

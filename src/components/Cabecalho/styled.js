@@ -34,15 +34,15 @@ export const StyledCabecalho = styled.header`
 
     cursor: pointer;
     &:hover {
-      color: #07653b;
+      color: #398462;
       transition: 0.3s;
     }
   }
 
   img {
     width: 310px;
-    height: 70px;
-    margin-top: 15px;
+    height: 80px;
+    margin-top: 7px;
     background: none;
   }
  
@@ -86,6 +86,7 @@ export const StyledCabecalho = styled.header`
    }
    .linha:nth-child(2){
     display: none;
+    
     }
     .linha:nth-child(3){
     transform: translateY(-15px) rotate(45deg);

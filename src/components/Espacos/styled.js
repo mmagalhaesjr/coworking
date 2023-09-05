@@ -3,13 +3,13 @@ import styled from 'styled-components';
 export const StyledEspacos = styled.section`
 
 display: flex;
-flex-direction: column;
+flex-direction:column;
+text-align:center;
+align-items: center;
 height: 150vh;
-background-color: #e3e0df;
 
-@media(max-width:1033px ){
-    height:0;
-}
+background: radial-gradient(circle, rgba(93,91,91,1) 0%, rgba(0,0,0,1) 100%);
+
 
 
 .titulos{
@@ -18,11 +18,15 @@ background-color: #e3e0df;
     flex-direction: column;
     text-align:center;
     align-items: center;
-    color:#71553d;
-    margin-top: 99px;    
+    color:#eae9e9;
+    background-color: #398462;
+    width: 50%;
+    height: 10%;
 
+    margin-top: 99px;    
     font-size: 50px;
     font-weight: 200;
+    z-index: 4;
     
 }
 
@@ -34,22 +38,21 @@ background-color: #e3e0df;
     flex-wrap: wrap;
     margin-left:5px;
     align-items: center;
+    z-index: 4;
 
 }
 
 .espacoDiv{
-    /* background-color: rgba(0, 0, 0, 0.6); */
-
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.6);
 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
     width: 300px;
     height: 280px;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     margin-top:50px;
     
-    color:#71553d;
+    color:#eae9e9;
     margin-left: 10px;
     margin-right: 10px;
     overflow: hidden;
@@ -60,7 +63,7 @@ background-color: #e3e0df;
 .espaco{
     width: 100%;
     height: 80%;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     cursor: pointer;
 }
 .espacoDiv:hover{
@@ -69,7 +72,8 @@ background-color: #e3e0df;
     transform: translatey(-10%); //aberbuta do espaço
     transition: 1.5s;
     p{
-        color:#71553d;
+        color:rgba(93,91,91,1);
+        color: #ffffff;
         transition: 2s;
         transform: scale(1.1);
 
@@ -89,7 +93,7 @@ h2{
     font-weight:200;
 }
  p{
-    color:#ad9a70;
+    color:rgba(0, 0, 0, 0.6);
     font-weight: 400;
 
     text-align: center;
@@ -107,6 +111,10 @@ h2{
 @media(max-width: 1067px){
     height:1700px; 
 }
+@media(max-width:1033px ){
+    height:0;
+}
+
 
 @media(max-width:1033px ){
   #container{
@@ -171,6 +179,7 @@ h2{
     }
 }
 }
+
 @media(max-width: 776px){
     height:1700px; 
     

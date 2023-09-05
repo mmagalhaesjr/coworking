@@ -5,13 +5,13 @@ export const StyledPlanos = styled.section`
 
 width: 100%;
 height:800px;
-color:#71553d;
+color:#eae9e9;
 
 display: flex;
+align-items: center;
 flex-direction: column;
+background: radial-gradient(circle, rgba(93,91,91,1) 0%, rgba(0,0,0,1) 100%);
 
-/* background: linear-gradient(45deg, #ffffff 0%, rgba(173,154,112,0.8576680672268908) 100%); */
-background-color: #e3e0df;
 
 
 @media(max-width: 1320px){
@@ -30,12 +30,15 @@ background-color: #e3e0df;
 .titulos{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items:center;
     margin-top: 99px;
     font-size: 50px;
     font-weight: 200;
-    color:#71553d;
-       
-    /* color: #ffffffff; */
+    color:#eae9e9;
+    background-color: #398462;
+    width: 50%;
+    height: 14%;
     z-index: 0;
 }
 h1{
@@ -43,11 +46,14 @@ h1{
 }
 
 #container{
+width: 100%;
 display:flex;
 justify-content:center;
 flex-wrap: wrap;
 margin-top:70px;
 gap: 10px;
+
+
 }
 .planos{
     display: flex;
@@ -56,14 +62,17 @@ gap: 10px;
     align-items: center;
     width: 20%;
     height: 400px;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     margin-left:10px;
     margin-right:10px;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); */
+    background-color: rgba(0, 0, 0, 0.6);
     
-   border: solid 5px #71553d ; 
+    
+   /* border: solid 5px #71553d ;  */
+   border: solid 5px #eae9e9 ;
    
-   background-color: rgba(173,154,112,0.2);
+  
+  
    
    backdrop-filter: blur(10px); 
   
