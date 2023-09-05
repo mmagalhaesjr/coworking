@@ -1,10 +1,7 @@
 // import { useNavigate } from 'react-router-dom';
-
-// import compartilhadas from "../../../assets/salao2.png"
-// import vidro from "../../../assets/vidro.jpg"
-// import dedicada from "../../../assets/salao4.jpg"
-
-// import { AiFillHome } from 'react-icons/ai';
+// import salao from "../../../assets/salao.png"
+// import salao2 from "../../../assets/salao2.jpg"
+// import salao4 from "../../../assets/salao4.jpg"
 
 import { StyledEspacos } from "./styled";
 
@@ -25,7 +22,9 @@ export default function TelaEspacosIndividual() {
 
         <StyledEspacos>
 
-            <section></section>
+            <section>
+                {/* <img src={salao} alt="imagem salão" /> */}
+            </section>
 
             <section className="info">
                 <div className="texto">
@@ -39,7 +38,9 @@ export default function TelaEspacosIndividual() {
                 </div>
             </section>
 
-            <section></section>
+            <section>
+                {/* <img src={salao2} alt="imagem salão" /> */}
+            </section>
 
             <section className="info">
                 <div className="texto">
@@ -53,7 +54,9 @@ export default function TelaEspacosIndividual() {
                 </div>
             </section>
 
-            <section></section>
+            <section>
+                {/* <img src={salao4} alt="imagem salão" /> */}
+            </section>
 
             <section className="info">
                 <div className="texto">
