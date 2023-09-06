@@ -38,38 +38,38 @@ export default function Espacos() {
                 <div id="container">
 
                     <div className="espacoDiv" onClick={individual}>
-                        <img className="espaco" src={dedicada} alt="imagem salão" />
+                        <img className="imgEspaco" src={dedicada} alt="imagem salão" />
                         <div className='divTexto'><h2>Mesas Dedicadas</h2></div>
                         <p>Ideal para autônomos e profissionais liberais que buscam uma estrutura profissional para trabalhar e receber clientes.</p>
                     </div>
                     <div className="espacoDiv" onClick={individual}>
-                        <img className="espaco" src={compartilhadas} alt="imagem salão" />
+                        <img className="imgEspaco" src={compartilhadas} alt="imagem salão" />
                         <div className='divTexto'><h2>Mesas Compartilhadas</h2></div>
                         <p>Escritórios mobiliados com estrutura completa, Oferece privacidade e possibilidade de personalização de acordo com as demandas de sua equipe</p>
                     </div>
                     <div className="espacoDiv" onClick={individual}>
-                        <img className="espaco" src={vidro} alt="imagem salão" />
+                        <img className="imgEspaco" src={vidro} alt="imagem salão" />
                         <div className='divTexto'><h2>Salas Privativas</h2></div>
                         <p>Receba seus clientes em um ambiente profissional e equipado. Disponível nos planos ou aluguel sob demanda.</p>
                     </div>
 
                     <div className="espacoDiv" onClick={individual}>
-                        <img className="espaco" src={atendimento} alt="imagem salão" />
+                        <img className="imgEspaco" src={atendimento} alt="imagem salão" />
                         <div className='divTexto'><h2>Salas de Atendimento</h2></div>
                         <p>Ideal para autônomos e profissionais liberais que buscam uma estrutura profissional para trabalhar e receber clientes.</p>
                     </div>
                     <div className="espacoDiv" onClick={individual}>
-                        <img className="espaco" src={reuniao2} alt="imagem salão" />
+                        <img className="imgEspaco" src={reuniao2} alt="imagem salão" />
                         <div className='divTexto'><h2>Sala de reunião</h2></div>
                         <p>Receba seus clientes em um ambiente profissional e equipado. Disponível nos planos ou aluguel sob demanda.</p>
                     </div>
                     <div className="espacoDiv" onClick={individual}>
-                        <img className="espaco" src={espaço2} alt="imagem salão" />
+                        <img className="imgEspaco" src={espaço2} alt="imagem salão" />
                         <div className='divTexto'><h2>Endereço Fiscal</h2></div>
                         <p>Escritórios mobiliados com estrutura completa, Oferece privacidade e possibilidade de personalização de acordo com as demandas de sua equipe</p>
                     </div>
                     <div className="espacoDiv" onClick={individual}>
-                        <img className="espaco" src={espaço3} alt="imagem salão" />
+                        <img className="imgEspaco" src={espaço3} alt="imagem salão" />
                         <div className='divTexto'><h2>Endereço Comercial</h2></div>
                         <p>Receba seus clientes em um ambiente profissional e equipado. Disponível nos planos ou aluguel sob demanda.</p>
                     </div>
