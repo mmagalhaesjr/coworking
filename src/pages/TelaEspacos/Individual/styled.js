@@ -11,6 +11,15 @@ background-size: cover;
 background-attachment: fixed;
 }
 
+img{
+width: 100%;
+height: 0%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
 section:nth-of-type(1){
     background-image: url(src/assets/salao.png);
     height: 600px;

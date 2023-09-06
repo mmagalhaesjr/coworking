@@ -1,7 +1,7 @@
 // import { useNavigate } from 'react-router-dom';
-// import salao from "../../../assets/salao.png"
-// import salao2 from "../../../assets/salao2.jpg"
-// import salao4 from "../../../assets/salao4.jpg"
+import salao from "../../../assets/salao.png"
+import salao2 from "../../../assets/salao2.jpg"
+import salao4 from "../../../assets/salao4.jpg"
 
 import { StyledEspacos } from "./styled";
 
@@ -23,7 +23,7 @@ export default function TelaEspacosIndividual() {
         <StyledEspacos>
 
             <section>
-                {/* <img src={salao} alt="imagem salão" /> */}
+                <img src={salao} alt="imagem salão" />
             </section>
 
             <section className="info">
@@ -39,7 +39,7 @@ export default function TelaEspacosIndividual() {
             </section>
 
             <section>
-                {/* <img src={salao2} alt="imagem salão" /> */}
+                <img src={salao2} alt="imagem salão" />
             </section>
 
             <section className="info">
@@ -55,7 +55,7 @@ export default function TelaEspacosIndividual() {
             </section>
 
             <section>
-                {/* <img src={salao4} alt="imagem salão" /> */}
+                <img src={salao4} alt="imagem salão" />
             </section>
 
             <section className="info">
