@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const StyledPlanos = styled.section`
 
 width: 100%;
-height:800px;
+height:1200px;
 color:#eae9e9;
 
 display: flex;
@@ -21,10 +21,13 @@ background: radial-gradient(circle, rgba(93,91,91,1) 0%, rgba(0,0,0,1) 100%);
     height:1300px; 
 }
 @media(max-width: 940px){
-    height:1700px; 
+    height:2000px; 
 }
 @media(max-width: 840px){
     height: 2400px;
+}
+@media(max-width: 802px){
+    height: 3000px;
 }
 
 .titulos{
@@ -46,53 +49,65 @@ h1{
 }
 
 #container{
-width: 100%;
+width: 90%;
 display:flex;
-justify-content:center;
+justify-content: center;
+gap: 20px;
 flex-wrap: wrap;
 margin-top:70px;
-gap: 10px;
+
 
 
 }
 .planos{
     display: flex;
     flex-direction: column;
-   
     align-items: center;
-    width: 20%;
-    height: 400px;
+    width: 40%;
+    height: 300px;
     /* border-radius: 15px; */
-    margin-left:10px;
-    margin-right:10px;
     background-color: rgba(0, 0, 0, 0.6);
     
+    backdrop-filter: blur(10px); 
+    border: solid 5px #eae9e9 ;
     
-   /* border: solid 5px #71553d ;  */
-   border: solid 5px #eae9e9 ;
+
+
    
-  
-  
-   
-   backdrop-filter: blur(10px); 
-  
 }
+
 h2{
 font-size: 30px;
 text-align: center;
 margin-top: 10px;
 }
-.icone{
-    margin-top: 10px;
-    font-size: 50px;
+h3{
+font-size: 25px;
+text-align: center; 
 }
 ul{
-margin-top: -20px;
-margin-left: 15%;
+display: flex;
+justify-content: center;
+gap: 20px;
+width: 100%;
+height: 100%;
+overflow: hidden;
+
+margin-left: 10px;
+
 }
 ul li{
     margin-top: 30px;
-    font-weight:400;
+    font-weight:100;
+}
+p{
+    font-size: 15px;
+}
+
+.itens{
+    margin-left: 20px;
+    width: 250px;
+  
 }
 
 @media(max-width:940px) {
@@ -109,15 +124,27 @@ ul li{
         font-size: 60px;
         margin-bottom:130px;
     }
+    .titulos{
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+   }
 }
+
+@media(max-width: 802px){
+    .titulos{
+        margin-top: -50px;
+    }
+    #container{
+        margin-top: -150px;
+    }
+}
+
 @media(max-width: 776px){
     .titulos h1{
         font-size: 35px;
     } 
-    .titulos{
-        background-color: transparent;
-        width: 100%;
-    }
+   
    
 }
 
