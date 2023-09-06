@@ -11,14 +11,24 @@ background-size: cover;
 background-attachment: fixed;
 }
 
-img{
+/* .img1{
 width: 100%;
-height: 0%;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+height: 90%;
 background-attachment: fixed;
+
 }
+.img2{
+width: 100%;
+height: 90%;
+background-attachment: fixed;
+
+}
+.img3{
+width: 100%;
+height: 100%;
+background-attachment: fixed;
+
+} */
 
 section:nth-of-type(1){
     background-image: url(src/assets/salao.png);

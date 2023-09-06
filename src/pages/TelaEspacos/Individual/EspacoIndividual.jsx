@@ -22,8 +22,8 @@ export default function TelaEspacosIndividual() {
 
         <StyledEspacos>
 
-            <section>
-                <img src={salao} alt="imagem salão" />
+            <section className="image-section" style={{ backgroundImage: `url(${salao})` }}>
+
             </section>
 
             <section className="info">
@@ -38,8 +38,8 @@ export default function TelaEspacosIndividual() {
                 </div>
             </section>
 
-            <section>
-                <img src={salao2} alt="imagem salão" />
+            <section className="image-section" style={{ backgroundImage: `url(${salao2})` }}>
+                
             </section>
 
             <section className="info">
@@ -54,8 +54,8 @@ export default function TelaEspacosIndividual() {
                 </div>
             </section>
 
-            <section>
-                <img src={salao4} alt="imagem salão" />
+            <section className="image-section" style={{ backgroundImage: `url(${salao4})` }}>
+
             </section>
 
             <section className="info">
