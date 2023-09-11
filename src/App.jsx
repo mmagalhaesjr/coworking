@@ -4,6 +4,7 @@ import TelaEspacosIndividual from "./pages/TelaEspacos/Individual/EspacoIndividu
 import TelaEspacosReuniao from "./pages/TelaEspacos/Reuniao/EspacoReuniao";
 import TelaQuemSomos from './pages/TelaQuemSomos/QuemSomos';
 import TelaBlog from './pages/Blog/TelaBlog';
+import ConfirmarEnvio from './pages/ConfirmarEnvio/ConfirmarEnvio';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import UserProvider from "./contexts/UserContext";
@@ -26,6 +27,8 @@ export default function App() {
 
                                 <Route path="/quemSomos" element={<TelaQuemSomos />} />
                                 <Route path="/blog" element={<TelaBlog />} />
+                                
+                                <Route path="/confirmar" element={<ConfirmarEnvio />} />
                             </Routes>
                         </div>
                     </UserProvider>
