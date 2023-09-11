@@ -11,7 +11,8 @@ export default function Formulario() {
                 <p> Interessado em saber mais sobre nossos serviços?  Entre em contato com a gente!</p>
             </div>
 
-            <form action="https://formsubmit.co/contato@temasekjf.com.br" method="POST">
+            {/* <form action="https://formsubmit.co/contato@temasekjf.com.br" method="POST"> */}
+            <form action="https://formsubmit.co/marcoszeb2410@gmail.com" method="POST">
             
             
 
