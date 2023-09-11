@@ -11,10 +11,13 @@ export default function Formulario() {
                 <p> Interessado em saber mais sobre nossos serviços?  Entre em contato com a gente!</p>
             </div>
 
-            <form action="https://formsubmit.co/magalhaesmarcosjr@gmail.com" method="POST">
+            <form action="https://formsubmit.co/contato@temasekjf.com.br" method="POST">
+            
+            
 
                 <input type="hidden" name="_next" value='http://localhost:5173/confirmar/' />
-                
+                <input type="hidden" name="_captcha" value="false"></input>
+
                 <div className="inputBox">
                     <input type="text" name="nome" id="nome" className="inputUser" required />
                     <label htmlFor="nome" className="labelInput">Nome completo</label>
