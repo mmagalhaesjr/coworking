@@ -86,6 +86,13 @@ p{
     }
 }
 
+@media (max-width: 776px) {
+    .titulos {
+      width: 100%;
+      background-color: transparent;
+    }
+  }
+
 
 
 `
