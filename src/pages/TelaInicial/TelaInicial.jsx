@@ -8,7 +8,7 @@ import salao from "../../assets/salao.png"
 import Cabecalho from "../../components/Cabecalho/Cabecalho"
 import Espacos from "../../components/Espacos/Espacos"
 import Servicos from "../../components/Servicos/Servicos"
-import Planos from "../../components/Planos/Planos"
+// import Planos from "../../components/Planos/Planos"
 import Formulario from "../../components/Formulario/Formulario"
 import Rodape from "../../components/Rodape/Rodape"
 
@@ -45,7 +45,7 @@ export default function TelaInicial() {
 
             <Espacos />
             <Servicos />
-            <Planos />
+            {/* <Planos /> */}
             <Formulario />
             <Rodape />
 
