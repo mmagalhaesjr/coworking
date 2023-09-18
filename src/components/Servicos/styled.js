@@ -28,7 +28,10 @@ background: radial-gradient(circle, rgba(93, 91, 91, 1) 0%, rgba(0, 0, 0, 1) 100
 
 .titulos{
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    text-align: center;
+    align-items: center;
     
 
     background-color: #398462;
