@@ -9,9 +9,14 @@ export const StyledCabecalho = styled.header`
   nav {
     width: 100%;
     height: 100px;
+    -webkit-backdrop-filter: blur(10px);
+    -webkit-background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.2);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+
+    
+
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -118,10 +123,3 @@ export const StyledCabecalho = styled.header`
 
 `;
 
-// export const Primeirabarra = styled.header`
-// width: 100%;
-// height: 30px;
-// background-color:#000000;
-// position: absolute;
-
-// `
