@@ -8,7 +8,11 @@ color:#ffffff;
 
 display: flex;
 flex-direction: column;
+text-align: center;
+align-items: center;
+
 background-color:#398462;
+background: radial-gradient(circle, rgba(93, 91, 91, 1) 0%, rgba(0, 0, 0, 1) 100%);
 /* background-color:#07653b; */
 
 
@@ -25,9 +29,15 @@ background-color:#398462;
 .titulos{
     display: flex;
     flex-direction: column;
+    
+
+    background-color: #398462;
+    width: 50%;
+    height: 10%;
     margin-top: 99px;
     font-size: 50px;
     font-weight: 200;
+    z-index: 4;
 }
 h1{
     text-align: center;

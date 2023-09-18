@@ -30,7 +30,7 @@ export default function Servicos() {
                 <div className="servicos">
                     <TbAirConditioning />
                     <h2>Ambientes Climatizados</h2>
-                    <p>salas climatizadas e equipadas para acomodar sua equipe e convidados em reuniões.</p>
+                    <p>Salas climatizadas e equipadas para acomodar sua equipe e convidados em reuniões.</p>
                 </div>
                 <div className="servicos">
                     <AiFillPrinter />
