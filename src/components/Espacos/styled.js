@@ -33,6 +33,8 @@ export const StyledEspacos = styled.section`
     margin-left: 5px;
     align-items: center;
     z-index: 4;
+
+   
   }
 
   .espacoDiv {
