@@ -1,3 +1,4 @@
+import foto from '../../assets/foto-capa.jpg'
 
 import { StyledSalas } from "./styled"
 
@@ -6,7 +7,7 @@ import { StyledSalas } from "./styled"
 
 export default function Salas() {
 
-
+   
 
     return (
 
@@ -22,18 +23,29 @@ export default function Salas() {
 
 
             <div id="container">
-                
-               <div className="salas">
+                <div className="salas">
 
-               </div>
-               <div className="salas">
-                
-               </div>
-               <div className="salas">
-                
-               </div>
+                    <img src={foto} alt="" />
+                    <h3>Mesas Dedicadas</h3>
 
+                </div>
+                <div className="salas">
+
+                    <img src={foto} alt="" />
+                    <h3>Mesas Dedicadas</h3>
+
+                </div>
+                <div className="salas">
+
+                    <img src={foto} alt="" />
+                    <h3>Mesas Dedicadas</h3>
+
+                </div>
+               
             </div>
+
+
+
         </StyledSalas>
 
     )

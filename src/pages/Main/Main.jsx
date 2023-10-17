@@ -22,8 +22,8 @@ export default function TelaInicial() {
             {/* <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a> */}
             <Inicial />
             <Salas />
-            <QuemSomos/>
             <Servicos />
+            <QuemSomos/>
             <Planos />
             <Formulario />
             <Rodape />

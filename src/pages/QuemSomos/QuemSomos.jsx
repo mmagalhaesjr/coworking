@@ -7,7 +7,7 @@ export default function QuemSomos() {
         <StyledQuemSomos  id="quemSomos">
 
             <div className="titulos">
-                <h1>oi</h1>
+                <h1></h1>
             </div>
 
             <div id="container" >

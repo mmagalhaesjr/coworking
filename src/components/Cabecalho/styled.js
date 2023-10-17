@@ -4,23 +4,33 @@ import { css } from 'styled-components';
 
 export const StyledCabecalho = styled.header`
 
-  nav {
-    width: 100%;
-    height: 100px;
+&.rolagem {
+
+    nav {
     -webkit-backdrop-filter: blur(10px);
     -webkit-background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);  
+  }
 
+    nav .logo2 img {
+        display: block; 
+    }
+    nav .logo img{
+        display: none;
+    }
     
+    }
 
+  nav {
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     z-index: 5;
-    
-
     position: fixed;    
   }
 
@@ -42,13 +52,22 @@ export const StyledCabecalho = styled.header`
     }
   }
 
-  img {
+  .logo2 img {
+    display: none; 
     width: 310px;
+    height: 80px;
+    margin-top: 7px;
+    background: none; 
+    position: relative;
+    left: -180px;
+    }
+
+  img {
+    width: 330px;
     height: 80px;
     margin-top: 7px;
     background: none;
   }
- 
 
   button{
     height: 100px;

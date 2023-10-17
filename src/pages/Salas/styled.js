@@ -1,42 +1,77 @@
 import styled from 'styled-components';
 
+
 export const StyledSalas = styled.section`
   width:100%;
   height: 100vh;
   
-  /* overflow: hidden; */
+  
+  background-color: #F4F3F0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-
-  background-color: #F4F3F0;
-  background-color: blue;
+  overflow: hidden;
+  
  
 
   #titulos {
     width: 50%;
     height: 300px;
     position: relative;
-    top: -400px;
-    
+    top: -100px;
+    left: -300px;
   }
   #titulos h1{
     font-size: 40px;
   }
-s
-  #container {
-    height: 400px;
+
+  #container{
+    width: 95%;
     display: flex;
-    gap: 30px;
-    border: solid 2px red;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    top:-80px ;
+
+    overflow: hidden; 
+}
+
+.salas {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.3s ease;
 
    
-  }
+}
 
-  .salas{
-    width: 100px;
+.salas img {
     height: 100%;
-    background-color: #092a02;
-  }
+    transition: filter 0.3s ease;
+
+    &:hover {
+        filter: brightness(.4);
+    }
+}
+
+.salas:hover h3 {
+    opacity: 1;
+}
+
+h3 {
+    color: #F4F3F0;;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+
 `;
