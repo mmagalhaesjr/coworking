@@ -22,7 +22,16 @@ export default function Salas() {
 
 
             <div id="container">
+                
+               <div className="salas">
 
+               </div>
+               <div className="salas">
+                
+               </div>
+               <div className="salas">
+                
+               </div>
 
             </div>
         </StyledSalas>

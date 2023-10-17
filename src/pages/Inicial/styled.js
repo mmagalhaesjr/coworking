@@ -31,6 +31,7 @@ background-size: cover;
     display: flex;
     font-size: 60px;
     color: #F4F3F0;
+    cursor: pointer;
     
 }
 
