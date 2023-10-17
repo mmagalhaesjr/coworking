@@ -7,11 +7,11 @@ export const StyledCabecalho = styled.header`
   nav {
     width: 100%;
     height: 100px;
-    /* -webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     -webkit-background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 
     
 
@@ -33,6 +33,8 @@ export const StyledCabecalho = styled.header`
 
   ul li a {
    color: #ffffff;
+  
+
     cursor: pointer;
     &:hover {
       color: #000000;

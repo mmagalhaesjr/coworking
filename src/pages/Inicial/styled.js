@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const StyledInicial = styled.section`
 width: 100%;
 height: 100vh;
@@ -20,6 +21,7 @@ background-size: cover;
     left: 20px;
     font-size: 80px;
     color: #F4F3F0;
+    
 }
 
 #setas{
