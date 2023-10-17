@@ -22,9 +22,9 @@ a{
 #whattsapp{
     z-index: 1;
     position: fixed;
-    font-size: 80px;
+    font-size: 50px;
     right: 25px;
-    top:500px;
+    top:670px;
     cursor: pointer;
     color: #000000;
     text-decoration: none;

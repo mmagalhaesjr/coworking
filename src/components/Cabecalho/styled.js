@@ -4,16 +4,14 @@ import { css } from 'styled-components';
 
 export const StyledCabecalho = styled.header`
 
-
-
   nav {
     width: 100%;
     height: 100px;
-    -webkit-backdrop-filter: blur(10px);
+    /* -webkit-backdrop-filter: blur(10px);
     -webkit-background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); */
 
     
 
@@ -34,12 +32,10 @@ export const StyledCabecalho = styled.header`
   }
 
   ul li a {
-    
-    color: #000000;
-
+   color: #ffffff;
     cursor: pointer;
     &:hover {
-      color: #398462;
+      color: #000000;
       transition: 0.3s;
     }
   }
@@ -53,9 +49,6 @@ export const StyledCabecalho = styled.header`
  
 
   button{
-  
-   border: solid 1px red;
-    
     height: 100px;
     display: none;
     background: none;
@@ -74,16 +67,6 @@ export const StyledCabecalho = styled.header`
     transition:.5s;
  }
 
- /* .linha:nth-child(1){
-    transform: translateY(7px) rotate(-45deg);
-   }
-   .linha:nth-child(2){
-    display: none;
-    }
-    .linha:nth-child(3){
-    transform: translateY(-7px) rotate(45deg);
-    } */
- 
  ${({ mobile }) => mobile && css`
    .linha:nth-child(1){
     transform: translateY(0) rotate(-45deg);

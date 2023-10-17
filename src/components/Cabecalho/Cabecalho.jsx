@@ -1,4 +1,4 @@
-import logo from '../../assets/logo-preto.png';
+import logo from '../../assets/logo.png';
 import { useState } from "react";
 import { useEffect } from 'react';
 // import { useNavigate } from 'react-router-dom';
@@ -23,11 +23,7 @@ export default function Cabecalho() {
         window.open('/blog', "_blank");
         // navegar('/blog');
     };
-    const quemSomos = () => {
-        window.open('/quemSomos', "_blank");
-        // navegar('/quemSomos');
-
-    };
+   
 
     return (
 
@@ -42,12 +38,13 @@ export default function Cabecalho() {
                     <a href="/" className="logo"><img src={logo} alt='logo' /></a>
 
                     <ul className="nav-list">
-                        <li><a href="#espacos">ESPAÇOS</a></li>
-                        <li><a href="#servicos">SERVIÇOS</a></li>
-                        <li><a href="#planos">PLANOS</a></li>
-                        <li><a href="#contato">CONTATO</a></li>
-                        <li><a onClick={blog} >BLOG</a></li>
-                        <li><a onClick={quemSomos}  >QUEM SOMOS</a></li>
+                        <li><a href="#quemSomos" >Sobre nós</a></li>
+                        <li><a href="#salas">Sslas</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#planos">Planos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <li><a onClick={blog} >Blog</a></li>
+                        
                     </ul>
 
                     <button onClick={mobile}  >

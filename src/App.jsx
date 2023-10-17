@@ -1,13 +1,9 @@
-import TelaInicial from "./pages/TelaInicial/TelaInicial";
-import TelaEspacoPrivativo from "./pages/TelaEspacos/Privativo/EspacoPrivativo";
-import TelaEspacosIndividual from "./pages/TelaEspacos/Individual/EspacoIndividual";
-import TelaEspacosReuniao from "./pages/TelaEspacos/Reuniao/EspacoReuniao";
-import TelaQuemSomos from './pages/TelaQuemSomos/QuemSomos';
-import TelaBlog from './pages/Blog/TelaBlog';
-import ConfirmarEnvio from './pages/ConfirmarEnvio/ConfirmarEnvio';
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import UserProvider from "./contexts/UserContext";
+
+import TelaBlog from './pages/Blog/TelaBlog';
+import ConfirmarEnvio from './pages/ConfirmarEnvio/ConfirmarEnvio';
+import Main from './pages/Main/Main'
 
 
 export default function App() {
@@ -20,14 +16,10 @@ export default function App() {
                     <UserProvider>
                         <div className="App">
                             <Routes>
-                                <Route path="/" element={<TelaInicial />} />
-                                <Route path="/privativo" element={<TelaEspacoPrivativo />} />
-                                <Route path="/individual" element={<TelaEspacosIndividual />} />
-                                <Route path="/reuniao" element={<TelaEspacosReuniao />} />
-
-                                <Route path="/quemSomos" element={<TelaQuemSomos />} />
-                                <Route path="/blog" element={<TelaBlog />} />
                                 
+
+                                <Route path="/" element={<Main />} />
+                                <Route path="/blog" element={<TelaBlog />} />
                                 <Route path="/confirmar" element={<ConfirmarEnvio />} />
                             </Routes>
                         </div>
