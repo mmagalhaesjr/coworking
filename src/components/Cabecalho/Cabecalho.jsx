@@ -55,7 +55,7 @@ export default function Cabecalho() {
 
                     <ul className="nav-list">
                         <li><a href="#quemSomos" >Sobre nós</a></li>
-                        <li><a href="#salas">Salas</a></li>
+                        <li><a href="#salas">Espaços</a></li>
                         <li><a href="#servicos">Serviços</a></li>
                         <li><a href="#planos">Planos</a></li>
                         <li><a href="#contato">Contato</a></li>
