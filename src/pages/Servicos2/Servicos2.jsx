@@ -14,8 +14,8 @@ export default function Servicos2() {
 
                     <div id="titulo">
                         <h1>
-                            Oferecemos serviços exclusivos
-                            para atender ás necessidades
+                            Oferecemos serviços exclusivos <br></br>
+                            para atender ás necessidades<br></br>
                             de todos os profissionais:
                         </h1>
 

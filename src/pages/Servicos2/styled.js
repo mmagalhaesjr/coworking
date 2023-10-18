@@ -34,12 +34,11 @@ height:100vh;
     display: flex;
     text-align: start;
     line-height: 1.2;
-    width: 80%;
-    font-size: 60px;
-    margin-top: 60px;
+    font-size: 45px;
+    margin-top: 130px;
 }
 ul{
-    font-size: 40px;
+    font-size: 35px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -56,7 +55,7 @@ ul{
 img{
     position: absolute;
     width: 35%;
-    left: 55%;
+    left: 56%;
     margin-top: 100px;
     
 
