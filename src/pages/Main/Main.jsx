@@ -10,6 +10,7 @@ import Inicial from "../Inicial/Inicial";
 import Cabecalho from "../../components/Cabecalho/Cabecalho"
 import Formulario from "../../components/Formulario/Formulario"
 import Rodape from "../../components/Rodape/Rodape"
+import Servicos2 from "../Servicos2/Servicos2";
 
 
 
@@ -23,6 +24,7 @@ export default function TelaInicial() {
             <Inicial />
             <Salas />
             <Servicos />
+            <Servicos2 />
             <QuemSomos/>
             <Planos />
             <Formulario />

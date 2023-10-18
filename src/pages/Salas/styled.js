@@ -28,6 +28,10 @@ export const StyledSalas = styled.section`
     position: relative;
     top:-60px ;
 }
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Efeito de transição suave durante 0.5 segundos */
+}
 .salas {
     width: 500px;
     height:30rem;

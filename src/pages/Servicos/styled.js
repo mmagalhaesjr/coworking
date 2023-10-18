@@ -11,7 +11,7 @@ flex-direction: column;
 text-align: center;
 align-items: center;
 
-background-color: #101010;
+background-color: #F4F3F0 ;
 
 #titulos {
     width: 50%;
@@ -21,7 +21,7 @@ background-color: #101010;
     
   }
   #titulos h1{
-    color:#F4F3F0 ;
+    color:#101010; 
     font-size: 40px;
   }
 
@@ -32,17 +32,25 @@ position: relative;
 top: -100px;
 
 display: flex;
+flex-direction: column;
 flex-wrap: wrap;
 justify-content: center;
 gap: 20px;
+}
 
-
-/* border: solid 1px #ffffff; */
-
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -100px;
+    gap: 50px;
+    margin-top: 100px;
+    
 }
 
 .cx{
-width:280px;
+width:190px;
 height: 200px;
 
 display: flex;
@@ -50,14 +58,14 @@ flex-direction: column;
 text-align: center;
 align-items: center;
 justify-content: center;
+color:#101010;
 
-color:#F4F3F0 ;
-/* border: solid 1px #ffffff; */
+
 }
 
 
 .cx h2{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
     margin-top: 10px;
 }
@@ -67,7 +75,7 @@ color:#F4F3F0 ;
   
 }
 .cx p{
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 10px;
     
    
