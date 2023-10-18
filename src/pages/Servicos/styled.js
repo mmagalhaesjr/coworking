@@ -17,7 +17,7 @@ background-color: #101010;
     width: 50%;
     height: 300px;
     position: relative;
-    top: -100px;
+    top: -150px;
     
   }
   #titulos h1{
@@ -29,7 +29,7 @@ background-color: #101010;
 width: 100%;
 height: 100%;
 position: relative;
-top: -50px;
+top: -100px;
 
 display: flex;
 flex-wrap: wrap;
@@ -59,15 +59,17 @@ color:#F4F3F0 ;
 .cx h2{
     font-size: 15px;
     font-weight: 600;
+    margin-top: 10px;
 }
 .cx img{
     width: 60px;
     height: 50px;
-    margin-top: 10px;
+  
 }
 .cx p{
     font-size: 13px;
     margin-top: 10px;
+    
    
 }
 

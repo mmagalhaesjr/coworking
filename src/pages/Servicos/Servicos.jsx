@@ -25,53 +25,53 @@ export default function Servicos() {
             <div id="container" >
 
                 <div className="cx" >
-                    <h2>Wifi</h2>
                     <img src={img1} alt="" />
+                    <h2>Wifi</h2>
                     <p>Fornecemos internet sem fio de alta velocidade.</p>
                 </div>
                 <div className="cx" >
-                    <h2>Coffee break</h2>
                     <img src={img2} alt="" />
+                    <h2>Coffee break</h2>
                     <p>A copa compartilhada oferece máquina de café e água para chá.</p>
                 </div>
                 <div className="cx" >
-                    <h2>Armários</h2>
                     <img src={img3} alt="" />
+                    <h2>Armários</h2>
                     <p>Armários para armazenar seus pertences com segurança.</p>
                 </div>
                 <div className="cx" >
+                <img src={img4} alt="" />
                     <h2>impressora</h2>
-                    <img src={img4} alt="" />
                     <p>Impressão e digitalização para você ter sempre em mãos o que precisa.</p>
                 </div>
                 <div className="cx" >
+                <img src={img5} alt="" />
                     <h2>Ambientes Climatizados</h2>
-                    <img src={img5} alt="" />
                     <p>Salas climatizadas e equipadas para acomodar sua equipe e convidados em reuniões.</p>
                 </div>
                 <div className="cx" >
+                <img src={img6} alt="" />
                     <h2>Reconhecimento Facial</h2>
-                    <img src={img6} alt="" />
                     <p>Acesso por Reconhecimento facial para todos os membros.</p>
                 </div>
                 <div className="cx" >
+                <img src={img7} alt="" />
                     <h2>Equipe Dedicada</h2>
-                    <img src={img7} alt="" />
                     <p>A equipe de coworking oferece suporte para otimizar o ambiente de trabalho compartilhado.</p>
                 </div>
                 <div className="cx" >
+                <img src={img8} alt="" />
                     <h2></h2>
-                    <img src={img8} alt="" />
                     <p></p>
                 </div>
                 <div className="cx" >
+                <img src={img9} alt="" />
                     <h2></h2>
-                    <img src={img9} alt="" />
                     <p></p>
                 </div>
                 <div className="cx" >
+                <img src={img10} alt="" />
                     <h2></h2>
-                    <img src={img10} alt="" />
                     <p></p>
                 </div>
 

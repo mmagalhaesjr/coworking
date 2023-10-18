@@ -29,10 +29,11 @@ background-size: cover;
     top: 580px;
     left: 90%;
     display: flex;
-    font-size: 60px;
+    gap: 10px;
+    font-size: 45px;
     color: #F4F3F0;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
+
 
 `
