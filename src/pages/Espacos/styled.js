@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const StyledEspacos = styled.section`
   width: 100%;
   height: 100vh;
@@ -8,6 +9,9 @@ export const StyledEspacos = styled.section`
   flex-direction: column;
   align-items: center;
   overflow: hidden;
+
+
+
   
   #titulos {
     width: 50%;
@@ -26,17 +30,17 @@ export const StyledEspacos = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+ 
     position: relative;
     top: -60px;
     overflow: hidden;
+
+   
+
+   border: solid 2px blue;
   }
   
-  .carousel-container {
-    display: flex;
-    transition: transform 1s ease-in-out; 
-  }
-  
+ 
   .salas {
     width: 500px;
     height: 30rem;
@@ -73,15 +77,5 @@ export const StyledEspacos = styled.section`
     cursor: pointer;
   }
   
-  #seta {
-    position: absolute;
-    left: 92%;
-    font-size: 100px;
-    color: #000000;
-    cursor: pointer;
-    
-    &:hover {
-        color: #737373;
-    }
-  }
+  
 `;

@@ -4,6 +4,10 @@ import App from './App.jsx'
 import GlobalStyle from './styles/GlobalStyle.js'
 
 
+
+
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <GlobalStyle/>
