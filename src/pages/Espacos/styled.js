@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-export const StyledSalas = styled.section`
-  width:100%;
+export const StyledEspacos = styled.section`
+  width: 100%;
   height: 100vh;
   background-color: #F4F3F0;
   display: flex;
@@ -16,47 +16,52 @@ export const StyledSalas = styled.section`
     top: -120px;
     left: -300px;
   }
-  #titulos h1{
+  
+  #titulos h1 {
     font-size: 30px;
   }
-  #container{
+  
+  #container {
     width: 95%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
     position: relative;
-    top:-60px ;
-}
-.carousel-container {
+    top: -60px;
+    overflow: hidden;
+  }
+  
+  .carousel-container {
     display: flex;
-    transition: transform 0.5s ease-in-out; /* Efeito de transição suave durante 0.5 segundos */
-}
-.salas {
+    transition: transform 1s ease-in-out; 
+  }
+  
+  .salas {
     width: 500px;
-    height:30rem;
+    height: 30rem;
     overflow: hidden;
     position: relative;
-    transition: transform 0.3s ease;
-}
-.salas img {
+  }
+  
+  .salas img {
     width: 100%;
     height: 100%;
-    transition: filter 0.3s ease, transform 0.3s ease;
+    transition: filter 0.3s ease, transform 1s ease;
     cursor: pointer;
-   
-
-    &:hover {
-        filter: brightness(.4);
-        transform: scale(1.1);
-    }
-}
-.salas:hover h3 {
+  }
+  
+  .salas img:hover {
+    filter: brightness(.4);
+    transform: scale(1.1);
+  }
+  
+  .salas:hover h3 {
     opacity: 1;
-}
-
-h3 {
-    color: #F4F3F0;;
+  }
+  
+  h3 {
+    color: #F4F3F0;
     font-size: 50px;
     text-align: center;
     position: absolute;
@@ -64,19 +69,19 @@ h3 {
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 1s ease;
     cursor: pointer;
-}
-
-#seta{
+  }
+  
+  #seta {
     position: absolute;
-    left:92%;
+    left: 92%;
     font-size: 100px;
     color: #000000;
     cursor: pointer;
+    
     &:hover {
         color: #737373;
-    } 
-   
-}
+    }
+  }
 `;

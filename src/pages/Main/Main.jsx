@@ -3,7 +3,7 @@ import { StyledTelaInicial } from "./styled";
 
 import Servicos from "../Servicos/Servicos"
 
-import Salas from '../Salas/Salas'
+import Espacos from '../Espacos/Espacos'
 import Inicial from "../Inicial/Inicial";
 
 import Cabecalho from "../../components/Cabecalho/Cabecalho"
@@ -21,7 +21,7 @@ export default function TelaInicial() {
             <Cabecalho />
             {/* <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a> */}
             <Inicial />
-            <Salas />
+            <Espacos />
             <Servicos />
             <Servicos2 />
             <Formulario />
