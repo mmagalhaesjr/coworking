@@ -1,4 +1,5 @@
 import logo from '../../assets/logo.png';
+//import logo from '../../assets/logo-preto.png';
 
 import { AiOutlineInstagram, AiOutlineFacebook, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
 import { BsFillTelephoneFill } from 'react-icons/bs';
@@ -13,7 +14,7 @@ export default function Rodape() {
             <div id="container">
                 <div className="container">
                     <h3>Contato</h3>
-                    <div className="contInterno" id="endereço" >
+                    <div className="contInterno" id="contato" >
                         <div className="icones">
                             <BsFillTelephoneFill /> <p>(32) 99850-1001</p>
                         </div>

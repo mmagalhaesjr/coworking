@@ -2,18 +2,15 @@ import styled from 'styled-components';
 
 export const StyledFormulario = styled.section`
 display: flex;
-flex-direction: column;
 justify-content: center;
 align-items: center;
-height: 800px;
-background-color:#171B1E;
+height:80vh;
+background-color: #F4F3F0;
 
-@media(max-width:600px ){
-    height: 820px;
-}
+
 
 form{
-    width:60%; 
+    width:50%; 
     height:60%;
     display: flex;
     flex-direction: column;
@@ -23,27 +20,30 @@ form{
     background-color: rgba(0, 0, 0, 0.9);
     /* border-radius: 15px; */
     margin-top: -100px;
-    margin-bottom: 20px; 
+
+    position: relative;
+    left: -100px;
+
+   
+   
 }
 #titulos{
-    width: 90%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     position: relative;
     top:-150px;
     text-align: center;
-    color:#eae9e9;
+    color:#000000;
     font-weight:100;  
+
+    line-height: 1.5;
 }
 
 #titulos h1{
     font-size:50px;
 }
-#titulos p{
-    font-size: 17px;
-    font-weight: 200;
-    margin-bottom: 10px;
-} 
+
 
 input{
     margin-bottom: 30px;

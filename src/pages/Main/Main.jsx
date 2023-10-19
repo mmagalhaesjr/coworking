@@ -1,9 +1,8 @@
 import { StyledTelaInicial } from "./styled";
 // import { BsWhatsapp } from 'react-icons/bs';
 
-import QuemSomos from "../QuemSomos/QuemSomos"
 import Servicos from "../Servicos/Servicos"
-import Planos from "../Planos/Planos"
+
 import Salas from '../Salas/Salas'
 import Inicial from "../Inicial/Inicial";
 
@@ -25,8 +24,6 @@ export default function TelaInicial() {
             <Salas />
             <Servicos />
             <Servicos2 />
-            <QuemSomos/>
-            <Planos />
             <Formulario />
             <Rodape />
 

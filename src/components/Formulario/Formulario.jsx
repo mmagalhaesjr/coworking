@@ -6,9 +6,18 @@ export default function Formulario() {
     return (
         <StyledFormulario id="contato" >
 
+
+
             <div id="titulos">
-                <h1>CONTATO</h1>
-                <p> Interessado em saber mais sobre nossos serviços?  Entre em contato com a gente!</p>
+                <h1>
+                    Entre em contato <br /> 
+                    conosco e agende 
+                    uma visita <br /> 
+                    para conhecer nosso <br /> 
+                    espaço e serviços!
+                
+                </h1>
+                
             </div>
 
             <form action="https://formsubmit.co/contato@temasekjf.com.br" method="POST">

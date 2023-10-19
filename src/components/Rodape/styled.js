@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const StyledRodape = styled.footer`
 
 background-color:#2A2A2A;
+
 height: 250px;
 
 display: flex;
@@ -10,6 +11,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 color: #ffffff;
+
 
 @media(max-width:940px){
     height:1000px;
@@ -43,6 +45,7 @@ color: #ffffff;
         height: 100px;
         display: flex;
         color:#ffffff;
+       
         font-size: 30px;
         margin-top: 30px;
 
@@ -60,7 +63,9 @@ color: #ffffff;
     width: 100%;
         height: 100px;
         display: flex;
-        color:#ffffff;
+       
+       
+
         font-size: 30px;
         margin-top: 30px;
 
@@ -75,9 +80,12 @@ color: #ffffff;
 
 ul li a{
 color: #ffffff;
+
+
+
 cursor: pointer;
 &:hover{
-    color:#398462; 
+    color:#926F5D; 
     transition:0.3s;
     }
 }
@@ -92,10 +100,13 @@ h3{
 margin-top: -30px;
 font-size: 30px;
 color: #ffffff;
+
+
 }
 
 p{
 font-size: 16px;
+
 }
 
 #endereço{
@@ -103,6 +114,16 @@ gap:3px;
 text-align: center;
 flex-direction: column;
 font-size: 15px;
+
+}
+
+#contato{
+display: flex;
+text-align: start;
+flex-direction: column;
+gap:10px;
+font-size: 15px;
+
 
 }
 
@@ -120,11 +141,12 @@ h6{
 .icones{
     display: flex;
     gap:5px;
+    
 }
 
 #endereco li a #endereço{
     &:hover{
-    color:#398462; 
+    color:#926F5D; 
     transition:0.3s;
     }
 }
