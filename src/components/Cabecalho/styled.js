@@ -49,7 +49,7 @@ export const StyledCabecalho = styled.header`
     gap: 70px;
     align-items: center;
     list-style: none;
-    font-size: 25px;
+    font-size: 18px;
   }
 
   ul li a {

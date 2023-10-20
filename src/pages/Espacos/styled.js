@@ -35,9 +35,6 @@ export const StyledEspacos = styled.section`
     top: -60px;
     overflow: hidden;
 
-   
-
-   border: solid 2px blue;
   }
   
  

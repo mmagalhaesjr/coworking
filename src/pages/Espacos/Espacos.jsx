@@ -12,6 +12,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
+
 const Espacos = () => {
     return (
         <StyledEspacos id="espacos">
@@ -28,40 +29,52 @@ const Espacos = () => {
                     slidesPerView={3}
                     onSlideChange={() => console.log('slide change')}
                 >
-                    <SwiperSlide>
-                        <div className="salas">
-                            <img src={foto1} alt='' />
-                            <h3>Mesas Dedicadas</h3>
-                        </div>
-                    </SwiperSlide>
+                    <nav>
+                        <SwiperSlide>
+                            <a href="/compartilhada">
+                                <div className="salas">
+                                    <img src={foto1} alt='' />
+                                    <h3>Mesa compartilhada</h3>
+                                </div>
+                            </a>
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                        <div className="salas">
-                            <img src={foto2} alt='' />
-                            <h3>Mesas Dedicadas</h3>
-                        </div>
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <a href="/dedicada">
+                                <div className="salas">
+                                    <img src={foto2} alt='' />
+                                    <h3>Mesa dedicada</h3>
+                                </div>
+                            </a>
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                        <div className="salas">
-                            <img src={foto3} alt='' />
-                            <h3>Mesas Dedicadas</h3>
-                        </div>
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <a href="/atendimento">
+                                <div className="salas">
+                                    <img src={foto3} alt='' />
+                                    <h3>Salas de atendimento</h3>
+                                </div>
+                            </a>
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                        <div className="salas">
-                            <img src={foto4} alt='' />
-                            <h3>Mesas Dedicadas</h3>
-                        </div>
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <a href="/privativa" >
+                                <div className="salas">
+                                    <img src={foto4} alt='' />
+                                    <h3>Salas Privativas</h3>
+                                </div>
+                            </a>
+                        </SwiperSlide>
 
-                    <SwiperSlide>
-                        <div className="salas">
-                            <img src={foto5} alt='' />
-                            <h3>Mesas Dedicadas</h3>
-                        </div>
-                    </SwiperSlide>
+                        <SwiperSlide>
+                            <a href="/reuniao">
+                                <div className="salas">
+                                    <img src={foto5} alt='' />
+                                    <h3>Salas de reunião</h3>
+                                </div>
+                            </a>
+                        </SwiperSlide>
+                    </nav>
                 </Swiper>
             </div>
         </StyledEspacos>
@@ -69,3 +82,4 @@ const Espacos = () => {
 };
 
 export default Espacos;
+
