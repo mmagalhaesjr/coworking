@@ -10,9 +10,6 @@ export const StyledEspacos = styled.section`
   align-items: center;
   overflow: hidden;
 
-
-
-  
   #titulos {
     width: 50%;
     height: 300px;
@@ -29,20 +26,20 @@ export const StyledEspacos = styled.section`
     width: 95%;
     display: flex;
     align-items: center;
-    justify-content: center;
- 
     position: relative;
     top: -60px;
     overflow: hidden;
-
   }
   
  
   .salas {
-    width: 500px;
-    height: 30rem;
+    width: 100%;
+    height: 700px;
     overflow: hidden;
     position: relative;
+   
+
+    border: solid 25px #F4F3F0;
   }
   
   .salas img {
