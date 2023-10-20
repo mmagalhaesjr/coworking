@@ -15,7 +15,7 @@ height:100vh;
     display: flex;
     text-align: center;
     align-items: center;
-    background-color: #F4F3F0 ;
+    background-color:  #F4F3F0;
 }
 
 #containerTxt{
@@ -23,9 +23,10 @@ height:100vh;
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
     align-items: center;
-    gap: 100px;
+    gap: 10%;
 
     margin-top: 100px;
    
@@ -35,7 +36,7 @@ height:100vh;
     text-align: start;
     line-height: 1.2;
     font-size: 45px;
-    margin-top: 130px;
+
 }
 ul{
     font-size: 35px;

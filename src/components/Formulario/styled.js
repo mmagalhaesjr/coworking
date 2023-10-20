@@ -6,12 +6,13 @@ justify-content: center;
 align-items: center;
 height:80vh;
 background-color: #F4F3F0;
-
+gap: 100px;
 
 
 form{
     width:50%; 
-    height:60%;
+    height:70%;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +25,7 @@ form{
     position: relative;
     left: -100px;
 
-   
+    border-radius: 30px;
    
 }
 #titulos{
@@ -109,8 +110,8 @@ input{
 button{
         background-color: #2A2A2A;
         color:#eae9e9;
-        width: 300px;
-        height: 60px;
+        width: 35%;
+        height: 10%;
         font-size: 15px;
         cursor: pointer;
         border-radius: 10px;
