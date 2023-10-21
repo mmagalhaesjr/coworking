@@ -19,13 +19,14 @@ form{
     align-items: center;
     color: white;
     background-color: rgba(0, 0, 0, 0.9);
+    background-color: #000000;
     /* border-radius: 15px; */
     margin-top: -100px;
 
     position: relative;
     left: -100px;
 
-    border-radius: 30px;
+   
    
 }
 #titulos{
