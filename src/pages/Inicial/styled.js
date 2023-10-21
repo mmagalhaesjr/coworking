@@ -13,7 +13,7 @@ background-size: cover;
 #titulo{
     position: relative;
     width: 100%;
-    top: 550px;
+    top: 80%;
     border-bottom: 1px solid #ffffff;
 }
 #titulo h1{
@@ -21,12 +21,11 @@ background-size: cover;
     left: 20px;
     font-size: 80px;
     color: #F4F3F0;
-    
 }
 
 #setas{
     position: relative;
-    top: 580px;
+    top: 80%;
     left: 90%;
     display: flex;
     gap: 10px;
