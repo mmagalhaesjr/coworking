@@ -41,8 +41,6 @@ text-align: center;
 align-items: center;
 justify-content: center;
 color:#101010;
-
-
 }
 
 

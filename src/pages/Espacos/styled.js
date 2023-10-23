@@ -48,7 +48,10 @@ export const StyledEspacos = styled.section`
     width: 100%;
     height: 100%;
     border-right: 15px solid  #F4F3F0;
-    border-left: 15px solid  #F4F3F0;;
+    border-left: 15px solid  #F4F3F0;
+    overflow:hidden;
+
+    
   }
   
   .salas img {
@@ -60,7 +63,7 @@ export const StyledEspacos = styled.section`
   
   .salas img:hover {
     filter: brightness(.4);
-    transform: scale(1.1);
+    transform: scale(1.2);
   }
   
   .salas:hover h3 {
