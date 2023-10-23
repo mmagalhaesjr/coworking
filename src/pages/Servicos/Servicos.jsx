@@ -23,11 +23,7 @@ export default function Servicos() {
             </div>
 
             <div id="container" >
-
-
-                <div className='cont'>
-
-                    <div className="cx" >
+            <div className="cx" >
                         <img src={img1} alt="" />
                         <h2>Wifi</h2>
                         <p>Fornecemos internet sem fio de alta velocidade.</p>
@@ -52,13 +48,6 @@ export default function Servicos() {
                         <h2>Ambientes climatizados</h2>
                         <p>Salas climatizadas e equipadas para acomodar sua equipe e convidados em reuniões.</p>
                     </div>
-
-                </div>
-
-
-
-                <div className='cont'>
-
                     <div className="cx" >
                         <img src={img6} alt="" />
                         <h2>Reconhecimento facial</h2>
@@ -79,8 +68,6 @@ export default function Servicos() {
                         <h2>Endereço Fiscal e Comercial</h2>
                         <p>Gestão e recebimento de correspondência</p>
                     </div>
-
-                </div>
 
 
             </div>

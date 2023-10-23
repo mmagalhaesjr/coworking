@@ -5,15 +5,15 @@ export const StyledInicial = styled.section`
 width: 100%;
 height: 100vh;
 overflow: hidden;
-
+position: relative;
 background-image: url(src/assets/foto-capa.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 
 #titulo{
-    position: relative;
+    position: absolute;
     width: 100%;
-    top: 80%;
+    bottom: 5%;
     border-bottom: 1px solid #ffffff;
 }
 #titulo h1{
@@ -34,5 +34,14 @@ background-size: cover;
     cursor: pointer;   
 }
 
+@media (max-width:800px){
+	#titulo h1{
+    font-size: 50px;
+}
 
+@media (max-width:500px){
+	#titulo h1{
+    font-size: 30px;
+}
+}
 `

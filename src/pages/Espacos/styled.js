@@ -7,15 +7,12 @@ export const StyledEspacos = styled.section`
   background-color: #F4F3F0;
   display: flex;
   flex-direction: column;
-  align-items: center;
   overflow: hidden;
-
+padding-top: 35px;
   #titulos {
     width: 50%;
-    height: 300px;
-    position: relative;
-    top: -120px;
-    left: -300px;
+    margin-top: 3%;
+    margin-left: 5%;
   }
   
   #titulos h1 {
@@ -24,21 +21,17 @@ export const StyledEspacos = styled.section`
   
   #container {
     width: 95%;
+    height: 90%;
     display: flex;
     align-items: center;
-    position: relative;
-    top: -60px;
-    overflow: hidden;
+    margin: auto;
   }
   
  
   .salas {
     width: 100%;
-    height: 700px;
+    height: 100%;
     overflow: hidden;
-    position: relative;
-   
-
     border: solid 25px #F4F3F0;
   }
   

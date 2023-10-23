@@ -4,14 +4,6 @@ import styled from 'styled-components';
 export const StyledTelaInicial = styled.section`
 
 
-
-#titulos{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 200px;
-}
 p{font-size:20px;
 }
 
