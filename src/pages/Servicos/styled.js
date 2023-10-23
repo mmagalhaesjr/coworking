@@ -29,12 +29,13 @@ justify-content: center;
 align-items: center;
 width: 90%;
 max-width: 1000px;
+gap: 50px;
 }
 
 
 .cx{
-max-width:190px;
-min-width: 140px;
+max-width:300px;
+min-width:300px;
 width: 20%;
 height: 200px;
 display: flex;
@@ -43,6 +44,8 @@ text-align: center;
 align-items: center;
 justify-content: center;
 color:#101010;
+
+
 }
 
 

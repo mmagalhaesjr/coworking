@@ -36,7 +36,7 @@ export default function Servicos() {
                     <div className="cx" >
                         <img src={img3} alt="" />
                         <h2>Armários</h2>
-                        <p>Armários para armazenar seus pertences com segurança.</p>
+                        <p> Espaços individuais para armazenar seus pertences com segurança.</p>
                     </div>
                     <div className="cx" >
                         <img src={img4} alt="" />
@@ -46,7 +46,7 @@ export default function Servicos() {
                     <div className="cx" >
                         <img src={img5} alt="" />
                         <h2>Ambientes climatizados</h2>
-                        <p>Salas climatizadas e equipadas para acomodar sua equipe e convidados em reuniões.</p>
+                        <p>Salas climatizadas para acomodar sua equipe e convidados em reuniões.</p>
                     </div>
                     <div className="cx" >
                         <img src={img6} alt="" />
@@ -56,17 +56,17 @@ export default function Servicos() {
                     <div className="cx" >
                         <img src={img7} alt="" />
                         <h2>Equipe dedicada</h2>
-                        <p>A equipe de coworking oferece suporte para otimizar o ambiente de trabalho compartilhado.</p>
+                        <p>Nossa equipe oferece suporte para otimizar o ambiente de trabalho compartilhado.</p>
                     </div>
                     <div className="cx" >
                         <img src={img8} alt="" />
                         <h2>Linha telefonica privativa</h2>
-                        <p>Cabines teleônicas privadas para reuniões</p>
+                        <p>Cabines telefônicas privadas para reuniões</p>
                     </div>
                     <div className="cx" >
                         <img src={img9} alt="" />
                         <h2>Endereço Fiscal e Comercial</h2>
-                        <p>Gestão e recebimento de correspondência</p>
+                        <p>Gestão e recebimento de correspondências</p>
                     </div>
 
 
