@@ -41,12 +41,12 @@ export default function MCompartilhada() {
                                 Acesso diário a uma mesa compartilhada em um espaço comum com toda a
                                 estrutura da nossa comunidade. Ideal para uma pessoa e equipes reduzidas.
                             </h2>
-                            <h3>
-                                Reserve o dia que deseja trabalhar, sem compromisso mensal
-                                Acesso a salas de reunião, com pagamento pelo uso
-                                Trabalhe em um espaço compartilhado com a comunidade Temasek.
-                                Wifi de alta velocidade e serviços de impressão
-                            </h3>
+                            <ul>
+                                <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
+                                <li>Acesso a salas de reunião, com pagamento pelo uso</li>
+                                <li>Trabalhe em um espaço compartilhado com a comunidade Temasek.</li>
+                                <li>Wifi de alta velocidade e serviços de impressão</li>
+                            </ul>
                         </div>
                     </div>
 

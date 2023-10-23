@@ -57,7 +57,8 @@ font-size: 40px;
     margin-top: 50px;
     font-weight: 100;
 }
-#texto h3{
+
+#texto ul li{
     font-size: 25px;
     margin-top: 50px;
     font-weight: 100;
@@ -117,8 +118,9 @@ font-size: 40px;
 export const StyledMCompartilhada2 = styled.section`
 
 width: 100%;
-height: 140vh;
-background-color: #F4F3F0 ;
+height: 200vh;
+background-color: #F4F3F0
+;
 
 display: flex;
 flex-direction: column;
@@ -161,10 +163,6 @@ margin-top: 150px;
     margin-top: 20px;
     
 }
-
-
-
-
 #container2{
     width: 50%;
     display: flex;
@@ -213,7 +211,7 @@ margin-top: 150px;
         height: 20%;
         background-color: #000000;
         color: #F4F3F0;
-        font-size: 25px;
+        font-size: 20px;
         border-radius: 20px;
         border: none;
         cursor: pointer;
