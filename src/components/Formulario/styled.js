@@ -68,7 +68,8 @@ input{
 .inputUser:valid ~ .labelInput{
     top: -20px;
     font-size: 12px;
-    color: #398462;
+  
+    color:#926F5D; 
 }
 
 .imputMesnsagem{
@@ -86,7 +87,7 @@ input{
 .imputMesnsagem:valid ~ .labelInput{
     top: -10px;
     font-size: 12px;
-    color: #398462;
+    color:#926F5D; 
 }
 
 .labelInput{
@@ -118,9 +119,10 @@ button{
         border-radius: 10px;
         position:relative;
         top:20px;
+        border: none;
     &:hover{
-        border: 2px solid #eae9e9;
-        color:#398462;
+        background-color: #504f4fd2;
+        color:#926F5D; 
         transition:0.7s;
 
     }

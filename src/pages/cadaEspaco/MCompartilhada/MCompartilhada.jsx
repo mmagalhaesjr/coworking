@@ -60,7 +60,7 @@ export default function MCompartilhada() {
 
                 </div>
 
-                <div className="faixa">
+                {/* <div className="faixa">
 
                     <div className="cxIcone">
                         <img src={icone1} alt="" />
@@ -82,7 +82,8 @@ export default function MCompartilhada() {
                     </div>
 
 
-                </div>
+                </div> */}
+                
             </StyledMCompartilhada>
 
             <StyledMCompartilhada2>

@@ -65,6 +65,7 @@ font-size: 40px;
 }
 #cor{
     background-color: #9C6839;
+    background-color: #000000;
     width: 40%;
     height: 100%;
     margin-right: 40px;
@@ -89,7 +90,6 @@ font-size: 40px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
 }
 .cxIcone{
         width: 200px; 
@@ -144,8 +144,8 @@ margin-top: 150px;
 }
 
 #container1 img{
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
 
    
 }
