@@ -16,7 +16,7 @@ export default function Inicial() {
 
             <div id="titulo">
                 <h1 >
-                    O mais novo modelo de trabalho
+                    O mais novo espaço de trabalho
                 </h1>
 
             </div>
