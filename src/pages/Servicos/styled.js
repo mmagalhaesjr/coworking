@@ -25,16 +25,14 @@ flex-wrap: wrap;
 justify-content: space-evenly;
 align-items: center;
 width: 90%;
-height: 80%;
-max-width: 1200px;
+max-width: 1000px;
+gap: 50px;
 }
 
 
 .cx{
-max-width:230px;
-min-width: 140px;
-margin-right: 10px;
-margin-top: 15px;
+max-width:300px;
+min-width:300px;
 width: 20%;
 height: 200px;
 display: flex;
@@ -43,6 +41,8 @@ text-align: center;
 align-items: center;
 justify-content: center;
 color:#101010;
+
+
 }
 
 

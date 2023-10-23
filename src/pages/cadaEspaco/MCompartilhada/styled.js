@@ -57,6 +57,10 @@ font-size: 40px;
     margin-top: 50px;
     font-weight: 100;
 }
+h3{
+    font-size: 25px;
+    margin-top: 50px;
+}
 
 #texto ul li{
     font-size: 25px;
@@ -115,7 +119,7 @@ font-size: 40px;
 
 
 
-export const StyledMCompartilhada2 = styled.section`
+export const Styled2 = styled.section`
 
 width: 100%;
 height: 200vh;

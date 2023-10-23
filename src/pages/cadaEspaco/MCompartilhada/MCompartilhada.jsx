@@ -1,4 +1,4 @@
-import { StyledMCompartilhada, StyledMCompartilhada2 } from "./styled";
+import { StyledMCompartilhada, Styled2 } from "./styled";
 
 import foto from '../../../assets/xicara.jpeg'
 
@@ -36,11 +36,12 @@ export default function MCompartilhada() {
 
                     <div id="containerTexto">
                         <div id="texto">
-                            <h1>Mesas compartilhada</h1>
+                            <h1>Mesas compartilhadas</h1>
                             <h2>
                                 Acesso diário a uma mesa compartilhada em um espaço comum com toda a
                                 estrutura da nossa comunidade. Ideal para uma pessoa e equipes reduzidas.
                             </h2>
+                            <h3>Vantagens:</h3>
                             <ul>
                                 <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
                                 <li>Acesso a salas de reunião, com pagamento pelo uso</li>
@@ -86,7 +87,7 @@ export default function MCompartilhada() {
                 
             </StyledMCompartilhada>
 
-            <StyledMCompartilhada2>
+            <Styled2>
                 <div id="titulo">
                     <h1>Conheça nossa infraestrutura e serviços:</h1>
                 </div>
@@ -187,7 +188,7 @@ export default function MCompartilhada() {
 
 
                 </div>
-            </StyledMCompartilhada2>
+            </Styled2>
 
         </>
     )

@@ -6,9 +6,15 @@ width: 100%;
 height: 100vh;
 overflow: hidden;
 position: relative;
-background-image: url(src/assets/foto-capa.jpg);
+/* background-image: url(src/assets/foto-capa.jpg);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: cover; */
+
+img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
 
 #titulo{
     position: absolute;
@@ -24,7 +30,7 @@ background-size: cover;
 }
 
 #setas{
-    position: relative;
+    position: absolute;
     top: 80%;
     left: 90%;
     display: flex;
@@ -42,6 +48,7 @@ background-size: cover;
 @media (max-width:500px){
 	#titulo h1{
     font-size: 30px;
+}
 }
 }
 `
