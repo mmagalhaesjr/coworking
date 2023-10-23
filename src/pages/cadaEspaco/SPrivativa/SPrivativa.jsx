@@ -36,7 +36,7 @@ export default function SPrivativa() {
 
                 <div id="containerTexto">
                     <div id="texto">
-                        <h1>Salas privativas</h1>
+                        <h1>Sala privativa</h1>
                         <h2>
                             A Sala Roma é preparada para realizar qualquer tipo de reunião.
                             Ideal para trabalhar e organizar reuniões e treinamentos.

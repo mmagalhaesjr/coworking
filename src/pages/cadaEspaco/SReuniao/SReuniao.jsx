@@ -37,7 +37,7 @@ export default function SReuniao() {
 
                 <div id="containerTexto">
                     <div id="texto">
-                        <h1>Sala de Reunião</h1>
+                        <h1>Salas de Reunião</h1>
                         <h2>
                             As Salas Nova York, Londres e Roma são preparadas para realizar
                             qualquer tipo de reunião ou workshop. Ideal para trabalhar e organizar reuniões e treinamentos.
