@@ -60,7 +60,7 @@ export default function Servicos() {
                     </div>
                     <div className="cx" >
                         <img src={img8} alt="" />
-                        <h2>Linha telefonica privativa</h2>
+                        <h2>Linha telefônica privativa</h2>
                         <p>Cabines telefônicas privadas para reuniões</p>
                     </div>
                     <div className="cx" >

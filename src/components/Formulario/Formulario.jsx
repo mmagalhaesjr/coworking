@@ -38,7 +38,7 @@ export default function Formulario() {
                     <label htmlFor="email" className="labelInput">Telefone</label>
                 </div>
                 <div className="inputBox">
-                    <label htmlFor="email" className="labelInput">Mensangem</label>
+                    <label htmlFor="email" className="labelInput">Mensangem:</label>
                     <textarea id="msg" className="imputMesnsagem" name="msg" rows="4" cols="50"></textarea>
                 </div>
                 <button>ENVIAR</button>

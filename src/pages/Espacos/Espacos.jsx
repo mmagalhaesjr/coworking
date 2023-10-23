@@ -33,7 +33,15 @@ const Espacos = () => {
                     pagination={{ clickable: true }}
                     slidesPerView={3}
                 >
-                    
+                    <SwiperSlide>
+                            <a href="/dedicada">
+                                <div className="salas">
+                                    <img src={foto} alt='' />
+                                    <h3>Mesas dedicadas</h3>
+                                </div>
+                            </a>
+                        </SwiperSlide>
+
                         <SwiperSlide>
                             <a href="/compartilhada" >
                                 <div className="salas">
@@ -44,19 +52,10 @@ const Espacos = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <a href="/dedicada">
+                            <a href="/reuniao">
                                 <div className="salas">
                                     <img src={foto} alt='' />
-                                    <h3>Mesas dedicadas</h3>
-                                </div>
-                            </a>
-                        </SwiperSlide>
-
-                        <SwiperSlide>
-                            <a href="/atendimento">
-                                <div className="salas">
-                                    <img src={foto} alt='' />
-                                    <h3>Salas de atendimento</h3>
+                                    <h3>Salas de reunião</h3>
                                 </div>
                             </a>
                         </SwiperSlide>
@@ -70,14 +69,19 @@ const Espacos = () => {
                             </a>
                         </SwiperSlide>
 
+                        
                         <SwiperSlide>
-                            <a href="/reuniao">
+                            <a href="/atendimento">
                                 <div className="salas">
                                     <img src={foto} alt='' />
-                                    <h3>Salas de reunião</h3>
+                                    <h3>Salas de atendimento</h3>
                                 </div>
                             </a>
                         </SwiperSlide>
+
+                        
+
+                       
                     
                 </Swiper>
             </div>

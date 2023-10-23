@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+
+
 export const StyledEspacos = styled.section`
   width: 100%;
   height: 100vh;
@@ -8,18 +10,28 @@ export const StyledEspacos = styled.section`
   flex-direction: column;
   padding-top: 35px;
 
-.swiper-button-prev{
-  color: black;
-}
+.swiper-button-prev,
 .swiper-button-next{
-  color: black;
+
+  color: #fff;
+ margin: 1%;
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  display: none;
 }
 
 .swiper-wrapper{
-
+    
 }
 .swiper-initialized{
-  height: 80%;
+  height: 70%;
+}
+.swiper-clickable{
+    color: #fff;
+}
+.swiper-pagination-bullet {
+  background-color: #F4F3F0;
 }
 
 

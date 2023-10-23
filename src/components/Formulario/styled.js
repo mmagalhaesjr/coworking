@@ -12,7 +12,7 @@ padding: 20px;
 
 form{
     width:50%; 
-    height:80%;
+    height:70%;
     min-height: 350px;
     display: flex;
     flex-direction: column;
