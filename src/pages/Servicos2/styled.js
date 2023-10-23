@@ -7,9 +7,6 @@ export const StyledServicos2 = styled.section`
 width: 100%;
 height:100vh;
 
-
-
-
 #container{
     height: 100%;
     display: flex;
@@ -27,8 +24,6 @@ height:100vh;
     text-align: center;
     align-items: center;
     gap: 10%;
-
-    margin-top: 100px;
    
 }
 #titulo{
@@ -39,7 +34,7 @@ height:100vh;
 
 }
 ul{
-    font-size: 35px;
+    font-size: 2rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -51,17 +46,27 @@ ul{
    background-color:#101010 ;
     height: 85%;
     width: 35%;
-    margin-top: 100px;
   
 }
 img{
     position: absolute;
     width: 35%;
     left: 56%;
-    margin-top: 100px;
     
 
 }
 
 
+@media (max-width:940px){
+#titulo{
+    font-size: 30px;
+}
+ul{
+    font-size: 1.5rem;
+}
+}
+
+@media (max-width:550px){
+
+}
 `

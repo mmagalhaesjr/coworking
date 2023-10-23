@@ -6,13 +6,15 @@ justify-content: center;
 align-items: center;
 height:80vh;
 background-color: #F4F3F0;
-gap: 100px;
+margin: auto;
+background-color: blue;
+padding: 20px;
 
 
 form{
     width:50%; 
-    height:70%;
-    min-height: 400px;
+    height:80%;
+    min-height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,24 +23,15 @@ form{
     background-color: rgba(0, 0, 0, 0.9);
     background-color: #000000;
     /* border-radius: 15px; */
-    margin-top: -100px;
 
-    position: relative;
-    left: -100px;
-
-   
-   
 }
 #titulos{
     width: 50%;
     display: flex;
     flex-direction: column;
-    position: relative;
-    top:-150px;
     text-align: center;
     color:#000000;
     font-weight:100;  
-
     line-height: 1.5;
 }
 
@@ -144,13 +137,14 @@ button{
     }
     form{
         height: 50%;
-        width: 90%;
         margin-bottom: 20px;
     }
     form #titulos{
         margin-top: 300px; 
     }
-    
+    #titulos h1{
+    font-size:35px;
+}
 }
 
 @media(max-width:600px ){

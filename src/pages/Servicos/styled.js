@@ -9,12 +9,9 @@ justify-content: center;
 text-align: center;
 align-items: center;
 background-color: #F4F3F0 ;
-padding-top: 5%;
-
 #titulos {
     width: 70%;
     height: 10%;
-    margin-bottom: 5%;
   }
 
   #titulos h1{
@@ -25,16 +22,19 @@ padding-top: 5%;
 #container{
 display: flex;
 flex-wrap: wrap;
-justify-content: center;
+justify-content: space-evenly;
 align-items: center;
 width: 90%;
-max-width: 1000px;
+height: 80%;
+max-width: 1200px;
 }
 
 
 .cx{
-max-width:190px;
+max-width:230px;
 min-width: 140px;
+margin-right: 10px;
+margin-top: 15px;
 width: 20%;
 height: 200px;
 display: flex;
@@ -61,7 +61,7 @@ color:#101010;
     margin-top: 10px;
 }
 
-@media (max-width:810px){
+@media (max-width:940px){
     #container{
 width: 90%;
 }

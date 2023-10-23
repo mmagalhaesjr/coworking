@@ -5,16 +5,15 @@ import foto2 from '../../assets/cores/2.png';
 import foto3 from '../../assets/cores/3.png';
 import foto4 from '../../assets/cores/4.png';
 import foto5 from '../../assets/cores/5.png';
-
 import foto from '../../assets/sala2.png'
-
+import { Navigation, Pagination, A11y} from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-
+const slides = [foto1, foto2, foto3, foto4, foto5]
 const Espacos = () => {
     return (
         <StyledEspacos id="espacos">
@@ -26,14 +25,14 @@ const Espacos = () => {
 
             <div id="container">
                 <Swiper
+                    modules={[Navigation, Pagination, A11y]}
                     navigation
                     pagination={{ clickable: true }}
                     slidesPerView={3}
-                    onSlideChange={() => console.log('slide change')}
                 >
-                    <nav>
+                    
                         <SwiperSlide>
-                            <a href="/compartilhada">
+                            <a href="/compartilhada" >
                                 <div className="salas">
                                     <img src={foto} alt='' />
                                     <h3>Mesa compartilhada</h3>
@@ -60,8 +59,8 @@ const Espacos = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <a href="/privativa" >
-                                <div className="salas">
+                            <a href="/privativa" >                               
+                            <div className="salas">
                                     <img src={foto} alt='' />
                                     <h3>Salas Privativas</h3>
                                 </div>
@@ -76,7 +75,7 @@ const Espacos = () => {
                                 </div>
                             </a>
                         </SwiperSlide>
-                    </nav>
+                    
                 </Swiper>
             </div>
         </StyledEspacos>

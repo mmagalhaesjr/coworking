@@ -1,18 +1,33 @@
 import styled from 'styled-components';
 
-
 export const StyledEspacos = styled.section`
   width: 100%;
   height: 100vh;
   background-color: #F4F3F0;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
-padding-top: 35px;
-  #titulos {
+  padding-top: 35px;
+
+.swiper-button-prev{
+  color: black;
+}
+.swiper-button-next{
+  color: black;
+}
+
+.swiper-wrapper{
+
+}
+.swiper-initialized{
+  height: 80%;
+}
+
+
+#titulos {
     width: 50%;
     margin-top: 3%;
     margin-left: 5%;
+  
   }
   
   #titulos h1 {
@@ -20,7 +35,7 @@ padding-top: 35px;
   }
   
   #container {
-    width: 95%;
+    width: 100%;
     height: 90%;
     display: flex;
     align-items: center;
@@ -31,8 +46,8 @@ padding-top: 35px;
   .salas {
     width: 100%;
     height: 100%;
-    overflow: hidden;
-    border: solid 25px #F4F3F0;
+    border-right: 15px solid  #F4F3F0;
+    border-left: 15px solid  #F4F3F0;;
   }
   
   .salas img {
