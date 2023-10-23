@@ -84,7 +84,7 @@ export default function MCompartilhada() {
 
 
                 </div> */}
-                
+
             </StyledMCompartilhada>
 
             <Styled2>
@@ -175,9 +175,10 @@ export default function MCompartilhada() {
                             Encontre a solução ideal para seu negócio
                         </h2>
                         <p>
-                            Nosso espaço de trabalho aliam uma estrutura completa a serviços
-                            indispensáveis para facilitar o dia a dia de freelancers, profissionais autônomos,
-                            startups e empresas de todos os portes.
+                            Entre em contato
+                            conosco e agende uma visita
+                            para conhecer nosso
+                            espaço e serviços!
                         </p>
                         <button>
                             Agede uma visita

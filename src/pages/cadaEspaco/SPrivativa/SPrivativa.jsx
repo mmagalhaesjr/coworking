@@ -1,4 +1,4 @@
-import { StyledSPrivativa,Styled2 } from "./styled";
+import { StyledSPrivativa, Styled2 } from "./styled";
 
 import foto from '../../../assets/xicara.jpeg'
 
@@ -24,45 +24,45 @@ export default function SPrivativa() {
     return (
 
         <>
-        <StyledSPrivativa>
+            <StyledSPrivativa>
 
-            <div id="titulo">
+                <div id="titulo">
 
 
 
-            </div>
+                </div>
 
-            <div id="container">
+                <div id="container">
 
-                <div id="containerTexto">
-                    <div id="texto">
-                        <h1>Sala privativa</h1>
-                        <h2>
-                            A Sala Roma é preparada para realizar qualquer tipo de reunião.
-                            Ideal para trabalhar e organizar reuniões e treinamentos.
-                        </h2>
-                        <ul>
-                            <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
-                            <li>Acesso a salas de reunião, com pagamento pelo uso</li>
-                            <li>Trabalhe em um espaço compartilhado com a comunidade Temasek.</li>
-                            <li>Wifi de alta velocidade e serviços de impressão</li>
-                        </ul>
+                    <div id="containerTexto">
+                        <div id="texto">
+                            <h1>Sala privativa</h1>
+                            <h2>
+                                A Sala Roma é preparada para realizar qualquer tipo de reunião.
+                                Ideal para trabalhar e organizar reuniões e treinamentos.
+                            </h2>
+                            <ul>
+                                <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
+                                <li>Acesso a salas de reunião, com pagamento pelo uso</li>
+                                <li>Trabalhe em um espaço compartilhado com a comunidade Temasek.</li>
+                                <li>Wifi de alta velocidade e serviços de impressão</li>
+                            </ul>
+                        </div>
                     </div>
+
+                    <div id="cor" >
+
+                        <img className="foto" src={foto} alt="" />
+
+                    </div>
+
+
                 </div>
 
-                <div id="cor" >
 
-                    <img className="foto" src={foto} alt="" />
+            </StyledSPrivativa>
 
-                </div>
-
-
-            </div>
-
-
-        </StyledSPrivativa>
-
-        <Styled2>
+            <Styled2>
                 <div id="titulo">
                     <h1>Conheça nossa infraestrutura e serviços:</h1>
                 </div>
@@ -150,9 +150,10 @@ export default function SPrivativa() {
                             Encontre a solução ideal para seu negócio
                         </h2>
                         <p>
-                            Nosso espaço de trabalho aliam uma estrutura completa a serviços
-                            indispensáveis para facilitar o dia a dia de freelancers, profissionais autônomos,
-                            startups e empresas de todos os portes.
+                            Entre em contato
+                            conosco e agende uma visita
+                            para conhecer nosso
+                            espaço e serviços!
                         </p>
                         <button>
                             Agede uma visita
