@@ -49,7 +49,7 @@ color:#101010;
 .cx h2{
     font-size: 20px;
     font-weight: 600;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .cx img{
     width: 60px;
@@ -58,7 +58,7 @@ color:#101010;
 }
 .cx p{
     font-size: 15px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 @media (max-width:940px){

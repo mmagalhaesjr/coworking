@@ -27,6 +27,7 @@ export const StyledEspacos = styled.section`
     width: 50%;
     margin-top: 3%;
     margin-left: 5%;
+    width: 30%;
   
   }
   
@@ -79,5 +80,14 @@ export const StyledEspacos = styled.section`
     cursor: pointer;
   }
   
+  @media (max-width:940px){
+#titulos{
+    width: 60%;
+}
+}
+
+@media (max-width:550px){
+
+}
   
 `;

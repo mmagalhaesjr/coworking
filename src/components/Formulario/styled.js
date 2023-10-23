@@ -7,7 +7,6 @@ align-items: center;
 height:80vh;
 background-color: #F4F3F0;
 margin: auto;
-background-color: blue;
 padding: 20px;
 
 

@@ -56,6 +56,18 @@ img{
 
 }
 
+@media (max-width:1200px){
+#titulo{
+    font-size: 30px;
+}
+ul{
+    font-size: 1.5rem;
+}
+#containerImg{
+    height: 65%;
+  
+}
+}
 
 @media (max-width:940px){
 #titulo{
@@ -63,6 +75,10 @@ img{
 }
 ul{
     font-size: 1.5rem;
+}
+#containerImg{
+    height: 55%;
+  
 }
 }
 
