@@ -40,14 +40,18 @@ img{
     cursor: pointer;   
 }
 
-@media (max-width:800px){
+@media (max-width:850px){
 	#titulo h1{
     font-size: 50px;
 }
 
-@media (max-width:500px){
-	#titulo h1{
+@media (max-width:600px){
+width: 100%;
+height: 300px;
+
+    #titulo h1{
     font-size: 30px;
+    
 }
 }
 }

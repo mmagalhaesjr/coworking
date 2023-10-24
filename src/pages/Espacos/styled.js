@@ -101,8 +101,20 @@ export const StyledEspacos = styled.section`
 }
 }
 
-@media (max-width:550px){
+@media (max-width:600px){
+  height: 450px;
+  #titulos {
+    width: 80%;
 
+    h1{
+      font-size: 25px;
+    }
+  }
+  #container {
+    width: 90%;
+    height: 70%;
+
+  }
 }
   
 `;

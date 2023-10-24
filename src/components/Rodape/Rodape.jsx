@@ -48,7 +48,7 @@ export default function Rodape() {
                     </ul>
                 </div>
                 <div className="container">
-                    <div className="contInterno" id="endereço" >
+                    <div className="contInterno" id="logo" >
                         <a href="#" className="logo"><img src={logo} alt='logo' /></a>
                     </div>
                 </div>

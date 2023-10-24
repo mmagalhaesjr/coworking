@@ -1,11 +1,8 @@
 import styled from 'styled-components';
 
 export const StyledRodape = styled.footer`
-
 background-color:#2A2A2A;
-
 height: 250px;
-
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -15,20 +12,23 @@ color: #ffffff;
 
 @media(max-width:940px){
     height:1000px;
-
-    
+}
+@media(max-width:600px){
+    padding-top: 70px;
+    height: 800px;
 }
 #container{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:50px;
+
    
     bottom:0;
     @media(max-width:940px){
     flex-direction:column;
-}
+    height: fit-content;
+
 }
     .container{
         width: 400px;
@@ -38,7 +38,17 @@ color: #ffffff;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+       
+        @media(max-width:600px){
+            height: fit-content;
+            margin-bottom: 50px;
 
+            #logo{
+            height: fit-content;
+            }
+
+           
+}
     }
     .contInterno{
         width: 100%;
@@ -94,6 +104,7 @@ justify-content:center;
 text-align: center;
 font-size: 15px; 
 list-style: none;
+
 }
 
 h3{
@@ -124,6 +135,11 @@ flex-direction: column;
 gap:10px;
 font-size: 15px;
 
+@media(max-width:600px){
+margin-top: 0;
+
+           
+}
 
 }
 

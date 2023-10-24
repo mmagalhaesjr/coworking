@@ -82,7 +82,33 @@ ul{
 }
 }
 
-@media (max-width:550px){
+@media (max-width:600px){
+height: fit-content;
+#container{
+    height: 90%;
+    width: fit-content;
+    justify-content: center;
+}
+#containerTxt{
+    width: 80%;
+    margin-top: 44px;
+    margin-bottom: 44px;
+   
+}
 
+#titulo{
+    width: 100%;
+    margin-bottom: 20px;
+
+    h1{
+        font-size: 25px;
+    }
+}
+#containerImg{
+  display: none;
+}
+img{
+   display: none;
+}
 }
 `

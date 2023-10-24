@@ -10,10 +10,10 @@ export default function Formulario() {
 
             <div id="titulos">
                 <h1>
-                    Entre em contato <br /> 
+                    Entre em contato
                     conosco e agende 
-                    uma visita <br /> 
-                    para conhecer nosso <br /> 
+                    uma visita 
+                    para conhecer nosso
                     espaço e serviços!
                 
                 </h1>
