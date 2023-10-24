@@ -11,8 +11,8 @@ export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
         // navegar('/blog');
     };
     const quemSomos = () => {
-        window.open('/quemSomos', "_blank");
-        // navegar('/quemSomos');
+        window.open('/quem-somos', "_blank");
+        // navegar('/quem-somos');
     };
 
     useEffect(()=> {

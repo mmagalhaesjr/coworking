@@ -54,7 +54,7 @@ export default function Cabecalho() {
                     <a href="/" className="logo2"><img src={logo2} alt='logo' /></a>
 
                     <ul className="nav-list">
-                        <li><a href="#quemSomos" >Sobre nós</a></li>
+                        <li><a href="quem-somos" >Sobre nós</a></li>
                         <li><a href="#espacos">Espaços</a></li>
                         <li><a href="#servicos">Serviços</a></li>
                         <li><a href="#planos">Planos</a></li>

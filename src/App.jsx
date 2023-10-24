@@ -10,6 +10,7 @@ import SPrivativa from './pages/cadaEspaco/SPrivativa/SPrivativa';
 import SReuniao from './pages/cadaEspaco/SReuniao/SReuniao';
 import MCompartilhada from './pages/cadaEspaco/MCompartilhada/MCompartilhada';
 import SAtendimento from './pages/cadaEspaco/SAtendimento/SAtendimento';
+import QuemSomos from "./pages/QuemSomos/QuemSomos";
 
 
 
@@ -33,7 +34,7 @@ export default function App() {
                                 <Route path="/privativa" element={<SPrivativa />} />
                                 <Route path="/reuniao" element={<SReuniao/>} />
                                 <Route path="/atendimento" element={<SAtendimento/>} />
-
+                                <Route path="/quem-somos" element={<QuemSomos/>} />
                                 <Route path="/blog" element={<TelaBlog />} />
                                 <Route path="/confirmar" element={<ConfirmarEnvio />} />
                             </Routes>

@@ -8,6 +8,7 @@ height:80vh;
 background-color: #F4F3F0;
 margin: auto;
 padding: 20px;
+gap: 5%;
 
 
 form{
@@ -25,7 +26,7 @@ form{
 
 }
 #titulos{
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     text-align: center;

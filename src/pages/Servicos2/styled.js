@@ -73,14 +73,18 @@ ul{
 }
 
 @media (max-width:940px){
+height: fit-content;
+padding-top: 5%;
+padding-bottom: 5%;
 #titulo{
     font-size: 30px;
+    margin-bottom: 5%;
 }
 ul{
-    font-size: 1.5rem;
+    font-size: 18px;
 }
 #containerImg{
-    height: 55%;
+    height: 400px;
   
 }
 }

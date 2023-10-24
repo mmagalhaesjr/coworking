@@ -96,6 +96,7 @@ export const StyledEspacos = styled.section`
   }
   
   @media (max-width:940px){
+  height: 80vh;
 #titulos{
     width: 60%;
 }
