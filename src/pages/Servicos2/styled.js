@@ -7,6 +7,7 @@ export const StyledServicos2 = styled.section`
 width: 100%;
 height:100vh;
 
+
 #container{
     height: 100%;
     display: flex;
@@ -27,12 +28,14 @@ height:100vh;
    
 }
 #titulo{
+    width: 70%;
     display: flex;
     text-align: start;
     line-height: 1.2;
     font-size: 45px;
-
+    
 }
+
 ul{
     font-size: 2rem;
     display: flex;
