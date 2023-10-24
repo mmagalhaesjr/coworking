@@ -13,8 +13,11 @@ gap: 5%;
 
 form{
     width:50%; 
+    max-width: 700px;
     height:70%;
     min-height: 400px;
+    max-height: 450px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +38,7 @@ form{
 }
 
 #titulos h1{
-    font-size:50px;
+    font-size:40px;
 }
 
 
@@ -74,6 +77,7 @@ input{
     margin-top: 20px;
     border:none;
     outline: none;
+    padding: 1%;
 }
 .imputMesnsagem:focus ~ .labelInput,
 .imputMesnsagem:valid ~ .labelInput{
@@ -105,7 +109,7 @@ button{
         background-color: #eae9e9;
         width: 15%;
         height: 10%;
-        font-size: 15px;
+        font-size: 90%;
         font-weight: 700;
         cursor: pointer;
         border-radius: 40px;

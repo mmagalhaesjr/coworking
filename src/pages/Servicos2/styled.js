@@ -68,14 +68,17 @@ ul{
 }
 #containerImg{
     height: 65%;
+    width: 30%;
   
 }
+img{
+        width: 30%;
+    }
+  
 }
 
 @media (max-width:940px){
-height: fit-content;
-padding-top: 5%;
-padding-bottom: 5%;
+height:500px;
 #titulo{
     font-size: 30px;
     margin-bottom: 5%;

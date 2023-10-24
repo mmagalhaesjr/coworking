@@ -59,6 +59,7 @@ color:#101010;
 }
 
 @media (max-width:940px){
+    height: fit-content;
     #container{
 width: 90%;
 }
