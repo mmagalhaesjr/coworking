@@ -64,7 +64,7 @@ const Espacos = () => {
                             <a href="/privativa" >                               
                             <div className="salas">
                                     <img src={foto} alt='' />
-                                    <h3>Salas Privativas</h3>
+                                    <h3>Sala Privativa</h3>
                                 </div>
                             </a>
                         </SwiperSlide>
@@ -74,7 +74,7 @@ const Espacos = () => {
                             <a href="/atendimento">
                                 <div className="salas">
                                     <img src={foto} alt='' />
-                                    <h3>Salas de atendimento</h3>
+                                    <h3>Salas para atendimento</h3>
                                 </div>
                             </a>
                         </SwiperSlide>
