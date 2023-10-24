@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const StyledQuemSomos = styled.section`
 width: 100%;
-height:300vh;
+height:270vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -53,7 +53,7 @@ align-items: center;
 }
 
 #container2{
-height: 100vh;
+height: 70vh;
 width: 100%;
 display: flex;
 flex-direction: column;

@@ -106,6 +106,7 @@ button{
         width: 15%;
         height: 10%;
         font-size: 15px;
+        font-weight: 700;
         cursor: pointer;
         border-radius: 40px;
         position:relative;
