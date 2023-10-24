@@ -14,7 +14,7 @@ gap: 5%;
 form{
     width:50%; 
     height:70%;
-    min-height: 350px;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;

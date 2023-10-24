@@ -143,32 +143,42 @@ h1{
     
 }
 
-@media (max-width:940px){
+@media (max-width:1083px){
+  height: fit-content;
 
     #container1{
-        height: 70vh;
-        border-bottom: 200px solid;
+        height: 50vh;
+        border-bottom: 160px solid;
     }
-    height: fit-content;
+  
     h1{
         font-size: 35px;
     }
 
+    .titulos{
+        width: 90%;
+    }
     #imagens{
-        height: 40%;
+        height: 27%;
         bottom: 0;
         position: absolute;
-        top:30%;
+        top:23%;
+        background-color: blue;
     }
 
     #container3{
         height: 60vh;
+        width: 90%;
+
+        .titulos{
+            width: 90%;
+        }
         h1{
-            font-size: 35px;
+            font-size: 30px;
         }
         img{
-            width: 70%;
-            height: 80%;
+            width: 60%;
+            height: 70%;
         }
     }
     #lista{
@@ -176,6 +186,7 @@ h1{
         height: 100%;
     }
     ul{
+        margin-left: 5%;
         font-size: 30px;
     }
 
@@ -184,7 +195,7 @@ h1{
 @media (max-width:600px){
 
     #container1{
-        height: 600px;
+        height: 500px;
         border-bottom: 200px solid;
         .titulos{
         width: 80%;
@@ -193,8 +204,8 @@ h1{
     }
 
     #container1{
-        height: 500px;
-        border-bottom: 200px solid;
+        height: 350px;
+        border-bottom: 170px solid;
 
         .titulos{
         width: 80%;
@@ -203,14 +214,14 @@ h1{
     }
     
     h1{
-        font-size: 30px;
+        font-size: 20px;
     }
 
     #imagens{
         height: 200px;
         bottom: 0;
         position: absolute;
-        top:30%;
+        top:150px;
     }
     #container2{
         height: 50vh;

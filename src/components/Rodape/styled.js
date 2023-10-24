@@ -8,6 +8,8 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 color: #ffffff;
+padding-left: 5%;
+text-align: center;
 
 
 @media(max-width:940px){
