@@ -39,7 +39,7 @@ ul{
     flex-direction: column;
     align-items: flex-start;
     line-height: 1.5;
-    font-weight: 100;
+    font-weight: 400;
 
 }
 #containerImg{
