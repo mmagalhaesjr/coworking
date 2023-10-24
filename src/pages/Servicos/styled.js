@@ -26,9 +26,8 @@ justify-content: space-evenly;
 align-items: center;
 width: 90%;
 max-width: 1000px;
-gap: 50px;
-}
 
+}
 
 .cx{
 max-width:300px;
@@ -68,7 +67,7 @@ width: 90%;
   }
     
 .cx{
-width:110px;
+width:140px;
 height: 150px;
 
 img{
@@ -87,9 +86,23 @@ p{
 }
 }
 
-@media (max-width:550px){
+@media (max-width:670px){
+padding-top: 30px;
+padding-bottom: 30px;
+height: fit-content;
+
+#titulos h1{
+font-size: 25px;
+margin-top: 0px;
+  }
+
 #container{
 width: 100%;
 }
+
+.cx{
+min-width: 60px;
+}
+
 }
 `

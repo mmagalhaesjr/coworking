@@ -7,7 +7,12 @@ export const StyledCabecalho = styled.header`
 
 &.rolagem {
 
-    nav {
+
+button{
+  
+  margin-top: -60px;
+}    
+nav {
     height: 60px;
     -webkit-backdrop-filter: blur(10px);
     -webkit-background-color: rgba(255, 255, 255, 0.2);

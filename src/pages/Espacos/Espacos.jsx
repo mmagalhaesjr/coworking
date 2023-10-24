@@ -31,7 +31,7 @@ const Espacos = () => {
                     modules={[Navigation, Pagination, A11y]}
                     navigation
                     pagination={{ clickable: true }}
-                    slidesPerView={3}
+                    slidesPerView={window.innerWidth < 600 ? 1 : 3}
                 >
                     <SwiperSlide>
                             <a href="/dedicada">

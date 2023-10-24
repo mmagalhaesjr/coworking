@@ -121,11 +121,15 @@ button{
 }
 
 @media(max-width:940px ){
-    
-    
-    h1{
-        font-size: 60px;
+    height: fit-content;
+    #titulos{
+        width: 90%;
+        margin-right: 5%;
     }
+    #titulos h1{
+    font-size:35px;
+}
+   
     p{
         font-size:15px;
         
@@ -141,17 +145,21 @@ button{
     form #titulos{
         margin-top: 300px; 
     }
-    #titulos h1{
-    font-size:35px;
-}
+
 }
 
 @media(max-width:600px ){
+    flex-direction: column;
+    height: fit-content;
+    #titulos h1{
+    font-size:30px;
+}
    form{ 
-    height: 70%;
+    height: 400px;
+    width: 80%;
    }
    #titulos{
-        margin-top: 270px;
+        margin-bottom: 2rem;
    }
 }
 `
