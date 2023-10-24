@@ -4,7 +4,7 @@ import foto from '../../assets/sala2.png'
 
 export default function QuemSomos() {
     return (
-        <StyledQuemSomos id="quemSomos">
+        <StyledQuemSomos id="#quem-somos">
 
             <div id="container1">
 
