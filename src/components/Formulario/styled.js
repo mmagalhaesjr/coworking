@@ -20,8 +20,7 @@ form{
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.9);
-    background-color: #000000;
+    background-color: #101010
     /* border-radius: 15px; */
 
 }
@@ -103,13 +102,12 @@ input{
 
 
 button{
-        background-color: #2A2A2A;
-        color:#eae9e9;
-        width: 35%;
+        background-color: #eae9e9;
+        width: 15%;
         height: 10%;
         font-size: 15px;
         cursor: pointer;
-        border-radius: 10px;
+        border-radius: 40px;
         position:relative;
         top:20px;
         border: none;
