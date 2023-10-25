@@ -84,10 +84,11 @@ export default function QuemSomos() {
                         <img src={foto} alt="" />
                         <h3>Conheça nossos planos</h3>
                     </div>
-
+                    
                 </div >
-
-                <div className="faixa"></div>
+                
+                {/* <div className="faixa"></div> */}
+              
             </StyledQuemsomos4>
 
 

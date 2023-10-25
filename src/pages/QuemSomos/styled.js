@@ -125,7 +125,7 @@ h1{
     height: 60%;
     display: flex;
     align-items: center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 300;
     justify-content: space-around;
 
@@ -307,7 +307,7 @@ export const StyledQuemsomos4 = styled.section`
    
 
 #titulo4{
-width: 40%;
+width: 50%;
 height: fit-content;
 margin-top:5%;
 display: flex;
@@ -318,7 +318,7 @@ border: solid 2px #fff;
 }
 #titulo4 h1{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 
@@ -348,12 +348,10 @@ z-index: 3;
   
   h3 {
     color: #F4F3F0;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: -160px;
     opacity: 0;
     
     transition: opacity 1s ease;
@@ -368,9 +366,9 @@ z-index: 3;
     background-color: #000000;
     width: 40%;
     height: 100px;
-    position: absolute;
-    left: 0%;
-    top: 315%;
+    position: relative;
+    top: -100px;
+    left: -300px;
     z-index: 1;
 }
 `
