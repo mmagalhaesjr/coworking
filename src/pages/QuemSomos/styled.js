@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const StyledQuemSomos = styled.section`
 width: 100%;
-height:270vh;
+height:250vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -64,7 +64,7 @@ position: relative;
         position: absolute;
         left: 0;
         top: 0%; 
-        height: 60%;
+        height: 50%;
         width: 6%; 
         background-color:black;
     }
@@ -74,7 +74,7 @@ position: relative;
         position: absolute;
         right: 0; /* Alinha à esquerda da div */
         bottom: 0%; /* Começa do meio da div */
-        height: 60%; /* Metade da altura da div */
+        height: 50%; /* Metade da altura da div */
         width: 6%; /* Largura da borda esquerda */
         background-color: black;
     }
@@ -104,7 +104,7 @@ position: relative;
 }
 
 #container3{
-height: 100vh;
+height: 80vh;
 width: 100%;
 display: flex;
 flex-direction: column;
@@ -123,6 +123,7 @@ h1{
     width: 70%;
     height: 60%;
     display: flex;
+    align-items: center;
     font-size: 40px;
     font-weight: 300;
     justify-content: space-around;
@@ -133,11 +134,13 @@ h1{
     }
     ul{
         width: 30%;
+        height: 100%;
         text-align: start;
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding-left: 10%;
+        line-height: 1.3;
     }
 
     

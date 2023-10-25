@@ -51,7 +51,7 @@ export default function QuemSomos() {
                     <li>Ética</li>
                     <li>Qualidade</li>
                     <li>Produtividade</li>
-                    <li>Sifisticação</li>
+                    <li>Sofisticação</li>
                     <li>Inovação</li>
                     <li>Flexibilidade</li>
                 </ul>

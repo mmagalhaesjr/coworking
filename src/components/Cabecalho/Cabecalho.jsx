@@ -39,7 +39,7 @@ export default function Cabecalho() {
     };
 
     const quemSomos = () => {
-        window.open('/quem-somos', "_blank");
+        window.open('/quem-somos');
         // navegar('/blog');
     };
    
