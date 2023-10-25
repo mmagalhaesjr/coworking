@@ -27,37 +27,32 @@ export default function MCompartilhada() {
             <StyledMCompartilhada>
 
                 <div id="titulo">
-
-
-
                 </div>
 
                 <div id="container">
-
                     <div id="containerTexto">
                         <div id="texto">
-                            <h1>Mesas compartilhadas</h1>
+                            <h1>Mesa compartilhada</h1>
                             <h2>
                                 Acesso diário a uma mesa compartilhada em um espaço comum com toda a
-                                estrutura da nossa comunidade. Ideal para uma pessoa e equipes reduzidas.
+                                estrutura da nossa comunidade. <br /> Ideal para uma pessoa e equipes reduzidas.
                             </h2>
-                            <h3>Vantagens:</h3>
+                            <h3>Vantagens</h3>
                             <ul>
                                 <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
                                 <li>Acesso a salas de reunião, com pagamento pelo uso</li>
-                                <li>Trabalhe em um espaço compartilhado com a comunidade Temasek.</li>
                                 <li>Wifi de alta velocidade e serviços de impressão</li>
                             </ul>
                         </div>
                     </div>
 
-                    <img className="foto" src={foto} alt="" />
+                    <div id="containerFoto">
 
-                    <div id="cor" >
+                        <div id="cor" >
+                            <img className="foto" src={foto} alt="" />
+                        </div>
 
                     </div>
-
-
 
                 </div>
 

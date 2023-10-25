@@ -25,16 +25,15 @@ justify-content: center;
 }
 
 #container{
-    width: 90%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
 }
 
+
+
 #containerTexto{
-    width: 50%;
+    width: 60%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -42,17 +41,14 @@ justify-content: center;
     justify-content: center;
 }
 #texto{
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-
 }
 #texto h1{
 font-size: 40px;
-
-
 }
 #texto h2{
     font-size: 30px;
@@ -63,31 +59,18 @@ h3{
     font-size: 25px;
     margin-top: 50px;
 }
-
+#texto ul{
+    margin-top: 20px;
+}
 #texto ul li{
     font-size: 25px;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-left: 40px;
     font-weight: 100;
 }
-#cor{
-    background-color: #9C6839;
-    background-color: #000000;
-    width: 40%;
-    height: 100%;
-    margin-right: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.foto{
-    width: 35%;
-    height:60%;
-    position: absolute;
-    left: 52.5%
-    
-}
 
-.faixa{
+
+/* .faixa{
     width: 100%;
     height: 150px;
     position: relative;
@@ -115,7 +98,32 @@ h3{
         color: #F4F3F0;
         font-size: 25px;
         font-weight: 100;
+    } */
+
+    #containerFoto{
+        width: 40%;
     }
+    #cor{
+    background-color: #9C6839;
+    background-color: #000000;
+    width: 90%;
+    height: 70%;
+    margin-right: 40px;
+    position: relative;
+    top: 15%;
+    left: 0%;
+   
+}
+.foto{
+    /* width: 35%;
+    height:60%; */
+    width: 100%;
+    height: 90%;
+    position: relative;
+    top: 5%;
+    left: -5%;
+   
+}
 `
 
 

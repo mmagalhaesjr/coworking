@@ -34,7 +34,7 @@ form{
     text-align: center;
     color:#000000;
     font-weight:100;  
-    line-height: 1.5;
+    line-height: 1.3;
 }
 
 #titulos h1{

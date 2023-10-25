@@ -47,28 +47,23 @@ text-align: center;
 
             #logo{
             height: fit-content;
-            }
-
-           
+            } 
 }
     }
     .contInterno{
         width: 100%;
         height: 100px;
         display: flex;
-        color:#ffffff;
-       
-        font-size: 30px;
-        margin-top: 30px;
-
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        
+        align-items: flex-start;
+        text-align: left;
         gap:30px;
-        cursor: pointer;  
 
-       
+        font-size: 30px;
+        margin-top: 30px;
+        color:#ffffff;
+        cursor: pointer;  
 }
 
 .containerRedesS{
@@ -76,9 +71,7 @@ text-align: center;
         height: 100px;
         display: flex;
        
-       
-
-        font-size: 30px;
+        font-size: 35px;
         margin-top: 30px;
 
         justify-content: center;

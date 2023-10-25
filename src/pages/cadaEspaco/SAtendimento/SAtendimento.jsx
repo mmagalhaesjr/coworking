@@ -41,7 +41,7 @@ export default function SAtendimento() {
                             <h2>
                                 A Sala Paris é ideal para atendimentos. Ideal para trabalhar e organizar reuniões e treinamentos.
                             </h2>
-                            <h3>Vantagens:</h3>
+                            <h3>Vantagens</h3>
                             <ul>
                                 <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
                                 <li>Acesso a salas de reunião, com pagamento pelo uso</li>
@@ -51,9 +51,13 @@ export default function SAtendimento() {
                         </div>
                     </div>
 
-                    <div id="cor" >
+                    <div id="containerFoto">
 
-                        <img className="foto" src={foto} alt="" />
+                       
+
+                        <div id="cor" >
+                            <img className="foto" src={foto} alt="" />
+                        </div>
 
                     </div>
 

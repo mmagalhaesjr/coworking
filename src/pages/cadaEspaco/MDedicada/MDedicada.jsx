@@ -38,53 +38,58 @@ export default function MDedicada() {
 
                 <div id="container">
 
-                    <div id="containerTexto">
+                <div id="containerTexto">
                         <div id="texto">
-                            <h1>Mesas dedicadas</h1>
+                            <h1>Mesas exclusivas</h1>
                             <h2>
                                 Acesso exclusivo à sua posição fixa de trabalho, em um ambiente compartilhado.
                                 Ideal para uma pessoa e equipes reduzidas.
                             </h2>
-                            <h3>Vantagens:</h3>
+                            <h3>Vantagens</h3>
                             <ul>
                                 <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
                                 <li>Acesso a salas de reunião, com pagamento pelo uso</li>
-                                <li>Trabalhe em um espaço compartilhado com a comunidade Temasek.</li>
                                 <li>Wifi de alta velocidade e serviços de impressão</li>
                             </ul>
                         </div>
                     </div>
 
-                    <div id="cor" >
 
-                        <img className="foto" src={foto} alt="" />
+                    <div id="containerFoto">
+
+                       
+
+                        <div id="cor" >
+                            <img className="foto" src={foto} alt="" />
+                        </div>
 
                     </div>
+
                 </div>
 
                 {/* <div className="faixa">
 
-<div className="cxIcone">
-    <img src={icone1} alt="" />
-    <p>Empresas</p>
-</div>
-<div className="cxIcone">
-    <img src={icone2} alt="" />
-    <p>Freelancer e Autônomos</p>
-</div>
+                    <div className="cxIcone">
+                        <img src={icone1} alt="" />
+                        <p>Empresas</p>
+                    </div>
+                    <div className="cxIcone">
+                        <img src={icone2} alt="" />
+                        <p>Freelancer e Autônomos</p>
+                    </div>
 
-<div className="cxIcone">
-    <img src={icone3} alt="" />
-    <p>Startups</p>
-</div>
+                    <div className="cxIcone">
+                        <img src={icone3} alt="" />
+                        <p>Startups</p>
+                    </div>
 
-<div className="cxIcone">
-    <img src={icone4} alt="" />
-    <p>Empresas remotas</p>
-</div>
+                    <div className="cxIcone">
+                        <img src={icone4} alt="" />
+                        <p>Empresas remotas</p>
+                    </div>
 
 
-</div> */}
+                </div> */}
 
             </StyledMDedicada>
 
