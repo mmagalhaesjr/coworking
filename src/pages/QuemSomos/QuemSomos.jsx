@@ -60,6 +60,29 @@ export default function QuemSomos() {
             </div>
 
 
+            <div id="container4">
+
+                <div id="titulo4">
+                    <h1>Conheça nossos espaços e planos e entenda
+                        o que se encaixa melhor para você</h1>
+                </div>
+
+                <div id="cx4">
+
+                    <div className="imgCx4">
+                        <img src={foto} alt="" />
+                        <h3>Descubra nosso espaço</h3>
+                    </div>
+                    <div className="imgCx4">
+                        <img src={foto} alt="" />
+                        <h3>Conheça nossos planos</h3>
+                    </div>
+
+                </div>
+
+            </div>
+
+
         </StyledQuemSomos>
     )
 }

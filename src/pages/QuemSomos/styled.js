@@ -295,6 +295,38 @@ left: 30%;
 
 }
 
+#container4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#titulo4{
+width: 50%;
+height: fit-content;
+}
+#titulo4 h1{
+    font-size: 30px;
+}
+#cx4{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    overflow:hidden;
+}
+.imgCx4{
+    width: 40%;
+    height: 300px;
+}
+.imgCx4 img{
+    width: 100%;
+    height: 100%;
+}
 
 
 `
