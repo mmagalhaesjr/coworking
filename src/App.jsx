@@ -11,6 +11,9 @@ import SReuniao from './pages/cadaEspaco/SReuniao/SReuniao';
 import MCompartilhada from './pages/cadaEspaco/MCompartilhada/MCompartilhada';
 import SAtendimento from './pages/cadaEspaco/SAtendimento/SAtendimento';
 import QuemSomos from "./pages/QuemSomos/QuemSomos";
+import Planos from './pages/Planos/Planos';
+
+
 
 
 
@@ -26,7 +29,6 @@ export default function App() {
                         <div className="App">
                             <Routes>
                                 
-
                                 <Route path="/" element={<Main />} />
 
                                 <Route path="/compartilhada" element={<MCompartilhada/>} />
@@ -35,8 +37,10 @@ export default function App() {
                                 <Route path="/reuniao" element={<SReuniao/>} />
                                 <Route path="/atendimento" element={<SAtendimento/>} />
                                 <Route path="/quem-somos" element={<QuemSomos/>} />
+                                <Route path="/planos" element={<Planos />} />
                                 <Route path="/blog" element={<TelaBlog />} />
                                 <Route path="/confirmar" element={<ConfirmarEnvio />} />
+
                             </Routes>
                         </div>
                     </UserProvider>

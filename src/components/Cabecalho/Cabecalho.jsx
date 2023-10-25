@@ -42,6 +42,11 @@ export default function Cabecalho() {
         window.open('/quem-somos');
         // navegar('/blog');
     };
+
+    const planos = () => {
+        window.open('/planos', "_blank");
+        
+    };
    
 
     return (
@@ -62,7 +67,7 @@ export default function Cabecalho() {
                         <li><a onClick={quemSomos}>Sobre nós</a></li>
                         <li><a href="#espacos">Espaços</a></li>
                         <li><a href="#servicos">Serviços</a></li>
-                        <li><a href="#planos">Planos</a></li>
+                        <li><a onClick={planos}>Planos</a></li>
                         <li><a href="http://#">Eventos</a></li>
                         <li><a href="#contato">Contato</a></li>
                         <li><a onClick={blog} >Blog</a></li>
