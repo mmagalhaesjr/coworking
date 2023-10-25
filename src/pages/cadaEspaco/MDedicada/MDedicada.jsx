@@ -40,7 +40,7 @@ export default function MDedicada() {
 
                 <div id="containerTexto">
                         <div id="texto">
-                            <h1>Mesas exclusivas</h1>
+                            <h1>Mesa exclusiva</h1>
                             <h2>
                                 Acesso exclusivo à sua posição fixa de trabalho, em um ambiente compartilhado.
                                 Ideal para uma pessoa e equipes reduzidas.

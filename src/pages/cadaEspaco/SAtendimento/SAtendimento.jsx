@@ -37,7 +37,7 @@ export default function SAtendimento() {
 
                     <div id="containerTexto">
                         <div id="texto">
-                            <h1>Salas para atendimento</h1>
+                            <h1>Sala para atendimento</h1>
                             <h2>
                                 A Sala Paris é ideal para atendimentos. Ideal para trabalhar e organizar reuniões e treinamentos.
                             </h2>

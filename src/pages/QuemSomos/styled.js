@@ -72,9 +72,10 @@ position: relative;
     &::after {
         content: ''; /* Conteúdo vazio do pseudo-elemento */
         position: absolute;
+        top: 50%;
         right: 0; /* Alinha à esquerda da div */
         bottom: 0%; /* Começa do meio da div */
-        height: 50%; /* Metade da altura da div */
+        height: 90%; /* Metade da altura da div */
         width: 6%; /* Largura da borda esquerda */
         background-color: black;
     }
@@ -295,38 +296,81 @@ left: 30%;
 
 }
 
-#container4{
+
+
+
+`
+
+export const StyledQuemsomos4 = styled.section`
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-}
+   
+
 #titulo4{
-width: 50%;
+width: 40%;
 height: fit-content;
+margin-top:5%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+border: solid 2px #fff;
 }
 #titulo4 h1{
+    text-align: center;
     font-size: 30px;
 }
-#cx4{
-    width: 100%;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:20px;
-    overflow:hidden;
+
+
+#container4{
+width: 80%;
+display: flex;
+margin-top: 5%;
+display: flex;
+align-items: center;
+justify-content: space-around;
 }
-.imgCx4{
-    width: 40%;
+
+  .imgCx4 img {
+    width: 100%;
     height: 300px;
-}
-.imgCx4 img{
-    width: 100%;
-    height: 100%;
-}
+    transition: filter 0.3s ease, transform 1s ease;
+    cursor: pointer;
+  }
+  
+  .imgCx4 img:hover {
+    filter: brightness(.4);
+    transform: scale(1.1);
+  }
+  
+  
+  h3 {
+    color: #F4F3F0;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    
+    transition: opacity 1s ease;
+    cursor: pointer;
+  }
+  .imgCx4:hover h3 {
+    opacity: 1;
+  }
 
 
+.faixa{
+    background-color: #000000;
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    left: -30%;
+    top: 310%;
+}
 `
