@@ -294,16 +294,13 @@ left: 30%;
         margin-bottom: 20%;
     }
 
+
 }
-
-
-
-
 `
 
 export const StyledQuemsomos4 = styled.section`
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -331,7 +328,9 @@ display: flex;
 margin-top: 5%;
 display: flex;
 align-items: center;
-justify-content: space-around;
+justify-content: center;
+gap: 10%;
+z-index: 3;
 }
 
   .imgCx4 img {
@@ -367,10 +366,11 @@ justify-content: space-around;
 
 .faixa{
     background-color: #000000;
-    width: 50%;
+    width: 40%;
     height: 100px;
     position: absolute;
-    left: -30%;
-    top: 310%;
+    left: 0%;
+    top: 315%;
+    z-index: 1;
 }
 `
