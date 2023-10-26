@@ -33,6 +33,7 @@ export default function Inicial() {
 
                 pagination={{ clickable: true }}
                 slidesPerView={window.innerWidth < 600 ? 1 : 1}
+                loop={true}
                 autoplay={{
                     delay: 2000,
                     disableOnInteraction: false
