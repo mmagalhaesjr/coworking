@@ -60,7 +60,7 @@ export default function Planos() {
                             <p>A mesa dedicada é ideal para 1 pessoa e equipes reduzidas.</p>
 
                             <div className="valor">
-                                <p>R$</p><h3>280,00</h3>
+                                <p>R$</p><h3>800,00</h3>
                             </div>
                             <button>Contratar agora</button>
 
@@ -73,9 +73,9 @@ export default function Planos() {
 
                     <div className="texto">
                         <div className="txt">
-                            <h2> Estação de trabalho dedicada</h2>
-                            <p>Acesso exclusivo à sua posição de trabalho fixa, <br />
-                                em um ambiente compartilhado. </p>
+                            <h2> Estação de trabalho rotativa </h2>
+                            <p>Acesso diário a uma mesa compartilhada em um espaço <br />
+                                comum com toda a estrutura do Temasek Coworking. </p>
                             <p>A mesa dedicada é ideal para 1 pessoa e equipes reduzidas.</p>
 
                             <div className="valor">
@@ -94,10 +94,12 @@ export default function Planos() {
                     <div className="img"></div>
                     <div className="texto">
                         <div className="txt">
-                            <h2> Estação de trabalho dedicada</h2>
-                            <p>Acesso exclusivo à sua posição de trabalho fixa, <br />
-                                em um ambiente compartilhado. </p>
-                            <p>A mesa dedicada é ideal para 1 pessoa e equipes reduzidas.</p>
+                            <h2>Sala privativa</h2>
+                            <p>
+                            A Sala Roma é preparada para realizar qualquer tipo de reunião. <br />
+                            Ideal para trabalhar e organizar reuniões e treinamentos.
+                            </p>
+                            <p>Sala ideal para 1 a 4 pessoas.</p>
 
                             <div className="valor">
                                 <p>R$</p><h3>280,00</h3>
@@ -114,13 +116,13 @@ export default function Planos() {
 
                     <div className="texto">
                         <div className="txt">
-                            <h2> Estação de trabalho dedicada</h2>
+                            <h2>Salas de reunião</h2>
                             <p>Acesso exclusivo à sua posição de trabalho fixa, <br />
                                 em um ambiente compartilhado. </p>
-                            <p>A mesa dedicada é ideal para 1 pessoa e equipes reduzidas.</p>
+                            <p>.</p>
 
                             <div className="valor">
-                                <p>R$</p><h3>280,00</h3>
+                                <p>R$</p><h3>0,00</h3>
                             </div>
                             <button>Contratar agora</button>
 

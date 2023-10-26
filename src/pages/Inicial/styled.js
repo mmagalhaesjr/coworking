@@ -10,6 +10,30 @@ position: relative;
 background-repeat: no-repeat;
 background-size: cover; */
 
+.swiper-button-prev,
+.swiper-button-next{
+
+  color: #fff;
+ margin: 1%;
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  display: none;
+}
+
+.swiper-wrapper{
+    
+}
+.swiper-initialized{
+  height: 100%;
+}
+.swiper-clickable{
+    color: #fff;
+}
+.swiper-pagination-bullet {
+  background-color: #F4F3F0;
+}
+
 img{
     position: relative;
     width: 100%;

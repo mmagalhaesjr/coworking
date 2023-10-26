@@ -103,7 +103,7 @@ h3{
     }
     #cor{
     background-color: #9C6839;
-    background-color: #000000;
+    background-color: #101010;
     width: 90%;
     height: 70%;
     margin-right: 40px;
@@ -130,7 +130,7 @@ h3{
 export const Styled2 = styled.section`
 
 width: 100%;
-height: 300vh;
+height: 200vh;
 background-color: #F4F3F0
 ;
 
@@ -145,14 +145,13 @@ align-items: center;
 
 
 #container1{
-width: 50%;
+width: 80%;
 display: flex;
 align-items: center;
 justify-content: center;
-gap: 100px;
+gap: 80px;
 flex-wrap: wrap;
-margin-top: 150px;
-
+margin-top: 100px;
 }
 
 #container1 img{

@@ -133,7 +133,7 @@ export default function MCompartilhada() {
                     </div>
                     <div className="cxImg">
                         <img src={ico12} alt="" />
-                        <p>Armarios</p>
+                        <p>Armários</p>
                     </div>
 
 

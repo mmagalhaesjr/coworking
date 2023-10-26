@@ -32,7 +32,7 @@ h1{
 #container1{
 height: 100vh;
 width: 100%;
-border-bottom: 350px solid black;
+border-bottom: 350px solid #101010;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -66,7 +66,7 @@ position: relative;
         top: 0%; 
         height: 50%;
         width: 6%; 
-        background-color:black;
+        background-color:#101010;
     }
 
     &::after {
@@ -131,7 +131,7 @@ h1{
 
     img{
        height: 80%;
-       box-shadow: 20px 20px 0px 0 black;
+       box-shadow: 20px 20px 0px 0 #101010;
     }
     ul{
         width: 30%;
@@ -363,7 +363,7 @@ z-index: 3;
 
 
 .faixa{
-    background-color: #000000;
+    background-color: #101010;
     width: 40%;
     height: 100px;
     position: relative;

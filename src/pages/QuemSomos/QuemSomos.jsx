@@ -62,9 +62,6 @@ export default function QuemSomos() {
                 </div>
 
 
-
-
-
             </StyledQuemSomos>
 
             <StyledQuemsomos4>

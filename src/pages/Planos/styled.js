@@ -137,13 +137,14 @@ margin-top: 100px;
     background-color: #000000;
     width: 90%;
     height: 400px;
-
     display: flex;
 }
 
 .img{
     width: 40%;
     height: 100%;
+    background-image: url(src/assets/foto-capa.jpg);
+    background-size: cover;
     background-color: #033a02;
 }
 
@@ -155,15 +156,11 @@ margin-top: 100px;
     width: 60%;
     height: 100%;
     position: relative;
-    left: 20%;
     color: #ffffff;
     display: flex;
     flex-direction: column;
     text-align: left;
     margin-left: 10%;
-
-    border: solid 2px #0de709;
-
 }
 .txt h2{
     margin-top: 50px;
@@ -187,12 +184,12 @@ margin-top: 100px;
 .valor h3{
 font-size: 40px;
 margin-top: 30px;
-margin-left: 25px;
+margin-left: 10px;
 }
 .valor p{
-font-size: 15px;
-margin-top: 45px;
-margin-left: 10px;
+font-size: 20px;
+margin-top: 40px;
+margin-left: 15px;
 font-weight: 500;
 }
  button{
