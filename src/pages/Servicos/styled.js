@@ -9,9 +9,13 @@ justify-content: center;
 text-align: center;
 align-items: center;
 background-color: #F4F3F0 ;
+
+
+
 #titulos {
     width: 70%;
     height: 10%;
+    margin-top: 80px;
   }
 
   #titulos h1{
@@ -26,6 +30,8 @@ justify-content: space-evenly;
 align-items: center;
 width: 90%;
 max-width: 1000px;
+margin-top: 50px;
+
 
 }
 

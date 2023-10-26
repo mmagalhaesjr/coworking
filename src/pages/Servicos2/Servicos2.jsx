@@ -21,7 +21,7 @@ export default function Servicos2() {
 
                     </div>
                     <ul>
-                        <li>Serviço de concierge</li>
+                        <li>Serviço de Concierge</li>
                         <li>Motorista executivo</li>
                         <li>Café da manhã continental</li>
                         <li>Marketing digital </li>
