@@ -109,19 +109,41 @@ h3{
     margin-right: 40px;
     position: relative;
     top: 15%;
-    left: 0%;
-   
+    left: 5%;
 }
+
+.swiper {
+  margin: 100px auto;
+  width: 320px;
+  height: 240px;
+}
+
+.swiper-slide {
+   width: 100%;
+   height: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  left: -5%;
+
+}
+
 .foto{
-    /* width: 35%;
-    height:60%; */
     width: 100%;
-    height: 90%;
+    height: 100%;
     position: relative;
     top: 5%;
     left: -5%;
-   
+    
 }
+
+
+
+
 `
 
 

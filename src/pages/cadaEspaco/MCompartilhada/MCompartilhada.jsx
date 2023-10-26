@@ -1,6 +1,15 @@
 import { StyledMCompartilhada, Styled2 } from "./styled";
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/effect-creative';
+
+
+import { EffectCreative } from 'swiper/modules';
+
 import foto from '../../../assets/xicara.jpeg'
+
 
 import ico1 from '../../../assets/icones/concierge.png'
 import ico2 from '../../../assets/icones/telefone.png'
@@ -34,8 +43,9 @@ export default function MCompartilhada() {
                         <div id="texto">
                             <h1>Mesa compartilhada</h1>
                             <h2>
-                                Acesso diário a uma mesa compartilhada em um espaço comum com toda a
-                                estrutura da nossa comunidade. <br /> Ideal para uma pessoa e equipes reduzidas.
+                                Acesso diário a uma mesa compartilhada <br /> em um espaço comum 
+                                 com toda a
+                                estrutura da nossa comunidade. Ideal para uma pessoa e equipes reduzidas.
                             </h2>
                             <h3>Vantagens</h3>
                             <ul>
@@ -49,7 +59,31 @@ export default function MCompartilhada() {
                     <div id="containerFoto">
 
                         <div id="cor" >
-                            <img className="foto" src={foto} alt="" />
+                           
+                        <Swiper
+        grabCursor={true}
+        effect={'creative'}
+        creativeEffect={{
+          prev: {
+            shadow: true,
+            translate: [0, 0, -400],
+          },
+          next: {
+            translate: ['100%', 0, 0],
+          },
+        }}
+        modules={[EffectCreative]}
+        className="swiper-slide"
+      >
+        <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+        <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+        <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+        <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+        <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+        
+      </Swiper>
+      
+                            
                         </div>
 
                     </div>

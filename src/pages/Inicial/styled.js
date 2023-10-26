@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 
+
 export const StyledInicial = styled.section`
 width: 100%;
 height: 100vh;
@@ -38,6 +39,7 @@ img{
     position: relative;
     width: 100%;
     height: 100%;
+  
 }
 
 #titulo{
@@ -51,6 +53,7 @@ img{
     left: 20px;
     font-size: 80px;
     color: #F4F3F0;
+    color: #000000;
 }
 
 #setas{
