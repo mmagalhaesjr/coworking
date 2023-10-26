@@ -22,7 +22,14 @@ export default function Planos() {
 
                     <div id="cxDayUse">
 
-                       
+                        <div id="dayUseTexto">
+                            <h1>Day use</h1>
+                            <p>
+                                Garanta uma diária no nosso espaço <br />
+                                e conheça as nossas vantagens!
+                            </p>
+
+                        </div>
 
                         <div id="circulo">
                             <p>Valor da diária</p>
@@ -58,10 +65,68 @@ export default function Planos() {
                             <button>Contratar agora</button>
 
                         </div>
-
-
                     </div>
 
+                </div>
+
+                <div className="cxEstacao">
+
+                    <div className="texto">
+                        <div className="txt">
+                            <h2> Estação de trabalho dedicada</h2>
+                            <p>Acesso exclusivo à sua posição de trabalho fixa, <br />
+                                em um ambiente compartilhado. </p>
+                            <p>A mesa dedicada é ideal para 1 pessoa e equipes reduzidas.</p>
+
+                            <div className="valor">
+                                <p>R$</p><h3>280,00</h3>
+                            </div>
+                            <button>Contratar agora</button>
+
+                        </div>
+                    </div>
+                    <div className="img"></div>
+
+                </div>
+
+                <div className="cxEstacao">
+
+                    <div className="img"></div>
+                    <div className="texto">
+                        <div className="txt">
+                            <h2> Estação de trabalho dedicada</h2>
+                            <p>Acesso exclusivo à sua posição de trabalho fixa, <br />
+                                em um ambiente compartilhado. </p>
+                            <p>A mesa dedicada é ideal para 1 pessoa e equipes reduzidas.</p>
+
+                            <div className="valor">
+                                <p>R$</p><h3>280,00</h3>
+                            </div>
+                            <button>Contratar agora</button>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="cxEstacao">
+
+
+                    <div className="texto">
+                        <div className="txt">
+                            <h2> Estação de trabalho dedicada</h2>
+                            <p>Acesso exclusivo à sua posição de trabalho fixa, <br />
+                                em um ambiente compartilhado. </p>
+                            <p>A mesa dedicada é ideal para 1 pessoa e equipes reduzidas.</p>
+
+                            <div className="valor">
+                                <p>R$</p><h3>280,00</h3>
+                            </div>
+                            <button>Contratar agora</button>
+
+                        </div>
+                    </div>
+                    <div className="img"></div>
                 </div>
 
             </StyledPlanos2>

@@ -6,15 +6,13 @@ import styled from 'styled-components';
 
 
 
+
 export const StyledPlanos = styled.section`
 width: 100%;
 height:130vh;
 display: flex;
 align-items: center;
 flex-direction: column;
-
-border: solid 2px black;
-
 
 
 
@@ -32,6 +30,7 @@ justify-content: center;
 #container img{
     width:70%;
     height: 100%;
+    margin-top: 100px;
    
 }
 
@@ -46,8 +45,6 @@ justify-content: center;
     color: #000000;
     text-align: center;
     background-color: #ffffff;
-
-    border: solid 2px black;
 }
 
 #container #texto h2{
@@ -61,11 +58,32 @@ justify-content: center;
 
 
 #cxDayUse{
-    margin-top: 100px;
-    width:70%;
+    margin-top: 50px;
+    width:60%;
     height:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #C4BCBC;
     border-radius: 200px;
+}
+
+#dayUseTexto{
+
+   position: relative;
+   left: -10%;
+    width: 40%;
+   
+}
+#dayUseTexto h1{
+font-size: 50px;
+font-weight: 700;
+color: #ffffff;
+}
+#dayUseTexto p{
+font-size: 20px;
+font-weight: 700;
+margin-top: 20px;
 }
 
 #circulo{
@@ -73,7 +91,7 @@ justify-content: center;
     height: 200px;
     border-radius: 50%;
     background-color:  #F4F3F0;
-    margin-left: 100%;
+    
 
     display: flex;
     flex-direction: column;
@@ -98,9 +116,24 @@ display: flex;
 align-items: center;
 flex-direction: column;
 
-border: solid 2px red;
+margin-top: 100px;
+
+
+
+
+
+#titulo{
+    position: relative;
+    left: -20%;
+    margin-top: 50px;
+}
+#titulo h1{
+    font-size: 40px;
+    font-weight: 700;
+}
 
 .cxEstacao{
+    margin-top: 50px;
     background-color: #000000;
     width: 90%;
     height: 400px;
@@ -121,6 +154,8 @@ border: solid 2px red;
 .txt{
     width: 60%;
     height: 100%;
+    position: relative;
+    left: 20%;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -128,8 +163,6 @@ border: solid 2px red;
     margin-left: 10%;
 
     border: solid 2px #0de709;
-
-
 
 }
 .txt h2{
