@@ -5,8 +5,13 @@ import styled from 'styled-components';
 export const StyledInicial = styled.section`
 width: 100%;
 height: 100vh;
-overflow: hidden;
+
+display: flex;
+align-items: center;
+justify-content: center;
+/* overflow: hidden; */
 position: relative;
+
 /* background-image: url(src/assets/foto-capa.jpg);
 background-repeat: no-repeat;
 background-size: cover; */
@@ -14,7 +19,7 @@ background-size: cover; */
 .swiper-button-prev,
 .swiper-button-next{
 
-  color: #fff;
+color: #fff;
  margin: 1%;
 }
 .swiper-button-next.swiper-button-disabled,
@@ -35,6 +40,33 @@ background-size: cover; */
   background-color: #F4F3F0;
 }
 
+
+.salas{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* .swiper-slide:nth-child(1n) {
+    background-image:url(src/assets/capa/sala1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+.swiper-slide:nth-child(2n) {
+    background-image:url(src/assets/capa/sala2.jpg);
+   
+    
+}
+
+.swiper-slide:nth-child(3n) {
+    background-image:url(src/assets/capa/sala3.jpg);
+    background-size: cover;
+   
+} */
+
+
 img{
     position: relative;
     width: 100%;
@@ -50,10 +82,11 @@ img{
 }
 #titulo h1{
     position: relative;
-    left: 20px;
+    left: 15%;
     font-size: 80px;
     color: #F4F3F0;
-    color: #000000;
+    text-shadow: offset-x offset-y blur-radius color;
+
 }
 
 #setas{

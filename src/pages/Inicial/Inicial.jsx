@@ -1,19 +1,24 @@
 import { StyledInicial } from "./styled";
 
 // import { BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill } from 'react-icons/bs';
-import { Autoplay, Navigation, Pagination, A11y } from 'swiper/modules';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css/effect-creative';
+
+// import 'swiper/css/effect-creative';
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 
 
 
-import foto from '../../assets/capa/1.jpg'
-import foto2 from '../../assets/capa/2.jpg'
-import foto3 from '../../assets/capa/3.jpg'
+import { Autoplay, Navigation, Pagination, A11y } from 'swiper/modules';
+
+
+
+import foto from '../../assets/capa/sala1.jpg'
+import foto2 from '../../assets/capa/sala2.jpg'
+import foto3 from '../../assets/capa/sala3.jpg'
 
 
 
@@ -25,7 +30,6 @@ export default function Inicial() {
 
         <StyledInicial>
             <Swiper
-                modules={[Autoplay, Navigation, Pagination, A11y]}
 
                 pagination={{ clickable: true }}
                 slidesPerView={window.innerWidth < 600 ? 1 : 1}
@@ -33,23 +37,19 @@ export default function Inicial() {
                     delay: 2000,
                     disableOnInteraction: false
                 }}
+                effect={'fade'}
                 navigation={true}
-                effect="fade"
-                speed={3000}
+                speed={5000}
 
-                className="mySwiper"
+                className="salas"
+                modules={[Autoplay, Navigation, Pagination, A11y]}
             >
                 <SwiperSlide>
 
-                    <div className="salas">
+                    <div id="sala1" className="salas">
                         <img src={foto} alt='' />
 
-                        <div id="titulo">
-                            <h1 >
-                                O mais novo espaço de trabalho
-                            </h1>
-
-                        </div>
+                        
 
                     </div>
 
@@ -57,28 +57,18 @@ export default function Inicial() {
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <div className="salas">
+                    <div id="sala2" className="salas">
                         <img src={foto2} alt='' />
-                        {/* <div id="titulo">
-                            <h1 >
-                                O mais novo espaço de trabalho
-                            </h1>
-
-                        </div> */}
+                       
 
                     </div>
 
                 </SwiperSlide>
                 <SwiperSlide>
 
-                    <div className="salas">
+                    <div id="sala3" className="salas">
                         <img src={foto3} alt='' />
-                        {/* <div id="titulo">
-                            <h1 >
-                                O mais novo espaço de trabalho
-                            </h1>
-
-                        </div> */}
+                        
 
                     </div>
 
