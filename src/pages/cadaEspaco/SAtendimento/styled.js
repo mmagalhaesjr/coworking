@@ -252,7 +252,7 @@ margin-top: 100px;
 
     #texto button{
         margin-top: 50px;
-        width: 20%;
+        width: 30%;
         height: 25%;
         background-color: #000000;
         color: #F4F3F0;

@@ -112,7 +112,7 @@ export default function SPrivativa() {
                     </div>
                     <div className="cxImg">
                         <img src={ico2} alt="" />
-                        <p>Linha telefonica privativa</p>
+                        <p>Linha telefônica privativa</p>
                     </div>
                     <div className="cxImg">
                         <img src={ico3} alt="" />
@@ -152,7 +152,7 @@ export default function SPrivativa() {
                     </div>
                     <div className="cxImg">
                         <img src={ico12} alt="" />
-                        <p>Armarios</p>
+                        <p>Armários</p>
                     </div>
 
 
@@ -167,7 +167,7 @@ export default function SPrivativa() {
                         </div>
                         <div className="cxIcone">
                             <img src={icone2} alt="" />
-                            <p>Freelancer e Autônomos</p>
+                            <p>Autônomos</p>
                         </div>
 
                         <div className="cxIcone">
@@ -191,11 +191,10 @@ export default function SPrivativa() {
                         <p>
                             Entre em contato
                             conosco e agende uma visita
-                            para conhecer nosso
-                            espaço e serviços!
+                            para conhecer <br /> nosso espaço e serviços!
                         </p>
                         <button>
-                            Agede uma visita
+                            Agende uma visita
                         </button>
 
                     </div>

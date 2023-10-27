@@ -53,11 +53,11 @@ export default function Cabecalho2() {
 
                     <ul className="nav-list">
                         <li><a onClick={quemSomos}>Sobre nós</a></li>
-                        <li><a href="#espacos">Espaços</a></li>
-                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="/#espacos">Espaços</a></li>
+                        <li><a href="/#servicos">Serviços</a></li>
                         <li><a onClick={planos}>Planos</a></li>
                         <li><a href="http://#">Eventos</a></li>
-                        <li><a href="#contato">Contato</a></li>
+                        <li><a href="/#contato">Contato</a></li>
                         <li><a onClick={blog} >Blog</a></li>
                         
                     </ul>

@@ -37,7 +37,7 @@ const Espacos = () => {
                             <a href="/dedicada">
                                 <div className="salas">
                                     <img src={foto} alt='' />
-                                    <h3>Mesas dedicadas</h3>
+                                    <h3>Mesas Dedicadas</h3>
                                 </div>
                             </a>
                         </SwiperSlide>
@@ -46,7 +46,7 @@ const Espacos = () => {
                             <a href="/compartilhada" >
                                 <div className="salas">
                                     <img src={foto} alt='' />
-                                    <h3>Mesas compartilhadas</h3>
+                                    <h3>Mesas Compartilhadas</h3>
                                 </div>
                             </a>
                         </SwiperSlide>
@@ -55,7 +55,7 @@ const Espacos = () => {
                             <a href="/reuniao">
                                 <div className="salas">
                                     <img src={foto} alt='' />
-                                    <h3>Salas de reunião</h3>
+                                    <h3>Salas de Reunião</h3>
                                 </div>
                             </a>
                         </SwiperSlide>
@@ -74,7 +74,7 @@ const Espacos = () => {
                             <a href="/atendimento">
                                 <div className="salas">
                                     <img src={foto} alt='' />
-                                    <h3>Salas para atendimento</h3>
+                                    <h3>Sala para Atendimento</h3>
                                 </div>
                             </a>
                         </SwiperSlide>

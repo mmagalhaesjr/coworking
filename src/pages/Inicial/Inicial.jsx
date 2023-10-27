@@ -16,9 +16,11 @@ import { Autoplay, Navigation, Pagination, A11y } from 'swiper/modules';
 
 
 
-import foto from '../../assets/capa/sala1.jpg'
+import foto1 from '../../assets/capa/sala1.jpg'
 import foto2 from '../../assets/capa/sala2.jpg'
 import foto3 from '../../assets/capa/sala3.jpg'
+import foto4 from '../../assets/capa/sala4.jpg'
+import foto5 from '../../assets/capa/sala5.jpg'
 
 
 
@@ -35,7 +37,7 @@ export default function Inicial() {
                 slidesPerView={window.innerWidth < 600 ? 1 : 1}
                 loop={true}
                 autoplay={{
-                    delay: 2000,
+                    delay: 3000,
                     disableOnInteraction: false
                 }}
                 effect={'fade'}
@@ -48,7 +50,7 @@ export default function Inicial() {
                 <SwiperSlide>
 
                     <div id="sala1" className="salas">
-                        <img src={foto} alt='' />
+                        <img src={foto1} alt='' />
 
                     </div>
 
@@ -67,6 +69,24 @@ export default function Inicial() {
 
                     <div id="sala3" className="salas">
                         <img src={foto3} alt='' />
+                        
+
+                    </div>
+
+                </SwiperSlide>
+                <SwiperSlide>
+
+                    <div id="sala3" className="salas">
+                        <img src={foto4} alt='' />
+                        
+
+                    </div>
+
+                </SwiperSlide>
+                <SwiperSlide>
+
+                    <div id="sala3" className="salas">
+                        <img src={foto5} alt='' />
                         
 
                     </div>
