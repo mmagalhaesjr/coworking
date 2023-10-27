@@ -2,11 +2,14 @@ import { StyledMCompartilhada, Styled2 } from "./styled";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import 'swiper/css';
 import 'swiper/css/effect-creative';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 
-import { EffectCreative } from 'swiper/modules';
+
+import { EffectCreative, Navigation, Pagination,A11y } from 'swiper/modules';
 
 import foto from '../../../assets/xicara.jpeg'
 
@@ -43,8 +46,8 @@ export default function MCompartilhada() {
                         <div id="texto">
                             <h1>Mesa compartilhada</h1>
                             <h2>
-                                Acesso diário a uma mesa compartilhada <br /> em um espaço comum 
-                                 com toda a
+                                Acesso diário a uma mesa compartilhada <br /> em um espaço comum
+                                com toda a
                                 estrutura da nossa comunidade. Ideal para uma pessoa e equipes reduzidas.
                             </h2>
                             <h3>Vantagens</h3>
@@ -59,31 +62,33 @@ export default function MCompartilhada() {
                     <div id="containerFoto">
 
                         <div id="cor" >
-                           
-                        <Swiper
-        grabCursor={true}
-        effect={'creative'}
-        creativeEffect={{
-          prev: {
-            shadow: true,
-            translate: [0, 0, -400],
-          },
-          next: {
-            translate: ['100%', 0, 0],
-          },
-        }}
-        modules={[EffectCreative]}
-        className="swiper-slide"
-      >
-        <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-        <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-        <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-        <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-        <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-        
-      </Swiper>
-      
-                            
+
+                            <Swiper
+                             modules={[EffectCreative, Navigation, Pagination,A11y]}
+                             navigation
+                                grabCursor={true}
+                                effect={'creative'}
+                                creativeEffect={{
+                                    prev: {
+                                        shadow: true,
+                                        translate: [0, 0, -400],
+                                    },
+                                    next: {
+                                        translate: ['100%', 0, 0],
+                                    },
+                                }}
+                               
+                                className="swiper-slide"
+                            >
+                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+
+                            </Swiper>
+
+
                         </div>
 
                     </div>

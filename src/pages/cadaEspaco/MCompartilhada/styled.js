@@ -111,6 +111,17 @@ h3{
     top: 15%;
     left: 5%;
 }
+.swiper-button-prev,
+.swiper-button-next{
+
+ color: #fff;
+ margin: 1%;
+ 
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  display: none;
+}
 
 .swiper {
   margin: 100px auto;
@@ -168,12 +179,16 @@ align-items: center;
 
 #container1{
 width: 80%;
+max-width: 1300px;
+min-width: 610px;
 display: flex;
 align-items: center;
 justify-content: center;
 gap: 80px;
 flex-wrap: wrap;
 margin-top: 100px;
+
+
 }
 
 #container1 img{
@@ -241,7 +256,7 @@ margin-top: 100px;
     #texto button{
         margin-top: 50px;
         width: 20%;
-        height: 20%;
+        height: 25%;
         background-color: #000000;
         color: #F4F3F0;
         font-size: 20px;

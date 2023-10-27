@@ -3,16 +3,14 @@ import styled from 'styled-components';
 
 
 
-
-
-
-
 export const StyledPlanos = styled.section`
 width: 100%;
 height:130vh;
 display: flex;
 align-items: center;
 flex-direction: column;
+
+
 
 
 
@@ -28,7 +26,7 @@ justify-content: center;
 }
 
 #container img{
-    width:70%;
+    width:100%;
     height: 100%;
     margin-top: 100px;
    
@@ -59,7 +57,7 @@ justify-content: center;
 
 #cxDayUse{
     margin-top: 50px;
-    width:60%;
+    width:50%;
     height:500px;
     display: flex;
     align-items: center;
@@ -71,8 +69,9 @@ justify-content: center;
 #dayUseTexto{
 
    position: relative;
-   left: -10%;
-    width: 40%;
+   left: 0%;
+    width: 50%;
+   
    
 }
 #dayUseTexto h1{
@@ -84,6 +83,9 @@ color: #ffffff;
 font-size: 20px;
 font-weight: 700;
 margin-top: 20px;
+line-height: 1.2;
+
+
 }
 
 #circulo{
@@ -98,12 +100,22 @@ margin-top: 20px;
     align-items: center;
     justify-content: center;
 }
-#circulo p{
+#circulo h3 {
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+#circulo div{
+    display: flex;
+}
+#circulo h2{
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 5px;
     margin-top: 10px;
 }
-#circulo span{
-    font-size: 30px;
-    font-weight: 700;
+#circulo p{
+margin-top: 15px;
 }
 
 
@@ -116,7 +128,9 @@ display: flex;
 align-items: center;
 flex-direction: column;
 
-margin-top: 100px;
+margin-top: 170px;
+
+
 
 
 
@@ -134,7 +148,7 @@ margin-top: 100px;
 
 .cxEstacao{
     margin-top: 50px;
-    background-color: #000000;
+    background-color: #C4BCBC;
     width: 90%;
     height: 400px;
     display: flex;
@@ -156,7 +170,7 @@ margin-top: 100px;
     width: 60%;
     height: 100%;
     position: relative;
-    color: #ffffff;
+   
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -169,11 +183,11 @@ margin-top: 100px;
 .txt p{
     margin-top: 30px;
     font-size: 20px;
+    color: #ffffff;
 }
 .valor{
     margin-top: 50px;
-    background-color:  #C4BCBC;
-    color: #000000;
+    background-color:  #5a5656;
     width: 200px;
     height: 100px;
     border-radius:200px ;
@@ -185,12 +199,14 @@ margin-top: 100px;
 font-size: 40px;
 margin-top: 30px;
 margin-left: 10px;
+color: #ffffff;
 }
 .valor p{
 font-size: 20px;
 margin-top: 40px;
 margin-left: 15px;
 font-weight: 500;
+color: #ffffff;
 }
  button{
    width: 40%;

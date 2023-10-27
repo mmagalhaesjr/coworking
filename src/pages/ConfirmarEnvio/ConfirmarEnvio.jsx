@@ -11,7 +11,7 @@ export default function ConfirmarEnvio() {
                 <h1>MENSAGEM ENVIADA</h1>
                 
             </div>
-            <a href="https://coworking-eight.vercel.app/">VOLTAR</a>
+            <a href="https://coworking-eight.vercel.app/">VOLTAR PARA PAGINA INICIAL</a>
         </StyledConfirmarEnvio>
     )
 }

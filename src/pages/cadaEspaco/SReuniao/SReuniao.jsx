@@ -1,5 +1,16 @@
 import { StyledSReuniao, Styled2 } from "./styled";
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css/effect-creative';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+
+
+import { EffectCreative, Navigation, Pagination,A11y } from 'swiper/modules';
+
 import foto from '../../../assets/xicara.jpeg'
 
 import ico1 from '../../../assets/icones/concierge.png'
@@ -54,7 +65,33 @@ export default function SReuniao() {
                     <div id="containerFoto">
 
                         <div id="cor" >
-                            <img className="foto" src={foto} alt="" />
+
+                            <Swiper
+                             modules={[EffectCreative, Navigation, Pagination,A11y]}
+                             navigation
+                                grabCursor={true}
+                                effect={'creative'}
+                                creativeEffect={{
+                                    prev: {
+                                        shadow: true,
+                                        translate: [0, 0, -400],
+                                    },
+                                    next: {
+                                        translate: ['100%', 0, 0],
+                                    },
+                                }}
+                               
+                                className="swiper-slide"
+                            >
+                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+
+                            </Swiper>
+
+
                         </div>
 
                     </div>

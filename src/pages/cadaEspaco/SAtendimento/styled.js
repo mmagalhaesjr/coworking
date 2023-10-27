@@ -114,16 +114,47 @@ h3{
     left: 0%;
    
 }
+.swiper-button-prev,
+.swiper-button-next{
+
+ color: #fff;
+ margin: 1%;
+ 
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  display: none;
+}
+
+.swiper {
+  margin: 100px auto;
+  width: 320px;
+  height: 240px;
+}
+
+.swiper-slide {
+   width: 100%;
+   height: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  left: -5%;
+
+}
+
 .foto{
-    /* width: 35%;
-    height:60%; */
     width: 100%;
-    height: 90%;
+    height: 100%;
     position: relative;
     top: 5%;
     left: -5%;
-   
+    
 }
+
 `
 
 
@@ -146,6 +177,8 @@ align-items: center;
 
 #container1{
 width: 80%;
+max-width: 1300px;
+min-width: 610px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -220,7 +253,7 @@ margin-top: 100px;
     #texto button{
         margin-top: 50px;
         width: 20%;
-        height: 20%;
+        height: 25%;
         background-color: #000000;
         color: #F4F3F0;
         font-size: 20px;

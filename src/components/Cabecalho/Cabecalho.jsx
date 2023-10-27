@@ -39,12 +39,11 @@ export default function Cabecalho() {
     };
 
     const quemSomos = () => {
-        window.open('/quem-somos');
-        // navegar('/blog');
+        window.location.href = '/quem-somos';
     };
 
     const planos = () => {
-        window.open('/planos', "_blank");
+        window.location.href = '/planos';
         
     };
    

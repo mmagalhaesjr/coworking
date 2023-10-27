@@ -50,8 +50,6 @@ export default function Inicial() {
                     <div id="sala1" className="salas">
                         <img src={foto} alt='' />
 
-                        
-
                     </div>
 
 

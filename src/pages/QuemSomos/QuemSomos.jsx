@@ -3,7 +3,14 @@ import foto from '../../assets/sala2.png'
 
 
 export default function QuemSomos() {
+
+    const espacos = () => {
+        window.location.href = '/#espacos';
+    };
+   
     return (
+
+       
 
         <>
             <StyledQuemSomos id="#quem-somos">
@@ -73,9 +80,9 @@ export default function QuemSomos() {
 
                 <div id="container4">
 
-                    <div className="imgCx4">
+                    <div className="imgCx4" onClick={espacos}>
                         <img src={foto} alt="" />
-                        <h3>Descubra nosso espaço</h3>
+                       <h3>Descubra nosso espaço</h3>
                     </div>
                     <div className="imgCx4">
                         <img src={foto} alt="" />

@@ -12,10 +12,10 @@ text-align: center;
 height: 100vh;
 
 div{
-    background-color: #398462;
+  background-color: #C4BCBC;
     width: 100%;
     h1{
-    color:#eae9e9;
+    color:#000;
     font-size: 50px;
     font-weight: 200;
     }
