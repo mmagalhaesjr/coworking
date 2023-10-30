@@ -20,7 +20,7 @@ import foto1 from '../../assets/capa/sala1.jpg'
 import foto2 from '../../assets/capa/sala2.jpg'
 import foto3 from '../../assets/capa/sala3.jpg'
 import foto4 from '../../assets/capa/sala4.jpg'
-import foto5 from '../../assets/capa/sala5.jpg'
+
 
 
 
@@ -83,27 +83,8 @@ export default function Inicial() {
                     </div>
 
                 </SwiperSlide>
-                <SwiperSlide>
-
-                    <div id="sala3" className="salas">
-                        <img src={foto5} alt='' />
-                        
-
-                    </div>
-
-                </SwiperSlide>
-
 
             </Swiper>
-
-
-
-
-            {/* <div id='setas'>
-                <BsFillArrowLeftCircleFill />
-                <BsFillArrowRightCircleFill />
-            </div> */}
-
 
 
         </StyledInicial>

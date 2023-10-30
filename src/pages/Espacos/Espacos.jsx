@@ -4,7 +4,7 @@ import { StyledEspacos } from './styled';
 
 
 import foto1 from '../../assets/espaços/dedicada.jpg'
-import foto2 from '../../assets/espaços/compartilhada.jpg'
+import foto2 from '../../assets/espaços/compartilhada.png'
 
 import foto from '../../assets/sala2.png'
 

@@ -55,15 +55,12 @@ export const StyledEspacos = styled.section`
     margin: auto;
   }
   
- 
   .salas {
     width: 100%;
     height: 100%;
     border-right: 15px solid  #F4F3F0;
     border-left: 15px solid  #F4F3F0;
-    overflow:hidden;
-
-    
+    overflow:hidden;    
   }
   
   .salas img {
