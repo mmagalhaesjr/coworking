@@ -49,7 +49,7 @@ justify-content: center;
 font-size: 40px;
 }
 #texto h2{
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 50px;
     font-weight: 100;
 }

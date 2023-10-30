@@ -51,7 +51,7 @@ export default function MDedicada() {
                             <h1>Mesa exclusiva</h1>
                             <h2>
                                 Acesso exclusivo à sua posição fixa de trabalho, em um ambiente compartilhado.
-                                Ideal para uma pessoa e equipes reduzidas.
+                                Ideal para 1 pessoa e equipes reduzidas.
                             </h2>
                             <h3>Vantagens</h3>
                             <ul>

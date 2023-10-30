@@ -75,7 +75,7 @@ nav {
     margin-top: 7px;
     background: none; 
     position: relative;
-    left: -180px;
+    left: -100px;
     }
 
   img {

@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
 
-
-
 export const StyledServicos2 = styled.section`
 width: 100%;
 height:100vh;
@@ -25,15 +23,14 @@ height:100vh;
     text-align: center;
     align-items: center;
     gap: 10%;
-   
 }
+
 #titulo{
     width: 70%;
     display: flex;
     text-align: start;
     line-height: 1.2;
     font-size: 45px;
-    
 }
 
 ul{
@@ -43,21 +40,75 @@ ul{
     align-items: flex-start;
     line-height: 1.5;
     font-weight: 400;
-
 }
-#containerImg{
-   background-color:#101010 ;
-    height: 85%;
-    width: 35%;
+
+
+#containerFoto{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    #cor{
+    background-color: #101010;
+    width: 90%;
+    height: 80%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   
 }
-img{
-    position: absolute;
-    width: 35%;
-    left: 56%;
-    
-
+.foto{
+    width: 100%;
+    height:100%;
+    position: relative;
+    top: 3%;
+    left: -5%; 
 }
+
+
+.swiper-button-prev,
+.swiper-button-next{
+
+ color: #fff;
+ margin: 1%;
+ 
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  display: none;
+}
+
+.swiper {
+  margin: 100px auto;
+  width: 320px;
+  height: 240px; 
+}
+
+.swiper-slide {
+   width: 100%;
+   height: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  left: -5%;
+
+ 
+
+  
+}
+
+
+
 
 @media (max-width:1200px){
 #titulo{

@@ -70,8 +70,7 @@ export default function Cabecalho() {
                         <li><a href="http://#">Eventos</a></li>
                         <li><a href="#contato">Contato</a></li>
                         <li><a onClick={blog} >Blog</a></li>
-                        <li><a onClick={blog} >Área do cliente</a></li>
-                        
+                        <li><a href='https://temasekcoworking.conexa.app' >Área do cliente</a></li>
                     </ul>
 
                     <button onClick={mobile}  >

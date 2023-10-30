@@ -46,9 +46,8 @@ export default function MCompartilhada() {
                         <div id="texto">
                             <h1>Mesa compartilhada</h1>
                             <h2>
-                                Acesso diário a uma mesa compartilhada <br /> em um espaço comum
-                                com toda a
-                                estrutura da nossa comunidade. Ideal para uma pessoa e equipes reduzidas.
+                                Acesso diário a uma mesa compartilhada em um espaço comum
+                                com toda a estrutura do Temasek Coworking. Ideal para 1 pessoa e equipes reduzidas.
                             </h2>
                             <h3>Vantagens</h3>
                             <ul>

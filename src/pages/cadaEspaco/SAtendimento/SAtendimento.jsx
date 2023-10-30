@@ -50,13 +50,13 @@ export default function SAtendimento() {
                         <div id="texto">
                             <h1>Sala para atendimento</h1>
                             <h2>
-                                A Sala Paris é ideal para atendimentos. Ideal para trabalhar e organizar reuniões e treinamentos.
+                                A Sala Paris é ideal para atendimentos de profissionais, como: terapeutas, psicólogos, fonoaudiólogos, 
+                                dentre outros. Possui duas poltronas e um divã e comporta até 4 pessoas.
                             </h2>
                             <h3>Vantagens</h3>
                             <ul>
                                 <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
                                 <li>Acesso a salas de reunião, com pagamento pelo uso</li>
-                                <li>Trabalhe em um espaço compartilhado com a comunidade Temasek.</li>
                                 <li>Wifi de alta velocidade e serviços de impressão</li>
                             </ul>
                         </div>
