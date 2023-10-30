@@ -2,16 +2,12 @@ import styled from 'styled-components';
 
 
 
-
 export const StyledPlanos = styled.section`
 width: 100%;
 height:130vh;
 display: flex;
 align-items: center;
 flex-direction: column;
-
-
-
 
 
 #container{
@@ -27,9 +23,8 @@ justify-content: center;
 
 #container img{
     width:100%;
-    height: 100%;
+    height: 70%;
     margin-top: 100px;
-   
 }
 
 #container #texto{
@@ -56,7 +51,7 @@ justify-content: center;
 
 
 #cxDayUse{
-    margin-top: 50px;
+    margin-top: 100px;
     width:50%;
     height:500px;
     display: flex;
@@ -67,25 +62,30 @@ justify-content: center;
 }
 
 #dayUseTexto{
-
    position: relative;
    left: 0%;
-    width: 50%;
-   
-   
+   width: 50%;
+   opacity: 0;
+   transition: opacity 5s ease;
 }
+&.rolagem {
+    #dayUseTexto{
+    opacity: 1;
+    transition: opacity 5s ease;
+   }
+}
+
 #dayUseTexto h1{
 font-size: 50px;
 font-weight: 700;
 color: #ffffff;
 }
+
 #dayUseTexto p{
 font-size: 20px;
 font-weight: 700;
 margin-top: 20px;
 line-height: 1.2;
-
-
 }
 
 #circulo{
@@ -94,29 +94,45 @@ line-height: 1.2;
     border-radius: 50%;
     background-color:  #F4F3F0;
     
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+    left: -600px;
+    transition: 2s;
 }
+&.rolagem {
+    #circulo{
+    transform: translatex(690px);
+    z-index: 1;
+    transition: 2s;
+   }
+}
+
 #circulo h3 {
     margin-top: 10px;
-    font-size: 20px;
-
+    font-size: 15px;
 }
+
+
 #circulo div{
     display: flex;
 }
+
 #circulo h2{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 35px;
     margin-left: 5px;
     margin-top: 10px;
 }
+
 #circulo p{
-margin-top: 15px;
+margin-top: 20px;
+font-weight: 700;
 }
+
+
 
 
 `
@@ -127,14 +143,7 @@ height:100vh;
 display: flex;
 align-items: center;
 flex-direction: column;
-
 margin-top: 170px;
-
-
-
-
-
-
 
 #titulo{
     position: relative;
@@ -148,18 +157,21 @@ margin-top: 170px;
 
 .cxEstacao{
     margin-top: 50px;
-    background-color: #C4BCBC;
-    width: 90%;
-    height: 400px;
+    background-color: #a98261;
+    width:75%;
+    height: 60%;
     display: flex;
 }
 
 .img{
     width: 40%;
     height: 100%;
-    background-image: url(src/assets/foto-capa.jpg);
-    background-size: cover;
+    
     background-color: #033a02;
+}
+.img img{
+    width: 100%;
+    height: 100%;
 }
 
 .texto{
@@ -167,7 +179,7 @@ margin-top: 170px;
   height: 100%;
 }
 .txt{
-    width: 60%;
+    width: 89%;
     height: 100%;
     position: relative;
    
@@ -175,6 +187,7 @@ margin-top: 170px;
     flex-direction: column;
     text-align: left;
     margin-left: 10%;
+
 }
 .txt h2{
     margin-top: 50px;
@@ -184,32 +197,46 @@ margin-top: 170px;
     margin-top: 30px;
     font-size: 20px;
     color: #ffffff;
+    
 }
 .valor{
     margin-top: 50px;
-    background-color:  #5a5656;
+    background-color:  #101010;
     width: 200px;
-    height: 100px;
+    height: 80px;
     border-radius:200px ;
     margin-left: 10%;
 
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: solid 1px red;
+}
+.valor div{
+display: flex;
+
+}
+.valor h4{
+    margin-top: 0px;
+    color: #ffffff;
 }
 .valor h3{
 font-size: 40px;
-margin-top: 30px;
-margin-left: 10px;
+margin-top: 5px;
+margin-left: 7px;
 color: #ffffff;
 }
 .valor p{
 font-size: 20px;
-margin-top: 40px;
-margin-left: 15px;
+
+margin-top: 15px;
 font-weight: 500;
 color: #ffffff;
 }
  button{
-   width: 40%;
+    width: 40%;
     height: 40px;
 
     position: relative;
@@ -217,9 +244,52 @@ color: #ffffff;
     top: -10%;
     background-color: transparent;
     border: solid 2px #F4F3F0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #ffffff;
     font-weight: 700;
+    &:hover{
+        border: solid 2px #000000;
+        color: #000000;
+    }
 
 }
+button h5{
+   font-size: 140%;
+}
+.icone{
+font-size: 30px;
+margin-left: 50px;
+margin-top: 10px;
+}
+
+
+@media(max-width: 1190px) {
+    .img{
+        width: 100px;
+        height: 150px;
+    }
+}
+@media(max-width: 1030px) {
+    .texto{
+        margin-left: 0;
+    }
+    .valor{
+    width: 250px;
+    height: 100px;
+    margin-left: 0;
+    margin-top: 5%;
+    }
+    button{
+    left: 0%;
+    top: 0%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    }
+}
+
+
 
 `

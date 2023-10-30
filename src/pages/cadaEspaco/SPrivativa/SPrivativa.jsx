@@ -52,7 +52,7 @@ export default function SPrivativa() {
                             <h1>Sala privativa</h1>
                             <h2>
                                 A <span>Sala Roma</span> é preparada para realizar qualquer tipo de reunião. <br />
-                                Ideal para trabalhar e organizar reuniões e treinamentos.
+                                Possui design moderno e intimista.
                             </h2> 
                             <h4>  
                                <div>Sala Roma <BsPerson /> 4</div>  

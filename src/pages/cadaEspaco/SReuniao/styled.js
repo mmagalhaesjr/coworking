@@ -174,8 +174,8 @@ export const Styled2 = styled.section`
 
 width: 100%;
 height: 200vh;
-background-color: #F4F3F0
-;
+background-color: #F4F3F0;
+
 
 display: flex;
 flex-direction: column;
@@ -273,8 +273,14 @@ margin-top: 100px;
         border: none;
         cursor: pointer;
         &:hover{
+            transition: .5s;
             background-color: #9C6839;
+            width: 32%;
+            height: 27%;
+                font-size: 23px;
+            }
+
         }
-    }
+    
 
 `

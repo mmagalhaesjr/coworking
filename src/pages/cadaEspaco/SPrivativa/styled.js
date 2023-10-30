@@ -271,8 +271,13 @@ margin-top: 100px;
         border: none;
         cursor: pointer;
         &:hover{
+            transition: .5s;
             background-color: #9C6839;
+            width: 32%;
+            height: 27%;
+                font-size: 23px;
+            }
+
         }
-    }
 
 `

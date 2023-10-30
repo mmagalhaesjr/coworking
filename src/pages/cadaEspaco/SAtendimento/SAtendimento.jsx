@@ -51,7 +51,7 @@ export default function SAtendimento() {
                         <div id="texto">
                             <h1>Sala para atendimento</h1>
                             <h2>
-                                A <span>Sala Paris </span> é ideal para atendimentos de profissionais, como: terapeutas, psicólogos, fonoaudiólogos, 
+                                A <span>Sala Paris </span> é ideal para atendimentos de profissionais como: terapeutas, psicólogos, fonoaudiólogos, 
                                 dentre outros.
                             </h2>
                             <h4>
