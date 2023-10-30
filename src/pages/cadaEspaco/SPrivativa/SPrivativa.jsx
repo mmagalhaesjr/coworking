@@ -1,5 +1,7 @@
 import { StyledSPrivativa, Styled2 } from "./styled";
 
+import { BsPerson } from 'react-icons/bs';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css/effect-creative';
@@ -49,13 +51,16 @@ export default function SPrivativa() {
                         <div id="texto">
                             <h1>Sala privativa</h1>
                             <h2>
-                                A Sala Roma é preparada para realizar qualquer tipo de reunião. <br />
+                                A <span>Sala Roma</span> é preparada para realizar qualquer tipo de reunião. <br />
                                 Ideal para trabalhar e organizar reuniões e treinamentos.
-                            </h2>
+                            </h2> 
+                            <h4>  
+                               <div>Sala Roma <BsPerson /> 4</div>  
+                            </h4>
                             <h3>Vantagens</h3>
                             <ul>
                                 <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
-                                <li>Acesso a salas de reunião, com pagamento pelo uso</li>
+                                <li>Disponibilizamos Endereço Comercial e Fiscal</li>
                                 <li>Wifi de alta velocidade e serviços de impressão</li>
                             </ul>
                         </div>

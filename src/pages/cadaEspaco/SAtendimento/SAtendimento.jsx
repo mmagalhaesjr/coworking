@@ -1,4 +1,5 @@
 import { StyledSAtendimento, Styled2 } from "./styled";
+import { BsPerson } from 'react-icons/bs';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -50,13 +51,17 @@ export default function SAtendimento() {
                         <div id="texto">
                             <h1>Sala para atendimento</h1>
                             <h2>
-                                A Sala Paris é ideal para atendimentos de profissionais, como: terapeutas, psicólogos, fonoaudiólogos, 
-                                dentre outros. Possui duas poltronas e um divã e comporta até 4 pessoas.
+                                A <span>Sala Paris </span> é ideal para atendimentos de profissionais, como: terapeutas, psicólogos, fonoaudiólogos, 
+                                dentre outros.
                             </h2>
+                            <h4>
+                               <div>Sala Paris <BsPerson /> 4</div> 
+                              
+                            </h4>
                             <h3>Vantagens</h3>
                             <ul>
                                 <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
-                                <li>Acesso a salas de reunião, com pagamento pelo uso</li>
+                                <li>Disponibilizamos Endereço Comercial e Fiscal</li>
                                 <li>Wifi de alta velocidade e serviços de impressão</li>
                             </ul>
                         </div>

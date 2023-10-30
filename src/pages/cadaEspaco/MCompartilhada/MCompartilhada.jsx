@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 
 
 
-import { EffectCreative, Navigation, Pagination,A11y } from 'swiper/modules';
+import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
 
 import foto from '../../../assets/xicara.jpeg'
 
@@ -51,9 +51,11 @@ export default function MCompartilhada() {
                             </h2>
                             <h3>Vantagens</h3>
                             <ul>
+                                <li>Ambiente climatizado e Wifi de alta velocidade</li>
                                 <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
                                 <li>Acesso a salas de reunião, com pagamento pelo uso</li>
-                                <li>Wifi de alta velocidade e serviços de impressão</li>
+                                <li>Impressão e digitalização de documentos e arquivos </li>
+                               
                             </ul>
                         </div>
                     </div>
@@ -63,8 +65,8 @@ export default function MCompartilhada() {
                         <div id="cor" >
 
                             <Swiper
-                             modules={[EffectCreative, Navigation, Pagination,A11y]}
-                             navigation
+                                modules={[EffectCreative, Navigation, Pagination, A11y]}
+                                navigation
                                 grabCursor={true}
                                 effect={'creative'}
                                 creativeEffect={{
@@ -76,7 +78,7 @@ export default function MCompartilhada() {
                                         translate: ['100%', 0, 0],
                                     },
                                 }}
-                               
+
                                 className="swiper-slide"
                             >
                                 <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>

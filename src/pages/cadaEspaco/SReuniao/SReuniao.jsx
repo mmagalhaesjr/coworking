@@ -1,5 +1,7 @@
 import { StyledSReuniao, Styled2 } from "./styled";
 
+import { BsPerson } from 'react-icons/bs';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css/effect-creative';
@@ -9,7 +11,7 @@ import 'swiper/css/pagination';
 
 
 
-import { EffectCreative, Navigation, Pagination,A11y } from 'swiper/modules';
+import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
 
 import foto from '../../../assets/xicara.jpeg'
 
@@ -50,14 +52,20 @@ export default function SReuniao() {
                         <div id="texto">
                             <h1>Salas de Reunião</h1>
                             <h2>
-                                As Salas Nova York, Londres e Roma são preparadas para realizar
-                                qualquer tipo de reunião ou workshop. Ideal para trabalhar e organizar reuniões e treinamentos.
+                                As Salas <span>Nova York, Londres e Roma </span> são preparadas para realizar
+                                qualquer tipo de reunião ou workshop. Ideal para trabalhar e organizar reuniões e treinamentos. 
                             </h2>
+                            <h4>
+                               <div>Sala Nova York <BsPerson /> 8</div> 
+                               <div>Sala Londres <BsPerson /> 4</div>   
+                               <div>Sala Roma <BsPerson /> 4</div>  
+                            </h4>
                             <h3>Vantagens</h3>
                             <ul>
+                                <li>Ambiente climatizado e Wifi de alta velocidade</li>
                                 <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
-                                <li>Acesso a salas de reunião, com pagamento pelo uso</li>
-                                <li>Wifi de alta velocidade e serviços de impressão</li>
+                                <li>Disponibilizamos Endereço Comercial e Fiscal</li>
+                                <li>Impressão e digitalização de documentos e arquivos </li>
                             </ul>
                         </div>
                     </div>
@@ -67,8 +75,8 @@ export default function SReuniao() {
                         <div id="cor" >
 
                             <Swiper
-                             modules={[EffectCreative, Navigation, Pagination,A11y]}
-                             navigation
+                                modules={[EffectCreative, Navigation, Pagination, A11y]}
+                                navigation
                                 grabCursor={true}
                                 effect={'creative'}
                                 creativeEffect={{
@@ -80,7 +88,7 @@ export default function SReuniao() {
                                         translate: ['100%', 0, 0],
                                     },
                                 }}
-                               
+
                                 className="swiper-slide"
                             >
                                 <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>

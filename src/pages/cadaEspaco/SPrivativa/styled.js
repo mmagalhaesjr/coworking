@@ -68,6 +68,16 @@ h3{
     margin-left: 40px;
     font-weight: 100;
 }
+h4{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+span{
+    font-weight: 500;
+}
 
 
 /* .faixa{
