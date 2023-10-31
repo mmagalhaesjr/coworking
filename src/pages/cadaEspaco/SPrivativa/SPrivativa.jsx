@@ -13,7 +13,10 @@ import 'swiper/css/pagination';
 
 import { EffectCreative, Navigation, Pagination,A11y } from 'swiper/modules';
 
-import foto from '../../../assets/xicara.jpeg'
+import foto1 from '../../../assets/privativa/1.jpeg'
+import foto2 from '../../../assets/privativa/2.jpeg'
+import foto3 from '../../../assets/privativa/3.jpeg'
+import foto4 from '../../../assets/privativa/4.jpeg'
 
 import ico1 from '../../../assets/icones/concierge.png'
 import ico2 from '../../../assets/icones/telefone.png'
@@ -87,11 +90,11 @@ export default function SPrivativa() {
                                
                                 className="swiper-slide"
                             >
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto1} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto2} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto3} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto4} alt="" /></SwiperSlide>
+                               
 
                             </Swiper>
 

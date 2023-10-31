@@ -12,7 +12,10 @@ import 'swiper/css/pagination';
 
 import { EffectCreative, Navigation, Pagination,A11y } from 'swiper/modules';
 
-import foto from '../../../assets/xicara.jpeg'
+import foto1 from '../../../assets/atendimento/1.jpg'
+import foto2 from '../../../assets/atendimento/2.jpg'
+import foto3 from '../../../assets/atendimento/3.jpg'
+import foto4 from '../../../assets/atendimento/4.jpg'
 
 import ico1 from '../../../assets/icones/concierge.png'
 import ico2 from '../../../assets/icones/telefone.png'
@@ -88,11 +91,11 @@ export default function SAtendimento() {
        
         className="swiper-slide"
     >
-        <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-        <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-        <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-        <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-        <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+        <SwiperSlide><img className="foto" src={foto1} alt="" /></SwiperSlide>
+        <SwiperSlide><img className="foto" src={foto2} alt="" /></SwiperSlide>
+        <SwiperSlide><img className="foto" src={foto3} alt="" /></SwiperSlide>
+        <SwiperSlide><img className="foto" src={foto4} alt="" /></SwiperSlide>
+        
 
     </Swiper>
 

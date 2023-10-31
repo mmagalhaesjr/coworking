@@ -6,8 +6,9 @@ import foto from '../../assets/capa/sala1.jpg'
 import foto1 from '../../assets/espacos/dedicada.jpg'
 import foto2 from '../../assets/espacos/compartilhada.png'
 import foto3 from '../../assets/espacos/reuniao.jpg'
-import foto4 from '../../assets/espacos/privada.jpeg'
-import foto5 from '../../assets/espacos/atendimento.jpg'
+import foto4 from '../../assets/espacos/atendimento.jpg'
+import foto5 from '../../assets/espacos/privada.jpeg'
+
 
 
 import Cabecalho2 from "../../components/Cabecalho2/Cabecalho2"

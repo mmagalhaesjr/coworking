@@ -70,41 +70,12 @@ h3{
 }
 
 
-/* .faixa{
-    width: 100%;
-    height: 150px;
-    position: relative;
-    top: 100px;
-    background-color: #9C6839;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.cxIcone{
-        width: 200px; 
-        height: 130px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .cxIcone img{
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
-    }
-    .cxIcone p{
-        margin-top: 20px;
-        color: #F4F3F0;
-        font-size: 25px;
-        font-weight: 100;
-    } */
+
 
     #containerFoto{
         width: 40%;
     }
     #cor{
-    background-color: #9C6839;
     background-color: #101010;
     width: 90%;
     height: 70%;
@@ -133,8 +104,8 @@ h3{
 }
 
 .swiper-slide {
-   width: 100%;
-   height: 98%;
+  width: 100%;
+  height: 98%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -142,18 +113,19 @@ h3{
   font-weight: bold;
   color: #fff;
   position: relative;
-  left: -5%;
+  /* left: -5%; */
+  
 
 }
 
 .foto{
     width: 100%;
     height: 100%;
-    position: relative;
+    position: absolute;
     top: 5%;
     left: -5%;
-    
 }
+
 
 `
 

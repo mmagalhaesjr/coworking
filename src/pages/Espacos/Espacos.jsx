@@ -1,16 +1,11 @@
 
 import { StyledEspacos } from './styled';
 
-
-
 import foto1 from '../../assets/espacos/dedicada.jpg'
 import foto2 from '../../assets/espacos/compartilhada.png'
 import foto3 from '../../assets/espacos/reuniao.jpg'
-import foto4 from '../../assets/espacos/privada.jpeg'
+import foto4 from '../../assets/privativa/1.jpeg'
 import foto5 from '../../assets/espacos/atendimento.jpg'
-
-
-
 
 import { Navigation, Pagination, A11y} from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -41,7 +36,7 @@ const Espacos = () => {
                             <a href="/dedicada">
                                 <div className="salas">
                                     <img src={foto1} alt='' />
-                                    <h3>Estação de trabalho dedicada</h3>
+                                    <h3>Estação de Trabalho Dedicada</h3>
                                 </div>
                             </a>
                         </SwiperSlide>
@@ -50,7 +45,7 @@ const Espacos = () => {
                             <a href="/compartilhada" >
                                 <div className="salas">
                                     <img src={foto2} alt='' />
-                                    <h3>Estação de trabalho rotativa</h3>
+                                    <h3>Estação de Trabalho Rotativa</h3>
                                 </div>
                             </a>
                         </SwiperSlide>
@@ -59,7 +54,7 @@ const Espacos = () => {
                             <a href="/reuniao">
                                 <div className="salas">
                                     <img src={foto3} alt='' />
-                                    <h3>Salas de Reunião</h3>
+                                    <h3>Sala de Reunião</h3>
                                 </div>
                             </a>
                         </SwiperSlide>
@@ -68,7 +63,7 @@ const Espacos = () => {
                             <a href="/privativa" >                               
                             <div className="salas">
                                     <img src={foto4} alt='' />
-                                    <h3>Sala Privativa</h3>
+                                    <h3>Salas Privativa</h3>
                                 </div>
                             </a>
                         </SwiperSlide>
@@ -83,10 +78,6 @@ const Espacos = () => {
                             </a>
                         </SwiperSlide>
 
-                        
-
-                       
-                    
                 </Swiper>
             </div>
         </StyledEspacos>
