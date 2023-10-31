@@ -172,7 +172,7 @@ margin-top: 170px;
 .img{
     width: 40%;
     height: 100%;
-    background-color: #033a02;
+    background-color: #000000;
 }
 .img img{
     width: 100%;
@@ -199,7 +199,7 @@ margin-top: 170px;
     font-size: 30px;
 }
 .txt p{
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 20px;
     color: #ffffff;
     
@@ -217,6 +217,8 @@ section{
     min-width: 150px;
     height: 80px;
     border-radius:200px ;
+    margin-bottom: 10px;
+   
   
 
     display: flex;

@@ -94,7 +94,7 @@ p{
 
 img{
     width: 250px;
-    height: 50px;
+    height: 60px;
     background:none;
 }
 h6{

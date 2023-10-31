@@ -7,6 +7,10 @@ export default function QuemSomos() {
     const espacos = () => {
         window.location.href = '/#espacos';
     };
+    const planos = () => {
+        window.location.href = '/planos';
+        
+    };
    
     return (
 
@@ -84,7 +88,7 @@ export default function QuemSomos() {
                         <img src={foto} alt="" />
                        <h3>Descubra nosso espaço</h3>
                     </div>
-                    <div className="imgCx4">
+                    <div className="imgCx4" onClick={planos}>
                         <img src={foto} alt="" />
                         <h3>Conheça nossos planos</h3>
                     </div>

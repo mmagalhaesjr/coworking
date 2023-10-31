@@ -11,7 +11,10 @@ import 'swiper/css/pagination';
 
 import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
 
-import foto from '../../../assets/xicara.jpeg'
+import foto1 from '../../../assets/dedicadas/1.jpg'
+import foto2 from '../../../assets/dedicadas/2.jpg'
+import foto3 from '../../../assets/dedicadas/3.jpg'
+
 
 import ico1 from '../../../assets/icones/concierge.png'
 import ico2 from '../../../assets/icones/telefone.png'
@@ -85,11 +88,10 @@ export default function MDedicada() {
 
                                 className="swiper-slide"
                             >
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto1} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto2} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto3} alt="" /></SwiperSlide>
+                               
 
                             </Swiper>
 

@@ -3,10 +3,13 @@ import { StyledEspacos } from './styled';
 
 
 
-import foto1 from '../../assets/espaços/dedicada.jpg'
-import foto2 from '../../assets/espaços/compartilhada.png'
+import foto1 from '../../assets/espacos/dedicada.jpg'
+import foto2 from '../../assets/espacos/compartilhada.png'
+import foto3 from '../../assets/espacos/reuniao.jpg'
+import foto4 from '../../assets/espacos/privada.jpeg'
+import foto5 from '../../assets/espacos/atendimento.jpg'
 
-import foto from '../../assets/sala2.png'
+
 
 
 import { Navigation, Pagination, A11y} from 'swiper/modules';
@@ -38,7 +41,7 @@ const Espacos = () => {
                             <a href="/dedicada">
                                 <div className="salas">
                                     <img src={foto1} alt='' />
-                                    <h3>Mesas Dedicadas</h3>
+                                    <h3>Estação de trabalho dedicada</h3>
                                 </div>
                             </a>
                         </SwiperSlide>
@@ -47,7 +50,7 @@ const Espacos = () => {
                             <a href="/compartilhada" >
                                 <div className="salas">
                                     <img src={foto2} alt='' />
-                                    <h3>Mesas Compartilhadas</h3>
+                                    <h3>Estação de trabalho rotativa</h3>
                                 </div>
                             </a>
                         </SwiperSlide>
@@ -55,7 +58,7 @@ const Espacos = () => {
                         <SwiperSlide>
                             <a href="/reuniao">
                                 <div className="salas">
-                                    <img src={foto} alt='' />
+                                    <img src={foto3} alt='' />
                                     <h3>Salas de Reunião</h3>
                                 </div>
                             </a>
@@ -64,7 +67,7 @@ const Espacos = () => {
                         <SwiperSlide>
                             <a href="/privativa" >                               
                             <div className="salas">
-                                    <img src={foto} alt='' />
+                                    <img src={foto4} alt='' />
                                     <h3>Sala Privativa</h3>
                                 </div>
                             </a>
@@ -74,7 +77,7 @@ const Espacos = () => {
                         <SwiperSlide>
                             <a href="/atendimento">
                                 <div className="salas">
-                                    <img src={foto} alt='' />
+                                    <img src={foto5} alt='' />
                                     <h3>Sala para Atendimento</h3>
                                 </div>
                             </a>

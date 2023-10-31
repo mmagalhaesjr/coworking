@@ -1,12 +1,16 @@
 import { StyledPlanos, StyledPlanos2 } from "./styled"
-
 import { useState, useEffect } from "react";
 
 import { CgArrowLongRight } from 'react-icons/cg';
-import foto from '../../assets/capa/sala5.jpg'
+import foto from '../../assets/capa/sala1.jpg'
+import foto1 from '../../assets/espacos/dedicada.jpg'
+import foto2 from '../../assets/espacos/compartilhada.png'
+import foto3 from '../../assets/espacos/reuniao.jpg'
+import foto4 from '../../assets/espacos/privada.jpeg'
+import foto5 from '../../assets/espacos/atendimento.jpg'
+
+
 import Cabecalho2 from "../../components/Cabecalho2/Cabecalho2"
-
-
 
 export default function Planos() {
     const [scrollY, setScrollY] = useState(0);
@@ -71,7 +75,7 @@ export default function Planos() {
 
                 <div className="cxEstacao">
                     <div className="img">
-                        <img src={foto} alt="" />
+                        <img src={foto1} alt="" />
                     </div>
                     <div className="texto">
                         <div className="txt">
@@ -124,13 +128,13 @@ export default function Planos() {
                         </div>
                     </div>
                     <div className="img">
-                        <img src={foto} alt="" />
+                        <img src={foto2} alt="" />
                     </div>
                 </div>
 
                 <div className="cxEstacao">
                     <div className="img">
-                        <img src={foto} alt="" />
+                        <img src={foto3} alt="" />
                     </div>
                     <div className="texto">
                         <div className="txt">
@@ -187,13 +191,13 @@ export default function Planos() {
                         </div>
                     </div>
                     <div className="img">
-                        <img src={foto} alt="" />
+                        <img src={foto4} alt="" />
                     </div>
                 </div>
 
                 <div className="cxEstacao">
                     <div className="img">
-                        <img src={foto} alt="" />
+                        <img src={foto5} alt="" />
                     </div>
                     <div className="texto">
                         <div className="txt">
@@ -248,7 +252,7 @@ export default function Planos() {
                         </div>
                     </div>
                     <div className="img">
-                        <img src={foto} alt="" />
+                        <img src={foto5} alt="" />
                     </div>
                 </div>
 

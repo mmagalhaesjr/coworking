@@ -144,7 +144,7 @@ ul{
 }
 
 @media (max-width:600px){
-height: fit-content;
+
 #container{
     height: 90%;
     width: fit-content;

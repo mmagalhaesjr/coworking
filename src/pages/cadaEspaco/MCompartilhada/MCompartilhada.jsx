@@ -11,7 +11,11 @@ import 'swiper/css/pagination';
 
 import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
 
-import foto from '../../../assets/xicara.jpeg'
+
+import foto1 from '../../../assets/compartilhadas/1.png'
+import foto2 from '../../../assets/compartilhadas/2.jpg'
+import foto3 from '../../../assets/compartilhadas/3.jpg'
+import foto4 from '../../../assets/compartilhadas/4.jpg'
 
 
 import ico1 from '../../../assets/icones/concierge.png'
@@ -81,11 +85,11 @@ export default function MCompartilhada() {
 
                                 className="swiper-slide"
                             >
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto1} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto2} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto3} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto4} alt="" /></SwiperSlide>
+                               
 
                             </Swiper>
 
