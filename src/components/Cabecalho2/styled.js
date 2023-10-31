@@ -19,7 +19,8 @@ export const StyledCabecalho2 = styled.header`
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); 
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 10%;
     flex-direction: row;
     z-index: 5;
     position: fixed;  
@@ -64,9 +65,10 @@ export const StyledCabecalho2 = styled.header`
   }
  .linha{
     position: relative;
+    top: -25px;
     width: 40px;
     height: 5px;
-    background-color:#ffffff;
+    background-color:#000000;
     display:block;
     margin: 10px auto;
     transform-origin:center;
@@ -102,10 +104,15 @@ export const StyledCabecalho2 = styled.header`
     nav{
         justify-content: space-between;
     }
+    img {
+    margin-left:10px;
+   
+  }
   }
   @media (max-width: 419px) {
     img {
     width: 250px;
+    margin-left:10px;
    
   }
   }
