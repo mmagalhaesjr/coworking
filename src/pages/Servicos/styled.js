@@ -32,7 +32,6 @@ width: 90%;
 max-width: 1000px;
 margin-top: 50px;
 
-
 }
 
 .cx{
