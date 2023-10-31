@@ -137,6 +137,13 @@ font-weight: 700;
 
 `
 
+
+
+
+
+
+
+
 export const StyledPlanos2 = styled.section`
 width: 100%;
 height:100vh;
@@ -146,12 +153,11 @@ flex-direction: column;
 margin-top: 170px;
 
 #titulo{
-    position: relative;
-    left: -20%;
+   margin-right: 45%;
     margin-top: 50px;
 }
 #titulo h1{
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -166,7 +172,6 @@ margin-top: 170px;
 .img{
     width: 40%;
     height: 100%;
-    
     background-color: #033a02;
 }
 .img img{
@@ -199,20 +204,25 @@ margin-top: 170px;
     color: #ffffff;
     
 }
+section{
+    width: 100%;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
 .valor{
-    margin-top: 50px;
     background-color:  #101010;
-    width: 200px;
+    width: 30%;
+    min-width: 150px;
     height: 80px;
     border-radius:200px ;
-    margin-left: 10%;
+  
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    border: solid 1px red;
 }
 .valor div{
 display: flex;
@@ -223,7 +233,7 @@ display: flex;
     color: #ffffff;
 }
 .valor h3{
-font-size: 40px;
+font-size:2rem;
 margin-top: 5px;
 margin-left: 7px;
 color: #ffffff;
@@ -237,11 +247,11 @@ color: #ffffff;
 }
  button{
     width: 40%;
+    min-width: 250px;
     height: 40px;
+    margin-top: 20px;
 
-    position: relative;
-    left: 55%;
-    top: -10%;
+   
     background-color: transparent;
     border: solid 2px #F4F3F0;
 
@@ -257,7 +267,7 @@ color: #ffffff;
 
 }
 button h5{
-   font-size: 140%;
+   font-size: 1rem;
 }
 .icone{
 font-size: 30px;
@@ -266,28 +276,55 @@ margin-top: 10px;
 }
 
 
-@media(max-width: 1190px) {
-    .img{
-        width: 100px;
-        height: 150px;
+@media(max-width: 1150px) {
+    .cxEstacao{
+
+        height: 80%;
+        width: 95%;
     }
 }
-@media(max-width: 1030px) {
+@media(max-width: 900px) {
+    .cxEstacao{
+        height: 100%;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
     .texto{
-        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+.img{
+    width: 100%;
+}
+.img img{
+   
+}
+}
+
+@media(max-width: 660px) {
+
+    .txt{
+        margin-left: 3%;
     }
     .valor{
-    width: 250px;
-    height: 100px;
-    margin-left: 0;
-    margin-top: 5%;
+        margin-top: 0;
     }
     button{
-    left: 0%;
-    top: 0%;
-    margin-bottom: 5%;
-    margin-top: 5%;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
+   
+
+}
+@media(max-width: 490px){
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
 
 

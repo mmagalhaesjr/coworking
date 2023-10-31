@@ -70,7 +70,6 @@ export default function Planos() {
                 </div>
 
                 <div className="cxEstacao">
-
                     <div className="img">
                         <img src={foto} alt="" />
                     </div>
@@ -81,27 +80,26 @@ export default function Planos() {
                                 em um ambiente compartilhado. </p>
                             <p>A mesa dedicada é ideal para 1 pessoa e equipes reduzidas.</p>
 
-                            <div className="valor">
-                                <h4>Mensal</h4>
-                                <div>
-                                    <p>R$</p><h3>800,00</h3>
+                            <section>
+                                <div className="valor">
+                                    <h4>Mensal</h4>
+                                    <div>
+                                        <p>R$</p><h3>800,00</h3>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <button>
-                                <h5>Contratar agora  </h5>
-                                <div className="icone">
-                                    <CgArrowLongRight />
-                                </div>
-                            </button>
-
+                                <button>
+                                    <h5>Contratar agora  </h5>
+                                    <div className="icone">
+                                        <CgArrowLongRight />
+                                    </div>
+                                </button>
+                            </section>
                         </div>
                     </div>
-
                 </div>
 
                 <div className="cxEstacao">
-
                     <div className="texto">
                         <div className="txt">
                             <h2> Estação de trabalho rotativa </h2>
@@ -109,29 +107,28 @@ export default function Planos() {
                                 comum com toda a estrutura do Temasek Coworking. </p>
                             <p>A mesa dedicada é ideal para 1 pessoa e equipes reduzidas.</p>
 
-                            <div className="valor">
-                                <h4>Planos a partir de</h4>
-                                <div>
-                                    <p>R$</p><h3>90,00</h3>
+                            <section>
+                                <div className="valor">
+                                    <h4>Planos a partir de</h4>
+                                    <div>
+                                        <p>R$</p><h3>90,00</h3>
+                                    </div>
                                 </div>
-                            </div>
-                            <button>
-                                <h5>Contratar agora  </h5>
-                                <div className="icone">
-                                    <CgArrowLongRight />
-                                </div>
-                            </button>
-
+                                <button>
+                                    <h5>Contratar agora  </h5>
+                                    <div className="icone">
+                                        <CgArrowLongRight />
+                                    </div>
+                                </button>
+                            </section>
                         </div>
                     </div>
                     <div className="img">
                         <img src={foto} alt="" />
                     </div>
-
                 </div>
 
                 <div className="cxEstacao">
-
                     <div className="img">
                         <img src={foto} alt="" />
                     </div>
@@ -144,27 +141,26 @@ export default function Planos() {
                                 equipamento de áudio e vídeo
                             </p>
                             <p></p>
-
-                            <div className="valor">
-                                <h4>Por hora</h4>
-                                <div>
-                                    <p>R$</p><h3>100,00</h3>
+                            <section>
+                                <div className="valor">
+                                    <h4>Por hora</h4>
+                                    <div>
+                                        <p>R$</p><h3>100,00</h3>
+                                    </div>
                                 </div>
-                            </div>
-                            <button>
-                                <h5>Contratar agora  </h5>
-                                <div className="icone">
-                                    <CgArrowLongRight />
-                                </div>
-                            </button>
+                                <button>
+                                    <h5>Contratar agora  </h5>
+                                    <div className="icone">
+                                        <CgArrowLongRight />
+                                    </div>
+                                </button>
+                            </section>
 
                         </div>
                     </div>
-
                 </div>
 
                 <div className="cxEstacao">
-
                     <div className="texto">
                         <div className="txt">
                             <h2>Salas Paris</h2>
@@ -174,20 +170,20 @@ export default function Planos() {
                                 Possui 2 poltronas e 1 divã
                             </p>
                             <p>.</p>
-
-                            <div className="valor">
-                                <h4>Pacote com 10h</h4>
-                                <div>
-                                    <p>R$</p><h3>400,00</h3>
+                            <section>
+                                <div className="valor">
+                                    <h4>Pacote com 10h</h4>
+                                    <div>
+                                        <p>R$</p><h3>400,00</h3>
+                                    </div>
                                 </div>
-                            </div>
-                            <button>
-                                <h5>Contratar agora  </h5>
-                                <div className="icone">
-                                    <CgArrowLongRight />
-                                </div>
-                            </button>
-
+                                <button>
+                                    <h5>Contratar agora  </h5>
+                                    <div className="icone">
+                                        <CgArrowLongRight />
+                                    </div>
+                                </button>
+                            </section>
                         </div>
                     </div>
                     <div className="img">
@@ -196,7 +192,6 @@ export default function Planos() {
                 </div>
 
                 <div className="cxEstacao">
-
                     <div className="img">
                         <img src={foto} alt="" />
                     </div>
@@ -209,27 +204,25 @@ export default function Planos() {
                                 equipamento de áudio e vídeo
                             </p>
                             <p>Sala ideal para 1 a 4 pessoas.</p>
-
-                            <div className="valor">
-                                <h4>Por hora</h4>
-                                <div>
-                                    <p>R$</p><h3>80,00</h3>
+                            <section>
+                                <div className="valor">
+                                    <h4>Por hora</h4>
+                                    <div>
+                                        <p>R$</p><h3>80,00</h3>
+                                    </div>
                                 </div>
-                            </div>
-                            <button>
-                                <h5>Contratar agora  </h5>
-                                <div className="icone">
-                                    <CgArrowLongRight />
-                                </div>
-                            </button>
-
+                                <button>
+                                    <h5>Contratar agora  </h5>
+                                    <div className="icone">
+                                        <CgArrowLongRight />
+                                    </div>
+                                </button>
+                            </section>
                         </div>
                     </div>
-
                 </div>
 
                 <div className="cxEstacao">
-
                     <div className="texto">
                         <div className="txt">
                             <h2>Salas Roma</h2>
@@ -238,20 +231,20 @@ export default function Planos() {
                                 Possui design moderno e intimista. Comporta até 4 pessoas
                             </p>
                             <p>.</p>
-
-                            <div className="valor">
-                                <h4>mensal</h4>
-                                <div>
-                                    <p>R$</p><h3>800,00</h3>
+                            <section>
+                                <div className="valor">
+                                    <h4>mensal</h4>
+                                    <div>
+                                        <p>R$</p><h3>800,00</h3>
+                                    </div>
                                 </div>
-                            </div>
-                            <button>
-                                <h5>Contratar agora  </h5>
-                                <div className="icone">
-                                    <CgArrowLongRight />
-                                </div>
-                            </button>
-
+                                <button>
+                                    <h5>Contratar agora  </h5>
+                                    <div className="icone">
+                                        <CgArrowLongRight />
+                                    </div>
+                                </button>
+                            </section>
                         </div>
                     </div>
                     <div className="img">
