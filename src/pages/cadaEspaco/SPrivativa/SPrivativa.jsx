@@ -13,10 +13,11 @@ import 'swiper/css/pagination';
 
 import { EffectCreative, Navigation, Pagination,A11y } from 'swiper/modules';
 
-import foto1 from '../../../assets/privativa/1.jpeg'
-import foto2 from '../../../assets/privativa/2.jpeg'
-import foto3 from '../../../assets/privativa/3.jpeg'
-import foto4 from '../../../assets/privativa/4.jpeg'
+import foto1 from '../../../assets/privadas/1.jpeg'
+import foto2 from '../../../assets/privadas/2.jpeg'
+import foto3 from '../../../assets/privadas/3.jpeg'
+import foto4 from '../../../assets/privadas/4.jpeg'
+
 
 import ico1 from '../../../assets/icones/concierge.png'
 import ico2 from '../../../assets/icones/telefone.png'
@@ -52,12 +53,13 @@ export default function SPrivativa() {
 
                     <div id="containerTexto">
                         <div id="texto">
-                            <h1>Sala privativa</h1>
+                            <h1>Salas privativas</h1>
                             <h2>
-                                A <span>Sala Roma</span> é preparada para realizar qualquer tipo de reunião. <br />
+                                As Salas <span> Roma, Londres</span> são preparadas para realizar qualquer tipo de reunião. <br />
                                 Possui design moderno e intimista.
                             </h2> 
                             <h4>  
+                                <div>Sala Londres <BsPerson /> 4</div>   
                                <div>Sala Roma <BsPerson /> 4</div>  
                             </h4>
                             <h3>Vantagens</h3>

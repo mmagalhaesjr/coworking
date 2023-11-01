@@ -3,11 +3,11 @@ import { useState, useEffect } from "react";
 
 import { CgArrowLongRight } from 'react-icons/cg';
 import foto from '../../assets/capa/sala1.jpg'
-import foto1 from '../../assets/espacos/dedicada.jpg'
+import foto1 from '../../assets/espacos/dedicada.png'
 import foto2 from '../../assets/espacos/compartilhada.png'
-import foto3 from '../../assets/espacos/reuniao.jpg'
-import foto4 from '../../assets/espacos/atendimento.jpg'
-import foto5 from '../../assets/espacos/privada.jpeg'
+import foto3 from '../../assets/espacos/reuniao.png'
+import foto4 from '../../assets/espacos/atendimento.png'
+import foto5 from '../../assets/espacos/privada.png'
 
 
 

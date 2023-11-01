@@ -13,10 +13,11 @@ import 'swiper/css/pagination';
 
 import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
 
-import foto1 from '../../../assets/reuniao/1.jpg'
-import foto2 from '../../../assets/reuniao/2.jpg'
-import foto3 from '../../../assets/reuniao/3.jpg'
-import foto4 from '../../../assets/reuniao/4.jpg'
+import foto1 from '../../../assets/reuniao/1.jpeg'
+import foto2 from '../../../assets/reuniao/2.jpeg'
+import foto3 from '../../../assets/reuniao/3.png'
+import foto4 from '../../../assets/reuniao/4.jpeg'
+
 
 import ico1 from '../../../assets/icones/concierge.png'
 import ico2 from '../../../assets/icones/telefone.png'
@@ -53,15 +54,14 @@ export default function SReuniao() {
 
                     <div id="containerTexto">
                         <div id="texto">
-                            <h1>Salas de Reunião</h1>
+                            <h1>Sala de Reunião</h1>
                             <h2>
-                                As Salas <span>Nova York, Londres e Roma </span> são preparadas para realizar
-                                qualquer tipo de reunião ou workshop. Ideal para trabalhar e organizar reuniões e treinamentos. 
+                                A Sala <span>Nova York </span> é preparada para realizar
+                                qualquer tipo de reunião ou workshop. Ideal para trabalhar e organizar reuniões e treinamentos.
                             </h2>
                             <h4>
-                               <div>Sala Nova York <BsPerson /> 8</div> 
-                               <div>Sala Londres <BsPerson /> 4</div>   
-                               <div>Sala Roma <BsPerson /> 4</div>  
+                                <div>Sala Nova York <BsPerson /> 10</div>
+
                             </h4>
                             <h3>Vantagens</h3>
                             <ul>
@@ -75,7 +75,10 @@ export default function SReuniao() {
 
                     <div id="containerFoto">
 
+
                         <div id="cor" >
+
+
 
                             <Swiper
                                 modules={[EffectCreative, Navigation, Pagination, A11y]}
@@ -98,11 +101,9 @@ export default function SReuniao() {
                                 <SwiperSlide><img className="foto" src={foto2} alt="" /></SwiperSlide>
                                 <SwiperSlide><img className="foto" src={foto3} alt="" /></SwiperSlide>
                                 <SwiperSlide><img className="foto" src={foto4} alt="" /></SwiperSlide>
-                                
+
 
                             </Swiper>
-
-
                         </div>
 
                     </div>
@@ -166,9 +167,9 @@ export default function SReuniao() {
                         <img src={ico12} alt="" />
                         <p>Armários</p>
                     </div>
-
-
                 </div>
+
+
                 <div id="container2">
 
                     <div className="box">

@@ -1,11 +1,11 @@
 
 import { StyledEspacos } from './styled';
 
-import foto1 from '../../assets/espacos/dedicada.jpg'
+import foto1 from '../../assets/espacos/dedicada.png'
 import foto2 from '../../assets/espacos/compartilhada.png'
-import foto3 from '../../assets/espacos/reuniao.jpg'
-import foto4 from '../../assets/privativa/1.jpeg'
-import foto5 from '../../assets/espacos/atendimento.jpg'
+import foto3 from '../../assets/espacos/reuniao.png'
+import foto4 from '../../assets/espacos/privada.png'
+import foto5 from '../../assets/espacos/atendimento.png'
 
 import { Navigation, Pagination, A11y} from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';

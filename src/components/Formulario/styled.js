@@ -25,7 +25,6 @@ form{
     color: white;
     background-color: #101010
     /* border-radius: 15px; */
-
 }
 #titulos{
     width: 40%;
@@ -104,7 +103,6 @@ input{
     width: 50%;
 }
 
-
 button{
         background-color: #eae9e9;
         width: 15%;
@@ -120,7 +118,6 @@ button{
         background-color: #504f4fd2;
         color:#926F5D; 
         transition:0.7s;
-
     }
 }
 

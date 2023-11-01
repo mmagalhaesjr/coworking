@@ -39,6 +39,8 @@ justify-content: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    
 }
 #texto{
     width: 90%;
@@ -77,52 +79,20 @@ h4{
 }
 span{
     font-weight: 500;
-}
+}//fim do container texto
 
 
-/* .faixa{
-    width: 100%;
-    height: 150px;
-    position: relative;
-    top: 100px;
-    background-color: #9C6839;
+
+#containerFoto{
+    width: 40%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-}
-.cxIcone{
-        width: 200px; 
-        height: 130px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .cxIcone img{
-    width: 50px;
-    height: 50px;
-    margin-top: 10px;
-    }
-    .cxIcone p{
-        margin-top: 20px;
-        color: #F4F3F0;
-        font-size: 25px;
-        font-weight: 100;
-    } */
-
-    #containerFoto{
-        width: 40%;
-    }
-    #cor{
-    background-color: #9C6839;
-    background-color: #101010;
-    width: 90%;
-    height: 70%;
-    margin-right: 40px;
-    position: relative;
-    top: 15%;
-    left: 0%;
+    justify-content: center;
    
+}
+    #cor{
+    width: 100%;
+    height: 60%;
 }
 .swiper-button-prev,
 .swiper-button-next{
@@ -137,34 +107,25 @@ span{
 }
 
 .swiper {
-  margin: 100px auto;
-  width: 320px;
-  height: 240px;
+  
+    /* background-color: #101010; */
 }
 
 .swiper-slide {
-   width: 100%;
-   height: 98%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 22px;
-  font-weight: bold;
-  color: #fff;
-  position: relative;
-  left: -5%;
+    width: 100%;
+    height: 100%;
+    color: #fff;
 
+    display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .foto{
     width: 100%;
-    height: 100%;
-    position: relative;
-    top: 5%;
-    left: -5%;
-    
+    height: 100%; 
 }
-
+//fim do container foto
 `
 
 
@@ -273,12 +234,10 @@ margin-top: 100px;
         border: none;
         cursor: pointer;
         &:hover{
-            transition: .5s;
-            background-color: #9C6839;
-            width: 32%;
-            height: 27%;
-                font-size: 23px;
-            }
+        background-color: #504f4fd2;
+        color:#000000; 
+        transition:0.7s;
+    }
 
         }
     

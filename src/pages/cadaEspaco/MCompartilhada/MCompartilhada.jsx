@@ -15,7 +15,7 @@ import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
 import foto1 from '../../../assets/compartilhadas/1.png'
 import foto2 from '../../../assets/compartilhadas/2.jpg'
 import foto3 from '../../../assets/compartilhadas/3.jpg'
-import foto4 from '../../../assets/compartilhadas/4.jpg'
+
 
 
 import ico1 from '../../../assets/icones/concierge.png'
@@ -48,7 +48,7 @@ export default function MCompartilhada() {
                 <div id="container">
                     <div id="containerTexto">
                         <div id="texto">
-                            <h1>Mesa compartilhada</h1>
+                            <h1>Mesas Rotativas</h1>
                             <h2>
                                 Acesso diário a uma mesa compartilhada em um espaço comum
                                 com toda a estrutura do Temasek Coworking. Ideal para 1 pessoa e equipes reduzidas.
@@ -88,7 +88,7 @@ export default function MCompartilhada() {
                                 <SwiperSlide><img className="foto" src={foto1} alt="" /></SwiperSlide>
                                 <SwiperSlide><img className="foto" src={foto2} alt="" /></SwiperSlide>
                                 <SwiperSlide><img className="foto" src={foto3} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto4} alt="" /></SwiperSlide>
+                               
                                
 
                             </Swiper>

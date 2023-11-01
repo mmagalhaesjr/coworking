@@ -72,7 +72,7 @@ h4{
     display: flex;
     flex-direction: column;
     font-size: 25px;
-    font-weight: 500;
+    font-weight:100 ;
     margin-top: 20px;
 }
 span{
@@ -271,12 +271,10 @@ margin-top: 100px;
         border: none;
         cursor: pointer;
         &:hover{
-            transition: .5s;
-            background-color: #9C6839;
-            width: 32%;
-            height: 27%;
-                font-size: 23px;
-            }
+        background-color: #504f4fd2;
+        color:#000000; 
+        transition:0.7s;
+    }
 
         }
 
