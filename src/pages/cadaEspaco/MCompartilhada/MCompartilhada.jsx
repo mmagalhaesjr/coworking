@@ -12,9 +12,9 @@ import 'swiper/css/pagination';
 import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
 
 
-import foto1 from '../../../assets/compartilhadas/1.png'
+import foto1 from '../../../assets/compartilhadas/1.jpg'
 import foto2 from '../../../assets/compartilhadas/2.jpg'
-import foto3 from '../../../assets/compartilhadas/3.jpg'
+import foto3 from '../../../assets/compartilhadas/3.jpeg'
 
 
 
@@ -88,8 +88,6 @@ export default function MCompartilhada() {
                                 <SwiperSlide><img className="foto" src={foto1} alt="" /></SwiperSlide>
                                 <SwiperSlide><img className="foto" src={foto2} alt="" /></SwiperSlide>
                                 <SwiperSlide><img className="foto" src={foto3} alt="" /></SwiperSlide>
-                               
-                               
 
                             </Swiper>
 

@@ -1,11 +1,11 @@
 
 import { StyledEspacos } from './styled';
 
-import foto1 from '../../assets/espacos/dedicada.png'
-import foto2 from '../../assets/espacos/compartilhada.png'
-import foto3 from '../../assets/espacos/reuniao.png'
-import foto4 from '../../assets/espacos/privada.png'
-import foto5 from '../../assets/espacos/atendimento.png'
+import foto1 from '../../assets/dedicadas/2.jpg'
+import foto2 from '../../assets/compartilhadas/3.jpeg'
+import foto3 from '../../assets/reuniao/2.jpeg'
+import foto4 from '../../assets/privadas/1.jpeg'
+import foto5 from '../../assets/atendimento/2.jpg'
 
 import { Navigation, Pagination, A11y} from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -63,7 +63,7 @@ const Espacos = () => {
                             <a href="/privativa" >                               
                             <div className="salas">
                                     <img src={foto4} alt='' />
-                                    <h3>Salas Privativa</h3>
+                                    <h3>Salas Privativas</h3>
                                 </div>
                             </a>
                         </SwiperSlide>

@@ -52,7 +52,8 @@ justify-content: center;
 
 #cxDayUse{
     margin-top: 100px;
-    width:50%;
+    width:760px;
+    max-width:760px;
     height:500px;
     display: flex;
     align-items: center;
@@ -165,13 +166,13 @@ margin-top: 170px;
     margin-top: 50px;
     background-color: #a98261;
     width:75%;
-    height: 60%;
+   
     display: flex;
 }
 
 .img{
     width: 40%;
-    height: 100%;
+    height: 300px;
     background-color: #000000;
 }
 .img img{
@@ -196,10 +197,12 @@ margin-top: 170px;
 }
 .txt h2{
     margin-top: 50px;
+    margin-bottom: 30px;
     font-size: 30px;
 }
 .txt p{
     margin-top: 10px;
+    
     font-size: 20px;
     color: #ffffff;
     
@@ -217,6 +220,7 @@ section{
     min-width: 150px;
     height: 80px;
     border-radius:200px ;
+    margin-top: 10px;
     margin-bottom: 10px;
    
   

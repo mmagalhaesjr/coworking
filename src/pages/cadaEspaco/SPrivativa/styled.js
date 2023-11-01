@@ -111,18 +111,15 @@ span{
     } */
 
     #containerFoto{
-        width: 40%;
-    }
-    #cor{
-    background-color: #9C6839;
-    background-color: #101010;
-    width: 90%;
-    height: 70%;
-    margin-right: 40px;
-    position: relative;
-    top: 15%;
-    left: 0%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
+}
+    #cor{
+    width: 100%;
+    height: 60%;
 }
 .swiper-button-prev,
 .swiper-button-next{
@@ -137,32 +134,23 @@ span{
 }
 
 .swiper {
-  margin: 100px auto;
-  width: 320px;
-  height: 240px;
+  
+    /* background-color: #101010; */
 }
 
 .swiper-slide {
-   width: 100%;
-   height: 98%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 22px;
-  font-weight: bold;
-  color: #fff;
-  position: relative;
-  left: -5%;
+    width: 100%;
+    height: 100%;
+    color: #fff;
 
+    display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .foto{
     width: 100%;
-    height: 100%;
-    position: relative;
-    top: 5%;
-    left: -5%;
-    
+    height: 100%; 
 }
 
 `

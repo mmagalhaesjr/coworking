@@ -77,9 +77,6 @@ export default function SReuniao() {
 
 
                         <div id="cor" >
-
-
-
                             <Swiper
                                 modules={[EffectCreative, Navigation, Pagination, A11y]}
                                 navigation

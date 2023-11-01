@@ -41,8 +41,8 @@ export default function Planos() {
                             O Temasek Coworking se adapta à todas as formas e jornadas <br />
                             de trabalho, com todos os serviços de um escritório completo.
                         </p>
+                        
                     </div>
-
                     <div id="cxDayUse">
 
                         <div id="dayUseTexto">
@@ -84,7 +84,7 @@ export default function Planos() {
                             <p>Acesso exclusivo à sua posição de trabalho fixa, <br />
                                 em um ambiente compartilhado. </p>
                             <p>A mesa dedicada é ideal para 1 pessoa e equipes reduzidas.</p>
-
+                            <p> </p>
                             <section>
                                 <div className="valor">
                                     <h4>Mensal</h4>
@@ -111,7 +111,7 @@ export default function Planos() {
                             <p>Acesso diário a uma mesa compartilhada em um espaço <br />
                                 comum com toda a estrutura do Temasek Coworking. </p>
                             <p>A mesa dedicada é ideal para 1 pessoa e equipes reduzidas.</p>
-
+                            <p> </p>
                             <section>
                                 <div className="valor">
                                     <h4>Planos a partir de</h4>
@@ -145,7 +145,7 @@ export default function Planos() {
                                 com tratamento acústico, climatizada, com televisão e
                                 equipamento de áudio e vídeo
                             </p>
-                            <p></p>
+                            <p>Acomodam até 10 pessoas</p>
                             <section>
                                 <div className="valor">
                                     <h4>Por hora</h4>
@@ -174,7 +174,7 @@ export default function Planos() {
                                 climatizada e com equipamento de áudio e vídeo.
                                 Possui 2 poltronas e 1 divã
                             </p>
-                            <p>.</p>
+                            <p>Acomodam até 5 pessoas</p>
                             <section>
                                 <div className="valor">
                                     <h4>Pacote com 10h</h4>
@@ -233,9 +233,9 @@ export default function Planos() {
                             <h2>Salas Roma</h2>
                             <p>
                                 É preparada para realizar qualquer tipo de reunião. <br />
-                                Possui design moderno e intimista. Comporta até 4 pessoas
+                                Possui design moderno e intimista. 
                             </p>
-                            <p>.</p>
+                            <p>Acomodam até 4 pessoas</p>
                             <section>
                                 <div className="valor">
                                     <h4>mensal</h4>
