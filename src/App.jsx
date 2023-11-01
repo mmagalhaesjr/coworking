@@ -12,6 +12,7 @@ import MCompartilhada from './pages/cadaEspaco/MCompartilhada/MCompartilhada';
 import SAtendimento from './pages/cadaEspaco/SAtendimento/SAtendimento';
 import QuemSomos from "./pages/QuemSomos/QuemSomos";
 import Planos from './pages/Planos/Planos';
+import Eventos from "./pages/Eventos/Eventos";
 
 
 
@@ -37,7 +38,10 @@ export default function App() {
                                 <Route path="/reuniao" element={<SReuniao/>} />
                                 <Route path="/atendimento" element={<SAtendimento/>} />
                                 <Route path="/quem-somos" element={<QuemSomos/>} />
+
                                 <Route path="/planos" element={<Planos />} />
+                                <Route path="/eventos" element={<Eventos />} />
+
                                 <Route path="/blog" element={<TelaBlog />} />
                                 <Route path="/confirmar" element={<ConfirmarEnvio />} />
 

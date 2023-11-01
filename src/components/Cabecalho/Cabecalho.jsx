@@ -41,9 +41,12 @@ export default function Cabecalho() {
     const quemSomos = () => {
         window.location.href = '/quem-somos';
     };
-
     const planos = () => {
         window.location.href = '/planos';
+        
+    };
+    const eventos = () => {
+        window.location.href ='/eventos' ;
         
     };
    
@@ -66,9 +69,13 @@ export default function Cabecalho() {
                         <li><a onClick={quemSomos}>Sobre nós</a></li>
                         <li><a href="#espacos">Espaços</a></li>
                         <li><a href="#servicos">Serviços</a></li>
+
                         <li><a onClick={planos}>Planos</a></li>
-                        <li><a href="http://#">Eventos</a></li>
+
+                        <li><a onClick={eventos}>Eventos</a></li>
+
                         <li><a href="#contato">Contato</a></li>
+
                         <li><a href='https://temasekcoworking.conexa.app' >Área do cliente</a></li>
                         <li><a onClick={blog} >Blog</a></li>
                     </ul>

@@ -6,20 +6,6 @@ export default function Formulario() {
     return (
         <StyledFormulario id="contato" >
 
-
-
-            <div id="titulos">
-                <h1>
-                    Entre em contato
-                    conosco e agende 
-                    uma visita 
-                    para conhecer nosso
-                    espaço e serviços!
-                
-                </h1>
-                
-            </div>
-
             <form action="https://formsubmit.co/contato@temasekjf.com.br" method="POST">
            
                 <input type="hidden" name="_next" value='http://localhost:5173/confirmar/' />

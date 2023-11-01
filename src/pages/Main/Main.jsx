@@ -7,9 +7,9 @@ import Espacos from '../Espacos/Espacos'
 import Inicial from "../Inicial/Inicial";
 
 import Cabecalho from "../../components/Cabecalho/Cabecalho"
-import Formulario from "../../components/Formulario/Formulario"
 import Rodape from "../../components/Rodape/Rodape"
 import Servicos2 from "../Servicos2/Servicos2";
+import Contato from "../Contato/Contato";
 
 
 
@@ -27,7 +27,7 @@ export default function TelaInicial() {
             <Espacos />
             <Servicos />
             <Servicos2 />
-            <Formulario />
+            <Contato />
             <Rodape />
 
         </StyledTelaInicial>
