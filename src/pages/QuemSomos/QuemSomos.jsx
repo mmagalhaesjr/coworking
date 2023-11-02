@@ -1,35 +1,27 @@
-import { StyledQuemSomos, StyledQuemsomos4 } from "./styled"
+import { StyledQuemSomos } from "./styled"
 import foto from '../../assets/sala2.png'
+
+
+
 
 
 export default function QuemSomos() {
 
-    const espacos = () => {
-        window.location.href = '/#espacos';
-    };
-    const planos = () => {
-        window.location.href = '/planos';
-        
-    };
+ 
    
     return (
 
-       
-
-        <>
             <StyledQuemSomos id="#quem-somos">
 
                 <div id="container1">
 
                     <div className="titulos">
 
-                        <h1>Nossos espaços se ajustam às suas necessidades e ao seu negócio</h1>
+                        <h1>Conheça o Temasek Coworkig</h1>
                     </div>
 
-                    <div id='imagens'>
-                        <img src={foto}></img>
-                        <img src={foto}></img>
-                        <img src={foto}></img>
+                    <div id='video'>
+                       
                     </div>
 
                 </div>
@@ -75,33 +67,7 @@ export default function QuemSomos() {
 
             </StyledQuemSomos>
 
-            <StyledQuemsomos4>
-
-                <div id="titulo4">
-                    <h1>Conheça nossos espaços e planos e <br /> 
-                     entenda o que se encaixa melhor <br /> para você</h1>
-                </div>
-
-                <div id="container4">
-
-                    <div className="imgCx4" onClick={espacos}>
-                        <img src={foto} alt="" />
-                       <h3>Descubra nosso espaço</h3>
-                    </div>
-                    <div className="imgCx4" onClick={planos}>
-                        <img src={foto} alt="" />
-                        <h3>Conheça nossos planos</h3>
-                    </div>
-                    
-                </div >
-                
-                {/* <div className="faixa"></div> */}
-              
-            </StyledQuemsomos4>
-
-
-
-        </>
+        
 
     )
 }

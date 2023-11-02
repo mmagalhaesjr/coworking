@@ -2,12 +2,13 @@ import { StyledPlanos, StyledPlanos2 } from "./styled"
 import { useState, useEffect } from "react";
 
 import { CgArrowLongRight } from 'react-icons/cg';
-import foto from '../../assets/capa/sala1.jpg'
+import foto from '../../assets/foto.jpeg'
 import foto1 from '../../assets/espacos/dedicada.png'
 import foto2 from '../../assets/espacos/compartilhada.png'
 import foto3 from '../../assets/espacos/reuniao.png'
 import foto4 from '../../assets/espacos/atendimento.png'
 import foto5 from '../../assets/espacos/privada.png'
+import foto6 from '../../assets/privadas/1.jpeg'
 
 
 
@@ -25,6 +26,11 @@ export default function Planos() {
 
     const handleScroll = () => {
         setScrollY(window.scrollY);
+    };
+
+    const contato = () => {
+        window.location.href ='/' ;
+        
     };
 
     return (
@@ -95,7 +101,7 @@ export default function Planos() {
 
                                 <button>
                                     <h5>Contratar agora  </h5>
-                                    <div className="icone">
+                                    <div className="icone" onClick={contato}>
                                         <CgArrowLongRight />
                                     </div>
                                 </button>
@@ -110,7 +116,7 @@ export default function Planos() {
                             <h2> Estação de trabalho rotativa </h2>
                             <p>Acesso diário a uma mesa compartilhada em um espaço <br />
                                 comum com toda a estrutura do Temasek Coworking. </p>
-                            <p>A mesa dedicada é ideal para 1 pessoa e equipes reduzidas.</p>
+                            <p>A mesa rotativa é ideal para 1 pessoa e equipes reduzidas.</p>
                             <p> </p>
                             <section>
                                 <div className="valor">
@@ -121,7 +127,7 @@ export default function Planos() {
                                 </div>
                                 <button>
                                     <h5>Contratar agora  </h5>
-                                    <div className="icone">
+                                    <div className="icone" onClick={contato}>
                                         <CgArrowLongRight />
                                     </div>
                                 </button>
@@ -143,9 +149,9 @@ export default function Planos() {
                             <p>
                                 Sala de reunião para receber seus clientes e parceiros,
                                 com tratamento acústico, climatizada, com televisão e
-                                equipamento de áudio e vídeo
+                                equipamento de áudio e vídeo.
                             </p>
-                            <p>Acomodam até 10 pessoas</p>
+                            <p>Acomoda até 10 pessoas</p>
                             <section>
                                 <div className="valor">
                                     <h4>Por hora</h4>
@@ -155,7 +161,7 @@ export default function Planos() {
                                 </div>
                                 <button>
                                     <h5>Contratar agora  </h5>
-                                    <div className="icone">
+                                    <div className="icone" onClick={contato}>
                                         <CgArrowLongRight />
                                     </div>
                                 </button>
@@ -168,13 +174,13 @@ export default function Planos() {
                 <div className="cxEstacao">
                     <div className="texto">
                         <div className="txt">
-                            <h2>Salas Paris</h2>
+                            <h2>Sala Paris</h2>
                             <p>
                                 Sala para atendimento com tratamento acústico,
                                 climatizada e com equipamento de áudio e vídeo.
-                                Possui 2 poltronas e 1 divã
+                                Possui 2 poltronas e 1 divã.
                             </p>
-                            <p>Acomodam até 5 pessoas</p>
+                            <p>Acomoda até 5 pessoas</p>
                             <section>
                                 <div className="valor">
                                     <h4>Pacote com 10h</h4>
@@ -184,7 +190,7 @@ export default function Planos() {
                                 </div>
                                 <button>
                                     <h5>Contratar agora  </h5>
-                                    <div className="icone">
+                                    <div className="icone" onClick={contato}>
                                         <CgArrowLongRight />
                                     </div>
                                 </button>
@@ -198,7 +204,7 @@ export default function Planos() {
 
                 <div className="cxEstacao">
                     <div className="img">
-                        <img src={foto5} alt="" />
+                        <img src={foto6} alt="" />
                     </div>
                     <div className="texto">
                         <div className="txt">
@@ -206,7 +212,7 @@ export default function Planos() {
                             <p>
                                 Sala de reunião para receber seus clientes e parceiros,
                                 com tratamento acústico, climatizada, com televisão e
-                                equipamento de áudio e vídeo
+                                equipamento de áudio e vídeo.
                             </p>
                             <p>Sala ideal para 1 a 4 pessoas.</p>
                             <section>
@@ -218,7 +224,7 @@ export default function Planos() {
                                 </div>
                                 <button>
                                     <h5>Contratar agora  </h5>
-                                    <div className="icone">
+                                    <div className="icone" onClick={contato}>
                                         <CgArrowLongRight />
                                     </div>
                                 </button>
@@ -230,12 +236,12 @@ export default function Planos() {
                 <div className="cxEstacao">
                     <div className="texto">
                         <div className="txt">
-                            <h2>Salas Roma</h2>
+                            <h2>Sala Roma</h2>
                             <p>
                                 É preparada para realizar qualquer tipo de reunião. <br />
                                 Possui design moderno e intimista. 
                             </p>
-                            <p>Acomodam até 4 pessoas</p>
+                            <p>Acomoda até 4 pessoas</p>
                             <section>
                                 <div className="valor">
                                     <h4>mensal</h4>
@@ -245,7 +251,7 @@ export default function Planos() {
                                 </div>
                                 <button>
                                     <h5>Contratar agora  </h5>
-                                    <div className="icone">
+                                    <div className="icone" onClick={contato}>
                                         <CgArrowLongRight />
                                     </div>
                                 </button>

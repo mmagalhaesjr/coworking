@@ -4,7 +4,7 @@ import Cabecalho2 from "../../components/Cabecalho2/Cabecalho2"
 import { FaWhatsapp } from 'react-icons/fa';
 
 
-import foto from '../../assets/capa/sala1.jpg'
+import foto from '../../assets/capa/6.jpeg'
 import Formulario from "../../components/Formulario/Formulario";
 
 
@@ -28,10 +28,10 @@ export default function Eventos() {
                     </div>
                     <div id="cxVideo">
 
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/EZNnRj42nx0?si=fxO4lxyrt4n6vS8K"
-                            title="YouTube video player" frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; 
-                    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/7t3Uky-dKLE?si=uotXoqRu1Q6M0Y5_" 
+                    title="YouTube video player" frameBorder="0" allow="accelerometer; 
+                    autoplay; clipboard-write; encrypted-media; gyroscope; 
+                    picture-in-picture; web-share" allowfullscreen></iframe>
 
                     </div>
                 </div>

@@ -53,7 +53,7 @@ ul{
     }
 
     #cor{
-    background-color: #101010;
+    /* background-color: #101010; */
     width: 90%;
     height: 80%;
 
@@ -68,7 +68,7 @@ ul{
     height:100%;
     position: relative;
     top: 3%;
-    left: -5%; 
+    /* left: -5%;  */
 }
 
 
@@ -100,7 +100,7 @@ ul{
   font-weight: bold;
   color: #fff;
   position: relative;
-  left: -5%;
+  /* left: -5%; */
 
  
 

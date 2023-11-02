@@ -12,7 +12,11 @@ import 'swiper/css/pagination';
 
 import { EffectCreative, Navigation, Pagination,A11y } from 'swiper/modules';
 
-import foto from '../../assets/xicara.jpeg'
+import foto1 from '../../assets/servicos/1.jpeg'
+
+import foto3 from '../../assets/servicos/3.jpeg'
+import foto4 from '../../assets/servicos/4.jpeg'
+import foto5 from '../../assets/servicos/5.jpeg'
 
 
 
@@ -35,7 +39,6 @@ export default function Servicos2() {
                     <ul>
                         <li>Serviço de Concierge</li>
                         <li>Motorista executivo</li>
-                        <li>Café da manhã continental</li>
                         <li>Marketing digital </li>
                         <li>Gerenciamento de mídias sociais</li>
                         <li>Acessoria contábil</li>
@@ -65,11 +68,10 @@ export default function Servicos2() {
                                
                                 className="swiper-slide"
                             >
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto1} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto3} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto4} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto5} alt="" /></SwiperSlide>
 
                             </Swiper>
 

@@ -83,7 +83,7 @@ justify-content: center;
     z-index: 2;
 }
 .faixa{
-    width: 40%;
+    width: 50%;
     height: 20%;;
     background-color:#101010 ;
     position: relative;
@@ -97,7 +97,7 @@ justify-content: center;
     gap: 10px;
     text-align: left;
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .faixa p{
     margin-left: 15%;
@@ -127,7 +127,7 @@ justify-content: center;
     text-align: center;
  }
 #cxTexto h2{
-    font-size: 25px;
+    font-size: 2rem;
     line-height: 1.5;
 }
 #cxForm{
@@ -147,7 +147,7 @@ justify-content: center;
     align-items: center;
     justify-content: center;
 
-    background-color: #bfb3b5;
+    background-color: transparent;
 }
 
 .texto{

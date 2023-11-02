@@ -19,11 +19,13 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 
+margin-top: 5%;
+
 }
 
 #container img{
     width:100%;
-    height: 70%;
+    height: 82%;
     margin-top: 100px;
 }
 
@@ -31,7 +33,7 @@ justify-content: center;
     width: 60%;
     height: 130px;
     position: relative;
-    top:-50px;
+    top:-120px;
 
     display:flex;
     flex-direction: column;
@@ -59,6 +61,7 @@ justify-content: center;
     align-items: center;
     justify-content: center;
     background-color: #C4BCBC;
+    background-color: #a98261;
     border-radius: 200px;
 }
 
@@ -165,7 +168,10 @@ margin-top: 170px;
 .cxEstacao{
     margin-top: 50px;
     background-color: #a98261;
+   
     width:75%;
+
+    border: solid 30px #a98261;
    
     display: flex;
 }
@@ -256,6 +262,7 @@ color: #ffffff;
     min-width: 250px;
     height: 40px;
     margin-top: 20px;
+    margin-right: 10%;
 
    
     background-color: transparent;

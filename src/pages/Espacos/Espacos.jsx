@@ -60,6 +60,15 @@ const Espacos = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
+                            <a href="/atendimento">
+                                <div className="salas">
+                                    <img src={foto5} alt='' />
+                                    <h3>Sala para Atendimento</h3>
+                                </div>
+                            </a>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
                             <a href="/privativa" >                               
                             <div className="salas">
                                     <img src={foto4} alt='' />
@@ -69,14 +78,7 @@ const Espacos = () => {
                         </SwiperSlide>
 
                         
-                        <SwiperSlide>
-                            <a href="/atendimento">
-                                <div className="salas">
-                                    <img src={foto5} alt='' />
-                                    <h3>Sala para Atendimento</h3>
-                                </div>
-                            </a>
-                        </SwiperSlide>
+                        
 
                 </Swiper>
             </div>
