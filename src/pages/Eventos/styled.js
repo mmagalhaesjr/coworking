@@ -1,8 +1,5 @@
 import styled from 'styled-components';
 
-
-
-
 export const StyledEventos = styled.section`
 width: 100%;
 height:130vh;
@@ -10,7 +7,6 @@ display: flex;
 align-items: center;
 flex-direction: column;
 
-border: solid 1px black;
 
 
 #container{
@@ -26,12 +22,14 @@ justify-content: center;
     width: 40%;
     margin-top: 70px;
     margin-bottom: 50px;
-    border: solid 2px red;
     text-align: center;
  }
 #cxTexto h2{
     font-size: 25px;
     line-height: 1.5;
+}
+#cxTexto h2 span{
+    font-weight: 700;
 }
 #cxVideo{
     width: 90%;
@@ -49,7 +47,7 @@ display: flex;
 align-items: center;
 flex-direction: column;
 
-border: solid 1px blue;
+
 
 
 #container{
@@ -65,7 +63,6 @@ justify-content: center;
     width: 40%;
     margin-top: 70px;
     margin-bottom: 50px;
-    border: solid 2px red;
     text-align: center;
  }
 #cxTexto h2{
@@ -77,7 +74,6 @@ justify-content: center;
     width: 90%;
     height: 70%;
     margin-top: 20px;
-    border: solid 1px black;
 }
 #cxImg img{
     width: 100%;
@@ -128,7 +124,6 @@ justify-content: center;
     width: 60%;
     margin-top: 70px;
     margin-bottom: 50px;
-    border: solid 2px orange;
     text-align: center;
  }
 #cxTexto h2{
@@ -142,7 +137,6 @@ justify-content: center;
     justify-content: center;
     gap: 10%;
 
-    border: solid 2px blue;
 }
 
 .cxForm{
@@ -150,28 +144,48 @@ justify-content: center;
     height: 100%;
 
     display: flex;
-    flex-direction: column;
-    
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
+
     background-color: #bfb3b5;
-    border: solid 2px red;
 }
 
-.cxForm h2{
-    font-size: 3rem;
+.texto{
+    width: 90%;
+    height: 90%;
+
+    /* border: solid 1px black; */
 }
 
-.cxForm  p{
-    font-size: 1.8rem;
+.texto h2{
+    font-size: 2.7rem;
+}
+
+.texto  p{
+    font-size: 1.5rem;
     margin-top: 10px;
 }
 
-.cxForm .botao{
-    width: 80%;
+.texto .botao{
+    width: 100%;
     height: 80px;
     margin-top: 20px; 
-
     background-color: #101010;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    color: #ffffff;
+    font-size: 2.5rem;
+
+    &:hover{
+        background-color: #504f4fd2; 
+        transition:0.7s;
+    }
+
 }
+
 
 `

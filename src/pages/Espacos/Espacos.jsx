@@ -1,9 +1,9 @@
 
 import { StyledEspacos } from './styled';
 
-import foto1 from '../../assets/dedicadas/2.jpg'
-import foto2 from '../../assets/compartilhadas/3.jpeg'
-import foto3 from '../../assets/reuniao/2.jpeg'
+import foto1 from '../../assets/dedicadas/3.jpeg'
+import foto2 from '../../assets/compartilhadas/4.jpeg'
+import foto3 from '../../assets/reuniao/3.png'
 import foto4 from '../../assets/privadas/1.jpeg'
 import foto5 from '../../assets/atendimento/2.jpg'
 

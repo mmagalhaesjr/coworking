@@ -11,9 +11,10 @@ import 'swiper/css/pagination';
 
 import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
 
-import foto1 from '../../../assets/dedicadas/1.jpg'
-import foto2 from '../../../assets/dedicadas/2.jpg'
-import foto3 from '../../../assets/dedicadas/3.jpg'
+
+import foto2 from '../../../assets/dedicadas/1.jpg'
+import foto3 from '../../../assets/dedicadas/2.jpg'
+import foto1 from '../../../assets/dedicadas/3.jpeg'
 
 
 import ico1 from '../../../assets/icones/concierge.png'

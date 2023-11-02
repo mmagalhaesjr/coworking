@@ -36,10 +36,12 @@ export const StyledEspacos = styled.section`
 
 
 #titulos {
-    width: 50%;
+    width: 100%;
     margin-top: 3%;
     margin-left: 5%;
     width: 30%;
+
+   
   
   }
   
@@ -57,7 +59,7 @@ export const StyledEspacos = styled.section`
   
   .salas {
     width: 100%;
-    height: 100%;
+    height: 80%;
     border-right: 15px solid  #F4F3F0;
     border-left: 15px solid  #F4F3F0;
     overflow:hidden;    
@@ -72,7 +74,7 @@ export const StyledEspacos = styled.section`
   
   .salas img:hover {
     filter: brightness(.4);
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
   
   .salas:hover h3 {
@@ -81,10 +83,10 @@ export const StyledEspacos = styled.section`
   
   h3 {
     color: #F4F3F0;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;

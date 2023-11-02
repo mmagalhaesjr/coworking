@@ -83,8 +83,8 @@ input{
 
 button{
         background-color: #eae9e9;
-        width: 15%;
-        height: 15%;
+        width: 20%;
+        height: 40px;
         font-size: 90%;
         font-weight: 700;
         cursor: pointer;

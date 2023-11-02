@@ -1,9 +1,12 @@
 import { StyledEventos, StyledEventos2, StyledEventos3 } from "./styled"
 import Cabecalho2 from "../../components/Cabecalho2/Cabecalho2"
 
+import { FaWhatsapp } from 'react-icons/fa';
+
 
 import foto from '../../assets/capa/sala1.jpg'
 import Formulario from "../../components/Formulario/Formulario";
+
 
 export default function Eventos() {
 
@@ -17,13 +20,18 @@ export default function Eventos() {
                 <div id="container">
                     <div id="cxTexto">
                         <h2>
-                            O Temasek Coworking recebe você e seus
+                            O <span>Temasek Coworking</span> recebe você e seus
                             parceiros de trabalho e amigos para happy hour,
                             reuniões mais descontraídas, workshops,
                             treinamentos e celebrações de fim de ano!
                         </h2>
                     </div>
                     <div id="cxVideo">
+
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/EZNnRj42nx0?si=fxO4lxyrt4n6vS8K"
+                            title="YouTube video player" frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                     </div>
                 </div>
@@ -67,20 +75,23 @@ export default function Eventos() {
 
                         <div className="cxForm">
 
-                            <h2>
-                                Reserve <br />
-                                nosso espaço <br />
-                                para a sua <br />
-                                celebração! <br />
-                            </h2>
-                            <p>
-                                Entre em contato <br />
-                                conosco para garantir <br />
-                                a sua reserva <br />
-                            </p>
+                            <div className="texto">
+                                <h2>
+                                    Reserve <br />
+                                    nosso espaço <br />
+                                    para a sua <br />
+                                    celebração! <br />
+                                </h2>
+                                <p>
+                                    Entre em contato <br />
+                                    conosco para garantir <br />
+                                    a sua reserva <br />
+                                </p>
 
-                            <div className="botao">
-
+                                <div className="botao">
+                                    <FaWhatsapp />
+                                    <h3>whatsApp</h3>
+                                </div>
                             </div>
 
                         </div>
