@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const StyledServicos2 = styled.section`
 width: 100%;
 height:100vh;
-
+min-height: 200px;
 
 #container{
     height: 100%;
@@ -30,7 +30,7 @@ height:100vh;
     display: flex;
     text-align: start;
     line-height: 1.2;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 ul{

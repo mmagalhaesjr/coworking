@@ -5,10 +5,11 @@ import { useEffect } from 'react';
 // import { useNavigate } from 'react-router-dom';
 import MenuMobile from '../MenuMobile/MenuMobile';
 import { StyledCabecalho } from './styled';
+import { useNavigate } from 'react-router-dom';
 
 
 export default function Cabecalho() {
-
+    const navegar = useNavigate();
     const [scrollY, setScrollY] = useState(0);
 
     useEffect(() => {
@@ -32,24 +33,7 @@ export default function Cabecalho() {
         document.body.style.overflowY = mobileAtivado ? 'hidden' : 'auto';
     }, [mobileAtivado])
 
-    // const navegar = useNavigate();
-    const blog = () => {
-        window.open('/blog', "_blank");
-        // navegar('/blog');
-    };
 
-    const quemSomos = () => {
-        window.location.href = '/quem-somos';
-    };
-    const planos = () => {
-        window.location.href = '/planos';
-        
-    };
-    const eventos = () => {
-        window.location.href ='/eventos' ;
-        
-    };
-   
 
     return (
 
@@ -57,7 +41,7 @@ export default function Cabecalho() {
             <MenuMobile
                 mobileAtivado={mobileAtivado}
                 setMobileAtivado={setMobileAtivado} />
-          
+
 
             <StyledCabecalho mobile={mobileAtivado} id="header"
                 className={scrollY > 100 ? 'rolagem' : ''} >
@@ -66,18 +50,14 @@ export default function Cabecalho() {
                     <a href="/" className="logo2"><img src={logo2} alt='logo' /></a>
 
                     <ul className="nav-list">
-                        <li><a onClick={quemSomos}>Sobre nós</a></li>
+                        <li><a onClick={() => navegar("/quem-somos")}>Sobre nós</a></li>
                         <li><a href="#espacos">Espaços</a></li>
                         <li><a href="#servicos">Serviços</a></li>
-
-                        <li><a onClick={planos}>Planos</a></li>
-
-                        <li><a onClick={eventos}>Eventos</a></li>
-
+                        <li><a onClick={() => navegar("/planos")}>Planos</a></li>
+                        <li><a onClick={() => navegar("/eventos")}>Eventos</a></li>
                         <li><a href="#contato">Contato</a></li>
-
                         <li><a href='https://temasekcoworking.conexa.app' >Área do cliente</a></li>
-                        <li><a onClick={blog} >Blog</a></li>
+                        <li><a onClick={() => navegar("/blog")} >Blog</a></li>
                     </ul>
 
                     <button onClick={mobile}  >

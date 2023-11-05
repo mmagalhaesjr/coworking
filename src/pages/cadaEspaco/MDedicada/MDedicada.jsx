@@ -52,7 +52,7 @@ export default function MDedicada() {
 
                     <div id="containerTexto">
                         <div id="texto">
-                            <h1>Mesas Dedicadas</h1>
+                            <h1>Estação de Trabalho Dedicada </h1>
                             <h2>
                                 Acesso exclusivo à sua posição fixa de trabalho, em um ambiente compartilhado.
                                 Ideal para 1 pessoa e equipes reduzidas.

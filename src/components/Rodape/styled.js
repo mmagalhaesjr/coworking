@@ -10,6 +10,7 @@ align-items: center;
 color: #ffffff;
 text-align: center;
 
+
 #container{
     width: 100%;
     display: flex;
@@ -17,6 +18,7 @@ text-align: center;
     align-items: center;
     gap: 5%;
     bottom:0;
+
 }
 h3{
     margin-top: -30px;
@@ -37,7 +39,7 @@ h3{
     height: 100px;
     margin-top: 10px;
     display: flex;
-    text-align: start;
+    align-items: center;
     flex-direction: column;
     gap:10px;
     font-size: 15px;

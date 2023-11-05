@@ -1,10 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import UserProvider from "./contexts/UserContext";
-
 import TelaBlog from './pages/Blog/TelaBlog';
 import ConfirmarEnvio from './pages/ConfirmarEnvio/ConfirmarEnvio';
 import Main from './pages/Main/Main'
-
 import MDedicada from './pages/cadaEspaco/MDedicada/MDedicada';
 import SPrivativa from './pages/cadaEspaco/SPrivativa/SPrivativa';
 import SReuniao from './pages/cadaEspaco/SReuniao/SReuniao';
@@ -15,43 +12,34 @@ import Planos from './pages/Planos/Planos';
 import Eventos from "./pages/Eventos/Eventos";
 
 
-
-
-
-
 export default function App() {
 
     return (
-        
-            
-                <BrowserRouter>
 
-                    <UserProvider>
-                        <div className="App">
-                            <Routes>
-                                
-                                <Route path="/" element={<Main />} />
+        <BrowserRouter>
 
-                                <Route path="/compartilhada" element={<MCompartilhada/>} />
-                                <Route path="/dedicada" element={<MDedicada />} />
-                                <Route path="/privativa" element={<SPrivativa />} />
-                                <Route path="/reuniao" element={<SReuniao/>} />
-                                <Route path="/atendimento" element={<SAtendimento/>} />
-                                <Route path="/quem-somos" element={<QuemSomos/>} />
 
-                                <Route path="/planos" element={<Planos />} />
-                                <Route path="/eventos" element={<Eventos />} />
+            <div className="App">
+                <Routes>
 
-                                <Route path="/blog" element={<TelaBlog />} />
-                                <Route path="/confirmar" element={<ConfirmarEnvio />} />
+                    <Route path="/" element={<Main />} />
+                    <Route path="/compartilhada" element={<MCompartilhada />} />
+                    <Route path="/dedicada" element={<MDedicada />} />
+                    <Route path="/privativa" element={<SPrivativa />} />
+                    <Route path="/reuniao" element={<SReuniao />} />
+                    <Route path="/atendimento" element={<SAtendimento />} />
+                    <Route path="/quem-somos" element={<QuemSomos />} />
 
-                            </Routes>
-                        </div>
-                    </UserProvider>
+                    <Route path="/planos" element={<Planos />} />
+                    <Route path="/eventos" element={<Eventos />} />
 
-                </BrowserRouter>
-           
-   
+                    <Route path="/blog" element={<TelaBlog />} />
+                    <Route path="/confirmar" element={<ConfirmarEnvio />} />
+
+                </Routes>
+            </div>
+
+        </BrowserRouter>
 
 
     )

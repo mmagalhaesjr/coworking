@@ -17,6 +17,7 @@ form{
     align-items: center;
     color: white;
     background-color: #101010;
+    
     /* border-radius: 15px; */
 }
 input{
@@ -25,6 +26,7 @@ input{
 .inputBox{
     position: relative;
     width: 80%;    
+    background-color: #000000;
 }
 .inputUser{
     background: none;
@@ -35,6 +37,7 @@ input{
     font-size: 20px;
     width: 100%;
     letter-spacing: 2px;
+    
 }
 .inputUser:focus ~ .labelInput,
 .inputUser:valid ~ .labelInput{
@@ -69,6 +72,7 @@ input{
     left: 0px;
     pointer-events: none;
     transition: .5s;
+    background-color: #000000;
 } 
 #submit{
     background-color: #2A2A2A;

@@ -13,7 +13,6 @@ import 'swiper/css/pagination';
 
 import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
 
-import foto1 from '../../../assets/reuniao/1.jpeg'
 import foto2 from '../../../assets/reuniao/2.jpeg'
 import foto3 from '../../../assets/reuniao/3.png'
 import foto4 from '../../../assets/reuniao/4.jpeg'
@@ -59,10 +58,9 @@ export default function SReuniao() {
                                 A Sala <span>Nova York </span> é preparada para realizar
                                 qualquer tipo de reunião ou workshop. Ideal para trabalhar e organizar reuniões e treinamentos.
                             </h2>
-                            <h4>
-                                <div>Sala Nova York <BsPerson /> 10</div>
 
-                            </h4>
+                            <div><h4>Sala Nova York </h4> <BsPerson /> <h4>10</h4></div>
+
                             <h3>Vantagens</h3>
                             <ul>
                                 <li>Ambiente climatizado e Wifi de alta velocidade</li>
@@ -94,9 +92,9 @@ export default function SReuniao() {
 
                                 className="swiper-slide"
                             >
-                                <SwiperSlide><img className="foto" src={foto1} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto2} alt="" /></SwiperSlide>
                                 <SwiperSlide><img className="foto" src={foto3} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto2} alt="" /></SwiperSlide>
+
                                 <SwiperSlide><img className="foto" src={foto4} alt="" /></SwiperSlide>
 
 

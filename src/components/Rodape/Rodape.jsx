@@ -33,7 +33,7 @@ export default function Rodape() {
                                 <ImLocation2 /><p>Av Rio Branco, 1899 </p>
                             </div>
                             <p>Juiz de Fora | MG </p>
-                            <p> CEP: 3601-3020 </p>
+                            <p> CEP: 36013-020 </p>
                         </div>
                     </a>
                 </div>

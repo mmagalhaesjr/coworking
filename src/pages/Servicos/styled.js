@@ -3,13 +3,13 @@ import styled from 'styled-components';
 export const StyledServicos = styled.section`
 width: 100%;
 height:100vh;
+
 display: flex;
 flex-direction: column;
 justify-content: center;
 text-align: center;
 align-items: center;
 background-color: #F4F3F0 ;
-
 
 
 #titulos {
@@ -36,7 +36,7 @@ margin-top: 50px;
 
 .cx{
 max-width:300px;
-min-width:300px;
+min-width:200px;
 width: 20%;
 height: 200px;
 display: flex;

@@ -16,7 +16,7 @@ import foto1 from '../../assets/servicos/1.jpeg'
 
 import foto3 from '../../assets/servicos/3.jpeg'
 import foto4 from '../../assets/servicos/4.jpeg'
-import foto5 from '../../assets/servicos/5.jpeg'
+import carro from '../../assets/servicos/carro.jpeg'
 
 
 
@@ -41,7 +41,7 @@ export default function Servicos2() {
                         <li>Motorista executivo</li>
                         <li>Marketing digital </li>
                         <li>Gerenciamento de mídias sociais</li>
-                        <li>Acessoria contábil</li>
+                        <li>Assessoria contábil</li>
                         <li>Linha telefônica privada</li>
 
                     </ul>
@@ -67,11 +67,11 @@ export default function Servicos2() {
                                 }}
                                
                                 className="swiper-slide"
-                            >
+                            >                           
+                                <SwiperSlide><img className="foto" src={carro} alt="" /></SwiperSlide>
                                 <SwiperSlide><img className="foto" src={foto1} alt="" /></SwiperSlide>
                                 <SwiperSlide><img className="foto" src={foto3} alt="" /></SwiperSlide>
                                 <SwiperSlide><img className="foto" src={foto4} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto5} alt="" /></SwiperSlide>
 
                             </Swiper>
 

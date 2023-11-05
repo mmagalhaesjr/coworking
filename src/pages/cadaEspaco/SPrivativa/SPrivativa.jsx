@@ -53,9 +53,9 @@ export default function SPrivativa() {
 
                     <div id="containerTexto">
                         <div id="texto">
-                            <h1>Salas privativas</h1>
+                            <h1>Salas Privativas</h1>
                             <h2>
-                                As Salas <span> Roma, Londres</span> são preparadas para realizar qualquer tipo de reunião. <br />
+                                As Salas <span> Roma e Londres</span> são preparadas para realizar qualquer tipo de reunião. <br />
                                 Possui design moderno e intimista.
                             </h2> 
                             <h4>  

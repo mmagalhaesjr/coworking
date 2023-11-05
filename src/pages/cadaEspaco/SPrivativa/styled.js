@@ -6,14 +6,13 @@ import styled from 'styled-components';
 export const StyledSPrivativa = styled.section`
 
 width: 100%;
-height: 100vh;
 background-color: #F4F3F0 ;
 
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-
+padding-top: 30px;
 
 #titulo{
 
@@ -159,7 +158,6 @@ span{
 export const Styled2 = styled.section`
 
 width: 100%;
-height: 200vh;
 background-color: #F4F3F0
 ;
 
@@ -251,7 +249,8 @@ margin-top: 100px;
     #texto button{
         margin-top: 50px;
         width: 30%;
-        height: 25%;
+        height: 60px;
+        margin-bottom: 30px;
         background-color: #000000;
         color: #F4F3F0;
         font-size: 20px;

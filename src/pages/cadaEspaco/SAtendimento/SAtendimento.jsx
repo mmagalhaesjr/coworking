@@ -10,9 +10,8 @@ import 'swiper/css/pagination';
 
 
 
-import { EffectCreative, Navigation, Pagination,A11y } from 'swiper/modules';
+import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
 
-import foto1 from '../../../assets/atendimento/1.jpg'
 import foto2 from '../../../assets/atendimento/2.jpg'
 import foto3 from '../../../assets/atendimento/3.jpg'
 import foto4 from '../../../assets/atendimento/4.jpg'
@@ -44,8 +43,6 @@ export default function SAtendimento() {
 
                 <div id="titulo">
 
-
-
                 </div>
 
                 <div id="container">
@@ -54,13 +51,13 @@ export default function SAtendimento() {
                         <div id="texto">
                             <h1>Sala para atendimento</h1>
                             <h2>
-                                A <span>Sala Paris </span> é ideal para atendimentos de profissionais como: terapeutas, psicólogos, fonoaudiólogos, 
+                                A <span>Sala Paris </span> é ideal para atendimentos de profissionais como: terapeutas, psicólogos, fonoaudiólogos,
                                 dentre outros.
                             </h2>
-                            <h4>
-                               <div>Sala Paris <BsPerson /> 4</div> 
-                              
-                            </h4>
+
+                            <div> <h4>Sala Paris</h4> <BsPerson /> <h4>4   </h4></div>
+
+
                             <h3>Vantagens</h3>
                             <ul>
                                 <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
@@ -72,37 +69,36 @@ export default function SAtendimento() {
 
                     <div id="containerFoto">
 
-<div id="cor" >
+                        <div id="cor" >
 
-    <Swiper
-     modules={[EffectCreative, Navigation, Pagination,A11y]}
-     navigation
-        grabCursor={true}
-        effect={'creative'}
-        creativeEffect={{
-            prev: {
-                shadow: true,
-                translate: [0, 0, -400],
-            },
-            next: {
-                translate: ['100%', 0, 0],
-            },
-        }}
-       
-        className="swiper-slide"
-    >
-        <SwiperSlide><img className="foto" src={foto1} alt="" /></SwiperSlide>
-        <SwiperSlide><img className="foto" src={foto2} alt="" /></SwiperSlide>
-        <SwiperSlide><img className="foto" src={foto3} alt="" /></SwiperSlide>
-        <SwiperSlide><img className="foto" src={foto4} alt="" /></SwiperSlide>
-        
+                            <Swiper
+                                modules={[EffectCreative, Navigation, Pagination, A11y]}
+                                navigation
+                                grabCursor={true}
+                                effect={'creative'}
+                                creativeEffect={{
+                                    prev: {
+                                        shadow: true,
+                                        translate: [0, 0, -400],
+                                    },
+                                    next: {
+                                        translate: ['100%', 0, 0],
+                                    },
+                                }}
 
-    </Swiper>
+                                className="swiper-slide"
+                            >
+                                <SwiperSlide><img className="foto" src={foto2} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto3} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto4} alt="" /></SwiperSlide>
 
 
-</div>
+                            </Swiper>
 
-</div>
+
+                        </div>
+
+                    </div>
 
 
                 </div>

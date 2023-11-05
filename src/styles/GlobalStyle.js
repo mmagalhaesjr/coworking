@@ -20,7 +20,10 @@ const GlobalStyle = createGlobalStyle`
         font-size: 100%;
         font: inherit;
         vertical-align: baseline;
-        background-color:171B1E;
+       
+    }
+    body{
+         background-color:  #F4F3F0;
     }
     html{
     scroll-behavior: smooth;

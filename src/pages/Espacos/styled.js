@@ -14,15 +14,18 @@ export const StyledEspacos = styled.section`
 .swiper-button-next{
 
   color: #fff;
- margin: 1%;
-}
+ width: 30px;
+ height: 50px;
+ padding: 20px;
+ border-radius: 10px;
+ }
+
 .swiper-button-next.swiper-button-disabled,
 .swiper-button-prev.swiper-button-disabled {
   display: none;
 }
 
 .swiper-wrapper{
-    
 }
 .swiper-initialized{
   height: 70%;

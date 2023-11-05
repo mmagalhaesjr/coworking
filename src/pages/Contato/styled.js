@@ -33,8 +33,13 @@ gap: 5%;
     font-size:40px;
 }
 
-#formulario{
-   
+
+@media (max-width:940px){
+
+   #titulos h1{
+      font-size: 30px;
+    }
+
 }
 
 
