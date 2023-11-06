@@ -32,7 +32,6 @@ align-items: center;
 width: 90%;
 max-width: 1700px;
 margin-top: 50px;
-
 }
 
 .cx{
@@ -46,8 +45,6 @@ text-align: center;
 align-items: center;
 justify-content: center;
 color:#101010;
-
-
 }
 
 .cx h2{
