@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledServicos = styled.section`
 width: 100%;
-height:90vh;
+/* height:90vh; */
 
 display: flex;
 flex-direction: column;
@@ -26,12 +26,12 @@ background-color: #F4F3F0 ;
 #container{
 display: flex;
 flex-wrap: wrap;
-justify-content: space-evenly;
+justify-content: center;
+gap: 10%;
 align-items: center;
 width: 90%;
-max-width: 1000px;
+max-width: 1700px;
 margin-top: 50px;
-
 }
 
 .cx{
@@ -45,8 +45,9 @@ text-align: center;
 align-items: center;
 justify-content: center;
 color:#101010;
-}
 
+
+}
 
 .cx h2{
     font-size: 20px;
@@ -56,7 +57,6 @@ color:#101010;
 .cx img{
     width: 60px;
     height: 50px;
-  
 }
 .cx p{
     font-size: 15px;
@@ -107,6 +107,9 @@ width: 100%;
 min-width: 60px;
 }
 
+}
+@media (max-width:530px){
+    height:100vh;
 }
 @media (max-width:400px){
 height: 900px;
