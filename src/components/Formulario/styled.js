@@ -26,7 +26,7 @@ input{
 .inputBox{
     position: relative;
     width: 80%;    
-    background-color: #000000;
+    background-color: #101010;
 }
 .inputUser{
     background: none;
@@ -72,7 +72,7 @@ input{
     left: 0px;
     pointer-events: none;
     transition: .5s;
-    background-color: #000000;
+    background-color: #101010;
 } 
 #submit{
     background-color: #2A2A2A;

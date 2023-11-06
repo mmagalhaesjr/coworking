@@ -27,7 +27,8 @@ h3{
 }
 .cx{
     width:20%;
-    height: 200px;
+    min-width: 200px;
+    height: 150px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -118,6 +119,9 @@ h6{
     }
 }
 
+@media (max-width:600px){
+height: 900px;
+}
 
 
 `

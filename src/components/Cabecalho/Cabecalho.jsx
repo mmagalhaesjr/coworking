@@ -12,6 +12,7 @@ export default function Cabecalho() {
     const navegar = useNavigate();
     const [scrollY, setScrollY] = useState(0);
 
+    
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => {

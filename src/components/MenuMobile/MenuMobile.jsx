@@ -2,37 +2,33 @@
 import { BsWhatsapp } from 'react-icons/bs';
 import { StyledMenuMobile } from "./styled";
 import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 
 export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
     // const navegar = useNavigate();
-    const blog = () => {
-        window.open('/blog', "_blank");
-        // navegar('/blog');
-    };
-    const quemSomos = () => {
-        window.open('/quem-somos', "_blank");
-        // navegar('/quem-somos');
-    };
+    const navegar = useNavigate();
 
-    useEffect(()=> {
+    useEffect(() => {
         document.body.style.overflowY = mobileAtivado ? 'hidden' : 'auto';
     }, [mobileAtivado])
 
     return (
 
         <StyledMenuMobile mobile={mobileAtivado}>
-            
+
             <nav className="nav-lista" >
-                <a onClick={() => setMobileAtivado(false) } href="#espacos">ESPAÇOS</a>
-                <a onClick={() => setMobileAtivado(false) } href="#servicos">SERVIÇOS</a>
-                <a onClick={() => setMobileAtivado(false) } href="#planos">PLANOS</a>
-                <a onClick={() => setMobileAtivado(false) } href="#contato">CONTATO</a>
-                <a onClick={blog} >BLOG</a>
-                <a onClick={quemSomos}  >QUEM SOMOS</a>
-                <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp/> - WHATSAPP</a>
+                <a onClick={() => navegar("/quem-somos")}  >QUEM SOMOS</a>
+                <a onClick={() => {setMobileAtivado(false),navegar("/")} }>ESPAÇOS</a>
+                <a onClick={() => {setMobileAtivado(false),navegar("/servicos")} }>SERVIÇOS</a>
+                <a onClick={() => {setMobileAtivado(false),navegar("/planos")}} >PLANOS</a>
+                <a onClick={() => navegar("/eventos")}>EVENTOS</a>
+                <a onClick={() => {setMobileAtivado(false),navegar("/#contato")} }>CONTATO</a>
+                <a onClick={() => navegar("/blog")} >BLOG</a>
+                <a href='https://temasekcoworking.conexa.app' >ÁREA DO CLIENTE</a>
+                <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp /> - WHATSAPP</a>
             </nav>
-            
+
 
         </StyledMenuMobile>
 

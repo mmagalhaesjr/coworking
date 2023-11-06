@@ -44,5 +44,28 @@ gap: 5%;
 
 
 
+
+@media (max-width:940px){
+    height: fit-content;
+    #container{
+flex-direction: column;
+    
+}
+#titulos{
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+#contato{
+    margin: 0;
+}
+form{
+    margin-right: 0;
+    width: 100%;
+}
+}
+
+
+
 `
 

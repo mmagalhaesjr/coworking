@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const StyledEventos = styled.section`
 width: 100%;
-height:130vh;
 display: flex;
 align-items: center;
 flex-direction: column;
@@ -33,9 +32,32 @@ justify-content: center;
 }
 #cxVideo{
     width: 90%;
-    height: 70%;
+    height: 700px;
     margin-top: 20px;
     background-color: #000;
+}
+@media (max-width:940px){
+#cxTexto{
+    width: 90%;
+}
+#cxVideo{
+    height: 500px;
+}
+}
+@media (max-width:600px){
+        
+    
+#cxTexto{
+    width: 90%;
+    h2{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+}
+#cxVideo{
+    height: 400px;
+}
 }
 
 `
@@ -46,9 +68,6 @@ height:130vh;
 display: flex;
 align-items: center;
 flex-direction: column;
-
-
-
 
 #container{
 width: 100%;
@@ -102,11 +121,42 @@ justify-content: center;
 .faixa p{
     margin-left: 15%;
 }
+@media (max-width:940px){
+    height: fit-content;
+    p{
+        font-size: 20px;
+    }
+    .faixa{
+        top: 40px;
+    left: -10px;
+    z-index: 3;
+
+    }
+
+#cxTexto{
+    width: 90%;
+}
+
+}
+@media (max-width:600px){
+
+    .faixa p{
+        font-size: 15px;
+        margin-left: 6%;
+    }
+    #cxImg{
+        height: fit-content;
+    }
+
+    .faixa {
+        width:80% ;
+    }
+}
 `
 
 export const StyledEventos3 = styled.section`
 width: 100%;
-height:100vh;
+min-height: 650px;
 display: flex;
 align-items: center;
 flex-direction: column;
@@ -142,9 +192,8 @@ justify-content: center;
 .cxForm{
     width: 30%;
     height: 100%;
-
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
 
     background-color: transparent;
@@ -153,8 +202,6 @@ justify-content: center;
 .texto{
     width: 90%;
     height: 90%;
-
-    /* border: solid 1px black; */
 }
 
 .texto h2{
@@ -166,7 +213,7 @@ justify-content: center;
     margin-top: 10px;
 }
 
-.texto .botao{
+.botao{
     width: 100%;
     height: 80px;
     margin-top: 20px; 
@@ -185,6 +232,44 @@ justify-content: center;
         transition:0.7s;
     }
 
+}
+@media (max-width:940px){
+#cxTexto{
+    width: 90%;
+}
+#cxForm{
+    flex-direction: column;
+
+    form{
+        width: 100%;
+    }
+}
+
+.cxForm{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .botao{
+        margin: 0;
+        font-size: 25px;
+    }
+  h2{
+    display: none;
+
+  }
+  p{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+}
+
+@media (max-width:600px){
+    .cxForm form{
+        width: 80%;
+    }
 }
 
 

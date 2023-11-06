@@ -83,17 +83,17 @@ export default function Eventos() {
                                     celebração! <br />
                                 </h2>
                                 <p>
-                                    Entre em contato <br />
-                                    conosco para garantir <br />
-                                    a sua reserva <br />
+                                    Entre em contato
+                                    conosco para garantir 
+                                    a sua reserva
                                 </p>
 
-                                <div className="botao">
+                               
+                            </div>
+                            <div className="botao">
                                     <FaWhatsapp />
                                     <h3>whatsApp</h3>
                                 </div>
-                            </div>
-
                         </div>
 
                         <Formulario />

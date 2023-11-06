@@ -19,12 +19,12 @@ export const StyledCabecalho = styled.header`
     z-index: 5;
     position: fixed;  
     
-    
   }
 
   ul {
+    width: 80%;
     display: flex;
-    gap: 70px;
+    justify-content: space-around;
     align-items: center;
     list-style: none;
     font-size: 18px;
@@ -48,13 +48,13 @@ export const StyledCabecalho = styled.header`
     margin-top: 7px;
     background: none; 
     position: relative;
-    left: -100px;
+    left: -60px;
     }
 
   img {
-    width: 330px;
-    height: 80px;
-    margin-top: 7px;
+    width: 200px;
+    height: 50px;
+    margin-top: 18px;
     background: none;
   }
 
@@ -136,7 +136,7 @@ nav {
 
   
 
-  @media (max-width: 1400px) {
+  @media (max-width: 940px) {
     ul {
       display: none;
     }

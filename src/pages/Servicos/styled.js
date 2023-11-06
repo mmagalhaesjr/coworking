@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledServicos = styled.section`
 width: 100%;
-height:100vh;
+height:90vh;
 
 display: flex;
 flex-direction: column;
@@ -64,7 +64,7 @@ color:#101010;
 }
 
 @media (max-width:940px){
-    height: fit-content;
+    min-height: 750px;
     #container{
 width: 90%;
 }
@@ -93,9 +93,6 @@ p{
 }
 
 @media (max-width:670px){
-padding-top: 30px;
-padding-bottom: 30px;
-height: fit-content;
 
 #titulos h1{
 font-size: 25px;
@@ -110,5 +107,8 @@ width: 100%;
 min-width: 60px;
 }
 
+}
+@media (max-width:400px){
+height: 900px;
 }
 `

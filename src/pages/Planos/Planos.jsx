@@ -13,8 +13,10 @@ import foto6 from '../../assets/privadas/1.jpeg'
 
 
 import Cabecalho2 from "../../components/Cabecalho2/Cabecalho2"
+import { useNavigate } from "react-router-dom";
 
 export default function Planos() {
+    const navegar = useNavigate()
     const [scrollY, setScrollY] = useState(0);
 
     useEffect(() => {
@@ -29,7 +31,7 @@ export default function Planos() {
     };
 
     const contato = () => {
-        window.location.href ='/' ;
+        navegar('/');
         
     };
 
@@ -44,7 +46,7 @@ export default function Planos() {
                     <div id="texto">
                         <h2>Espaços de trabalho flexíveis</h2>
                         <p>
-                            O Temasek Coworking se adapta à todas as formas e jornadas <br />
+                            O Temasek Coworking se adapta à todas as formas e jornadas 
                             de trabalho, com todos os serviços de um escritório completo.
                         </p>
                         
@@ -64,6 +66,14 @@ export default function Planos() {
                             <h3>Valor da diária</h3>
                             <div>
                                 <p>R$ </p><h2>120,00</h2>
+                            </div>
+
+                        </div>
+
+                        <div id="circuloMobile">
+                            <h3>Valor da diária</h3>
+                            <div>
+                                <p>R$</p><h2>120,00</h2>
                             </div>
 
                         </div>
@@ -99,9 +109,9 @@ export default function Planos() {
                                     </div>
                                 </div>
 
-                                <button>
+                                <button onClick={contato}>
                                     <h5>Contratar agora  </h5>
-                                    <div className="icone" onClick={contato}>
+                                    <div className="icone">
                                         <CgArrowLongRight />
                                     </div>
                                 </button>
@@ -125,7 +135,7 @@ export default function Planos() {
                                         <p>R$</p><h3>90,00</h3>
                                     </div>
                                 </div>
-                                <button>
+                                <button onClick={contato}>
                                     <h5>Contratar agora  </h5>
                                     <div className="icone" onClick={contato}>
                                         <CgArrowLongRight />
@@ -159,9 +169,9 @@ export default function Planos() {
                                         <p>R$</p><h3>100,00</h3>
                                     </div>
                                 </div>
-                                <button>
+                                <button onClick={contato}>
                                     <h5>Contratar agora  </h5>
-                                    <div className="icone" onClick={contato}>
+                                    <div className="icone" >
                                         <CgArrowLongRight />
                                     </div>
                                 </button>
@@ -188,9 +198,9 @@ export default function Planos() {
                                         <p>R$</p><h3>400,00</h3>
                                     </div>
                                 </div>
-                                <button>
+                                <button onClick={contato}>
                                     <h5>Contratar agora  </h5>
-                                    <div className="icone" onClick={contato}>
+                                    <div className="icone" >
                                         <CgArrowLongRight />
                                     </div>
                                 </button>
@@ -222,9 +232,9 @@ export default function Planos() {
                                         <p>R$</p><h3>80,00</h3>
                                     </div>
                                 </div>
-                                <button>
+                                <button onClick={contato}>
                                     <h5>Contratar agora  </h5>
-                                    <div className="icone" onClick={contato}>
+                                    <div className="icone" >
                                         <CgArrowLongRight />
                                     </div>
                                 </button>
@@ -249,9 +259,9 @@ export default function Planos() {
                                         <p>R$</p><h3>800,00</h3>
                                     </div>
                                 </div>
-                                <button>
+                                <button onClick={contato}>
                                     <h5>Contratar agora  </h5>
-                                    <div className="icone" onClick={contato}>
+                                    <div className="icone">
                                         <CgArrowLongRight />
                                     </div>
                                 </button>

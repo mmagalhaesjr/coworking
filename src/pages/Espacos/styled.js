@@ -4,11 +4,12 @@ import styled from 'styled-components';
 
 export const StyledEspacos = styled.section`
   width: 100%;
-  height: 100vh;
+  height: 90vh;
+  max-height: 100vh;
   background-color: #F4F3F0;
   display: flex;
   flex-direction: column;
-  padding-top: 35px;
+  padding-top: 20px;
 
 .swiper-button-prev,
 .swiper-button-next{
@@ -43,26 +44,19 @@ export const StyledEspacos = styled.section`
     margin-top: 3%;
     margin-left: 5%;
     width: 30%;
-
-   
-  
-  }
-  
-  #titulos h1 {
     font-size: 30px;
   }
   
+  
   #container {
     width: 100%;
-    height: 90%;
+    height: 100%;
     display: flex;
     align-items: center;
     margin: auto;
   }
   
   .salas {
-    width: 100%;
-    height: 80%;
     border-right: 15px solid  #F4F3F0;
     border-left: 15px solid  #F4F3F0;
     overflow:hidden;    
@@ -98,7 +92,7 @@ export const StyledEspacos = styled.section`
   }
   
   @media (max-width:940px){
-  height: 80vh;
+
 #titulos{
     width: 60%;
 }

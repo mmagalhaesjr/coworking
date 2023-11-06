@@ -88,6 +88,7 @@ ul{
   margin: 100px auto;
   width: 320px;
   height: 240px; 
+  
 }
 
 .swiper-slide {
@@ -102,7 +103,7 @@ ul{
   position: relative;
   /* left: -5%; */
 
- 
+
 
   
 }
@@ -144,10 +145,10 @@ ul{
 }
 
 @media (max-width:600px){
+    height: fit-content;
 
 #container{
     height: 90%;
-    width: fit-content;
     justify-content: center;
 }
 #containerTxt{
@@ -171,5 +172,13 @@ ul{
 img{
    display: none;
 }
+
+#containerFoto {
+ display: none;
+
+  
 }
+
+}
+
 `

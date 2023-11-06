@@ -1,10 +1,7 @@
 import styled from 'styled-components';
 
-
-
 export const StyledPlanos = styled.section`
 width: 100%;
-height:130vh;
 display: flex;
 align-items: center;
 flex-direction: column;
@@ -12,21 +9,17 @@ flex-direction: column;
 
 #container{
 width: 100%;
-height: 90%;
 
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-
-margin-top: 5%;
-
 }
 
 #container img{
     width:100%;
     height: 82%;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 #container #texto{
@@ -34,7 +27,6 @@ margin-top: 5%;
     height: 130px;
     position: relative;
     top:-120px;
-
     display:flex;
     flex-direction: column;
     color: #000000;
@@ -53,16 +45,19 @@ margin-top: 5%;
 
 
 #cxDayUse{
-    margin-top: 100px;
     width:760px;
     max-width:760px;
-    height:500px;
+    height:200px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #C4BCBC;
     background-color: #a98261;
     border-radius: 200px;
+
+    #circuloMobile{
+    display: none;
+}
 }
 
 #dayUseTexto{
@@ -136,7 +131,72 @@ margin-top: 20px;
 font-weight: 700;
 }
 
+@media (max-width:940px){
+    #cxDayUse{
+        width: 90%;
+    }
+}
 
+@media (max-width:600px){
+
+ 
+   #container #texto{
+        width: 90%;
+
+        p{
+            font-size: 20px;
+        }
+    }
+    #dayUseTexto{
+margin-left: 10%;
+   opacity: 1;
+}
+    #cxDayUse{
+        width: 90%;
+        height: 150px;
+        
+        #circulo{
+          display: none}
+        h1{
+            font-size: 25px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+}
+#circuloMobile{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color:  #F4F3F0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     h3 {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+
+ h2{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+div{
+    display: flex;
+    align-items: center;
+}
+ p{
+margin-top: 20px;
+font-weight: 700;
+}
+}
 
 
 `
@@ -150,15 +210,13 @@ font-weight: 700;
 
 export const StyledPlanos2 = styled.section`
 width: 100%;
-height:100vh;
 display: flex;
 align-items: center;
 flex-direction: column;
-margin-top: 170px;
-
 #titulo{
    margin-right: 45%;
     margin-top: 50px;
+    margin-left: 20px;
 }
 #titulo h1{
     font-size: 2rem;
@@ -297,6 +355,9 @@ margin-top: 10px;
     }
 }
 @media(max-width: 900px) {
+    .txt .valor{
+        width: 250px;
+    }
     .cxEstacao{
         height: 100%;
         width: 95%;
@@ -328,7 +389,9 @@ margin-top: 10px;
         margin-bottom: 10px;
     }
    
-
+    .cxEstacao{
+        height: fit-content;
+    }
 }
 @media(max-width: 490px){
     section{

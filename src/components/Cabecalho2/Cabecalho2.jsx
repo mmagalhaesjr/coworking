@@ -33,11 +33,11 @@ export default function Cabecalho2() {
 
                     <ul className="nav-list">
                         <li><a onClick={() => navegar("/quem-somos")}>Sobre nós</a></li>
-                        <li><a href="#espacos">Espaços</a></li>
-                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a onClick={() => navegar("/#espacos")}>Espaços</a></li>
+                        <li><a onClick={() => navegar("/#servicos")}>Serviços</a></li>
                         <li><a onClick={() => navegar("/planos")}>Planos</a></li>
                         <li><a onClick={() => navegar("/eventos")}>Eventos</a></li>
-                        <li><a href="#contato">Contato</a></li>
+                        <li><a onClick={() => navegar("/#contato")}>Contato</a></li>
                         <li><a href='https://temasekcoworking.conexa.app' >Área do cliente</a></li>
                         <li><a onClick={() => navegar("/blog")} >Blog</a></li>
                     </ul>
