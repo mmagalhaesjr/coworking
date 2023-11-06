@@ -10,7 +10,8 @@ margin: auto;
 padding: 20px;
 gap: 5%;
 
-flex-direction: column; //tirar -------------
+/* flex-direction: column;  */
+//tirar -------------
 
 #container{
     display: flex;

@@ -7,7 +7,7 @@ export default function Contato() {
     return (
         <StyledContato id="contato" >
 
-            <p>site em manutenção...</p>
+            {/* <p>site em manutenção...</p> */}
 
             <div id="container">
 
