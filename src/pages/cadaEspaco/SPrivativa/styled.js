@@ -164,6 +164,16 @@ display: flex;
 flex-direction: column;
 align-items: center;
 
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   
+
+}
+
 #titulo{
     margin-top: 100px;
     font-size: 40px;
@@ -173,31 +183,27 @@ align-items: center;
 #container1{
 width: 80%;
 max-width: 1300px;
-min-width: 610px;
+/* min-width: 610px; */
 display: flex;
 align-items: center;
 justify-content: center;
 gap: 80px;
 flex-wrap: wrap;
 margin-top: 100px;
-
 }
 
-#container1 img{
-    width: 60px;
-    height: 60px;
 
-   
-}
 .cxImg{
     width: 200px;
+    height: 200px;
     display: flex;
     flex-direction:column;
     align-items: center;
     text-align: center;
     justify-content: center;
-
-   
+}
+.cxImg img{
+    width: 4rem
 }
 .cxImg p{
     margin-top: 20px;
@@ -215,17 +221,22 @@ margin-top: 100px;
 
 }
 .box{
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 1%;
+    flex-wrap: wrap;
 }
     .cxIcone{
-        width: 200px; 
+        width: 9rem; 
         display: flex;
         flex-direction: column;
         align-items: center;
+        
     }
     .cxIcone img{
-        width: 100px;
+    width: 100px;
     height: 100px;
     margin-top: 10px;
     }
@@ -247,9 +258,9 @@ margin-top: 100px;
 
     #texto button{
         margin-top: 50px;
+        margin-bottom: 50px;
         width: 30%;
         height: 60px;
-        margin-bottom: 30px;
         background-color: #000000;
         color: #F4F3F0;
         font-size: 20px;
@@ -262,6 +273,57 @@ margin-top: 100px;
         transition:0.7s;
     }
 
+        
+    }
+
+    @media (max-width:1300px){
+        #container2{
+            width: 100%;
+            
         }
+        .box{
+            width: 100%;
+        }
+        
+    }
+    @media (max-width:620px){
+
+       #container{
+       width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+       
+       }
+
+        #titulo{
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        #container1{
+            gap: 10%;
+        }
+        .cxIcone{
+        width: 90%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+    .cxImg{
+        width: 100px;
+    }
+    .cxImg img{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+    
 
 `
