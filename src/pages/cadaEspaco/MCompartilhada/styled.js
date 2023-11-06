@@ -102,11 +102,14 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
+
+    
+   
    
 }
     #cor{
     width: 100%;
-    height: 60%;
+    height: 100%;
 }
 .swiper-button-prev,
 .swiper-button-next{
@@ -183,6 +186,10 @@ margin-top: 100px;
     width: 60px;
     height: 60px;
 
+    
+
+    
+
    
 }
 .cxImg{
@@ -192,6 +199,8 @@ margin-top: 100px;
     align-items: center;
     text-align: center;
     justify-content: center;
+
+    
 
    
 }
@@ -221,9 +230,10 @@ margin-top: 100px;
         align-items: center;
     }
     .cxIcone img{
-        width: 100px;
+    width: 100px;
     height: 100px;
     margin-top: 10px;
+
     }
     .cxIcone p{
         margin-top: 20px;

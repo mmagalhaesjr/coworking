@@ -13,8 +13,12 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import { useNavigate } from 'react-router-dom';
 
 const Espacos = () => {
+
+    const navegar = useNavigate()
+
     return (
         <StyledEspacos id="espacos">
             <div id="titulos">
@@ -33,7 +37,7 @@ const Espacos = () => {
                     slidesPerView={window.innerWidth < 940 ? 1 : 3}
                 >
                     <SwiperSlide>
-                            <a href="/dedicada">
+                            <a onClick={()=>navegar('/dedicada')}>
                                 <div className="salas">
                                     <img src={foto1} alt='' />
                                     <h3>Estação de Trabalho Dedicada</h3>
@@ -42,7 +46,7 @@ const Espacos = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <a href="/compartilhada" >
+                            <a onClick={()=>navegar('/compartilhada')}>
                                 <div className="salas">
                                     <img src={foto2} alt='' />
                                     <h3>Estação de Trabalho Rotativa</h3>
@@ -51,7 +55,7 @@ const Espacos = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <a href="/reuniao">
+                            <a onClick={()=>navegar('/reuniao')}>
                                 <div className="salas">
                                     <img src={foto3} alt='' />
                                     <h3>Sala de Reunião</h3>
@@ -60,7 +64,7 @@ const Espacos = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <a href="/atendimento">
+                            <a onClick={()=>navegar('/atendimento')}>
                                 <div className="salas">
                                     <img src={foto5} alt='' />
                                     <h3>Sala para Atendimento</h3>
@@ -69,7 +73,7 @@ const Espacos = () => {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <a href="/privativa" >                               
+                            <a onClick={()=>navegar('/privativa')}>                               
                             <div className="salas">
                                     <img src={foto4} alt='' />
                                     <h3>Salas Privativas</h3>

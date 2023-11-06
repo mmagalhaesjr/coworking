@@ -68,19 +68,15 @@ h3{
     font-weight: 100;
 }//fim do container texto
 
-
-
-
 #containerFoto{
     width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
-   
 }
     #cor{
     width: 100%;
-    height: 60%;
+    height: 100%;
 }
 .swiper-button-prev,
 .swiper-button-next{
