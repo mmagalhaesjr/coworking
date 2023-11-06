@@ -6,12 +6,19 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 import foto from '../../assets/capa/6.jpeg'
 import Formulario from "../../components/Formulario/Formulario";
+import { useEffect } from "react";
 
 
 export default function Eventos() {
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
 
     return (
+
+
 
         <>
             <Cabecalho2 />

@@ -5,19 +5,23 @@ export const StyledSAtendimento = styled.section`
 
 width: 100%;
 background-color: #F4F3F0 ;
+padding-top: 30px;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-padding-top: 30px;
+
+
+
 
 #titulo{
 
 }
 #titulo h1{
-    font-size: 50px;
+    font-size: 1rem;
     position: relative;
     top: -50px;
+
 }
 
 #container{
@@ -26,17 +30,8 @@ padding-top: 30px;
     display: flex;
 }
 
-#texto div{
-    width: 160px;
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
 
-    svg{
-        margin-top: 20px;
-        font-size: 20px;
-    }
-}
+
 #containerTexto{
     width: 60%;
     height: 100%;
@@ -53,70 +48,34 @@ padding-top: 30px;
     justify-content: center;
 }
 #texto h1{
-font-size: 40px;
+font-size: 2.5rem;
 }
 #texto h2{
-    font-size: 25px;
+    font-size:1.5rem;
     margin-top: 50px;
     font-weight: 100;
 }
 h3{
-    font-size: 25px;
+    font-size: 2rem;
     margin-top: 50px;
 }
 #texto ul{
     margin-top: 20px;
 }
 #texto ul li{
-    font-size: 25px;
+    font-size: 1.5rem;
     margin-top: 20px;
     margin-left: 40px;
     font-weight: 100;
 }
-
-h4{
+#texto div{
     display: flex;
-    flex-direction: column;
-    font-size: 25px;
-    font-weight: 500;
-    margin-top: 20px;
-}
-span{
-    font-weight: 500;
-}
-
-
-/* .faixa{
-    width: 100%;
-    height: 150px;
-    position: relative;
-    top: 100px;
-    background-color: #9C6839;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.cxIcone{
-        width: 200px; 
-        height: 130px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .cxIcone img{
-    width: 50px;
-    height: 50px;
     margin-top: 10px;
-    }
-    .cxIcone p{
-        margin-top: 20px;
-        color: #F4F3F0;
-        font-size: 25px;
-        font-weight: 100;
-    } */
+    font-size: 20px;
+}
+//fim do container texto
 
-    #containerFoto{
+#containerFoto{
     width: 40%;
     display: flex;
     align-items: center;
@@ -156,6 +115,22 @@ span{
 .foto{
     width: 100%;
     height: 100%; 
+}
+
+@media (max-width:1300px){
+
+    #container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#containerTexto{
+    width: 95%;
+}
+#containerFoto{
+    width: 90%;
+}
 }
 
 `

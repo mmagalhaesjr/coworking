@@ -14,13 +14,16 @@ align-items: center;
 justify-content: center;
 
 
+
+
 #titulo{
 
 }
 #titulo h1{
-    font-size: 50px;
+    font-size: 1rem;
     position: relative;
     top: -50px;
+
 }
 
 #container{
@@ -38,8 +41,6 @@ justify-content: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    
 }
 #texto{
     width: 90%;
@@ -49,50 +50,32 @@ justify-content: center;
     justify-content: center;
 }
 #texto h1{
-font-size: 40px;
-}
-
-#texto div{
-    width: 230px;
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
-
-    svg{
-        margin-top: 20px;
-        font-size: 20px;
-    }
+font-size: 2.5rem;
 }
 #texto h2{
-    font-size: 25px;
+    font-size:1.5rem;
     margin-top: 50px;
     font-weight: 100;
 }
 h3{
-    font-size: 25px;
+    font-size: 2rem;
     margin-top: 50px;
 }
 #texto ul{
     margin-top: 20px;
 }
 #texto ul li{
-    font-size: 25px;
+    font-size: 1.5rem;
     margin-top: 20px;
     margin-left: 40px;
     font-weight: 100;
 }
-h4{
+#texto div{
     display: flex;
-    flex-direction: column;
-    font-size: 25px;
-    font-weight: 100;
-    margin-top: 20px;
+    margin-top: 10px;
+    font-size: 20px;
 }
-span{
-    font-weight: 500;
-}//fim do container texto
-
-
+//fim do container texto
 
 #containerFoto{
     width: 40%;
@@ -135,7 +118,22 @@ span{
     width: 100%;
     height: 100%; 
 }
-//fim do container foto
+
+@media (max-width:1300px){
+
+    #container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#containerTexto{
+    width: 95%;
+}
+#containerFoto{
+    width: 90%;
+}
+}
 `
 
 

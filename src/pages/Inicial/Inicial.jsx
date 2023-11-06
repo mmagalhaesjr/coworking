@@ -24,9 +24,10 @@ import foto4 from '../../assets/capa/sala4.jpg'
 
 
 
+
 export default function Inicial() {
 
-
+    
 
     return (
 

@@ -36,13 +36,18 @@ import icone2 from '../../../assets/icones2/freelancer.png'
 import icone3 from '../../../assets/icones2/startup.png'
 import icone4 from '../../../assets/icones2/remotas.png'
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 
 export default function MCompartilhada() {
 
+    const navegar = useNavigate()
+
+
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+    
     return (
         <>
             <StyledMCompartilhada>
@@ -223,7 +228,7 @@ export default function MCompartilhada() {
                                 conosco e agende uma visita
                                 para conhecer <br /> nosso espaço e serviços!
                             </p>
-                            <button>
+                            <button onClick={()=>navegar('/')}>
                                 Agende uma visita
                             </button>
 
