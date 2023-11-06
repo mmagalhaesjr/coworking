@@ -14,13 +14,16 @@ align-items: center;
 justify-content: center;
 
 
+
+
 #titulo{
 
 }
 #titulo h1{
-    font-size: 50px;
+    font-size: 1rem;
     position: relative;
     top: -50px;
+
 }
 
 #container{
@@ -47,22 +50,22 @@ justify-content: center;
     justify-content: center;
 }
 #texto h1{
-font-size: 40px;
+font-size: 2.5rem;
 }
 #texto h2{
-    font-size: 25px;
+    font-size:1.5rem;
     margin-top: 50px;
     font-weight: 100;
 }
 h3{
-    font-size: 25px;
+    font-size: 2rem;
     margin-top: 50px;
 }
 #texto ul{
     margin-top: 20px;
 }
 #texto ul li{
-    font-size: 25px;
+    font-size: 1.5rem;
     margin-top: 20px;
     margin-left: 40px;
     font-weight: 100;
@@ -110,6 +113,22 @@ h3{
     height: 100%; 
 }
 
+@media (max-width:1300px){
+
+    #container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#containerTexto{
+    width: 95%;
+}
+#containerFoto{
+    width: 90%;
+}
+}
+
 `
 
 
@@ -125,6 +144,16 @@ display: flex;
 flex-direction: column;
 align-items: center;
 
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   
+
+}
+
 #titulo{
     margin-top: 100px;
     font-size: 40px;
@@ -134,7 +163,7 @@ align-items: center;
 #container1{
 width: 80%;
 max-width: 1300px;
-min-width: 610px;
+/* min-width: 610px; */
 display: flex;
 align-items: center;
 justify-content: center;
@@ -143,21 +172,18 @@ flex-wrap: wrap;
 margin-top: 100px;
 }
 
-#container1 img{
-    width: 60px;
-    height: 60px;
 
-   
-}
 .cxImg{
     width: 200px;
+    height: 200px;
     display: flex;
     flex-direction:column;
     align-items: center;
     text-align: center;
     justify-content: center;
-
-   
+}
+.cxImg img{
+    width: 4rem
 }
 .cxImg p{
     margin-top: 20px;
@@ -175,17 +201,22 @@ margin-top: 100px;
 
 }
 .box{
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 1%;
+    flex-wrap: wrap;
 }
     .cxIcone{
-        width: 200px; 
+        width: 9rem; 
         display: flex;
         flex-direction: column;
         align-items: center;
+        
     }
     .cxIcone img{
-        width: 100px;
+    width: 100px;
     height: 100px;
     margin-top: 10px;
     }
@@ -224,5 +255,55 @@ margin-top: 100px;
 
         
     }
+
+    @media (max-width:1300px){
+        #container2{
+            width: 100%;
+            
+        }
+        .box{
+            width: 100%;
+        }
+        
+    }
+    @media (max-width:620px){
+
+       #container{
+       width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+       
+       }
+
+        #titulo{
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        #container1{
+            gap: 10%;
+        }
+        .cxIcone{
+        width: 90%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+    .cxImg{
+        width: 100px;
+    }
+    .cxImg img{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+    
 
 `

@@ -117,7 +117,9 @@ export default function SPrivativa() {
             </StyledSPrivativa>
 
             <Styled2>
-                <div id="titulo">
+ 
+            <div id="container">
+            <div id="titulo">
                     <h1>Conheça nossa infraestrutura e serviços:</h1>
                 </div>
                 <div id="container1">
@@ -217,6 +219,9 @@ export default function SPrivativa() {
 
 
                 </div>
+            </div>
+
+              
             </Styled2>
 
         </>

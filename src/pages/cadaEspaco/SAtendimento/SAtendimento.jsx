@@ -112,7 +112,8 @@ export default function SAtendimento() {
             </StyledSAtendimento>
 
             <Styled2>
-                <div id="titulo">
+            <div id="container">
+            <div id="titulo">
                     <h1>Conheça nossa infraestrutura e serviços:</h1>
                 </div>
                 <div id="container1">
@@ -204,7 +205,7 @@ export default function SAtendimento() {
                             para conhecer <br /> nosso espaço e serviços!
                         </p>
                         <button>
-                            Agede uma visita
+                            Agende uma visita
                         </button>
 
                     </div>
@@ -212,6 +213,8 @@ export default function SAtendimento() {
 
 
                 </div>
+            </div>
+               
             </Styled2>
 
         </>
