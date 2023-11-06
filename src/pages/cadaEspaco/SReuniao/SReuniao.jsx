@@ -1,5 +1,7 @@
 import { StyledSReuniao, Styled2 } from "./styled";
 
+
+
 import { BsPerson } from 'react-icons/bs';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -35,9 +37,14 @@ import icone1 from '../../../assets/icones2/empresas.png'
 import icone2 from '../../../assets/icones2/freelancer.png'
 import icone3 from '../../../assets/icones2/startup.png'
 import icone4 from '../../../assets/icones2/remotas.png'
+import { useEffect } from "react";
 
 
 export default function SReuniao() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0); 
+      }, []); 
     return (
 
         <>

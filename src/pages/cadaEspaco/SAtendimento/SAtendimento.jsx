@@ -33,9 +33,14 @@ import icone1 from '../../../assets/icones2/empresas.png'
 import icone2 from '../../../assets/icones2/freelancer.png'
 import icone3 from '../../../assets/icones2/startup.png'
 import icone4 from '../../../assets/icones2/remotas.png'
+import { useEffect } from "react";
 
 
 export default function SAtendimento() {
+    
+    useEffect(() => {
+        window.scrollTo(0, 0); 
+      }, []); 
     return (
 
         <>
