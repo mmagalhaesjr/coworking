@@ -32,6 +32,7 @@ align-items: center;
 width: 90%;
 max-width: 1700px;
 margin-top: 50px;
+
 }
 
 .cx{
