@@ -15,9 +15,9 @@ import 'swiper/css/pagination';
 
 import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
 
-import foto2 from '../../../assets/reuniao/2.jpeg'
-import foto3 from '../../../assets/reuniao/3.png'
-import foto4 from '../../../assets/reuniao/4.jpeg'
+import foto2 from '../../../assets/reuniao/2.webp'
+import foto3 from '../../../assets/reuniao/3.webp'
+import foto4 from '../../../assets/reuniao/4.webp'
 
 
 import ico1 from '../../../assets/icones/concierge.png'

@@ -13,10 +13,10 @@ import 'swiper/css/pagination';
 
 import { EffectCreative, Navigation, Pagination,A11y } from 'swiper/modules';
 
-import foto1 from '../../../assets/privadas/1.jpeg'
-import foto2 from '../../../assets/privadas/2.jpeg'
-import foto3 from '../../../assets/privadas/3.jpeg'
-import foto4 from '../../../assets/privadas/4.jpeg'
+import foto1 from '../../../assets/privadas/1.webp'
+import foto2 from '../../../assets/privadas/2.webp'
+import foto3 from '../../../assets/privadas/3.webp'
+import foto4 from '../../../assets/privadas/4.webp'
 
 
 import ico1 from '../../../assets/icones/concierge.png'

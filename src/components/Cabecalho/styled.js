@@ -48,7 +48,7 @@ export const StyledCabecalho = styled.header`
     margin-top: 7px;
     background: none; 
     position: relative;
-    left: -60px;
+    left: -50px;
     }
 
   img {

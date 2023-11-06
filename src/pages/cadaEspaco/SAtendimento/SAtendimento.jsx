@@ -12,9 +12,9 @@ import 'swiper/css/pagination';
 
 import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
 
-import foto2 from '../../../assets/atendimento/2.jpg'
-import foto3 from '../../../assets/atendimento/3.jpg'
-import foto4 from '../../../assets/atendimento/4.jpg'
+import foto2 from '../../../assets/atendimento/2.webp'
+import foto3 from '../../../assets/atendimento/3.webp'
+import foto4 from '../../../assets/atendimento/4.webp'
 
 import ico1 from '../../../assets/icones/concierge.png'
 import ico2 from '../../../assets/icones/telefone.png'

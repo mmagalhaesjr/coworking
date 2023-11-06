@@ -12,9 +12,9 @@ import 'swiper/css/pagination';
 import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
 
 
-import foto1 from '../../../assets/compartilhadas/1.jpg'
-import foto2 from '../../../assets/compartilhadas/2.jpg'
-import foto3 from '../../../assets/compartilhadas/3.jpeg'
+import foto1 from '../../../assets/compartilhadas/1.webp'
+import foto2 from '../../../assets/compartilhadas/2.webp'
+import foto3 from '../../../assets/compartilhadas/3.webp'
 
 
 

@@ -12,11 +12,10 @@ import 'swiper/css/pagination';
 
 import { EffectCreative, Navigation, Pagination,A11y } from 'swiper/modules';
 
-import foto1 from '../../assets/servicos/1.jpeg'
-
-import foto3 from '../../assets/servicos/3.jpeg'
-import foto4 from '../../assets/servicos/4.jpeg'
-import carro from '../../assets/servicos/carro.jpeg'
+import foto1 from '../../assets/servicos/1.webp'
+import foto3 from '../../assets/servicos/3.webp'
+import foto4 from '../../assets/servicos/4.webp'
+import carro from '../../assets/servicos/carro.webp'
 
 
 
