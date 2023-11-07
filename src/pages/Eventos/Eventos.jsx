@@ -3,8 +3,6 @@ import Cabecalho2 from "../../components/Cabecalho2/Cabecalho2"
 
 import { FaWhatsapp } from 'react-icons/fa';
 
-
-import foto from '../../assets/capa/6.jpeg'
 import Formulario from "../../components/Formulario/Formulario";
 import { useEffect } from "react";
 
@@ -35,8 +33,8 @@ export default function Eventos() {
                     </div>
                     <div id="cxVideo">
 
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/7t3Uky-dKLE?si=uotXoqRu1Q6M0Y5_" 
-                    title="YouTube video player" frameBorder="0" allow="accelerometer; 
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/7t3Uky-dKLE?si=uotXoqRu1Q6M0Y5_"
+                            title="YouTube video player" frameBorder="0" allow="accelerometer; 
                     autoplay; clipboard-write; encrypted-media; gyroscope; 
                     picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -55,17 +53,16 @@ export default function Eventos() {
                             completa para o evento da sua empresa.
                         </h2>
                     </div>
-                    <div id="cxImg">
-                        <div className="faixa">
-                            <p>
-                                Segunda à sexta, a partir das 20h
-                            </p>
-                            <p>
-                                Sábados e domingos a partir das 8h
-                            </p>
+                    <div id="cx">
+                        <div className="horarios">
+                            <section>
+                                <h2>Eventos de Segunda à Quinta das 20h as 01h00</h2>
+                                <h2>Eventos Sexta Feira das 20h as 02h00</h2>
+                                <h2>Eventos Sabado e Domingo das 08h as 18h</h2>
+                                <h2>Eventos Sabado das 19h as 02h00</h2>
+                                <h2>Eventos Domingo das 19h as 01h00</h2>
+                            </section>
                         </div>
-                        <img src={foto} alt="" />
-
                     </div>
                 </div>
             </StyledEventos2>
@@ -91,16 +88,16 @@ export default function Eventos() {
                                 </h2>
                                 <p>
                                     Entre em contato
-                                    conosco para garantir 
+                                    conosco para garantir
                                     a sua reserva
                                 </p>
 
-                               
+
                             </div>
                             <div className="botao">
-                                    <FaWhatsapp />
-                                    <h3>whatsApp</h3>
-                                </div>
+                                <FaWhatsapp />
+                                <h3>whatsApp</h3>
+                            </div>
                         </div>
 
                         <Formulario />

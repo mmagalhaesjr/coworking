@@ -198,6 +198,10 @@ export default function MDedicada() {
                     </div>
                     <div id="container2">
 
+                        <h2>
+                            Encontre a solução ideal para seu negócio
+                        </h2>
+
                         <div className="box">
 
                             <div className="cxIcone">
@@ -224,15 +228,13 @@ export default function MDedicada() {
 
 
                         <div id="texto">
-                            <h2>
-                                Encontre a solução ideal para seu negócio
-                            </h2>
+
                             <p>
                                 Entre em contato
                                 conosco e agende uma visita
-                                para conhecer <br /> nosso espaço e serviços!
+                                para conhecer nosso espaço e serviços!
                             </p>
-                            <button onClick={()=>navegar('/')}>
+                            <button onClick={() => navegar('/')}>
                                 Agende uma visita
                             </button>
 

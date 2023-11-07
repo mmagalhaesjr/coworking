@@ -52,7 +52,7 @@ justify-content: center;
     align-items: center;
     justify-content: center;
     background-color: #C4BCBC;
-    background-color: #a98261;
+    background-color: #ac7b40;
     border-radius: 200px;
 
     #circuloMobile{
@@ -225,11 +225,11 @@ flex-direction: column;
 
 .cxEstacao{
     margin-top: 50px;
-    background-color: #a98261;
+    background-color: #ac7b40;
    
     width:75%;
 
-    border: solid 30px #a98261;
+    background-color: #ac7b40;
    
     display: flex;
 }

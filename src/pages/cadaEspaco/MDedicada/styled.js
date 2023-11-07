@@ -23,7 +23,6 @@ justify-content: center;
     font-size: 1rem;
     position: relative;
     top: -50px;
-
 }
 
 #container{
@@ -76,6 +75,8 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
+
+    
 }
     #cor{
     width: 100%;
@@ -150,8 +151,7 @@ align-items: center;
     flex-direction: column;
     align-items: center;
 
-   
-
+    
 }
 
 #titulo{
@@ -170,6 +170,8 @@ justify-content: center;
 gap: 80px;
 flex-wrap: wrap;
 margin-top: 100px;
+
+
 }
 
 
@@ -181,32 +183,38 @@ margin-top: 100px;
     align-items: center;
     text-align: center;
     justify-content: center;
+
+    
 }
 .cxImg img{
-    width: 4rem
+    width: 4rem;
+    height: 4rem;
+    
 }
 .cxImg p{
     margin-top: 20px;
     
 }
 #container2{
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin-top: 150px;
-    gap: 100px;
+    margin-top: 100px;
+    gap: 50px;
 
 }
 .box{
-    width: 100%;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1%;
     flex-wrap: wrap;
+
+    
 }
     .cxIcone{
         width: 9rem; 
@@ -224,16 +232,19 @@ margin-top: 100px;
         margin-top: 20px;
     }
 
+    h2{
+        font-size: 40px;
+       
+
+    }
 
     #texto{
-       
-    }
-    #texto h2{
-        font-size: 40px;
+       width: 95%;
     }
     #texto p{
         font-size: 25px;
         margin-top: 50px;
+       
     }
 
     #texto button{

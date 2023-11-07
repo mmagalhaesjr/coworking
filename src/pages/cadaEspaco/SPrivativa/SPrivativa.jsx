@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 
 
 
-import { EffectCreative, Navigation, Pagination,A11y } from 'swiper/modules';
+import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
 
 import foto1 from '../../../assets/privadas/1.webp'
 import foto2 from '../../../assets/privadas/2.webp'
@@ -42,10 +42,10 @@ import { useNavigate } from "react-router-dom";
 export default function SPrivativa() {
 
     const navegar = useNavigate()
-    
+
     useEffect(() => {
-        window.scrollTo(0, 0); 
-      }, []); 
+        window.scrollTo(0, 0);
+    }, []);
     return (
 
         <>
@@ -63,17 +63,16 @@ export default function SPrivativa() {
                         <div id="texto">
                             <h1>Salas Privativas</h1>
                             <h2>
-                                As Salas <span> Roma e Londres</span> são preparadas para realizar qualquer tipo de reunião. <br />
+                                As Salas <span> Roma e Londres</span> são preparadas para realizar qualquer tipo de reunião. 
                                 Possui design moderno e intimista.
-                            </h2> 
-                            <h4>  
-                                <div>Sala Londres <BsPerson /> 4</div>   
-                               <div>Sala Roma <BsPerson /> 4</div>  
-                            </h4>
+                            </h2>
+                            
+                                <div> <h4>Sala Londres</h4> <BsPerson /> <h4>4   </h4></div>
+                                <div> <h4>Sala Roma</h4> <BsPerson /> <h4>4   </h4></div>
+                            
                             <h3>Vantagens</h3>
                             <ul>
                                 <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
-                                <li>Disponibilizamos Endereço Comercial e Fiscal</li>
                                 <li>Wifi de alta velocidade e serviços de impressão</li>
                             </ul>
                         </div>
@@ -84,8 +83,8 @@ export default function SPrivativa() {
                         <div id="cor" >
 
                             <Swiper
-                             modules={[EffectCreative, Navigation, Pagination,A11y]}
-                             navigation
+                                modules={[EffectCreative, Navigation, Pagination, A11y]}
+                                navigation
                                 grabCursor={true}
                                 effect={'creative'}
                                 creativeEffect={{
@@ -97,14 +96,14 @@ export default function SPrivativa() {
                                         translate: ['100%', 0, 0],
                                     },
                                 }}
-                               
+
                                 className="swiper-slide"
                             >
                                 <SwiperSlide><img className="foto" src={foto1} alt="" /></SwiperSlide>
                                 <SwiperSlide><img className="foto" src={foto2} alt="" /></SwiperSlide>
                                 <SwiperSlide><img className="foto" src={foto3} alt="" /></SwiperSlide>
                                 <SwiperSlide><img className="foto" src={foto4} alt="" /></SwiperSlide>
-                               
+
 
                             </Swiper>
 
@@ -120,111 +119,113 @@ export default function SPrivativa() {
             </StyledSPrivativa>
 
             <Styled2>
- 
-            <div id="container">
-            <div id="titulo">
-                    <h1>Conheça nossa infraestrutura e serviços:</h1>
-                </div>
-                <div id="container1">
-                    <div className="cxImg">
-                        <img src={ico1} alt="" />
-                        <p>Serviço de Concierge</p>
-                    </div>
-                    <div className="cxImg">
-                        <img src={ico2} alt="" />
-                        <p>Linha telefônica privativa</p>
-                    </div>
-                    <div className="cxImg">
-                        <img src={ico3} alt="" />
-                        <p>Ambiente climatizado</p>
-                    </div>
-                    <div className="cxImg">
-                        <img src={ico4} alt="" />
-                        <p>Cozinha compartilhada</p>
-                    </div>
-                    <div className="cxImg">
-                        <img src={ico5} alt="" />
-                        <p>Acesso com leitor facial</p>
-                    </div>
-                    <div className="cxImg">
-                        <img src={ico6} alt="" />
-                        <p>Gerenciamento de correspondência</p>
-                    </div>
-                    <div className="cxImg">
-                        <img src={ico7} alt="" />
-                        <p>Endereço fiscal e comercial</p>
-                    </div>
-                    <div className="cxImg">
-                        <img src={ico8} alt="" />
-                        <p>Contas essenciais inclusas</p>
-                    </div>
-                    <div className="cxImg">
-                        <img src={ico9} alt="" />
-                        <p>Limpeza e manutenção</p>
-                    </div>
-                    <div className="cxImg">
-                        <img src={ico10} alt="" />
-                        <p>Segurança 24h</p>
-                    </div>
-                    <div className="cxImg">
-                        <img src={ico11} alt="" />
-                        <p>Recepção</p>
-                    </div>
-                    <div className="cxImg">
-                        <img src={ico12} alt="" />
-                        <p>Armários</p>
-                    </div>
 
-
-                </div>
-                <div id="container2">
-
-                    <div className="box">
-
-                        <div className="cxIcone">
-                            <img src={icone1} alt="" />
-                            <p>Empresas</p>
+                <div id="container">
+                    <div id="titulo">
+                        <h1>Conheça nossa infraestrutura e serviços:</h1>
+                    </div>
+                    <div id="container1">
+                        <div className="cxImg">
+                            <img src={ico1} alt="" />
+                            <p>Serviço de Concierge</p>
                         </div>
-                        <div className="cxIcone">
-                            <img src={icone2} alt="" />
-                            <p>Autônomos</p>
+                        <div className="cxImg">
+                            <img src={ico2} alt="" />
+                            <p>Linha telefônica privativa</p>
+                        </div>
+                        <div className="cxImg">
+                            <img src={ico3} alt="" />
+                            <p>Ambiente climatizado</p>
+                        </div>
+                        <div className="cxImg">
+                            <img src={ico4} alt="" />
+                            <p>Cozinha compartilhada</p>
+                        </div>
+                        <div className="cxImg">
+                            <img src={ico5} alt="" />
+                            <p>Acesso com leitor facial</p>
+                        </div>
+                        <div className="cxImg">
+                            <img src={ico6} alt="" />
+                            <p>Gerenciamento de correspondência</p>
+                        </div>
+                        <div className="cxImg">
+                            <img src={ico7} alt="" />
+                            <p>Endereço fiscal e comercial</p>
+                        </div>
+                        <div className="cxImg">
+                            <img src={ico8} alt="" />
+                            <p>Contas essenciais inclusas</p>
+                        </div>
+                        <div className="cxImg">
+                            <img src={ico9} alt="" />
+                            <p>Limpeza e manutenção</p>
+                        </div>
+                        <div className="cxImg">
+                            <img src={ico10} alt="" />
+                            <p>Segurança 24h</p>
+                        </div>
+                        <div className="cxImg">
+                            <img src={ico11} alt="" />
+                            <p>Recepção</p>
+                        </div>
+                        <div className="cxImg">
+                            <img src={ico12} alt="" />
+                            <p>Armários</p>
                         </div>
 
-                        <div className="cxIcone">
-                            <img src={icone3} alt="" />
-                            <p>Startups</p>
-                        </div>
-
-                        <div className="cxIcone">
-                            <img src={icone4} alt="" />
-                            <p>Empresas remotas</p>
-                        </div>
 
                     </div>
+                    <div id="container2">
 
-
-
-                    <div id="texto">
                         <h2>
                             Encontre a solução ideal para seu negócio
                         </h2>
-                        <p>
-                            Entre em contato
-                            conosco e agende uma visita
-                            para conhecer <br /> nosso espaço e serviços!
-                        </p>
-                        <button onClick={()=>navegar('/')}>
-                            Agende uma visita
-                        </button>
+
+                        <div className="box">
+
+                            <div className="cxIcone">
+                                <img src={icone1} alt="" />
+                                <p>Empresas</p>
+                            </div>
+                            <div className="cxIcone">
+                                <img src={icone2} alt="" />
+                                <p>Autônomos</p>
+                            </div>
+
+                            <div className="cxIcone">
+                                <img src={icone3} alt="" />
+                                <p>Startups</p>
+                            </div>
+
+                            <div className="cxIcone">
+                                <img src={icone4} alt="" />
+                                <p>Empresas remotas</p>
+                            </div>
+
+                        </div>
+
+
+
+                        <div id="texto">
+
+                            <p>
+                                Entre em contato
+                                conosco e agende uma visita
+                                para conhecer nosso espaço e serviços!
+                            </p>
+                            <button onClick={() => navegar('/')}>
+                                Agende uma visita
+                            </button>
+
+                        </div>
+
+
 
                     </div>
-
-
-
                 </div>
-            </div>
 
-              
+
             </Styled2>
 
         </>

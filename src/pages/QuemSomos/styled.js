@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const StyledQuemSomos = styled.section`
 width: 100%;
-height:250vh;
+height:120vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -11,7 +11,7 @@ text-align: center;
 align-items: center;
 
 #container1{
-height: 100vh;
+/* height: 100vh; */
 width: 100%;
 
 display: flex;
@@ -35,14 +35,13 @@ h1{
     font-weight: 700;
     line-height: 1.3;
     margin-bottom:5%;
+    margin-top: 15%;
 }
 
 #video{
     width: 90%;
     height: 80%;
     background-color: #000000;
-   
-   
 }
 
 #container2{
@@ -51,6 +50,8 @@ width: 100%;
 display: flex;
 flex-direction: column;
 position: relative;
+
+border: solid 1px blue;
 
 &::before {
         content: ''; 
@@ -74,29 +75,38 @@ position: relative;
     }
 
 }
-#texto1, #texto2{
-    height: 50%;
+#container2 img{
+    width: 70px;
+}
+.texto1, .texto2{
     max-width: 700px;
-    width: 55%;
+    display: flex;
+    border: solid 1px red;
+}
+.texto1{
+position: relative;
+left: 10%;
+}
+.texto2{
+    position: relative; 
+    left: -10%;
+}
+#texto1, #texto2{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 35px;
     font-weight: 300;
-}
+    gap: 5%;
 
+    border: solid 1px black;
+}
 #texto1{
-    position: relative;
-    left: 15%;
     margin-bottom: 5%;
 }
 
-#texto2{
-    position: relative;
-    right: -40%;
-    align-items: flex-start;
-    
-}
+
 
 #container3{
 height: 80vh;

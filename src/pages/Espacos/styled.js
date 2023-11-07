@@ -7,14 +7,18 @@ export const StyledEspacos = styled.section`
   height: 90vh;
   max-height: 100vh;
   background-color: #F4F3F0;
+  padding-top: 20px;
+
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
+  align-items: center;
+  justify-content: center;
+ 
 
 .swiper-button-prev,
 .swiper-button-next{
 
-  color: #fff;
+color: #fff;
  width: 30px;
  height: 50px;
  padding: 20px;
@@ -39,11 +43,12 @@ export const StyledEspacos = styled.section`
 }
 
 
+
 #titulos {
     width: 100%;
     margin-top: 3%;
     margin-left: 5%;
-    width: 30%;
+    width: 85%;
     font-size: 30px;
   }
   
@@ -57,6 +62,7 @@ export const StyledEspacos = styled.section`
   }
   
   .salas {
+    
     border-right: 15px solid  #F4F3F0;
     border-left: 15px solid  #F4F3F0;
     overflow:hidden;    
@@ -64,9 +70,10 @@ export const StyledEspacos = styled.section`
   
   .salas img {
     width: 100%;
-    height: 100%;
     transition: filter 0.3s ease, transform 1s ease;
     cursor: pointer;
+
+   
   }
   
   .salas img:hover {

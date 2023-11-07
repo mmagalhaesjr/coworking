@@ -1,10 +1,13 @@
 import styled from 'styled-components';
 
+
 export const StyledEventos = styled.section`
 width: 100%;
 display: flex;
 align-items: center;
 flex-direction: column;
+
+
 
 
 
@@ -16,6 +19,10 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+
+margin-top: 5%;
+
+
 }
  #cxTexto{
     width: 40%;
@@ -89,38 +96,37 @@ justify-content: center;
     line-height: 1.5;
 }
 
-#cxImg{
-    width: 90%;
-    height: 70%;
+#cx{
+    width: 60%;
+    height: 50%;
     margin-top: 20px;
-}
-#cxImg img{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: -20%;
-    z-index: 2;
-}
-.faixa{
-    width: 50%;
-    height: 20%;;
-    background-color:#101010 ;
-    position: relative;
-    top: -10px;
-    left: -10px;
-    z-index: 3;
+    background-color: #ac7b40;
 
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    gap: 10px;
-    text-align: left;
+
+   
+}
+.horarios{
+    width: 90%;
+    height: 90%;
+    border: solid 2px #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+section{
     color: #ffffff;
     font-size: 2rem;
+    line-height:2;
+    
 }
-.faixa p{
-    margin-left: 15%;
-}
+
+
+
 @media (max-width:940px){
     height: fit-content;
     p{
@@ -218,6 +224,7 @@ justify-content: center;
     height: 80px;
     margin-top: 20px; 
     background-color: #101010;
+    background-color: #ac7b40;
     cursor: pointer;
 
     display: flex;
