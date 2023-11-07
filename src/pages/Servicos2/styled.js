@@ -31,6 +31,7 @@ min-height: 200px;
     text-align: start;
     line-height: 1.2;
     font-size: 40px;
+    color:#ac7b40;
 }
 
 ul{
@@ -54,8 +55,9 @@ ul{
 
     #cor{
     /* background-color: #101010; */
+    /* background-color: #ac7b40; */
     width: 90%;
-    height: 80%;
+    height: 70%;
 
     display: flex;
     align-items: center;
@@ -67,7 +69,7 @@ ul{
     width: 100%;
     height:100%;
     position: relative;
-    top: 3%;
+   
     /* left: -5%;  */
 }
 
@@ -75,8 +77,8 @@ ul{
 .swiper-button-prev,
 .swiper-button-next{
 
- color: #fff;
- margin: 1%;
+ color: #ac7b40;
+
  
 }
 .swiper-button-next.swiper-button-disabled,
@@ -93,7 +95,7 @@ ul{
 
 .swiper-slide {
    width: 100%;
-   height: 98%;
+   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;

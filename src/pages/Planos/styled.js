@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 
+
 export const StyledPlanos = styled.section`
 width: 100%;
 display: flex;
 align-items: center;
 flex-direction: column;
+overflow: hidden;
 
 
 #container{
@@ -16,10 +18,37 @@ align-items: center;
 justify-content: center;
 }
 
-#container img{
-    width:100%;
-    height: 82%;
-    margin-top: 60px;
+.inicio{
+    width: 100%;
+    height: 300px;
+
+    background-color: #F4F3F0;
+}
+
+.imgTemasek{
+    position: relative;
+    left:300px;
+    width: 50rem;
+    margin-top: 10rem;
+}
+.imgCoworking{
+    position: relative;
+    left:-400px;
+    width: 25rem;
+}
+
+
+&.paginaCarregada{
+    .imgTemasek{
+        transform: translatex(-300px);
+        z-index: 1;
+        transition: 2s;
+    }
+    .imgCoworking{
+        transform: translatex(600px);
+        z-index: 1;
+        transition: 2s;
+    }
 }
 
 #container #texto{
@@ -31,7 +60,9 @@ justify-content: center;
     flex-direction: column;
     color: #000000;
     text-align: center;
-    background-color: #ffffff;
+    background-color:  #F4F3F0;
+
+    border: solid 2px #F4F3F0;
 }
 
 #container #texto h2{
@@ -40,7 +71,7 @@ justify-content: center;
 }
 #container #texto p{
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 2rem;
 }
 
 
@@ -51,8 +82,10 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #C4BCBC;
+    
     background-color: #ac7b40;
+    background-color: rgba(18, 18, 18, 0.2);
+    
     border-radius: 200px;
 
     #circuloMobile{
@@ -142,11 +175,12 @@ font-weight: 700;
  
    #container #texto{
         width: 90%;
-
-        p{
-            font-size: 20px;
-        }
     }
+    #container #texto p{
+        font-size: 3rem;
+            color: red;
+    }
+
     #dayUseTexto{
 margin-left: 10%;
    opacity: 1;
@@ -195,6 +229,7 @@ div{
  p{
 margin-top: 20px;
 font-weight: 700;
+
 }
 }
 
@@ -219,25 +254,32 @@ flex-direction: column;
     margin-left: 20px;
 }
 #titulo h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
 .cxEstacao{
     margin-top: 50px;
     background-color: #ac7b40;
-   
-    width:75%;
+    background-color: rgba(18, 18, 18, 0.2);
+    -webkit-backdrop-filter: blur(10px);
+    -webkit-background-color: rgba(18, 18, 18, 0.2);
+    backdrop-filter: blur(10px);
+    background-color: rgba(18, 18, 18, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 
-    background-color: #ac7b40;
-   
+    width:75%;
+    border: solid 10px transparent ;
     display: flex;
+    align-items: center;
 }
 
 .img{
-    width: 40%;
-    height: 300px;
-    background-color: #000000;
+    width: 50%;
+    height: 18rem;
+    
+
+ 
 }
 .img img{
     width: 100%;

@@ -2,7 +2,11 @@ import { StyledPlanos, StyledPlanos2 } from "./styled"
 import { useState, useEffect } from "react";
 
 import { CgArrowLongRight } from 'react-icons/cg';
-import foto from '../../assets/foto.webp'
+
+import coworking from '../../assets/planos/c.png'
+import temasek from '../../assets/planos/t.png'
+// import foto from '../../assets/foto.webp'
+
 import foto1 from '../../assets/espacos/dedicada.webp'
 import foto2 from '../../assets/espacos/compartilhada.webp'
 import foto3 from '../../assets/espacos/reiniao.webp'
@@ -15,9 +19,12 @@ import Cabecalho2 from "../../components/Cabecalho2/Cabecalho2"
 import { useNavigate } from "react-router-dom";
 
 export default function Planos() {
-    const navegar = useNavigate()
-    const [scrollY, setScrollY] = useState(0);
 
+    const [scrollY, setScrollY] = useState(0);
+    const [pageLoaded, setPageLoaded] = useState(false);
+
+
+//---------------------------rolagem
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => {
@@ -29,11 +36,39 @@ export default function Planos() {
         setScrollY(window.scrollY);
     };
 
+
+    //---------------------------carregada
+    useEffect(() => {
+        const handleLoad = () => {
+            setPageLoaded(true);
+        };
+    
+        if (document.readyState === "complete") {
+            // Se o documento já estiver carregado, aciona manualmente handleLoad
+            handleLoad();
+        } else {
+            // Se o documento ainda não estiver carregado, adiciona um ouvinte de eventos
+            window.addEventListener("load", handleLoad);
+        }
+    
+        // Limpa o ouvinte de eventos quando o componente é desmontado
+        return () => {
+            window.removeEventListener("load", handleLoad);
+        };
+    }, []);
+    
+
+
+    //---------------------------
+
+    const navegar = useNavigate()
+
     const contato = () => {
         navegar('/');
-        
+
     };
 
+    //---------------------------
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -42,17 +77,26 @@ export default function Planos() {
 
         <>
             <Cabecalho2 />
-            <StyledPlanos className={scrollY > 150 ? 'rolagem' : ''} >
+
+            <StyledPlanos className={`${scrollY > 150 ? 'rolagem' : '' }  ${pageLoaded ? 'paginaCarregada' : ''}`}>
+                
+
 
                 <div id="container" >
-                    <img src={foto} alt="" />
+
+                    <img className="imgTemasek" src={temasek} alt="" />
+                    <img className="imgCoworking" src={coworking} alt="" />
+
+                    <div className="inicio">
+
+                    </div>
                     <div id="texto">
-                        <h2>Espaços de trabalho flexíveis</h2>
+                        {/* <h2>Espaços de trabalho flexíveis</h2> */}
                         <p>
-                            O Temasek Coworking se adapta à todas as formas e jornadas 
+                            O Temasek Coworking se adapta à todas as formas e jornadas
                             de trabalho, com todos os serviços de um escritório completo.
                         </p>
-                        
+
                     </div>
                     <div id="cxDayUse">
 
@@ -252,7 +296,7 @@ export default function Planos() {
                             <h2>Sala Roma</h2>
                             <p>
                                 É preparada para realizar qualquer tipo de reunião. <br />
-                                Possui design moderno e intimista. 
+                                Possui design moderno e intimista.
                             </p>
                             <p>Acomoda até 4 pessoas</p>
                             <section>

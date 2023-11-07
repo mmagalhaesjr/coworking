@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const StyledServicos = styled.section`
 width: 100%;
 /* height:90vh; */
@@ -12,14 +13,17 @@ align-items: center;
 background-color: #F4F3F0 ;
 
 
+
+
 #titulos {
     width: 70%;
     height: 10%;
     margin-top: 80px;
+    
   }
 
   #titulos h1{
-    color:#101010; 
+    color:#ac7b40;
     font-size: 40px;
   }
 
@@ -51,6 +55,7 @@ color:#101010;
     font-size: 20px;
     font-weight: 600;
     margin-top: 20px;
+    color:#ac7b40;
 }
 .cx img{
     width: 60px;

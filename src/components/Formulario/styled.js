@@ -17,6 +17,13 @@ form{
     align-items: center;
     color: white;
     background-color: #101010;
+    -webkit-backdrop-filter: blur(10px);
+    -webkit-background-color: rgba(18, 18, 18, 0.2);
+    backdrop-filter: blur(10px);
+    background-color: rgba(18, 18, 18, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+
+  
     
     /* border-radius: 15px; */
 }
@@ -26,7 +33,8 @@ input{
 .inputBox{
     position: relative;
     width: 80%;    
-    background-color: #101010;
+   
+   
 }
 .inputUser{
     background: none;
@@ -48,7 +56,7 @@ input{
 }
 
 .imputMesnsagem{
-    color: #000000;
+    color: #101010;
     font-size: 15px;
     width: 100%;
     height: 100px;
@@ -72,10 +80,10 @@ input{
     left: 0px;
     pointer-events: none;
     transition: .5s;
-    background-color: #101010;
+   
 } 
 #submit{
-    background-color: #2A2A2A;
+    background-color: #101010;
     border: none;
     padding: 15px;
     color: white;

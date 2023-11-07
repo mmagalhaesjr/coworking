@@ -30,12 +30,20 @@ const Espacos = () => {
             </div>
 
             <div id="container">
+
+                <div id='bloco1'>
+                </div>
+
+                <div id='bloco2'>
+                </div>
+                
                 <Swiper
                     modules={[Navigation, Pagination, A11y]}
                     navigation
                     pagination={{ clickable: true }}
                     slidesPerView={window.innerWidth < 940 ? 1 : 3}
                 >
+
                     <SwiperSlide>
                         <a onClick={() => navegar('/dedicada')}>
                             <div className="salas">
@@ -83,9 +91,11 @@ const Espacos = () => {
 
 
 
-
                 </Swiper>
+
             </div>
+
+
         </StyledEspacos>
     );
 };

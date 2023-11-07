@@ -26,8 +26,9 @@ export default function Rodape() {
                 </div>
 
                 <div className="cx" >
+
+                    <h3>Endereço</h3>
                     <a href="https://www.google.com.br/maps/@-21.758616,-43.3502606,3a,75y,51.19h,78.22t/data=!3m6!1e1!3m4!1sUnOASUSPrhLND_fyIgVOvw!2e0!7i16384!8i8192?entry=ttu" target="_blank" rel="noreferrer" >
-                        <h3>Endereço</h3>
                         <div className='cxEndereco'>
                             <div className="icones">
                                 <ImLocation2 /><p>Av Rio Branco, 1899 </p>

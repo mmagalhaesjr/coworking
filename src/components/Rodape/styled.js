@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const StyledRodape = styled.footer`
 background-color: #101010;
+background-color: #ac7b40;
 height: 250px;
 display: flex;
 flex-direction: column;
@@ -22,10 +23,13 @@ text-align: center;
 }
 h3{
     margin-top: -30px;
+    
     font-size: 30px;
     color: #ffffff;
+
 }
 .cx{
+    margin-top: 5%;
     width:20%;
     min-width: 200px;
     height: 150px;
@@ -34,16 +38,22 @@ h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 15%;
+
+    
 }
  
 .cxContato{
     height: 100px;
     margin-top: 10px;
     display: flex;
-    align-items: center;
+    align-items: left;
     flex-direction: column;
+    
     gap:10px;
     font-size: 15px;
+
+   
 }
 
 .cxRedes{

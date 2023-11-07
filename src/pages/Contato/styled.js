@@ -9,6 +9,10 @@ background-color: #F4F3F0;
 margin: auto;
 padding: 20px;
 gap: 5%;
+background-image: url(src/assets/capa/marcos.png);
+background-repeat: no-repeat;
+background-size: cover;
+
 
 /* flex-direction: column;  */
 //tirar -------------
@@ -26,6 +30,7 @@ gap: 5%;
     flex-direction: column;
     text-align: center;
     color:#000000;
+    color:#ac7b40;
     font-weight:100;  
     line-height: 1.3;
 

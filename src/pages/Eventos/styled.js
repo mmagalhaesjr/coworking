@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 
+
 export const StyledEventos = styled.section`
 width: 100%;
 display: flex;
@@ -36,6 +37,7 @@ margin-top: 5%;
 }
 #cxTexto h2 span{
     font-weight: 700;
+    color:#ac7b40;
 }
 #cxVideo{
     width: 90%;

@@ -2,19 +2,42 @@ import styled from 'styled-components';
 
 
 
+
 export const StyledEspacos = styled.section`
   width: 100%;
   height: 90vh;
   max-height: 100vh;
   background-color: #F4F3F0;
+  /* background-color: #ac7b40; */
   padding-top: 20px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
- 
 
+  #bloco1{
+    width: 100px;
+    height: 900px;
+    position: absolute;
+
+    background-color: #ac7b40;
+  }
+  #bloco2{
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    left: 93%;
+    top: 90rem;
+    background-color: #ac7b40;
+  }
+  @media(max-width:800px) {
+    #bloco1, #bloco2{
+        display: none;
+    }
+  }
+
+  
 .swiper-button-prev,
 .swiper-button-next{
 
@@ -46,10 +69,11 @@ color: #fff;
 
 #titulos {
     width: 100%;
-    margin-top: 3%;
-    margin-left: 5%;
+    margin-top: 7%;
+    /* margin-left: 5%; */
     width: 85%;
     font-size: 30px;
+    color: #ac7b40;
   }
   
   
@@ -63,8 +87,8 @@ color: #fff;
   
   .salas {
     
-    border-right: 15px solid  #F4F3F0;
-    border-left: 15px solid  #F4F3F0;
+    border-right: 15px solid  transparent;
+    border-left: 15px solid  transparent;
     overflow:hidden;    
   }
   

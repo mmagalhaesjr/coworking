@@ -18,7 +18,8 @@ export default function Servicos() {
         <StyledServicos id="servicos">
 
             <div id="titulos">
-                <h1>O que você encontra no Temasek Coworking
+                <h1>
+                    O que você encontra no Temasek Coworking
                 </h1>
             </div>
 

@@ -56,11 +56,11 @@ export default function Eventos() {
                     <div id="cx">
                         <div className="horarios">
                             <section>
-                                <h2>Eventos de Segunda à Quinta das 20h as 01h00</h2>
-                                <h2>Eventos Sexta Feira das 20h as 02h00</h2>
-                                <h2>Eventos Sabado e Domingo das 08h as 18h</h2>
-                                <h2>Eventos Sabado das 19h as 02h00</h2>
-                                <h2>Eventos Domingo das 19h as 01h00</h2>
+                                <h2>Eventos de segunda a quinta-feira das 20h às 01h.</h2>
+                                <h2>Eventos sexta-feira das 20h às 02h</h2>
+                                <h2>Eventos sábado e domingo das 08h às 18h.</h2>
+                                <h2>Eventos sábado das 19h às 02h.</h2>
+                                <h2>Eventos domingo das 19h às 01h.</h2>
                             </section>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ export default function Eventos() {
                             </div>
                             <div className="botao">
                                 <FaWhatsapp />
-                                <h3>whatsApp</h3>
+                                <h3>WhatsApp</h3>
                             </div>
                         </div>
 
