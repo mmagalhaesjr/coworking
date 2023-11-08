@@ -2,13 +2,13 @@ import styled from 'styled-components';
 
 
 
+
+
 export const StyledEventos = styled.section`
 width: 100%;
 display: flex;
 align-items: center;
 flex-direction: column;
-
-
 
 
 
@@ -38,6 +38,7 @@ margin-top: 5%;
 #cxTexto h2 span{
     font-weight: 700;
     color:#ac7b40;
+    color: #000000;
 }
 #cxVideo{
     width: 90%;
@@ -78,16 +79,7 @@ display: flex;
 align-items: center;
 flex-direction: column;
 
-#container{
-width: 100%;
-height: 100%;
-
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-}
- #cxTexto{
+#cxTexto{
     width: 40%;
     margin-top: 70px;
     margin-bottom: 50px;
@@ -98,17 +90,35 @@ justify-content: center;
     line-height: 1.5;
 }
 
+#container{
+width: 100%;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+border: solid 1px green;
+}
+#container section{
+    width: 95%;
+    height: 80vh;
+    display: flex;
+    gap:2%;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px red;
+}
 #cx{
-    width: 60%;
-    height: 50%;
+    width: 30%;
+    height: 70%;
     margin-top: 20px;
-    background-color: #ac7b40;
+    background-color: #000000;
 
     display: flex;
     align-items: center;
     justify-content: center;
-
-   
+    overflow: hidden; 
 }
 .horarios{
     width: 90%;
@@ -118,14 +128,57 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
-section{
+.hora{
     color: #ffffff;
-    font-size: 2rem;
-    line-height:2;
-    
+    font-size: .92rem; 
+    line-height: 4;
 }
+/* .hora h2{
+    margin-left: 1%;
+} */
+
+.fotos{
+    width: 70%;
+    height: 95%;
+
+    border: solid 4px blue;
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+
+ color: #fff;
+ margin: 1%;
+ 
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  display: none;
+}
+
+.swiper {
+  
+    /* background-color: #101010; */
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.foto{
+    width: 100%;
+    height: 100%; 
+}
+
+
+
 
 
 
@@ -218,7 +271,7 @@ justify-content: center;
 
 .texto  p{
     font-size: 1.5rem;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .botao{
@@ -226,13 +279,14 @@ justify-content: center;
     height: 80px;
     margin-top: 20px; 
     background-color: #101010;
-    background-color: #ac7b40;
+    background-color: #000000;
     cursor: pointer;
 
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5%;
+    margin-top: 50px;
     color: #ffffff;
     font-size: 2.5rem;
 

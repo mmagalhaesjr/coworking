@@ -6,6 +6,21 @@ import { FaWhatsapp } from 'react-icons/fa';
 import Formulario from "../../components/Formulario/Formulario";
 import { useEffect } from "react";
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css/effect-creative';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
+
+import foto1 from '../../assets/fotoNoite/1.webp'
+import foto2 from '../../assets/fotoNoite/2.webp'
+import foto3 from '../../assets/fotoNoite/3.webp'
+import foto4 from '../../assets/fotoNoite/4.webp'
+import { StyledQuemSomos } from '../QuemSomos/styled';
+
 
 export default function Eventos() {
 
@@ -25,10 +40,11 @@ export default function Eventos() {
                 <div id="container">
                     <div id="cxTexto">
                         <h2>
-                            O <span>Temasek Coworking</span> recebe você e seus
-                            parceiros de trabalho e amigos para happy hour,
-                            reuniões mais descontraídas, workshops,
-                            treinamentos e celebrações de fim de ano!
+                            O <span>Temasek Coworking </span>  
+                            recebe você, seus amigos e parceiros 
+                            de trabalho para treinamentos, reuniões, 
+                            coquetéis, lançamentos, workshops e celebrações 
+                            de fim de ano.
                         </h2>
                     </div>
                     <div id="cxVideo">
@@ -47,23 +63,53 @@ export default function Eventos() {
                 <div id="container">
                     <div id="cxTexto">
                         <h2>
-                            Nossos espaços contam com equipamentos
-                            audiovisuais e uma equipe de prontidão que te
-                            oferece suporte, além de uma rede de serviços
-                            completa para o evento da sua empresa.
+                            Nosso espaço possui 287 metros quadrados
+                            que contam com 58 cadeiras e mesas,
+                            além de uma copa e banheiros feminino e masculino.
+                            O ambiente é climatizado e possui serviço de recepção e wifi de alta velocidade.
                         </h2>
                     </div>
-                    <div id="cx">
-                        <div className="horarios">
-                            <section>
-                                <h2>Eventos de segunda a quinta-feira das 20h às 01h.</h2>
-                                <h2>Eventos sexta-feira das 20h às 02h</h2>
-                                <h2>Eventos sábado e domingo das 08h às 18h.</h2>
-                                <h2>Eventos sábado das 19h às 02h.</h2>
-                                <h2>Eventos domingo das 19h às 01h.</h2>
-                            </section>
+
+                    <section>
+                        <div id="cx">
+                            <div className="horarios">
+                                <div className="hora">
+                                    <h2>Eventos de segunda a quinta-feira das 20h às 01h.</h2>
+                                    <h2>Eventos sexta-feira das 20h às 02h</h2>
+                                    <h2>Eventos sábado e domingo das 08h às 18h.</h2>
+                                    <h2>Eventos sábado das 19h às 02h.</h2>
+                                    <h2>Eventos domingo das 19h às 01h.</h2>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                        
+                        <div className="fotos">
+                        <Swiper
+                                modules={[EffectCreative, Navigation, Pagination, A11y]}
+                                navigation
+                                grabCursor={true}
+                                effect={'creative'}
+                                creativeEffect={{
+                                    prev: {
+                                        shadow: true,
+                                        translate: [0, 0, -400],
+                                    },
+                                    next: {
+                                        translate: ['100%', 0, 0],
+                                    },
+                                }}
+
+                                className="swiper-slide"
+                            >
+                                <SwiperSlide><img className="foto" src={foto1} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto2} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto3} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto4} alt="" /></SwiperSlide>
+
+                            </Swiper>
+                        </div>
+                    </section>
+
                 </div>
             </StyledEventos2>
 
@@ -94,10 +140,10 @@ export default function Eventos() {
 
 
                             </div>
-                            <div className="botao">
+                            <a className="botao" href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer">
                                 <FaWhatsapp />
                                 <h3>WhatsApp</h3>
-                            </div>
+                            </a>
                         </div>
 
                         <Formulario />

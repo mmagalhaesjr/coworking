@@ -63,13 +63,17 @@ export default function SAtendimento() {
                                 dentre outros.
                             </h2>
 
-                            <div> <h4>Sala Paris</h4> <BsPerson /> <h4>4   </h4></div>
+                            <div> <h4>Sala Paris</h4> <BsPerson /> <h4>4</h4></div>
 
 
                             <h3>Vantagens</h3>
                             <ul>
+                                <li>Possui um divã e duas poltronas</li>
                                 <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
                                 <li>Wifi de alta velocidade e serviços de impressão</li>
+                                <li>Serviços de recepção e gerenciamento de correspondência</li>
+                                <li>Ambiente climatizado e com Wifi de alta velocidade</li>
+                                
                             </ul>
                         </div>
                     </div>

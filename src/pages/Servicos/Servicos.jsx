@@ -61,8 +61,8 @@ export default function Servicos() {
                     </div>
                     <div className="cx" >
                         <img src={img8} alt="" />
-                        <h2>Linha telefônica privativa</h2>
-                        <p>Cabines telefônicas privadas para reuniões</p>
+                        <h2>Cabine  privativa</h2>
+                        <p>Área reservada para chamadas telefônicas e videoconferências</p>
                     </div>
                     <div className="cx" >
                         <img src={img9} alt="" />

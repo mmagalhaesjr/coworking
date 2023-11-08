@@ -27,6 +27,7 @@ justify-content: center;
     width: 100%;
     height: 100%;
     display: flex;
+    margin-top: 3%;
 }
 
 
@@ -70,6 +71,7 @@ h3{
 
 #containerFoto{
     width: 40%;
+    max-height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -78,7 +78,7 @@ ul{
 .swiper-button-prev,
 .swiper-button-next{
 
- color: #ac7b40;
+ color: #ffffff;
 
  
 }

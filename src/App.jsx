@@ -10,7 +10,10 @@ import SAtendimento from './pages/cadaEspaco/SAtendimento/SAtendimento';
 import QuemSomos from "./pages/QuemSomos/QuemSomos";
 import Planos from './pages/Planos/Planos';
 import Eventos from "./pages/Eventos/Eventos";
-import Blog1 from "./pages/TodosBlogs/Blog1/Blog1";
+import Blog1 from './pages/blogs/Blog1/Blog1';
+
+
+
 
 
 export default function App() {
@@ -36,6 +39,7 @@ export default function App() {
 
                     <Route path="/blog" element={<TelaBlog />} />
                     <Route path="/blog1" element={<Blog1 />} />
+
                     <Route path="/confirmar" element={<ConfirmarEnvio />} />
 
                 </Routes>

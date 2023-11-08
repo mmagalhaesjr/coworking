@@ -3,6 +3,7 @@ import { StyledBlog } from "./styled";
 import { useNavigate } from 'react-router-dom';
 
 import foto1 from "../../assets/blog/foto1.png"
+import Cabecalho2 from '../../components/Cabecalho2/Cabecalho2';
 
 
 
@@ -13,10 +14,15 @@ export default function Blog() {
 
 
     return (
+        <>
+        <Cabecalho2/>
+        
         <StyledBlog>
+           
+
             <div id="titulo">
                 <h1>
-                    Tudo sobre coworking
+                    Confira nosso conteúdo em Blog
                 </h1>
             </div>
 
@@ -37,7 +43,7 @@ export default function Blog() {
                         independentes...
                     </p>
                 </div>
-                <div className="materia" onClick={() => navegar('/dedicada')}>
+                <div className="materia" onClick={() => navegar('/blog1')}>
                     <div className="foto">
                         <img src={foto1} alt="" />
                     </div>
@@ -52,7 +58,7 @@ export default function Blog() {
                         independentes...
                     </p>
                 </div>
-                <div className="materia" onClick={() => navegar('/dedicada')}>
+                <div className="materia" onClick={() => navegar('/blog1')}>
                     <div className="foto">
                         <img src={foto1} alt="" />
                     </div>
@@ -70,5 +76,6 @@ export default function Blog() {
 
             </div>
         </StyledBlog>
+        </>
     )
 }
