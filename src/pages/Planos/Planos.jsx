@@ -7,6 +7,8 @@ import { LuArmchair } from 'react-icons/lu';
 import { HiWifi } from 'react-icons/hi';
 import { AiOutlineVideoCameraAdd } from 'react-icons/ai';
 import { AiOutlineAudio } from 'react-icons/ai';
+import { PiSnowflakeDuotone } from 'react-icons/pi';
+
 
 import { CgArrowLongRight } from 'react-icons/cg';
 
@@ -227,9 +229,9 @@ export default function Planos() {
                             <div id="icones">
                             <div className="numeros"><BsPersonFill /><p>10</p> </div>
                             <div className="numeros"><CgScreen /><p>55&quot;</p> </div>
-                                <AiOutlineAudio />
-                                <AiOutlineVideoCameraAdd />
-                                <HiWifi />
+                            <div className="numeros"> <AiOutlineAudio /> <AiOutlineVideoCameraAdd /> </div>
+                            <PiSnowflakeDuotone/>
+                            <HiWifi />
                             </div>
                             <section>
                                 <div className="valor">
@@ -262,9 +264,9 @@ export default function Planos() {
                             <div id="icones">
                             <div className="numeros"><BsPersonFill /><p>4</p> </div>
                             <div className="numeros"><LuArmchair/><p>3</p> </div>
-                                <AiOutlineAudio />
-                                <AiOutlineVideoCameraAdd />
-                                <HiWifi />
+                            <div className="numeros"> <AiOutlineAudio /> <AiOutlineVideoCameraAdd /> </div>
+                            <PiSnowflakeDuotone/>
+                            <HiWifi />
                             </div>
                             <section>
                                 <div className="valor">
@@ -303,9 +305,9 @@ export default function Planos() {
                             <div id="icones">
                             <div className="numeros"><BsPersonFill /><p>4</p> </div>
                             <div className="numeros"><CgScreen /><p>43&quot;</p> </div>
-                                <AiOutlineAudio />
-                                <AiOutlineVideoCameraAdd />
-                                <HiWifi />
+                            <div className="numeros"> <AiOutlineAudio /> <AiOutlineVideoCameraAdd /> </div>
+                            <PiSnowflakeDuotone/>
+                            <HiWifi />
                             </div>
 
                             <section>
@@ -336,9 +338,9 @@ export default function Planos() {
                             </p>
                             <div id="icones">
                             <div className="numeros"><BsPersonFill /><p>4</p> </div>
-                                <AiOutlineAudio />
-                                <AiOutlineVideoCameraAdd />
-                                <HiWifi />
+                            <div className="numeros"> <AiOutlineAudio /> <AiOutlineVideoCameraAdd /> </div>
+                            <PiSnowflakeDuotone/>
+                            <HiWifi />
                             </div>
 
                             <section>

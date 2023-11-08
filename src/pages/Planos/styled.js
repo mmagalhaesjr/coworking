@@ -43,7 +43,7 @@ justify-content: center;
     .imgTemasek{
         transform: translatex(-300px);
         z-index: 1;
-        transition: 2s;
+        transition: 2s ;
     }
     .imgCoworking{
         transform: translatex(600px);
@@ -270,23 +270,18 @@ flex-direction: column;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 
     width:75%;
-    border: solid 10px transparent ;
+    height:20rem;
     display: flex;
     align-items: center;
 }
-
 .img{
     width: 50%;
     height: 18rem;
-    
-
- 
 }
 .img img{
     width: 100%;
     height: 100%;
 }
-
 .texto{
   width: 100%;
   height: 100%;
@@ -303,7 +298,7 @@ flex-direction: column;
 
 }
 .txt h2{
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 30px;
     font-size: 30px;
 }
@@ -379,7 +374,7 @@ color: #ffffff;
     width: 40%;
     min-width: 250px;
     height: 40px;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-right: 10%;
 
    

@@ -1,67 +1,70 @@
 import { StyledQuemSomos } from "./styled"
-import foto from '../../assets/sala2.png'
-
-import icone1 from '../../assets/icones/qs1.png'
-import icone2 from '../../assets/icones/qs2.png'
-
-
-
+import { useState, useEffect } from "react";
+import foto from '../../assets/sobreNos/2.jpeg'
+import logo from '../../assets/sobreNos/logo.png'
 
 
 export default function QuemSomos() {
 
+    const [pageLoaded, setPageLoaded] = useState(false);
+
+    useEffect(() => {
+      const handleLoad = () => {
+        setPageLoaded(true);
+      };
+  
+      // Adiciona um ouvinte de eventos para verificar quando o documento é carregado
+      window.addEventListener('load', handleLoad);
+  
+      // Limpa o ouvinte de eventos quando o componente é desmontado
+      return () => {
+        window.removeEventListener('load', handleLoad);
+      };
+    }, []);
 
 
     return (
 
-        <StyledQuemSomos id="#quem-somos">
+        <StyledQuemSomos id="#quem-somos" className={`${pageLoaded ? 'paginaCarregada' : ''}`} >
 
-            <div id="container1">
-
-                <div className="titulos">
-
-                    <h1>Conheça o Temasek Coworking</h1>
-                </div>
-
-                {/* <div id='video'>
-
-                </div> */}
-
+            <div className="titulos">
+                <h1>Conheça o Temasek Coworking</h1>
             </div>
 
-            <div id="container2">
+            <div id="container">
+
+                <img src={logo} alt="" />
 
                 <div id="texto1">
-
-                    <div className="texto2">
-                        <h2>
-                            Temos como objetivo oferecer espaços <br></br>onde
-                            todos possam se sentir mais <br></br>
-                            <span>motivados</span> e <span>produtivos</span>.
-                        </h2>
-                    </div>
-                    <img src={icone2} alt="" />
-
-                </div>
-
-                <div id="texto2">
-                    <img src={icone1} alt="" />
                     <div className="texto1">
                         <h2>
-                            Proporcionar uma nova experiência de trabalho
+                            Nossa missão é proporcionar uma nova experiência de trabalho
                             com ambiente inspirador e colaborativo que potencializa as conexões
                             e aprimora a qualidade dos negócios.
                         </h2>
                     </div>
                 </div>
+
+                <div id="texto2">
+                    <div className="texto2">
+                        <h2>
+                            Visamos ser reconhecidos como líderes em espaços
+                            altamente produtivos, onde nossos clientes
+                            possam atingir o ápice da sua performance
+                        </h2>
+                    </div>
+                    {/* <img src={icone2} alt="" /> */}
+                </div>
+
             </div>
 
-            <div id="container3">
+            <div id="container2">
                 <div className="titulos">
-
-                    <h1>Nossos valores guiam nossa maneira
+                    <h1>
+                        Nossos valores guiam nossa maneira
                         de trabalhar para proporcionar a
-                        melhor experiência de trabalho a você.</h1>
+                        melhor experiência de trabalho a você.
+                    </h1>
                 </div>
 
                 <div id='lista'>
