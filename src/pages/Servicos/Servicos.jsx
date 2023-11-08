@@ -52,7 +52,7 @@ export default function Servicos() {
                     <div className="cx" >
                         <img src={img6} alt="" />
                         <h2>Reconhecimento facial</h2>
-                        <p>Acesso por Reconhecimento facial para todos os membros.</p>
+                        <p>Acesso por reconhecimento facial para todos os membros.</p>
                     </div>
                     <div className="cx" >
                         <img src={img7} alt="" />

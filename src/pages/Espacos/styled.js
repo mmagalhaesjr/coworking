@@ -22,6 +22,7 @@ export const StyledEspacos = styled.section`
     position: absolute;
 
     background-color: #ac7b40;
+    background-color: #101010;
   }
   #bloco2{
     width: 100px;
@@ -30,6 +31,7 @@ export const StyledEspacos = styled.section`
     left: 93%;
     top: 90rem;
     background-color: #ac7b40;
+    
   }
   @media(max-width:800px) {
     #bloco1, #bloco2{
