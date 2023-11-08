@@ -23,8 +23,10 @@ background-color: #F4F3F0 ;
   }
 
   #titulos h1{
-    color:#ac7b40;
     font-size: 40px;
+    color:#ac7b40;
+    color:#101010;
+    
   }
 
 #container{
@@ -56,6 +58,7 @@ color:#101010;
     font-weight: 600;
     margin-top: 20px;
     color:#ac7b40;
+    color:#101010;
 }
 .cx img{
     width: 60px;

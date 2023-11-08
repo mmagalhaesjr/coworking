@@ -1,11 +1,20 @@
 import { StyledPlanos, StyledPlanos2 } from "./styled"
 import { useState, useEffect } from "react";
 
+import { CgScreen } from 'react-icons/cg';
+import { BsPersonFill } from 'react-icons/bs';
+import { LuArmchair } from 'react-icons/lu';
+import { HiWifi } from 'react-icons/hi';
+import { AiOutlineVideoCameraAdd } from 'react-icons/ai';
+import { AiOutlineAudio } from 'react-icons/ai';
+
 import { CgArrowLongRight } from 'react-icons/cg';
 
 import coworking from '../../assets/planos/c.png'
 import temasek from '../../assets/planos/t.png'
 // import foto from '../../assets/foto.webp'
+
+
 
 import foto1 from '../../assets/espacos/dedicada.webp'
 import foto2 from '../../assets/espacos/compartilhada.webp'
@@ -24,7 +33,11 @@ export default function Planos() {
     const [pageLoaded, setPageLoaded] = useState(false);
 
 
-//---------------------------rolagem
+
+
+
+
+    //---------------------------rolagem
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => {
@@ -42,7 +55,7 @@ export default function Planos() {
         const handleLoad = () => {
             setPageLoaded(true);
         };
-    
+
         if (document.readyState === "complete") {
             // Se o documento já estiver carregado, aciona manualmente handleLoad
             handleLoad();
@@ -50,22 +63,22 @@ export default function Planos() {
             // Se o documento ainda não estiver carregado, adiciona um ouvinte de eventos
             window.addEventListener("load", handleLoad);
         }
-    
+
         // Limpa o ouvinte de eventos quando o componente é desmontado
         return () => {
             window.removeEventListener("load", handleLoad);
         };
     }, []);
-    
+
+
+
 
 
     //---------------------------
-
     const navegar = useNavigate()
 
     const contato = () => {
         navegar('/');
-
     };
 
     //---------------------------
@@ -73,13 +86,16 @@ export default function Planos() {
         window.scrollTo(0, 0);
     }, []);
 
+    //---------------------------
+
+
     return (
 
         <>
             <Cabecalho2 />
 
-            <StyledPlanos className={`${scrollY > 150 ? 'rolagem' : '' }  ${pageLoaded ? 'paginaCarregada' : ''}`}>
-                
+            <StyledPlanos className={`${scrollY > 150 ? 'rolagem' : ''}  ${pageLoaded ? 'paginaCarregada' : ''}`}>
+
 
 
                 <div id="container" >
@@ -147,7 +163,7 @@ export default function Planos() {
                             <p>Acesso exclusivo à sua posição de trabalho fixa, <br />
                                 em um ambiente compartilhado. </p>
                             <p>A mesa dedicada é ideal para 1 pessoa e equipes reduzidas.</p>
-                            <p> </p>
+
                             <section>
                                 <div className="valor">
                                     <h4>Mensal</h4>
@@ -208,7 +224,13 @@ export default function Planos() {
                                 com tratamento acústico, climatizada, com televisão e
                                 equipamento de áudio e vídeo.
                             </p>
-                            <p>Acomoda até 10 pessoas</p>
+                            <div id="icones">
+                            <div className="numeros"><BsPersonFill /><p>10</p> </div>
+                            <div className="numeros"><CgScreen /><p>55&quot;</p> </div>
+                                <AiOutlineAudio />
+                                <AiOutlineVideoCameraAdd />
+                                <HiWifi />
+                            </div>
                             <section>
                                 <div className="valor">
                                     <h4>Por hora</h4>
@@ -237,7 +259,13 @@ export default function Planos() {
                                 climatizada e com equipamento de áudio e vídeo.
                                 Possui 2 poltronas e 1 divã.
                             </p>
-                            <p>Acomoda até 5 pessoas</p>
+                            <div id="icones">
+                            <div className="numeros"><BsPersonFill /><p>4</p> </div>
+                            <div className="numeros"><LuArmchair/><p>3</p> </div>
+                                <AiOutlineAudio />
+                                <AiOutlineVideoCameraAdd />
+                                <HiWifi />
+                            </div>
                             <section>
                                 <div className="valor">
                                     <h4>Pacote com 10h</h4>
@@ -271,7 +299,15 @@ export default function Planos() {
                                 com tratamento acústico, climatizada, com televisão e
                                 equipamento de áudio e vídeo.
                             </p>
-                            <p>Sala ideal para 1 a 4 pessoas.</p>
+
+                            <div id="icones">
+                            <div className="numeros"><BsPersonFill /><p>4</p> </div>
+                            <div className="numeros"><CgScreen /><p>43&quot;</p> </div>
+                                <AiOutlineAudio />
+                                <AiOutlineVideoCameraAdd />
+                                <HiWifi />
+                            </div>
+
                             <section>
                                 <div className="valor">
                                     <h4>Por hora</h4>
@@ -298,7 +334,13 @@ export default function Planos() {
                                 É preparada para realizar qualquer tipo de reunião. <br />
                                 Possui design moderno e intimista.
                             </p>
-                            <p>Acomoda até 4 pessoas</p>
+                            <div id="icones">
+                            <div className="numeros"><BsPersonFill /><p>4</p> </div>
+                                <AiOutlineAudio />
+                                <AiOutlineVideoCameraAdd />
+                                <HiWifi />
+                            </div>
+
                             <section>
                                 <div className="valor">
                                     <h4>mensal</h4>

@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 
+
 export const StyledPlanos = styled.section`
 width: 100%;
 display: flex;
@@ -313,6 +314,25 @@ flex-direction: column;
     color: #ffffff;
     
 }
+
+#icones{
+    margin-top: 2%;
+    color: #ffffff;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2%; 
+}
+#icones p{
+    font-size: 1rem;
+    margin-top: -0.1%;
+}
+#icones .numeros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 section{
     width: 100%;
     margin-top: 10px;
@@ -329,8 +349,6 @@ section{
     margin-top: 10px;
     margin-bottom: 10px;
    
-  
-
     display: flex;
     flex-direction: column;
     align-items: center;

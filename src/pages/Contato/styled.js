@@ -29,12 +29,10 @@ background-size: cover;
     display: flex;
     flex-direction: column;
     text-align: center;
-    color:#000000;
-    color:#ac7b40;
     font-weight:100;  
     line-height: 1.3;
-
-   
+    color:#ac7b40;
+    color:#101010;
 }
 
 #titulos h1{

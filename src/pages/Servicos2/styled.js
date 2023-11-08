@@ -32,6 +32,7 @@ min-height: 200px;
     line-height: 1.2;
     font-size: 40px;
     color:#ac7b40;
+    color:#101010;
 }
 
 ul{

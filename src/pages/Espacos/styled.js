@@ -3,12 +3,12 @@ import styled from 'styled-components';
 
 
 
+
 export const StyledEspacos = styled.section`
   width: 100%;
   height: 90vh;
   max-height: 100vh;
   background-color: #F4F3F0;
-  /* background-color: #ac7b40; */
   padding-top: 20px;
 
   display: flex;
@@ -70,10 +70,13 @@ color: #fff;
 #titulos {
     width: 100%;
     margin-top: 7%;
-    /* margin-left: 5%; */
     width: 85%;
     font-size: 30px;
     color: #ac7b40;
+    color:#000000;
+  }
+  #titulos h1{
+    margin-left: 2%;
   }
   
   

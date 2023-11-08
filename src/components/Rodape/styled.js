@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const StyledRodape = styled.footer`
 background-color: #101010;
-background-color: #ac7b40;
 height: 250px;
 display: flex;
 flex-direction: column;
