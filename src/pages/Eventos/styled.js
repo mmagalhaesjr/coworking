@@ -7,8 +7,6 @@ display: flex;
 align-items: center;
 flex-direction: column;
 
-
-
 #container{
 width: 100%;
 height: 100%;
@@ -95,28 +93,18 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 }
-#container section{
+section{
     width: 95%;
     height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
-   
-
-    border: solid 1px red;
+    position: relative;
 }
 #cxHorario{
-    /* position: relative;
-    left: 57%;
-    top: -35%;
-    z-index: 4;
-    width: 40%;
-    min-width: 400px;
-    height: 25%; */
-
-    position: relative;
-    left: 50%;
-    top:50%;
+    position: absolute;
+    right: 0%;
+    top: -15px;
     z-index: 4;
     width: 40%;
     min-width: 400px;
