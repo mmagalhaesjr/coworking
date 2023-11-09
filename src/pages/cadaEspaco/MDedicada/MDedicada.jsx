@@ -36,6 +36,8 @@ import icone3 from '../../../assets/icones2/startup.png'
 import icone4 from '../../../assets/icones2/remotas.png'
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import Cabecalho2 from "../../../components/Cabecalho2/Cabecalho2";
+import Rodape from "../../../components/Rodape/Rodape";
 
 
 export default function MDedicada() {
@@ -49,6 +51,7 @@ export default function MDedicada() {
     return (
 
         <>
+        <Cabecalho2/>
             <StyledMDedicada>
 
                 <div id="titulo">
@@ -247,6 +250,7 @@ export default function MDedicada() {
                 </div>
 
             </Styled2>
+            <Rodape/>
         </>
 
     )

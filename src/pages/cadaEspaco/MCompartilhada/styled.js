@@ -20,14 +20,14 @@ justify-content: center;
     font-size: 1rem;
     position: relative;
     top: -50px;
-
 }
 
 #container{
     width: 100%;
     height: 100%;
     display: flex;
-    margin-top: 3%;
+    margin-top: 10%;
+    
 }
 
 

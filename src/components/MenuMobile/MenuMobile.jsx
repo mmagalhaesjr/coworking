@@ -24,7 +24,7 @@ export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
             <nav className="nav-lista" >
                 <a onClick={() => navegar("/quem-somos")}  >QUEM SOMOS</a>
                 <a onClick={() => {setMobileAtivado(false),setHomeComponent('espacos'), navegar("/")} }>ESPAÇOS</a>
-                <a onClick={() => {setMobileAtivado(false),setHomeComponent('servicos'), navegar("/servicos")} }>SERVIÇOS</a>
+                <a onClick={() => {setMobileAtivado(false),setHomeComponent('servicos'), navegar("/")} }>SERVIÇOS</a>
                 <a onClick={() => {setMobileAtivado(false),navegar("/planos")}}>PLANOS</a>
                 <a onClick={() => navegar("/eventos")}>EVENTOS</a>
                 <a onClick={() => {setMobileAtivado(false),setHomeComponent('contato'), navegar("/")} }>CONTATO</a>

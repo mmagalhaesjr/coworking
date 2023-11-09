@@ -38,6 +38,8 @@ import icone3 from '../../../assets/icones2/startup.png'
 import icone4 from '../../../assets/icones2/remotas.png'
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import Cabecalho2 from '../../../components/Cabecalho2/Cabecalho2';
+import Rodape from '../../../components/Rodape/Rodape';
 
 export default function SPrivativa() {
 
@@ -49,6 +51,8 @@ export default function SPrivativa() {
     return (
 
         <>
+
+        <Cabecalho2/>
             <StyledSPrivativa>
 
                 <div id="titulo">
@@ -227,6 +231,8 @@ export default function SPrivativa() {
 
 
             </Styled2>
+
+            <Rodape/>
 
         </>
     )

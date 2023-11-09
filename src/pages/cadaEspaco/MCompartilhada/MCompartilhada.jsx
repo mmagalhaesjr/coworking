@@ -37,6 +37,8 @@ import icone3 from '../../../assets/icones2/startup.png'
 import icone4 from '../../../assets/icones2/remotas.png'
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import Cabecalho2 from '../../../components/Cabecalho2/Cabecalho2';
+import Rodape from '../../../components/Rodape/Rodape';
 
 
 export default function MCompartilhada() {
@@ -50,6 +52,7 @@ export default function MCompartilhada() {
 
     return (
         <>
+        <Cabecalho2/>
             <StyledMCompartilhada>
 
                 <div id="titulo">
@@ -243,6 +246,8 @@ export default function MCompartilhada() {
 
 
             </Styled2>
+
+            <Rodape/>
 
         </>
     )

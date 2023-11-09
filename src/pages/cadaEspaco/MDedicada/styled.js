@@ -29,7 +29,7 @@ justify-content: center;
     width: 100%;
     height: 100%;
     display: flex;
-    margin-top: 3%;
+    margin-top: 10%;
 
     
 }
