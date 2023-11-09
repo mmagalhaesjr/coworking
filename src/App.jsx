@@ -14,7 +14,7 @@ import Blog1 from './pages/blogs/Blog1/Blog1';
 import Blog2 from "./pages/blogs/Blog2/Blog2";
 import Blog3 from "./pages/blogs/Blog3/Blog3";
 
-import { HomeContextProvider } from "./contexts/homeComponentContext";
+import { HomeContextProvider } from "./contexts/homeComponentContext.jsx";
 
 export default function App() {
 
