@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const StyledBlog = styled.main`
 width: 100%;
-height: 100vh;
+
 
 display: flex;
 align-items: center;
@@ -28,15 +28,14 @@ font-weight: 700;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 5%;
-
-    
+    gap: 5%; 
 }
 
 .materia{
     width:20%;
     min-width:350px ;
     height: 50%;
+    margin-bottom: 10%;
 
     display: flex;
     flex-direction: column;
@@ -56,19 +55,36 @@ font-weight: 700;
     text-align: center;
     margin-top: 5%;
     font-weight: 700;
+
+    
 }
 .materia p{
     font-size: .7rem;
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 .foto{
     width: 100%;
-    height: 50%;
-    overflow: hidden;
+    height: 200px;
+  
+
 }
 .foto img{
     width: 100%;
     height: 100%;
+}
+
+@media(max-width:1300px) {
+    #titulo{
+        margin-top: 10%;
+    }
+    
+}
+@media(max-width:800px) {
+    #titulo{
+        margin-top: 20%;
+    }
+    
 }
 
 `

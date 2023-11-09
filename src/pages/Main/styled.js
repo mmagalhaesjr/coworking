@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { color, backOut } from 'framer-motion';
+
 
 
 export const StyledTelaInicial = styled.section`

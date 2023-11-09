@@ -18,6 +18,11 @@ text-align: center;
 font-size: 2rem;
 margin-bottom: 3%;
 }
+h1{
+margin-top:5% ;
+font-size: 2rem;
+margin-bottom: 3%; 
+}
 
 #container{
 width: 50%;
@@ -38,7 +43,8 @@ margin-bottom: 5%;
 font-size: 1.2rem;
 }
 .img{
-    margin-top: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     width: 100%;
 }
 .img img{

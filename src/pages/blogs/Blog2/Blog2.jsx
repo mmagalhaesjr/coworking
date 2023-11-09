@@ -1,26 +1,33 @@
 import { StyledBlog2 } from "./styled"
 
-import foto1 from '../../../assets/blog/foto1.png'
-import foto2 from '../../../assets/blog/foto2.png'
-import foto3 from '../../../assets/blog/foto3.png'
+import foto1 from '../../../assets/blog/blog2-f1.png'
+import foto2 from '../../../assets/blog/blog2-f2.png'
+
 
 export default function Blog2() {
     return (
         <StyledBlog2>
             <div id="titulo">
                 <h1>
-                    Por que o coworking é uma escolha
-                    inteligente?
+                    Conheça algumas estratégias que podem aumentar suas
+                    oportunidades de negócio.
                 </h1>
             </div>
 
             <div id="container">
                 <div className="texto">
                     <p>
-                        O coworking abrange um espaço de trabalho compartilhado por profissionais
-                        independentes, empreendedores e empresas de diferentes ramos. É uma alternativa aos
-                        ambientes de trabalho tradicionais e possibilita formar redes de relacionamentos e
-                        parcerias. O networking acontece diariamente.
+                        Economizar recursos e investir com sabedoria são práticas cruciais para o sucesso e
+                        crescimento de um negócio.
+
+                    </p>
+                </div>
+                <div className="texto">
+                    <p>
+                        O primeiro passo é criar um planejamento financeiro. Crie um plano de negócios sólido,
+                        detalhando suas metas e despesas estimadas. Isso ajudará a manter o foco nos gastos
+                        essenciais e nas áreas que exigem investimento.
+
                     </p>
                 </div>
                 <div className="img">
@@ -28,16 +35,15 @@ export default function Blog2() {
                 </div>
                 <div className="texto">
                     <p>
-                        Um dos pontos fortes do coworking é a forma dinâmica de trabalho. Permitir o contato com
-                        outros profissionais e empresas cria um ambiente propício para troca de ideias, parcerias e
-                        colaboração.
+                        Analisar suas despesas regularmente e identificar onde é possível diminuir gastos também é
+                        prioridade nesse caso. A redução de custos vai permitir que você economize para investir em
+                        qualidade na sua empresa.
+
                     </p>
                 </div>
                 <div className="texto">
                     <p>
-                        A flexibilidade também é uma vantagem do coworking, onde os membros podem alugar
-                        espaços de trabalho individuais, salas privadas ou escritórios compartilhados, como salas
-                        de reunião e cozinha compartilhada.
+                        Confira como economizar em um negócio clicando no vídeo abaixo:
 
                     </p>
                 </div>
@@ -46,53 +52,47 @@ export default function Blog2() {
                 </div>
                 <div className="texto">
                     <p>
-                        Ambiente Inspirador: Os espaços de coworking são projetados para serem criativos e
-                        motivadores, além de ser uma escolha até mais vantajosa financeiramente, comparando com
-                        um escritório tradicional. Isso é especialmente benéfico para startups e empreendedores
-                        individuais.
+                        Agora, priorize os seus gastos. Foque nos investimentos que realmente impulsionarão o
+                        crescimento do negócio. Concentre-se em áreas-chave, como marketing eficiente,
+                        desenvolvimento de produtos e atendimento ao cliente.
                     </p>
                 </div>
                 <div className="texto">
                     <p>
-                        Para freelancers e autônomos, o espaço de trabalho compartilhado oferece um ambiente
-                        que compensa a solidão associada ao trabalho independente, proporcionando uma
-                        comunidade de colegas.
-                    </p>
-                </div>
-                <div className="texto">
-                    <p>
-                        A maioria dos escritórios compartilhados oferece planos flexíveis de aluguel, permitindo que
-                        você escolha a quantidade de tempo que deseja usar o espaço, seja por horas, dias ou
-                        meses.
-                    </p>
-                </div>
-                <div className="texto">
-                    <p>
-                        Em resumo, a comunidade de coworking apresenta uma ampla variedade de vantagens que
-                        têm o potencial de aprimorar significativamente a vivência no ambiente de trabalho.
+                        Outra opção que não deve ser descartada é negociar com seus fornecedores para obter
+                        melhores preços e termos. Pode ser possível obter descontos ou prazos de pagamento
+                        melhores.
 
                     </p>
                 </div>
                 <div className="texto">
                     <p>
-                        Esses aspectos convergem para elevar os níveis de produtividade e criatividade, abrindo
-                        portas para um panorama profissional mais enriquecedor e dinâmico.
-
+                        Automatize os processos. Investir em sistemas e ferramentas de automação pode reduzir a
+                        necessidade de mão de obra e melhorar a eficiência operacional.
                     </p>
                 </div>
                 <div className="img">
-                    <img src={foto3} alt="" />
+                    <img src={foto2} alt="" />
                 </div>
                 <div className="texto">
                     <p>
-                        Otimizar o seu tempo e local de trabalho se tornou uma escolha valiosa em um mundo
-                        cada vez mais adaptável e interconectado.
+                        Outsourcing: Avalie a terceirização de algumas tarefas para empresas especializadas. Isso
+                        pode ser mais econômico do que manter todas as funções internas.
+
+
+                    </p>
+                </div>
+                <div className="texto">
+                    <p>
+                        Por último, mas não menos importante, por que não pensar no coworking como alternativa?
+                        Os escritórios compartilhados oferecem uma série de vantagens que podem melhorar a sua
+                        experiência de trabalho, além de propiciar o networking diário.
                     </p>
                 </div>
                 <div className="texto" >
                     <p>
-                        No Temasek Coworking, a inovação, sofisticação e flexibilidade, irão te proporcionar
-                        uma nova experiência de trabalho, potencializando o networking.
+                        Conte com o Temasek Coworking para ter flexibilidade no trabalho, potencializar as
+                        conexões e aprimorar a qualidade dos seus negócios.
                     </p>
                 </div>
 

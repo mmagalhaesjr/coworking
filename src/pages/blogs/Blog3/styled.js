@@ -8,7 +8,9 @@ display: flex;
 flex-direction: column;
 align-items: center;
 
-
+span{
+    font-weight: 700;
+}
 #titulo{
 margin-top: 5%;
 width: 100%;
@@ -17,6 +19,11 @@ text-align: center;
 #titulo h1{
 font-size: 2rem;
 margin-bottom: 3%;
+}
+h1{
+margin-top:5% ;
+font-size: 2rem;
+margin-bottom: 3%; 
 }
 
 #container{
@@ -38,7 +45,8 @@ margin-bottom: 5%;
 font-size: 1.2rem;
 }
 .img{
-    margin-top: 3%;
+    margin-top:5%;
+    margin-bottom:5%;
     width: 100%;
 }
 .img img{
