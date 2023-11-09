@@ -305,6 +305,7 @@ flex-direction: column;
     height:20rem;
     display: flex;
     align-items: center;
+    
 }
 .img{
     width: 50%;
@@ -317,6 +318,10 @@ flex-direction: column;
 .texto{
   width: 100%;
   height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center; 
 }
 .txt{
     width: 89%;
@@ -326,8 +331,7 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-left: 10%;
-
+    /* margin-left: 10%; */
 }
 .txt h2{
     margin-top: 30px;
@@ -362,12 +366,15 @@ flex-direction: column;
 }
 section{
     width: 100%;
-    margin-top: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 
-    border: solid 1px red;
+    justify-content: space-between;
+    /* justify-content: center; */
+
 }
 .valor{
     background-color:  #101010;
@@ -375,8 +382,7 @@ section{
     min-width: 150px;
     height: 80px;
     border-radius:200px ;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  
    
     display: flex;
     flex-direction: column;
@@ -408,10 +414,7 @@ color: #ffffff;
     width: 40%;
     min-width: 250px;
     height: 40px;
-    margin-top: 40px;
-    margin-right: 10%;
-
-   
+    
     background-color: transparent;
     border: solid 2px #F4F3F0;
 
@@ -438,7 +441,6 @@ margin-top: 10px;
 
 @media(max-width: 1150px) {
     .cxEstacao{
-
         height: 80%;
         width: 95%;
     }

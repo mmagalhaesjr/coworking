@@ -99,18 +99,29 @@ justify-content: center;
     width: 95%;
     height: 80vh;
     display: flex;
-    gap:2%;
     align-items: center;
     justify-content: center;
+   
+
+    border: solid 1px red;
 }
-#cx{
-    position: absolute;
-   
-    z-index: 8;
-    width: 30%;
-    height: 70%;
-   
-   
+#cxHorario{
+    /* position: relative;
+    left: 57%;
+    top: -35%;
+    z-index: 4;
+    width: 40%;
+    min-width: 400px;
+    height: 25%; */
+
+    position: relative;
+    left: 50%;
+    top:50%;
+    z-index: 4;
+    width: 40%;
+    min-width: 400px;
+    height: 25%;
+
     -webkit-backdrop-filter: blur(10px);
     -webkit-background-color: rgba(18, 18, 18, 0.2);
     backdrop-filter: blur(10px);
@@ -134,11 +145,12 @@ justify-content: center;
 .hora{
     color: #ffffff;
     font-size: .92rem; 
-    line-height: 4;
+    line-height: 1.5;
 }
 
 
 .fotos{
+    /* position: relative; */
     width: 70%;
     height: 95%;
 }
@@ -171,6 +183,7 @@ justify-content: center;
 }
 
 .foto{
+   
     width: 100%;
     height: 100%; 
 }
@@ -179,13 +192,9 @@ justify-content: center;
 
 
 @media (max-width:1500px){
-   
-   
     .fotos{
         width: 95%;
     }
-
-   
 }
 
 @media (max-width:940px){
@@ -203,8 +212,6 @@ justify-content: center;
 #cxTexto{
     width: 90%;
 }
-
-
 }
 @media (max-width:700px){
     .fotos{
@@ -212,7 +219,6 @@ justify-content: center;
     }
 }
 @media (max-width:600px){
-
     .faixa p{
         font-size: 15px;
         margin-left: 6%;
@@ -226,11 +232,7 @@ justify-content: center;
     }
 }
 @media (max-width:420px){
-    #cx{
-        width: 100%;
-    }
     .horarios{
-        width: 97%;
         display: flex;
         align-items: center;
         justify-content: center;

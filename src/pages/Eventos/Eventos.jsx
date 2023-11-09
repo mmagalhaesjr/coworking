@@ -71,7 +71,7 @@ export default function Eventos() {
                     </div>
 
                     <section>
-                        <div id="cx">
+                        <div id="cxHorario">
                             <div className="horarios">
                                 <div className="hora">
                                     <h2>Eventos de segunda a quinta-feira das 20h às 01h.</h2>
