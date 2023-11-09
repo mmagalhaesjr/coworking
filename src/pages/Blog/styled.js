@@ -11,7 +11,7 @@ text-align: center;
 flex-direction: column;
 
 #titulo{
-margin-top: 5%;
+margin-top: 7%;
 width: 90%;
 }
 #titulo h1{

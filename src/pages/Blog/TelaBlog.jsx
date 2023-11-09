@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 import foto1 from "../../assets/blog/foto1.png"
 import Cabecalho2 from '../../components/Cabecalho2/Cabecalho2';
+import Rodape from '../../components/Rodape/Rodape';
 
 
 
@@ -76,6 +77,8 @@ export default function Blog() {
 
             </div>
         </StyledBlog>
+
+        <Rodape/>
         </>
     )
 }

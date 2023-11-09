@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 
 
+
+
 export const StyledPlanos = styled.section`
 width: 100%;
 display: flex;
@@ -28,25 +30,25 @@ justify-content: center;
 
 .imgTemasek{
     position: relative;
-    left:300px;
-    width: 50rem;
+    left:18%;
+    width: 50%;
     margin-top: 10rem;
 }
 .imgCoworking{
     position: relative;
-    left:-400px;
-    width: 25rem;
+    left:-29%;
+    width: 25%;
 }
 
 
 &.paginaCarregada{
     .imgTemasek{
-        transform: translatex(-300px);
+        transform: translatex(-40%);
         z-index: 1;
         transition: 2s ;
     }
     .imgCoworking{
-        transform: translatex(600px);
+        transform: translatex(155%);
         z-index: 1;
         transition: 2s;
     }
@@ -71,7 +73,7 @@ justify-content: center;
     font-size: 30px;
 }
 #container #texto p{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-size: 2rem;
 }
 
@@ -169,6 +171,7 @@ font-weight: 700;
     #cxDayUse{
         width: 90%;
     }
+
 }
 
 @media (max-width:600px){
@@ -176,22 +179,25 @@ font-weight: 700;
  
    #container #texto{
         width: 90%;
+        top: -200px;
     }
     #container #texto p{
-        font-size: 3rem;
-            color: red;
+        font-size: 1rem;
     }
 
     #dayUseTexto{
-margin-left: 10%;
-   opacity: 1;
+        margin-left: 10%;
+        opacity: 1.5;
+        
 }
     #cxDayUse{
         width: 90%;
         height: 150px;
+        display: none;
         
         #circulo{
-          display: none}
+          display: none
+        }
         h1{
             font-size: 25px;
         }
@@ -199,6 +205,31 @@ margin-left: 10%;
             font-size: 15px;
         }
     }
+}
+    @media (max-width:500px){
+.imgTemasek{
+    position: relative;
+    left:18%;
+    width: 80%;
+    margin-top: 10rem;
+}
+.imgCoworking{
+    position: relative;
+    left:-29%;
+    width: 35%;
+}
+&.paginaCarregada{
+    .imgTemasek{
+        transform: translatex(-22%);
+        z-index: 1;
+        transition: 2s ;
+    }
+    .imgCoworking{
+        transform: translatex(145%);
+        z-index: 1;
+        transition: 2s;
+    }
+}
 }
 #circuloMobile{
     display: flex;
@@ -260,7 +291,8 @@ flex-direction: column;
 }
 
 .cxEstacao{
-    margin-top: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     background-color: #ac7b40;
     background-color: rgba(18, 18, 18, 0.2);
     -webkit-backdrop-filter: blur(10px);
@@ -334,6 +366,8 @@ section{
 
     display: flex;
     justify-content: space-between;
+
+    border: solid 1px red;
 }
 .valor{
     background-color:  #101010;
@@ -447,6 +481,11 @@ margin-top: 10px;
     .cxEstacao{
         height: fit-content;
     }
+
+    #titulo{
+    
+    margin-top: -200px;
+}
 }
 @media(max-width: 490px){
     section{

@@ -19,6 +19,7 @@ import foto1 from '../../assets/fotoNoite/1.webp'
 import foto2 from '../../assets/fotoNoite/2.webp'
 import foto3 from '../../assets/fotoNoite/3.webp'
 import foto4 from '../../assets/fotoNoite/4.webp'
+import Rodape from '../../components/Rodape/Rodape';
 
 
 
@@ -154,7 +155,7 @@ export default function Eventos() {
 
             </StyledEventos3>
 
-
+            <Rodape/>
         </>
     )
 }

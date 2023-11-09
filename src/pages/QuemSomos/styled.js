@@ -9,7 +9,7 @@ flex-direction: column;
 
 .titulos{
 width: 100%;
-margin-top: 3%;
+margin-top: 7%;
 
 display: flex;
 align-items: center;
@@ -33,6 +33,7 @@ h1{
     justify-content: center;
     flex-direction: column;
     position: relative;
+
     img {
         position: absolute;
         width: 40%;
@@ -137,6 +138,9 @@ h1{
 }
 
 @media (max-width:990px){
+    .titulos{
+        margin-top: 10%;
+    }
     #container2{
         display: flex;
         flex-direction: column;
@@ -169,7 +173,8 @@ h1{
         height: 30%;
     }
     #container img{
-        width: 80%;
+        margin-top: 30%;
+        width: 55%;
     }
     #texto1, #texto2{
         align-items: center;
@@ -193,16 +198,41 @@ h1{
         height: 25%;
     }
 }
+#container img{
+        margin-top: 15%;
+        width: 45%;
+    }
+   
 @media (max-width:667px){
     .titulos{
         display: flex;
         align-items: center;
         justify-content: center;
-
-        border: solid 2px blue;
+        margin-top:15%;
     }
     .titulos h1{
         text-align: center;
+        font-size: 2rem;
+        
+    }
+}
+@media (max-width:500px){
+    #container img{
+        margin-top: 15%;
+        width: 70%;
+    }
+}
+@media (max-width:437px){
+    .titulos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:20%;
+    }
+    .titulos h1{
+        text-align: center;
+        font-size: 1.7rem;
+        
     }
 }
 `
