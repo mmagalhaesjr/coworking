@@ -9,27 +9,28 @@ export const StyledEspacos = styled.section`
   height: 90vh;
   max-height: 100vh;
   background-color: #F4F3F0;
-  padding-top: 20px;
-
+position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
+  #titulos{
+    margin-top: 150px;
+  }
   #bloco1{
     width: 100px;
     height: 900px;
     position: absolute;
-
-    background-color: #ac7b40;
+    top: 0;
     background-color: #101010;
   }
   #bloco2{
     width: 100px;
     height: 100%;
     position: absolute;
-    left: 93%;
-    top: 90rem;
+    right: 0%;
+    top: 35rem;
     background-color: #ac7b40;
     
   }
@@ -71,7 +72,6 @@ color: #fff;
 
 #titulos {
     width: 100%;
-    margin-top: 7%;
     width: 85%;
     font-size: 30px;
     color: #ac7b40;

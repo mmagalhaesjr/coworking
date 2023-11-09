@@ -39,13 +39,11 @@ export const StyledCabecalho = styled.header`
   }
 
   .logo2 img {
-    display: none; 
+    display: none;
     width: 200px;
     height: 50px;
     margin-top: 7px;
     background: none; 
-    position: relative;
-    left: -50px;
     }
 
   img {
@@ -85,7 +83,6 @@ nav {
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.2);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);  
-
     display: flex;
     justify-content: center;
   }
