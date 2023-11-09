@@ -16,11 +16,6 @@ import Blog3 from "./pages/blogs/Blog3/Blog3";
 
 import { HomeContextProvider } from "./contexts/homeComponentContext";
 
-
-
-
-
-
 export default function App() {
 
     return (
