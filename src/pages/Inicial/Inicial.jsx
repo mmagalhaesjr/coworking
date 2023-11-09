@@ -10,22 +10,32 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-
-
 import { Autoplay, Navigation, Pagination, A11y } from 'swiper/modules';
-
-
 
 import foto1 from '../../assets/capa/sala1.webp'
 import foto2 from '../../assets/capa/sala2.webp'
 import foto3 from '../../assets/capa/sala3.webp'
 import foto4 from '../../assets/capa/sala4.webp'
+import { useContext, useEffect } from "react";
+import { HomeContext } from "../../contexts/homeComponentContext";
 
 
 
 
 
 export default function Inicial() {
+    
+    const {homeComponent, setHomeComponent} = useContext(HomeContext)
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+        const contatoElement = document.getElementById(homeComponent);
+        if (contatoElement) {
+          contatoElement.scrollIntoView({ behavior: 'smooth' });
+          setHomeComponent('')
+
+        }
+      }, []); 
 
     
 

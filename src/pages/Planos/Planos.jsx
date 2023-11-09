@@ -1,5 +1,5 @@
 import { StyledPlanos, StyledPlanos2 } from "./styled"
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 
 import { CgScreen } from 'react-icons/cg';
 import { BsPersonFill } from 'react-icons/bs';
@@ -29,6 +29,7 @@ import foto6 from '../../assets/privadas/1.webp'
 import Cabecalho2 from "../../components/Cabecalho2/Cabecalho2"
 import { useNavigate } from "react-router-dom";
 import Rodape from '../../components/Rodape/Rodape';
+import { HomeContext } from "../../contexts/homeComponentContext";
 
 export default function Planos() {
 
@@ -79,8 +80,9 @@ export default function Planos() {
 
     //---------------------------
     const navegar = useNavigate()
-
+    const { setHomeComponent} = useContext(HomeContext)
     const contato = () => {
+        setHomeComponent('contato')
         navegar('/');
     };
 
