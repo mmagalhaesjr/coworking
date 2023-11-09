@@ -315,9 +315,9 @@ export default function Planos() {
 
                             <section>
                                 <div className="valor">
-                                    <h4>Por hora</h4>
+                                    <h4>mensal</h4>
                                     <div>
-                                        <p>R$</p><h3>80,00</h3>
+                                        <p>R$</p><h3>2.500</h3>
                                     </div>
                                 </div>
                                 <button onClick={contato}>
@@ -350,7 +350,7 @@ export default function Planos() {
                                 <div className="valor">
                                     <h4>mensal</h4>
                                     <div>
-                                        <p>R$</p><h3>800,00</h3>
+                                        <p>R$</p><h3>2.300,00</h3>
                                     </div>
                                 </div>
                                 <button onClick={contato}>

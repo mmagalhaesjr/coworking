@@ -9,7 +9,7 @@ height: 100vh;
 display: flex;
 align-items: center;
 justify-content: center;
-/* overflow: hidden; */
+
 position: relative;
 
 /* background-image: url(src/assets/foto-capa.jpg);
