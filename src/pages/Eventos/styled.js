@@ -4,6 +4,8 @@ import styled from 'styled-components';
 
 
 
+
+
 export const StyledEventos = styled.section`
 width: 100%;
 display: flex;
@@ -97,8 +99,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-
-border: solid 1px green;
 }
 #container section{
     width: 95%;
@@ -107,13 +107,17 @@ border: solid 1px green;
     gap:2%;
     align-items: center;
     justify-content: center;
-    border: solid 1px red;
 }
 #cx{
     width: 30%;
     height: 70%;
     margin-top: 20px;
-    background-color: #000000;
+   
+    -webkit-backdrop-filter: blur(10px);
+    -webkit-background-color: rgba(18, 18, 18, 0.2);
+    backdrop-filter: blur(10px);
+    background-color: rgba(18, 18, 18, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 
     display: flex;
     align-items: center;
@@ -134,15 +138,11 @@ border: solid 1px green;
     font-size: .92rem; 
     line-height: 4;
 }
-/* .hora h2{
-    margin-left: 1%;
-} */
+
 
 .fotos{
     width: 70%;
     height: 95%;
-
-    border: solid 4px blue;
 }
 
 .swiper-button-prev,
@@ -180,7 +180,36 @@ border: solid 1px green;
 
 
 
+@media (max-width:1500px){
+    #container section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .fotos{
+        width: 95%;
+    }
 
+    #cx{
+        width: 100%;
+    }
+    .horarios{
+        width: 97%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .hora{
+        display: flex;
+        justify-content: center;
+        gap: 3%;
+        flex-wrap: wrap;
+        color: #000; 
+        line-height: 2.5;
+        font-size: 1rem;
+    }
+   
+}
 
 @media (max-width:940px){
     height: fit-content;
@@ -197,7 +226,21 @@ border: solid 1px green;
 #cxTexto{
     width: 90%;
 }
+.hora{
+        display: flex;
+       
+        flex-wrap: wrap;
+        color: #000; 
+        line-height:3;
+        font-size: .80rem;
+        height: 100%;
+    }
 
+}
+@media (max-width:700px){
+    .fotos{
+        height: 60%;
+    }
 }
 @media (max-width:600px){
 
@@ -212,6 +255,28 @@ border: solid 1px green;
     .faixa {
         width:80% ;
     }
+}
+@media (max-width:420px){
+    #cx{
+        width: 100%;
+    }
+    .horarios{
+        width: 97%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .hora{
+        display: flex;
+       
+        flex-wrap: wrap;
+        color: #000; 
+        line-height:3;
+        font-size: .80rem;
+       
+    }
+    
 }
 `
 
