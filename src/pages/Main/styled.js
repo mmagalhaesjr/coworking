@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { color, backOut } from 'framer-motion';
 
 
 export const StyledTelaInicial = styled.section`
@@ -12,13 +13,13 @@ a{
 }
 
 #whattsapp{
-    z-index: 1;
+    z-index: 8;
     position: fixed;
     font-size: 50px;
     right: 25px;
     top:670px;
     cursor: pointer;
-    color: #000000;
+    color: #15da0e;
     text-decoration: none;
 }
 #whattsapp:hover{

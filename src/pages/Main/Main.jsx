@@ -1,5 +1,5 @@
 import { StyledTelaInicial } from "./styled";
-// import { BsWhatsapp } from 'react-icons/bs';
+import { BsWhatsapp } from 'react-icons/bs';
 
 import Servicos from "../Servicos/Servicos"
 import Espacos from '../Espacos/Espacos'
@@ -15,7 +15,7 @@ export default function TelaInicial() {
     return (
         <StyledTelaInicial>
             <Cabecalho />
-            {/* <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a> */}
+            <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
             <Inicial />
             <Espacos />
             <Servicos />

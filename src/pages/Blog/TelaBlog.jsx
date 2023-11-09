@@ -44,7 +44,7 @@ export default function Blog() {
                         independentes...
                     </p>
                 </div>
-                <div className="materia" onClick={() => navegar('/blog1')}>
+                <div className="materia" onClick={() => navegar('/blog2')}>
                     <div className="foto">
                         <img src={foto1} alt="" />
                     </div>
@@ -59,7 +59,7 @@ export default function Blog() {
                         independentes...
                     </p>
                 </div>
-                <div className="materia" onClick={() => navegar('/blog1')}>
+                <div className="materia" onClick={() => navegar('/blog3')}>
                     <div className="foto">
                         <img src={foto1} alt="" />
                     </div>

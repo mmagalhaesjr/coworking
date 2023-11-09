@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 
+
 export const StyledEventos = styled.section`
 width: 100%;
 display: flex;
@@ -17,8 +18,6 @@ align-items: center;
 justify-content: center;
 
 margin-top: 5%;
-
-
 }
  #cxTexto{
     width: 40%;
@@ -50,8 +49,7 @@ margin-top: 5%;
 }
 }
 @media (max-width:600px){
-        
-    
+
 #cxTexto{
     width: 90%;
     h2{
@@ -103,11 +101,12 @@ section{
 }
 #cxHorario{
     position: absolute;
-    right: 0%;
-    top: -15px;
+    right: 15%;
+    top: 3%;
     z-index: 4;
-    width: 40%;
+    width: 50%;
     min-width: 400px;
+    max-width: 600px;
     height: 25%;
 
     -webkit-backdrop-filter: blur(10px);
@@ -129,11 +128,18 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .hora{
     color: #ffffff;
     font-size: .92rem; 
-    line-height: 1.5;
+    /* line-height: 2; */
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+.hora h2{
+    margin-top:2%;
+    margin-bottom: 2%;
 }
 
 
@@ -180,9 +186,7 @@ section{
 
 
 @media (max-width:1500px){
-    .fotos{
-        width: 95%;
-    }
+    
 }
 
 @media (max-width:940px){
@@ -206,7 +210,31 @@ section{
         height: 60%;
     }
 }
-@media (max-width:600px){
+@media (max-width:600px){ //...........................
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #cxHorario{
+        width: 90%;
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-bottom: 5%;
+    }
+    .hora h2{
+        margin-top:5%;
+        margin-bottom: 5%;
+}
+    .hora{
+        color: #000000;
+    }
+    .fotos{
+        width: 95%;
+        height: 50%;
+    }
     .faixa p{
         font-size: 15px;
         margin-left: 6%;

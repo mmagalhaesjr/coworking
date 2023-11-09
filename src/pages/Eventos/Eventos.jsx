@@ -41,9 +41,9 @@ export default function Eventos() {
                 <div id="container">
                     <div id="cxTexto">
                         <h2>
-                            O <span>Temasek Coworking </span>  
-                            recebe você, seus amigos e parceiros 
-                            de trabalho para treinamentos, reuniões, 
+                            O <span>Temasek Coworking </span>
+                            recebe você, seus amigos e parceiros
+                            de trabalho para treinamentos, reuniões,
                             coquetéis, lançamentos, workshops e celebrações.
                         </h2>
                     </div>
@@ -82,9 +82,9 @@ export default function Eventos() {
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div className="fotos">
-                        <Swiper
+                            <Swiper
                                 modules={[EffectCreative, Navigation, Pagination, A11y]}
                                 navigation
                                 grabCursor={true}
@@ -117,7 +117,10 @@ export default function Eventos() {
                 <div id="container">
                     <div id="cxTexto">
                         <h2>
-                            Planeje seu próximo evento com o Temasek Coworking
+                            Reserve
+                            nosso espaço
+                            para a sua
+                            celebração!
                         </h2>
                     </div>
 
@@ -127,15 +130,15 @@ export default function Eventos() {
 
                             <div className="texto">
                                 <h2>
-                                    Reserve <br />
-                                    nosso espaço <br />
-                                    para a sua <br />
-                                    celebração! <br />
+                                    Entre em contato <br />
+                                    conosco para garantir <br />
+                                    a sua reserva <br />
+
                                 </h2>
                                 <p>
-                                    Entre em contato
-                                    conosco para garantir
-                                    a sua reserva
+
+
+
                                 </p>
 
 
@@ -154,7 +157,7 @@ export default function Eventos() {
 
             </StyledEventos3>
 
-            <Rodape/>
+            <Rodape />
         </>
     )
 }

@@ -12,7 +12,7 @@ import 'swiper/css/pagination';
 
 import { Autoplay, Navigation, Pagination, A11y } from 'swiper/modules';
 
-import foto1 from '../../assets/capa/sala1.webp'
+import foto1 from '../../assets/capa/foto.jpg'
 import foto2 from '../../assets/capa/sala2.webp'
 import foto3 from '../../assets/capa/sala3.webp'
 import foto4 from '../../assets/capa/sala4.webp'

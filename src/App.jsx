@@ -11,7 +11,10 @@ import QuemSomos from "./pages/QuemSomos/QuemSomos";
 import Planos from './pages/Planos/Planos';
 import Eventos from "./pages/Eventos/Eventos";
 import Blog1 from './pages/blogs/Blog1/Blog1';
+
 import { HomeContextProvider } from "./contexts/homeComponentContext";
+import Blog2 from "./pages/blogs/Blog2/Blog2";
+import Blog3 from "./pages/blogs/Blog3/Blog3";
 
 
 
@@ -40,7 +43,10 @@ export default function App() {
                         <Route path="/eventos" element={<Eventos />} />
 
                         <Route path="/blog" element={<TelaBlog />} />
+
                         <Route path="/blog1" element={<Blog1 />} />
+                        <Route path="/blog2" element={<Blog2 />} />
+                        <Route path="/blog3" element={<Blog3 />} />
 
                         <Route path="/confirmar" element={<ConfirmarEnvio />} />
 
