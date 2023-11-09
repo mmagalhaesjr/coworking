@@ -1,8 +1,9 @@
 import { createContext, useState } from 'react';
+import PropTypes from "prop-types";
 
-const HomeContext = createContext();
+export const HomeContext = createContext();
 
-const HomeContextProvider = ({ children }) => {
+export default function HomeContextProvider({ children }){
   // Defina o estado ou dados que deseja compartilhar no contexto
   const [homeComponent, setHomeComponent] = useState('');
 
@@ -13,4 +14,9 @@ const HomeContextProvider = ({ children }) => {
   );
 };
 
-export { HomeContext, HomeContextProvider };
+
+HomeContextProvider.propTypes = {
+  children: PropTypes.node.isRequired
+};
+
+
