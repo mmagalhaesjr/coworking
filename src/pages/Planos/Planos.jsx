@@ -29,7 +29,7 @@ import foto6 from '../../assets/privadas/1.webp'
 import Cabecalho2 from "../../components/Cabecalho2/Cabecalho2"
 import { useNavigate } from "react-router-dom";
 import Rodape from '../../components/Rodape/Rodape';
-import { HomeContext } from "../../contexts/homeComponentContext";
+import { HomeContext } from "../../contexts/HomeContext";
 
 export default function Planos() {
 

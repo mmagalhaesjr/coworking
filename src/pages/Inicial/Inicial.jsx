@@ -17,7 +17,7 @@ import foto2 from '../../assets/capa/sala2.webp'
 import foto3 from '../../assets/capa/sala3.webp'
 import foto4 from '../../assets/capa/sala4.webp'
 import { useContext, useEffect } from "react";
-import { HomeContext } from "../../contexts/homeComponentContext";
+import { HomeContext } from "../../contexts/HomeContext";
 
 
 
