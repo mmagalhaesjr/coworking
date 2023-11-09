@@ -19,7 +19,6 @@ background-color: #F4F3F0 ;
     width: 70%;
     height: 10%;
     margin-top: 80px;
-    
   }
 
   #titulos h1{
