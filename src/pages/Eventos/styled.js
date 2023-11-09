@@ -1,11 +1,6 @@
 import styled from 'styled-components';
 
 
-
-
-
-
-
 export const StyledEventos = styled.section`
 width: 100%;
 display: flex;
@@ -109,9 +104,12 @@ justify-content: center;
     justify-content: center;
 }
 #cx{
+    position: absolute;
+   
+    z-index: 8;
     width: 30%;
     height: 70%;
-    margin-top: 20px;
+   
    
     -webkit-backdrop-filter: blur(10px);
     -webkit-background-color: rgba(18, 18, 18, 0.2);
@@ -181,33 +179,12 @@ justify-content: center;
 
 
 @media (max-width:1500px){
-    #container section{
-        display: flex;
-        flex-direction: column-reverse;
-    }
+   
+   
     .fotos{
         width: 95%;
     }
 
-    #cx{
-        width: 100%;
-    }
-    .horarios{
-        width: 97%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      
-    }
-    .hora{
-        display: flex;
-        justify-content: center;
-        gap: 3%;
-        flex-wrap: wrap;
-        color: #000; 
-        line-height: 2.5;
-        font-size: 1rem;
-    }
    
 }
 
@@ -226,15 +203,7 @@ justify-content: center;
 #cxTexto{
     width: 90%;
 }
-.hora{
-        display: flex;
-       
-        flex-wrap: wrap;
-        color: #000; 
-        line-height:3;
-        font-size: .80rem;
-        height: 100%;
-    }
+
 
 }
 @media (max-width:700px){
@@ -267,15 +236,7 @@ justify-content: center;
         justify-content: center;
       
     }
-    .hora{
-        display: flex;
-       
-        flex-wrap: wrap;
-        color: #000; 
-        line-height:3;
-        font-size: .80rem;
-       
-    }
+   
     
 }
 `

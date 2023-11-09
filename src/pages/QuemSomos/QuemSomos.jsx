@@ -55,7 +55,7 @@ export default function QuemSomos() {
                             <h2>
                                 Visamos ser reconhecidos como líderes em espaços
                                 altamente produtivos, onde nossos clientes
-                                possam atingir o ápice da sua performance
+                                possam atingir o ápice da sua performance.
                             </h2>
                         </div>
                         {/* <img src={icone2} alt="" /> */}

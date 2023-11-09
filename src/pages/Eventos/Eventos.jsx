@@ -44,8 +44,7 @@ export default function Eventos() {
                             O <span>Temasek Coworking </span>  
                             recebe você, seus amigos e parceiros 
                             de trabalho para treinamentos, reuniões, 
-                            coquetéis, lançamentos, workshops e celebrações 
-                            de fim de ano.
+                            coquetéis, lançamentos, workshops e celebrações.
                         </h2>
                     </div>
                     <div id="cxVideo">
