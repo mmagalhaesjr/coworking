@@ -15,7 +15,7 @@ a{
 #whattsapp{
     z-index: 8;
     position: fixed;
-    font-size: 50px;
+    font-size: 3rem;
     right: 25px;
     top:670px;
     cursor: pointer;

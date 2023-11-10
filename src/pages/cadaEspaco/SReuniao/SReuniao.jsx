@@ -15,6 +15,8 @@ import 'swiper/css/pagination';
 
 import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
 
+import { BsWhatsapp } from 'react-icons/bs';
+
 import foto2 from '../../../assets/reuniao/2.webp'
 import foto3 from '../../../assets/reuniao/3.webp'
 import foto4 from '../../../assets/reuniao/4.webp'
@@ -57,11 +59,7 @@ export default function SReuniao() {
         <Cabecalho2/>
             <StyledSReuniao>
 
-                <div id="titulo">
-
-
-
-                </div>
+            <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
                 <div id="container">
 

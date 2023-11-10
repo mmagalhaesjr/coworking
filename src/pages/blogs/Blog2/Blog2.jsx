@@ -2,10 +2,14 @@ import { StyledBlog2 } from "./styled"
 
 import foto1 from '../../../assets/blog/blog2-f1.png'
 import foto2 from '../../../assets/blog/blog2-f2.png'
+import Cabecalho2 from '../../../components/Cabecalho2/Cabecalho2';
+import Rodape from '../../../components/Rodape/Rodape';
 
 
 export default function Blog2() {
     return (
+       <>
+       <Cabecalho2/>
         <StyledBlog2>
             <div id="titulo">
                 <h1>
@@ -99,5 +103,7 @@ export default function Blog2() {
 
             </div>
         </StyledBlog2>
+        <Rodape/>
+       </>
     )
 }

@@ -1,7 +1,11 @@
 import styled from 'styled-components';
 
 
+
+
 export const StyledMCompartilhada = styled.section`
+
+
 width: 100%;
 background-color: #F4F3F0 ;
 padding-top: 30px;
@@ -11,26 +15,27 @@ align-items: center;
 justify-content: center;
 
 
-
-
-#titulo{
-
+#whattsapp{
+    z-index: 8;
+    position: fixed;
+    font-size: 3rem;
+    right: 25px;
+    top:670px;
+    cursor: pointer;
+    color: #15da0e;
+    text-decoration: none;
 }
-#titulo h1{
-    font-size: 1rem;
-    position: relative;
-    top: -50px;
+#whattsapp:hover{
+    color: #398462;
+    transition:0.3s;
 }
 
 #container{
     width: 100%;
     height: 100%;
     display: flex;
-    margin-top: 10%;
-    
+    margin-top: 10%;   
 }
-
-
 
 #containerTexto{
     width: 60%;
@@ -113,8 +118,9 @@ h3{
 }
 
 @media (max-width:1300px){
+    height: 100vh;
 
-    #container{
+#container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -123,11 +129,18 @@ h3{
 #containerTexto{
     width: 95%;
 }
+
 #containerFoto{
     width: 90%;
+    margin-top: 10%;
 }
 }
 
+@media (max-width:500px){
+#texto{
+    margin-top: 25%;
+}
+}
 
 `
 
@@ -149,6 +162,8 @@ align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    
 }
 
 #titulo{
@@ -248,6 +263,8 @@ margin-top: 100px;
         margin-top: 50px;
         margin-bottom: 50px;
         width: 30%;
+        min-width: 200px;
+        max-width:300px ;
         height: 60px;
         background-color: #000000;
         color: #F4F3F0;
@@ -260,6 +277,8 @@ margin-top: 100px;
         color:#000000; 
         transition:0.7s;
     }
+
+        
     }
 
     @media (max-width:1300px){
@@ -309,6 +328,7 @@ margin-top: 100px;
         height: 50px;
     }
 }
+
 
     
 

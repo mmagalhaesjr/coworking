@@ -35,6 +35,7 @@ justify-content: center;
     margin-top: 10rem;
 }
 .imgCoworking{
+    margin-top: 10px;
     position: relative;
     left:-29%;
     width: 25%;

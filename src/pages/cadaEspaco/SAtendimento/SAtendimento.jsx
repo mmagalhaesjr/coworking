@@ -12,6 +12,8 @@ import 'swiper/css/pagination';
 
 import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
 
+import { BsWhatsapp } from 'react-icons/bs';
+
 import foto2 from '../../../assets/atendimento/2.webp'
 import foto3 from '../../../assets/atendimento/3.webp'
 import foto4 from '../../../assets/atendimento/4.webp'
@@ -52,9 +54,7 @@ export default function SAtendimento() {
         <Cabecalho2/>
             <StyledSAtendimento>
 
-                <div id="titulo">
-
-                </div>
+            <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
                 <div id="container">
 

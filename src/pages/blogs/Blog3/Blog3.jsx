@@ -1,10 +1,15 @@
 import { StyledBlog3 } from "./styled"
 
 import foto1 from '../../../assets/blog/blog3-f1.png'
+import Cabecalho2 from '../../../components/Cabecalho2/Cabecalho2';
+import Rodape from '../../../components/Rodape/Rodape';
+
 
 
 export default function Blog3() {
     return (
+       <>
+       <Cabecalho2/>
         <StyledBlog3>
             <div id="titulo">
                 <h1>
@@ -116,5 +121,7 @@ export default function Blog3() {
                 </div>
             </div>
         </StyledBlog3>
+        <Rodape/>
+       </>
     )
 }

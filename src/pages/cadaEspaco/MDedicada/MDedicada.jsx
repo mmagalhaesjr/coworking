@@ -11,6 +11,7 @@ import 'swiper/css/pagination';
 
 import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
 
+import { BsWhatsapp } from 'react-icons/bs';
 
 import foto2 from '../../../assets/dedicadas/1.webp'
 import foto3 from '../../../assets/dedicadas/2.webp'
@@ -54,11 +55,7 @@ export default function MDedicada() {
         <Cabecalho2/>
             <StyledMDedicada>
 
-                <div id="titulo">
-
-
-
-                </div>
+            <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
                 <div id="container">
 
