@@ -15,7 +15,7 @@ import { EffectCreative, Navigation, Pagination,A11y } from 'swiper/modules';
 import foto1 from '../../assets/servicos/1.webp'
 import foto3 from '../../assets/servicos/3.webp'
 import foto4 from '../../assets/servicos/4.webp'
-import carro from '../../assets/servicos/carro.webp'
+import carro from '../../assets/servicos/teste.jpg'
 
 
 

@@ -1,10 +1,14 @@
 import { StyledBlog1 } from "./styled"
 
+import Cabecalho2 from '../../../components/Cabecalho2/Cabecalho2';
+import Rodape from '../../../components/Rodape/Rodape';
+
+import { BsWhatsapp } from 'react-icons/bs';
+
 import foto1 from '../../../assets/blog/foto1.png'
 import foto2 from '../../../assets/blog/foto2.png'
 import foto3 from '../../../assets/blog/foto3.png'
-import Cabecalho2 from '../../../components/Cabecalho2/Cabecalho2';
-import Rodape from '../../../components/Rodape/Rodape';
+
 
 
 export default function Blog1() {
@@ -13,6 +17,8 @@ export default function Blog1() {
             <Cabecalho2 />
             <StyledBlog1>
                 <div id="container1" >
+
+                <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
                     <div id="titulo">
                         <h1>
@@ -30,15 +36,6 @@ export default function Blog1() {
                                 parcerias. O networking acontece diariamente.
                             </p>
                         </div>
-
-                        <div id='bloco1'>
-                        </div>
-
-                        <div id='bloco2'>
-                        </div>
-
-
-
 
 
                         <div className="img">

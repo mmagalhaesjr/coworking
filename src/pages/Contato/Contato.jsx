@@ -1,6 +1,8 @@
 import Formulario from "../../components/Formulario/Formulario";
 import { StyledContato } from "./styled";
 
+import foto from '../../assets/capa/marcos.png'
+
 
 export default function Contato() {
 
@@ -11,7 +13,7 @@ export default function Contato() {
 
             <div id="container">
 
-               
+               <img src={foto} alt="" />
 
                 <div id="titulos">
                     <h1>

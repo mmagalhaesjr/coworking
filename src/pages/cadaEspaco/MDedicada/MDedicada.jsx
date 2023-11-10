@@ -70,7 +70,7 @@ export default function MDedicada() {
                             <ul>
                                 <li>Ambiente climatizado e Wifi de alta velocidade</li>
                                 <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
-                                <li>Acesso a salas de reunião, com pagamento pelo uso</li>
+                                <li>Desconto nas Salas de Reunião</li>
                                 <li>Impressão e digitalização de documentos e arquivos </li>
                             </ul>
                         </div>

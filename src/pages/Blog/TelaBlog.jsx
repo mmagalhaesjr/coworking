@@ -7,6 +7,9 @@ import { BsWhatsapp } from 'react-icons/bs';
 import foto1 from "../../assets/blog/foto1.png"
 import foto2 from "../../assets/blog/blog2-f1.png"
 import foto3 from "../../assets/blog/blog3-f1.png"
+import foto4 from "../../assets/blog/blog4-f1.png"
+import foto5 from "../../assets/blog/blog5-f1.png"
+
 
 import Cabecalho2 from '../../components/Cabecalho2/Cabecalho2';
 import Rodape from '../../components/Rodape/Rodape';
@@ -25,7 +28,7 @@ export default function Blog() {
 
             <StyledBlog>
 
-            <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
+                <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
 
                 <div id="titulo">
@@ -35,6 +38,7 @@ export default function Blog() {
                 </div>
 
                 <div id="container">
+
 
                     <div className="materia" onClick={() => navegar('/blog1')}>
                         <div className="foto">
@@ -82,6 +86,41 @@ export default function Blog() {
 
                         </p>
                     </div>
+
+                    <div className="materia" onClick={() => navegar('/blog4')}>
+                        <div className="foto">
+                            <img src={foto4} alt="" />
+                        </div>
+                        <div className="texto">
+                            <h1>
+                                É possível ter privacidade em um
+                                escritório compartilhado?
+
+                            </h1>
+                        </div>
+                        <p>
+                            Confira abaixo algumas maneiras de garantir a privacidade
+                            em um espaço de coworking...
+                        </p>
+                    </div>
+
+                    <div className="materia" onClick={() => navegar('/blog5')}>
+                        <div className="foto">
+                            <img src={foto5} alt="" />
+                        </div>
+                        <div className="texto">
+                            <h1>
+                                Trabalho Flexível: Desvendando os
+                                Benefícios do Coworking
+                            </h1>
+                        </div>
+                        <p>
+                            Descubra neste blog como esses espaços de trabalho
+                            compartilhados podem revolucionar a maneira como você
+                            trabalha...
+                        </p>
+                    </div>
+
 
                 </div>
             </StyledBlog>

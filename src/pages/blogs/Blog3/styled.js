@@ -11,6 +11,45 @@ align-items: center;
 span{
     font-weight: 700;
 }
+
+#whattsapp{
+    z-index: 8;
+    position: fixed;
+    font-size: 3rem;
+    right: 25px;
+    top:670px;
+    cursor: pointer;
+    color: #15da0e;
+    text-decoration: none;
+}
+#whattsapp:hover{
+    color: #398462;
+    transition:0.3s;
+}
+
+#container1{
+margin-top: 10%;
+margin-bottom: 10%;
+width: 80%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: solid 20px ;
+border-image: linear-gradient(to left,#ac7b40 , #101010) 4 repeat;
+}
+
+#container2{
+width: 60%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-bottom: 5%;
+background-color: #ffffff;
+
+}
+
 #titulo{
 margin-top: 5%;
 width: 100%;

@@ -39,25 +39,24 @@ font-weight: 700;
 #container{
     margin-top: 5%;
     width: 95%;
-    height: 100%;
 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 5%; 
+    gap: 2%; 
 }
+
 
 .materia{
     width:20%;
     min-width:350px ;
-    height: 50%;
-    margin-bottom: 10%;
-
+    height: 350px;
+    margin-bottom: 5%;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-   
     background-color: #ffffff;
 
     &:hover{

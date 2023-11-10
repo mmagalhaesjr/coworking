@@ -226,7 +226,7 @@ export default function Planos() {
                             <h2>Sala Nova York</h2>
                             <p>
                                 Sala de reunião para receber seus clientes e parceiros,
-                                com tratamento acústico, climatizada, com televisão e
+                                com isolamento acústico, climatizada, com televisão e
                                 equipamento de áudio e vídeo.
                             </p>
                             <div id="icones">
@@ -260,7 +260,7 @@ export default function Planos() {
                         <div className="txt">
                             <h2>Sala Paris</h2>
                             <p>
-                                Sala para atendimento com tratamento acústico,
+                                Sala para atendimento com isolamento acústico,
                                 climatizada e com equipamento de áudio e vídeo.
                                 Possui 2 poltronas e 1 divã.
                             </p>
@@ -301,7 +301,7 @@ export default function Planos() {
                             <h2>Sala Londres</h2>
                             <p>
                                 Sala de reunião para receber seus clientes e parceiros,
-                                com tratamento acústico, climatizada, com televisão e
+                                com isolamento acústico, climatizada, com televisão e
                                 equipamento de áudio e vídeo.
                             </p>
 

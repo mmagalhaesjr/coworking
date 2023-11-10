@@ -9,9 +9,9 @@ background-color: #F4F3F0;
 margin: auto;
 padding: 20px;
 gap: 5%;
-background-image: url(src/assets/capa/marcos.png);
+/* background-image: url(src/assets/capa/marcos.png);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: cover; */
 
 
 /* flex-direction: column;  */
@@ -24,6 +24,12 @@ background-size: cover;
     gap: 5%;
     
 }
+img{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+}
+
 #titulos{
     width: 40%;
     display: flex;
@@ -37,13 +43,19 @@ background-size: cover;
 
 #titulos h1{
     font-size:40px;
+    z-index: 2;
 }
 
 
 @media (max-width:940px){
 
+   
+
    #titulos h1{
       font-size: 30px;
+    }
+    img{
+        height: 90%;
     }
 
 }

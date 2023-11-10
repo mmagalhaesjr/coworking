@@ -30,14 +30,14 @@ justify-content: center;
 
 .imgTemasek{
     position: relative;
-    left:18%;
+    left:16%;
     width: 50%;
     margin-top: 10rem;
 }
 .imgCoworking{
     margin-top: 10px;
     position: relative;
-    left:-29%;
+    left:-31%;
     width: 25%;
 }
 
