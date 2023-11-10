@@ -51,9 +51,12 @@ justify-content: center;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+
+    
 }
 #texto h1{
 font-size: 2.5rem;
+
 }
 #texto h2{
     font-size:1.5rem;
@@ -141,7 +144,7 @@ h3{
     margin-top: 30%;
 }
 #texto h1{
-    margin-top: 30%;
+    margin-top: 50%;
 }
 }
 
@@ -302,14 +305,14 @@ margin-top: 100px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
-       
        }
 
         #titulo{
             display: flex;
             align-items: center;
             text-align: center;
+            margin-top: 50%;
+            font-size: 1.5rem;
         }
 
         #container1{
