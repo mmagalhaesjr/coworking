@@ -138,7 +138,10 @@ h3{
 
 @media (max-width:500px){
 #texto{
-    margin-top: 25%;
+    margin-top: 30%;
+}
+#texto h1{
+    margin-top: 30%;
 }
 }
 
