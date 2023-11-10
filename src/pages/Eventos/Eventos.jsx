@@ -15,6 +15,8 @@ import 'swiper/css/pagination';
 
 import { EffectCreative, Navigation, Pagination, A11y } from 'swiper/modules';
 
+import { BsWhatsapp } from 'react-icons/bs';
+
 import foto1 from '../../assets/fotoNoite/1.webp'
 import foto2 from '../../assets/fotoNoite/2.webp'
 import foto3 from '../../assets/fotoNoite/3.webp'
@@ -37,6 +39,8 @@ export default function Eventos() {
         <>
             <Cabecalho2 />
             <StyledEventos >
+
+            <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
                 <div id="container">
                     <div id="cxTexto">
@@ -132,7 +136,7 @@ export default function Eventos() {
                                 <h2>
                                     Entre em contato <br />
                                     conosco para garantir <br />
-                                    a sua reserva <br />
+                                    a sua reserva. <br />
 
                                 </h2>
                                 <p>

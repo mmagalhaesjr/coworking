@@ -2,7 +2,7 @@ import { StyledSReuniao, Styled2 } from "./styled";
 
 
 
-import { BsPerson } from 'react-icons/bs';
+import { BsFillPersonFill } from 'react-icons/bs';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -71,7 +71,7 @@ export default function SReuniao() {
                                 qualquer tipo de reunião ou workshop. Ideal para trabalhar e organizar reuniões e treinamentos.
                             </h2>
 
-                            <div><h4>Sala Nova York </h4> <BsPerson /> <h4>10</h4></div>
+                            <div><h4>Sala Nova York </h4> <BsFillPersonFill /> <h4>10</h4></div>
 
                             <h3>Vantagens</h3>
                             <ul>

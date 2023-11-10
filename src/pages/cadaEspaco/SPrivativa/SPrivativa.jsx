@@ -1,6 +1,6 @@
 import { StyledSPrivativa, Styled2 } from "./styled";
 
-import { BsPerson } from 'react-icons/bs';
+import { BsFillPersonFill } from 'react-icons/bs';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -69,8 +69,8 @@ export default function SPrivativa() {
                                 Possui design moderno e intimista.
                             </h2>
                             
-                                <div> <h4>Sala Londres</h4> <BsPerson /> <h4>4   </h4></div>
-                                <div> <h4>Sala Roma</h4> <BsPerson /> <h4>4   </h4></div>
+                                <div> <h4>Sala Londres</h4> <BsFillPersonFill /> <h4>4   </h4></div>
+                                <div> <h4>Sala Roma</h4> <BsFillPersonFill /> <h4>4   </h4></div>
                             
                             <h3>Vantagens</h3>
                             <ul>

@@ -1,5 +1,5 @@
 import { StyledSAtendimento, Styled2 } from "./styled";
-import { BsPerson } from 'react-icons/bs';
+import { BsFillPersonFill } from 'react-icons/bs';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -66,7 +66,7 @@ export default function SAtendimento() {
                                 dentre outros.
                             </h2>
 
-                            <div> <h4>Sala Paris</h4> <BsPerson /> <h4>4</h4></div>
+                            <div> <h4>Sala Paris</h4> <BsFillPersonFill /> <h4>4</h4></div>
 
 
                             <h3>Vantagens</h3>

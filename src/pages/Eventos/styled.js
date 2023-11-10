@@ -8,6 +8,22 @@ display: flex;
 align-items: center;
 flex-direction: column;
 
+#whattsapp{
+    z-index: 8;
+    position: fixed;
+    font-size: 3rem;
+    right: 25px;
+    top:670px;
+    cursor: pointer;
+    color: #15da0e;
+    text-decoration: none;
+}
+#whattsapp:hover{
+    color: #398462;
+    transition:0.3s;
+}
+
+
 #container{
 width: 100%;
 height: 100%;
@@ -319,7 +335,7 @@ justify-content: center;
 }
 
 .botao{
-    width: 100%;
+    width: 90%;
     height: 80px;
     margin-top: 20px; 
     background-color: #101010;

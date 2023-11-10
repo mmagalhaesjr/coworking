@@ -317,7 +317,7 @@ export default function Planos() {
                                 <div className="valor">
                                     <h4>mensal</h4>
                                     <div>
-                                        <p>R$</p><h3>2.500</h3>
+                                        <p>R$</p><h3>2.500,00</h3>
                                     </div>
                                 </div>
                                 <button onClick={contato}>

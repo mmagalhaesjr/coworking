@@ -2,6 +2,8 @@ import { StyledBlog } from "./styled";
 
 import { useNavigate } from 'react-router-dom';
 
+import { BsWhatsapp } from 'react-icons/bs';
+
 import foto1 from "../../assets/blog/foto1.png"
 import foto2 from "../../assets/blog/blog2-f1.png"
 import foto3 from "../../assets/blog/blog3-f1.png"
@@ -22,6 +24,8 @@ export default function Blog() {
             <Cabecalho2 />
 
             <StyledBlog>
+
+            <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
 
                 <div id="titulo">

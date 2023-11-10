@@ -5,10 +5,27 @@ export const StyledBlog = styled.main`
 width: 100%;
 
 
+
 display: flex;
 align-items: center;
 text-align: center;
 flex-direction: column;
+
+
+#whattsapp{
+    z-index: 8;
+    position: fixed;
+    font-size: 3rem;
+    right: 25px;
+    top:630px;
+    cursor: pointer;
+    color: #15da0e;
+    text-decoration: none;
+}
+#whattsapp:hover{
+    color: #398462;
+    transition:0.3s;
+}
 
 #titulo{
 margin-top: 7%;

@@ -31,14 +31,12 @@ justify-content: center;
 
 #container{
     width: 100%;
-    height: 100%;
     display: flex;
     margin-top: 10%;   
 }
 
 #containerTexto{
     width: 60%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,15 +48,31 @@ justify-content: center;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+
+    
 }
 #texto h1{
 font-size: 2.5rem;
+
 }
 #texto h2{
     font-size:1.5rem;
     margin-top: 50px;
     font-weight: 100;
 }
+
+#texto div{
+    width: 300px;
+    font-size: 1.5rem;
+    display: flex;
+    margin-top: 10px;
+    font-weight: 500;
+}
+#texto div h4{
+
+margin-right: 10px;
+}
+
 h3{
     font-size: 2rem;
     margin-top: 50px;
@@ -117,7 +131,6 @@ h3{
 }
 
 @media (max-width:1300px){
-    height: 100vh;
 
 #container{
     display: flex;
@@ -137,8 +150,9 @@ h3{
 
 @media (max-width:500px){
 #texto{
-    margin-top: 25%;
+    margin-top: 10%;
 }
+
 }
 
 `
@@ -155,7 +169,6 @@ background-color: #F4F3F0
 display: flex;
 flex-direction: column;
 align-items: center;
-
 #container{
     width: 100%;
     display: flex;
@@ -180,7 +193,7 @@ align-items: center;
 justify-content: center;
 gap: 80px;
 flex-wrap: wrap;
-margin-top: 100px;
+margin-top: 5%;
 
 
 }
@@ -298,21 +311,20 @@ margin-top: 100px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
-       
        }
 
         #titulo{
             display: flex;
             align-items: center;
             text-align: center;
+            font-size: 1.5rem;
         }
 
         #container1{
             gap: 10%;
         }
         .cxIcone{
-        width: 90%; 
+        width: 40%; 
         display: flex;
         flex-direction: column;
         align-items: center;
