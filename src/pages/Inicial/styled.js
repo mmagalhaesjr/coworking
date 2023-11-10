@@ -44,6 +44,8 @@ color: #fff;
 .salas{
     width: 100%;
     height: 100%;
+
+  
 }
 
 
@@ -105,6 +107,8 @@ img{
     font-size: 50px;
 }
 
+}
+
 @media (max-width:600px){
 width: 100%;
 height: 300px;
@@ -113,6 +117,11 @@ height: 300px;
     font-size: 30px;
     
 }
+}
+@media (max-width:500){
+.salas{
+    width: 100%;
+    height: 80%;
 }
 }
 `

@@ -11,6 +11,10 @@ color: #ffffff;
 text-align: center;
 
 
+
+
+
+
 #container{
     width: 100%;
     display: flex;
@@ -18,7 +22,7 @@ text-align: center;
     align-items: center;
     gap: 5%;
     bottom:0;
-
+    z-index: 9;
 }
 h3{
     margin-top: -30px;

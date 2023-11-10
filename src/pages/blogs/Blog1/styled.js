@@ -8,9 +8,18 @@ display: flex;
 flex-direction: column;
 align-items: center;
 
+#container1{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 #titulo{
-margin-top: 5%;
+margin-top: 10%;
 width: 100%;
 text-align: center;
 }
@@ -24,15 +33,40 @@ font-size: 2rem;
 margin-bottom: 3%; 
 }
 
-#container{
+#container2{
 width: 50%;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-bottom: 5%;
-
 }
+#bloco1{
+   
+    width: 100px;
+    height:150vh;
+    position: absolute;
+    top: 20%;
+    background-color: #ac7b40;
+    left: 0;
+    z-index: 0;
+  
+  }
+  #bloco2{
+   
+    width: 100px;
+    height:150vh;
+    position: absolute;
+    right: 0%;
+    top: 180%;
+    background-color: #101010;
+   
+    z-index: 0;
+   
+  }
+ 
+  
+ 
 .texto{
     margin-top: 2%;
     width: 100%;
@@ -54,8 +88,11 @@ font-size: 1.2rem;
 
 
 @media(max-width:800px) {
-    #container{
+    #container2{
         width: 90%;
+    }
+    #bloco1, #bloco2{
+        display:none ;
     }
 }
 @media(max-width:480px) {
