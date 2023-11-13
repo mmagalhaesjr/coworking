@@ -67,7 +67,7 @@ export default function Blog2() {
                         </div>
                         <div className="img">
                             <video width="640" height="360" controls>
-                                <source src='src/assets/blog/blog2-video.mp4' type="video/mp4" />
+                                <source src='src/assets/blog/blog2-video.webm' type="video/webm" />
                                 Seu navegador não suporta o elemento de vídeo.
                             </video>
                         </div>
