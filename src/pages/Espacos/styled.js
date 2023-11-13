@@ -9,7 +9,7 @@ export const StyledEspacos = styled.section`
   height: 90vh;
   max-height: 100vh;
   background-color: #F4F3F0;
-position: relative;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;

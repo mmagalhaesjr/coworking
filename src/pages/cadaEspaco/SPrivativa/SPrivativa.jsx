@@ -90,7 +90,7 @@ const contato = () => {
                                 <li>Wifi de alta velocidade e ambiente climatizado</li>
                                 <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
                                 <li>Impressão e digitalização de documentos e arquivos </li>
-                                <li>Desconto na sala de reunião. </li>
+                                <li>Desconto na Sala de Reunião. </li>
                             </ul>
                         </div>
                     </div>
