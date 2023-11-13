@@ -18,7 +18,7 @@ justify-content: center;
     position: fixed;
     font-size: 3rem;
     right: 25px;
-    top:670px;
+    top:90%;
     cursor: pointer;
     color: #15da0e;
     text-decoration: none;

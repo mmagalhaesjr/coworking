@@ -7,6 +7,22 @@ display: flex;
 
 flex-direction: column;
 
+
+#whattsapp{
+    z-index: 8;
+    position: fixed;
+    font-size: 3rem;
+    right: 25px;
+    top:90%;
+    cursor: pointer;
+    color: #15da0e;
+    text-decoration: none;
+}
+#whattsapp:hover{
+    color: #398462;
+    transition:0.3s;
+}
+
 .titulos{
 width: 100%;
 margin-top: 7%;
@@ -33,6 +49,8 @@ h1{
     justify-content: center;
     flex-direction: column;
     position: relative;
+
+  
 
     img {
         position: absolute;

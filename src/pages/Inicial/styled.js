@@ -45,7 +45,7 @@ color: #fff;
     width: 100%;
     height: 100%;
 
-  
+    border: solid 3px blue;
 }
 
 
@@ -73,7 +73,6 @@ img{
     position: relative;
     width: 100%;
     height: 100%;
-  
 }
 
 #titulo{
@@ -88,7 +87,6 @@ img{
     font-size: 80px;
     color: #F4F3F0;
     text-shadow: offset-x offset-y blur-radius color;
-
 }
 
 #setas{
@@ -113,15 +111,26 @@ img{
 width: 100%;
 height: 300px;
 
+
     #titulo h1{
     font-size: 30px;
-    
+ 
 }
 }
-@media (max-width:500){
+
+@media (max-width:500px){
 .salas{
     width: 100%;
-    height: 80%;
+    height: 90%;
+
+    position: relative;
+    top: -5%;
+    /* border: solid 3px red; */
+
 }
+    
 }
+
+
+
 `

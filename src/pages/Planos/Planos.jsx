@@ -18,6 +18,8 @@ import temasek from '../../assets/planos/t.png'
 
 
 
+import { BsWhatsapp } from 'react-icons/bs';
+
 import foto1 from '../../assets/espacos/dedicada.webp'
 import foto2 from '../../assets/espacos/compartilhada.webp'
 import foto3 from '../../assets/espacos/reiniao.webp'
@@ -101,7 +103,7 @@ export default function Planos() {
 
             <StyledPlanos className={`${scrollY > 150 ? 'rolagem' : ''}  ${pageLoaded ? 'paginaCarregada' : ''}`}>
 
-
+            <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
                 <div id="container" >
 

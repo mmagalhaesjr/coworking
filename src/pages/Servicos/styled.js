@@ -53,7 +53,16 @@ align-items: center;
 justify-content: center;
 color:#101010;
 
+/* position: relative;
+left: 10%;
+top: 10%; */
+}
 
+&.rolagem {
+    .cx{
+left: 0;
+top: 0;
+    }
 
 }//termino da rolagem
 

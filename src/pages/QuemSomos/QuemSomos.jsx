@@ -5,6 +5,8 @@ import logo from '../../assets/sobreNos/logo.png'
 import Cabecalho2 from '../../components/Cabecalho2/Cabecalho2';
 import Rodape from '../../components/Rodape/Rodape';
 
+import { BsWhatsapp } from 'react-icons/bs';
+
 
 export default function QuemSomos() {
 
@@ -31,6 +33,8 @@ export default function QuemSomos() {
             <Cabecalho2 />
 
             <StyledQuemSomos id="#quem-somos" className={`${pageLoaded ? 'paginaCarregada' : ''}`} >
+
+            <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
                 <div className="titulos">
                     <h1>Conheça o Temasek Coworking</h1>
