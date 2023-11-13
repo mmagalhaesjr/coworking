@@ -18,7 +18,7 @@ export default function Blog2() {
 
                 <div id="container1">
 
-                <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
+                    <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
 
 
@@ -66,7 +66,7 @@ export default function Blog2() {
                             </p>
                         </div>
                         <div className="img">
-                        <video width="640" height="360" controls>
+                            <video width="640" height="360" controls>
                                 <source src='src/assets/blog/blog2-video.mp4' type="video/mp4" />
                                 Seu navegador não suporta o elemento de vídeo.
                             </video>
