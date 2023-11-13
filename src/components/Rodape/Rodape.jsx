@@ -1,9 +1,10 @@
 import logo from '../../assets/logo.png';
 //import logo from '../../assets/logo-preto.png';
 
-import { AiOutlineInstagram, AiOutlineFacebook, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
+import { AiOutlineInstagram, AiOutlineFacebook, AiFillLinkedin } from 'react-icons/ai';
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { ImLocation2 } from 'react-icons/im';
+import {MdEmail} from 'react-icons/md';
 
 import { StyledRodape } from "./styled"
 
@@ -20,7 +21,7 @@ export default function Rodape() {
                             <BsFillTelephoneFill /> <p>(32) 99850-1001</p>
                         </div>
                         <div className="icones" >
-                            <AiOutlineMail /><p>contato@temasekjf.com.br</p>
+                            <MdEmail /><p>contato@temasekjf.com.br</p>
                         </div>
                     </div>
                 </div>

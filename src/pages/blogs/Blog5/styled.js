@@ -48,7 +48,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-bottom: 5%;
-background-color: #ffffff;
+
 
 }
 

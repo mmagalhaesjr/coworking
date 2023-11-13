@@ -122,6 +122,7 @@ h6{
 }
 .icones{
     display: flex;
+    align-items: center;
     gap:5px;   
 }
 
