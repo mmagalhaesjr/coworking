@@ -12,7 +12,9 @@ text-align: center;
 align-items: center;
 background-color: #F4F3F0 ;
 
-margin-bottom: 20%;
+margin-bottom: 5%;
+
+
 
 
 
