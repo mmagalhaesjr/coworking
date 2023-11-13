@@ -1,5 +1,9 @@
 import { StyledSPrivativa, Styled2 } from "./styled";
 
+import { useNavigate } from "react-router-dom";
+import { useEffect, useContext } from "react";
+import { HomeContext } from "../../../contexts/HomeContext"
+
 import { BsFillPersonFill } from 'react-icons/bs';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -38,18 +42,27 @@ import icone1 from '../../../assets/icones2/empresas.png'
 import icone2 from '../../../assets/icones2/freelancer.png'
 import icone3 from '../../../assets/icones2/startup.png'
 import icone4 from '../../../assets/icones2/remotas.png'
-import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+
 import Cabecalho2 from '../../../components/Cabecalho2/Cabecalho2';
 import Rodape from '../../../components/Rodape/Rodape';
 
 export default function SPrivativa() {
 
-    const navegar = useNavigate()
+   
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+
+//-----------------------------------mover para contato
+const navegar = useNavigate()
+const { setHomeComponent} = useContext(HomeContext)
+const contato = () => {
+    setHomeComponent('contato')
+    navegar('/');
+};
+
+
     return (
 
         <>
@@ -218,7 +231,7 @@ export default function SPrivativa() {
                                 conosco e agende uma visita
                                 para conhecer nosso espaço e serviços!
                             </p>
-                            <button onClick={() => navegar('/')}>
+                            <button onClick={contato}>
                                 Agende uma visita
                             </button>
 

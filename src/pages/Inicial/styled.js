@@ -45,7 +45,6 @@ color: #fff;
     width: 100%;
     height: 100%;
 
-    border: solid 3px blue;
 }
 
 
