@@ -59,7 +59,7 @@ export const StyledCabecalho = styled.header`
     background: none;
     border: none;
     cursor: pointer;
-    margin-top: -30px;
+    margin-top: -50px;
   }
  .linha{
     position: relative;

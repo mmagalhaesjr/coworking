@@ -16,6 +16,21 @@ background-color: #000000;
     transition: 0.5s;
     color: #ffffff;
 
+    #whattsapp{
+    z-index: 8;
+    position: fixed;
+    font-size: 3rem;
+    right: 25px;
+    top:90%;
+    cursor: pointer;
+    color: #15da0e;
+    text-decoration: none;
+}
+#whattsapp:hover{
+    color: #398462;
+    transition:0.3s;
+}
+
   
     .nav-lista{
         margin-top: 130px;

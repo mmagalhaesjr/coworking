@@ -6,6 +6,8 @@ import { useNavigate } from 'react-router-dom';
 import { HomeContext } from '../../contexts/HomeContext';
 
 
+
+
 export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
     // const navegar = useNavigate();
     const navegar = useNavigate();
@@ -33,6 +35,7 @@ export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
                 <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp /> - WHATSAPP</a>
             </nav>
 
+            <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
         </StyledMenuMobile>
 
