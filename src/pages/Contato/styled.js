@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+import foto from '../../assets/capa/marcos.png';
+
+const fotoCaminho = `url(${foto})`;
+
 export const StyledContato = styled.section`
 display: flex;
 justify-content: center;
@@ -9,9 +13,9 @@ background-color: #F4F3F0;
 margin: auto;
 padding: 20px;
 gap: 5%;
-/* background-image: url(src/assets/capa/marcos.png);
+background-image: ${fotoCaminho};
 background-repeat: no-repeat;
-background-size: cover; */
+background-size: cover;
 
 
 /* flex-direction: column;  */
@@ -24,11 +28,11 @@ background-size: cover; */
     gap: 5%;
     
 }
-img{
+/* img{
     position: absolute;
     width: 100%;
     height: 80%;
-}
+} */
 
 #titulos{
     width: 40%;
@@ -64,7 +68,7 @@ img{
 
 
 @media (max-width:940px){
-    height: fit-content;
+   
     #container{
 flex-direction: column;
     

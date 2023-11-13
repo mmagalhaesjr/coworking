@@ -19,7 +19,7 @@ import foto3 from '../../../assets/atendimento/3.webp'
 import foto4 from '../../../assets/atendimento/4.webp'
 
 import ico1 from '../../../assets/icones/concierge.png'
-import ico2 from '../../../assets/icones/telefone.png'
+import ico2 from '../../../assets/icones/tel.png'
 import ico3 from '../../../assets/icones/ar.png'
 import ico4 from '../../../assets/icones/cozinha.png'
 import ico5 from '../../../assets/icones/facial.png'
