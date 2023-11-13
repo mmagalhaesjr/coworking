@@ -22,9 +22,10 @@ import { BsWhatsapp } from 'react-icons/bs';
 
 import foto1 from '../../assets/espacos/dedicada.webp'
 import foto2 from '../../assets/espacos/compartilhada.webp'
+
 import foto3 from '../../assets/espacos/reiniao.webp'
 import foto4 from '../../assets/espacos/atendimento.webp'
-import foto5 from '../../assets/espacos/privada.webp'
+import foto5 from '../../assets/privadas/3.webp'
 import foto6 from '../../assets/privadas/1.webp'
 
 
@@ -82,7 +83,7 @@ export default function Planos() {
 
     //---------------------------
     const navegar = useNavigate()
-    const { setHomeComponent} = useContext(HomeContext)
+    const { setHomeComponent } = useContext(HomeContext)
     const contato = () => {
         setHomeComponent('contato')
         navegar('/');
@@ -103,7 +104,7 @@ export default function Planos() {
 
             <StyledPlanos className={`${scrollY > 150 ? 'rolagem' : ''}  ${pageLoaded ? 'paginaCarregada' : ''}`}>
 
-            <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
+                <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
                 <div id="container" >
 
@@ -191,6 +192,9 @@ export default function Planos() {
                 </div>
 
                 <div className="cxEstacao">
+                    <div className="img">
+                        <img src={foto2} alt="" />
+                    </div>
                     <div className="texto">
                         <div className="txt">
                             <h2> Estação de Trabalho Rotativa </h2>
@@ -214,9 +218,7 @@ export default function Planos() {
                             </section>
                         </div>
                     </div>
-                    <div className="img">
-                        <img src={foto2} alt="" />
-                    </div>
+                   {/* foto */}
                 </div>
 
                 <div className="cxEstacao">
@@ -232,11 +234,11 @@ export default function Planos() {
                                 equipamento de áudio e vídeo.
                             </p>
                             <div id="icones">
-                            <div className="numeros"><BsPersonFill /><p>10</p> </div>
-                            <div className="numeros"><CgScreen /><p>55&quot;</p> </div>
-                            <div className="numeros"> <AiOutlineAudio /> <AiOutlineVideoCameraAdd /> </div>
-                            <PiSnowflakeDuotone/>
-                            <HiWifi />
+                                <div className="numeros"><BsPersonFill /><p>10</p> </div>
+                                <div className="numeros"><CgScreen /><p>55&quot;</p> </div>
+                                <div className="numeros"> <AiOutlineAudio /> <AiOutlineVideoCameraAdd /> </div>
+                                <PiSnowflakeDuotone />
+                                <HiWifi />
                             </div>
                             <section>
                                 <div className="valor">
@@ -258,6 +260,9 @@ export default function Planos() {
                 </div>
 
                 <div className="cxEstacao">
+                    <div className="img">
+                        <img src={foto4} alt="" />
+                    </div>
                     <div className="texto">
                         <div className="txt">
                             <h2>Sala Paris</h2>
@@ -267,11 +272,11 @@ export default function Planos() {
                                 Possui 2 poltronas e 1 divã.
                             </p>
                             <div id="icones">
-                            <div className="numeros"><BsPersonFill /><p>4</p> </div>
-                            <div className="numeros"><LuArmchair/><p>3</p> </div>
-                            <div className="numeros"> <AiOutlineAudio /> <AiOutlineVideoCameraAdd /> </div>
-                            <PiSnowflakeDuotone/>
-                            <HiWifi />
+                                <div className="numeros"><BsPersonFill /><p>4</p> </div>
+                                <div className="numeros"><LuArmchair /><p>3</p> </div>
+                                <div className="numeros"> <AiOutlineAudio /> <AiOutlineVideoCameraAdd /> </div>
+                                <PiSnowflakeDuotone />
+                                <HiWifi />
                             </div>
                             <section>
                                 <div className="valor">
@@ -289,9 +294,7 @@ export default function Planos() {
                             </section>
                         </div>
                     </div>
-                    <div className="img">
-                        <img src={foto4} alt="" />
-                    </div>
+                    {/* foto */}
                 </div>
 
                 <div className="cxEstacao">
@@ -308,11 +311,11 @@ export default function Planos() {
                             </p>
 
                             <div id="icones">
-                            <div className="numeros"><BsPersonFill /><p>4</p> </div>
-                            <div className="numeros"><CgScreen /><p>43&quot;</p> </div>
-                            <div className="numeros"> <AiOutlineAudio /> <AiOutlineVideoCameraAdd /> </div>
-                            <PiSnowflakeDuotone/>
-                            <HiWifi />
+                                <div className="numeros"><BsPersonFill /><p>4</p> </div>
+                                <div className="numeros"><CgScreen /><p>43&quot;</p> </div>
+                                <div className="numeros"> <AiOutlineAudio /> <AiOutlineVideoCameraAdd /> </div>
+                                <PiSnowflakeDuotone />
+                                <HiWifi />
                             </div>
 
                             <section>
@@ -334,6 +337,9 @@ export default function Planos() {
                 </div>
 
                 <div className="cxEstacao">
+                    <div className="img">
+                        <img src={foto5} alt="" />
+                    </div>
                     <div className="texto">
                         <div className="txt">
                             <h2>Sala Roma</h2>
@@ -343,10 +349,10 @@ export default function Planos() {
                                 Possui design moderno e intimista.
                             </p>
                             <div id="icones">
-                            <div className="numeros"><BsPersonFill /><p>4</p> </div>
-                            <div className="numeros"> <AiOutlineAudio /> <AiOutlineVideoCameraAdd /> </div>
-                            <PiSnowflakeDuotone/>
-                            <HiWifi />
+                                <div className="numeros"><BsPersonFill /><p>4</p> </div>
+                                <div className="numeros"> <AiOutlineAudio /> <AiOutlineVideoCameraAdd /> </div>
+                                <PiSnowflakeDuotone />
+                                <HiWifi />
                             </div>
 
                             <section>
@@ -365,14 +371,12 @@ export default function Planos() {
                             </section>
                         </div>
                     </div>
-                    <div className="img">
-                        <img src={foto5} alt="" />
-                    </div>
+                    {/* foto */}
                 </div>
 
             </StyledPlanos2>
 
-            <Rodape/>
+            <Rodape />
         </>
     )
 }

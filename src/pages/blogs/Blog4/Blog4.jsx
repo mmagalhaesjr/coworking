@@ -18,7 +18,7 @@ export default function Blog4() {
 
                 <div id="container1">
 
-                <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
+                    <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
                     <div id="titulo">
                         <h1>
@@ -92,14 +92,19 @@ export default function Blog4() {
                                 enquanto outros têm áreas mais movimentadas e sociais. Escolher um local de trabalho que
                                 atenda às suas necessidades de privacidade faz total diferença. Aqui no Temasek Coworking
                                 possuímos tanto as salas privativas, quanto as mesas compartilhadas que possibilitam o
-                                networking. Um espaço completo que atende às suas necessidades! Para saber mais sobre o
-                                universo do coworking, fique atento às nossas redes sociais e aos nossos Blogs.
+                                networking. Um espaço completo que atende às suas necessidades!
 
                             </p>
                         </div>
 
                         <div className="img">
                             <img src={foto1} alt="" />
+                        </div>
+                        <div className="texto" >
+                            <p>
+                                Para saber mais sobre o
+                                universo do coworking, fique atento às nossas redes sociais e aos nossos Blogs.
+                            </p>
                         </div>
 
                     </div>

@@ -321,10 +321,11 @@ flex-direction: column;
     height:20rem;
     display: flex;
     align-items: center;
-    
 }
+
 .img{
-    width: 50%;
+    /* width: 50%; */
+    min-width: 380px;
     height: 18rem;
 }
 .img img{

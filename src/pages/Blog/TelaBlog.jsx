@@ -7,7 +7,7 @@ import { BsWhatsapp } from 'react-icons/bs';
 import foto1 from "../../assets/blog/foto1.png"
 import foto2 from "../../assets/blog/blog2-f1.png"
 import foto3 from "../../assets/blog/blog3-f1.png"
-import foto4 from "../../assets/blog/blog4-f1.png"
+// import foto4 from "../../assets/blog/blog4-f1.png"
 import foto5 from "../../assets/blog/blog5-f1.png"
 
 
@@ -87,7 +87,7 @@ export default function Blog() {
                         </p>
                     </div>
 
-                    <div className="materia" onClick={() => navegar('/blog4')}>
+                    {/* <div className="materia" onClick={() => navegar('/blog4')}>
                         <div className="foto">
                             <img src={foto4} alt="" />
                         </div>
@@ -102,7 +102,7 @@ export default function Blog() {
                             Confira abaixo algumas maneiras de garantir a privacidade
                             em um espaço de coworking...
                         </p>
-                    </div>
+                    </div> */}
 
                     <div className="materia" onClick={() => navegar('/blog5')}>
                         <div className="foto">
