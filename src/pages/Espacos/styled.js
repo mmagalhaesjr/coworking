@@ -15,6 +15,7 @@ position: relative;
   align-items: center;
   justify-content: center;
 
+
   #titulos{
     margin-top: 150px;
   }
@@ -135,9 +136,12 @@ color: #fff;
 }
 
 @media (max-width:600px){
+    margin-top: -10%;
   height: 450px;
   #titulos {
     width: 80%;
+    margin-top: 30px;
+
 
     h1{
       font-size: 25px;
