@@ -339,8 +339,7 @@ export default function Planos() {
                             <h2>Sala Roma</h2>
                             <p>
                                 Sala privativa para receber seus clientes e parceiros,
-                                com isolamento acústico, climatizada e
-                                preparada para realizar qualquer tipo de reunião. <br />
+                                com isolamento acústico, climatizada.
                                 Possui design moderno e intimista.
                             </p>
                             <div id="icones">

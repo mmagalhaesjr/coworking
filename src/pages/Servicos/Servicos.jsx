@@ -33,7 +33,7 @@ export default function Servicos() {
 
 
     return (
-        <StyledServicos id="servicos" className={scrollY > 1300 ? 'rolagem' : ''}>
+        <StyledServicos id="servicos" className={scrollY > 1200 ? 'rolagem' : ''}>
 
             <div id="titulos">
                 <h1>
