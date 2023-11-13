@@ -50,6 +50,10 @@ margin-bottom: 3%;
 }
 
 
+span{
+    font-weight: 700;
+}
+
 .texto{
     margin-top: 2%;
     width: 100%;

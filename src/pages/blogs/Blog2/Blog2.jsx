@@ -41,7 +41,7 @@ export default function Blog2() {
                         </div>
                         <div className="texto">
                             <p>
-                                O primeiro passo é criar um planejamento financeiro. Crie um plano de negócios sólido,
+                                O primeiro passo é criar um <span> planejamento financeiro</span>. Crie um plano de negócios sólido,
                                 detalhando suas metas e despesas estimadas. Isso ajudará a manter o foco nos gastos
                                 essenciais e nas áreas que exigem investimento.
 
@@ -55,9 +55,8 @@ export default function Blog2() {
                         <div className="texto">
                             <p>
                                 Analisar suas despesas regularmente e identificar onde é possível diminuir gastos também é
-                                prioridade nesse caso. A redução de custos vai permitir que você economize para investir em
+                                prioridade nesse caso. A <span>redução de custos </span> vai permitir que você economize para investir em
                                 qualidade na sua empresa.
-
                             </p>
                         </div>
                         <div className="texto">
@@ -67,11 +66,14 @@ export default function Blog2() {
                             </p>
                         </div>
                         <div className="img">
-                            <img src={foto2} alt="" />
+                        <video width="640" height="360" controls>
+                                <source src='src/assets/blog/blog2-video.mp4' type="video/mp4" />
+                                Seu navegador não suporta o elemento de vídeo.
+                            </video>
                         </div>
                         <div className="texto">
                             <p>
-                                Agora, priorize os seus gastos. Foque nos investimentos que realmente impulsionarão o
+                                Agora, <span>priorize os seus gastos</span> . Foque nos investimentos que realmente impulsionarão o
                                 crescimento do negócio. Concentre-se em áreas-chave, como marketing eficiente,
                                 desenvolvimento de produtos e atendimento ao cliente.
                             </p>
@@ -103,8 +105,8 @@ export default function Blog2() {
                         </div>
                         <div className="texto">
                             <p>
-                                Por último, mas não menos importante, por que não pensar no coworking como alternativa?
-                                Os escritórios compartilhados oferecem uma série de vantagens que podem melhorar a sua
+                                Por último, mas não menos importante, por que não pensar no <span>coworking</span>  como alternativa?
+                                Os <span> escritórios compartilhados </span> oferecem uma série de vantagens que podem melhorar a sua
                                 experiência de trabalho, além de propiciar o networking diário.
                             </p>
                         </div>

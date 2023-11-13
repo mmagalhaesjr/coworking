@@ -57,7 +57,7 @@ export default function Cabecalho() {
                         <li><a onClick={() => navegar("/planos")}>Planos</a></li>
                         <li><a onClick={() => navegar("/eventos")}>Eventos</a></li>
                         <li><a href="#contato">Contato</a></li>
-                        <li><a href='https://temasekcoworking.conexa.app' target="_blank" >Área do cliente</a></li>
+                        <li><a href='https://temasekcoworking.conexa.app' target="_blank" rel="noreferrer" >Área do cliente</a></li>
                         <li><a onClick={() => navegar("/blog")} >Blog</a></li>
                     </ul>
 

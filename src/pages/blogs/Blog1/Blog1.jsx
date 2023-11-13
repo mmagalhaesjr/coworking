@@ -30,7 +30,7 @@ export default function Blog1() {
                     <div id="container2">
                         <div className="texto">
                             <p>
-                                O coworking abrange um espaço de trabalho compartilhado por profissionais
+                                O <span>coworking</span> abrange um <span> espaço de trabalho compartilhado </span> por profissionais
                                 independentes, empreendedores e empresas de diferentes ramos. É uma alternativa aos
                                 ambientes de trabalho tradicionais e possibilita formar redes de relacionamentos e
                                 parcerias. O networking acontece diariamente.
@@ -43,14 +43,14 @@ export default function Blog1() {
                         </div>
                         <div className="texto">
                             <p>
-                                Um dos pontos fortes do coworking é a forma dinâmica de trabalho. Permitir o contato com
+                                Um dos pontos fortes do <span>coworking</span>  é a forma dinâmica de trabalho. Permitir o contato com
                                 outros profissionais e empresas cria um ambiente propício para troca de ideias, parcerias e
                                 colaboração.
                             </p>
                         </div>
                         <div className="texto">
                             <p>
-                                A flexibilidade também é uma vantagem do coworking, onde os membros podem alugar
+                                A flexibilidade também é uma vantagem do <span>coworking</span> , onde os membros podem alugar
                                 espaços de trabalho individuais, salas privadas ou escritórios compartilhados, como salas
                                 de reunião e cozinha compartilhada.
 
@@ -62,7 +62,7 @@ export default function Blog1() {
 
                         <div className="texto">
                             <p>
-                                Ambiente Inspirador: Os espaços de coworking são projetados para serem criativos e
+                                Ambiente Inspirador: Os espaços de <span>coworking</span>  são projetados para serem criativos e
                                 motivadores, além de ser uma escolha até mais vantajosa financeiramente, comparando com
                                 um escritório tradicional. Isso é especialmente benéfico para startups e empreendedores
                                 individuais.
@@ -70,21 +70,21 @@ export default function Blog1() {
                         </div>
                         <div className="texto">
                             <p>
-                                Para freelancers e autônomos, o espaço de trabalho compartilhado oferece um ambiente
+                                Para freelancers e autônomos, o <span> espaço de trabalho compartilhado </span> oferece um ambiente
                                 que compensa a solidão associada ao trabalho independente, proporcionando uma
                                 comunidade de colegas.
                             </p>
                         </div>
                         <div className="texto">
                             <p>
-                                A maioria dos escritórios compartilhados oferece planos flexíveis de aluguel, permitindo que
+                                A maioria dos <span >escritórios compartilhados </span>  oferece planos flexíveis de aluguel, permitindo que
                                 você escolha a quantidade de tempo que deseja usar o espaço, seja por horas, dias ou
                                 meses.
                             </p>
                         </div>
                         <div className="texto">
                             <p>
-                                Em resumo, a comunidade de coworking apresenta uma ampla variedade de vantagens que
+                                Em resumo, a comunidade de <span>coworking</span> apresenta uma ampla variedade de vantagens que
                                 têm o potencial de aprimorar significativamente a vivência no ambiente de trabalho.
 
                             </p>
@@ -107,7 +107,7 @@ export default function Blog1() {
                         </div>
                         <div className="texto" >
                             <p>
-                                No Temasek Coworking, a inovação, sofisticação e flexibilidade, irão te proporcionar
+                                No <span>Temasek Coworking</span>, a inovação, sofisticação e flexibilidade, irão te proporcionar
                                 uma nova experiência de trabalho, potencializando o networking.
                             </p>
                         </div>

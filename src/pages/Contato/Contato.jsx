@@ -1,9 +1,6 @@
 import Formulario from "../../components/Formulario/Formulario";
 import { StyledContato } from "./styled";
 
-// import foto from '../../assets/capa/marcos.png'
-
-// const fotoCaminho = `url(${foto})`;
 
 export default function Contato() {
 

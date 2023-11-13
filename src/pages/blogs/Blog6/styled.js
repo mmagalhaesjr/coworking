@@ -49,6 +49,10 @@ font-size: 2rem;
 margin-bottom: 3%; 
 }
 
+span{
+    font-weight: 700;
+}
+
 
 .texto{
     margin-top: 2%;

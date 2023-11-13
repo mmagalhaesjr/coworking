@@ -52,7 +52,10 @@ text-align: center;
 align-items: center;
 justify-content: center;
 color:#101010;
-}
+
+
+
+}//termino da rolagem
 
 .cx h2{
     font-size: 20px;
@@ -69,6 +72,8 @@ color:#101010;
     font-size: 15px;
     margin-top: 30px;
 }
+
+
 
 @media (max-width:940px){
     min-height: 750px;

@@ -33,6 +33,10 @@ background-color: #ffffff;
 
 }
 
+span{
+    font-weight: 700;
+}
+
 
 #titulo{
 margin-top: 5%;

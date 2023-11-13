@@ -23,6 +23,10 @@ align-items: center;
     transition:0.3s;
 }
 
+span{
+    font-weight: 700;
+}
+
 
 #container1{
 margin-top: 10%;

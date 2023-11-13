@@ -48,8 +48,6 @@ justify-content: center;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-
-    
 }
 #texto h1{
 font-size: 2.5rem;
@@ -67,6 +65,9 @@ font-size: 2.5rem;
     display: flex;
     margin-top: 10px;
     font-weight: 500;
+}
+#texto div {
+margin-top: 20px;
 }
 #texto div h4{
 

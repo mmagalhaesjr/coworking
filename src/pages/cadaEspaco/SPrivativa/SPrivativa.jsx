@@ -77,6 +77,7 @@ export default function SPrivativa() {
                                 <li>Wifi de alta velocidade e Ambiente climatizado</li>
                                 <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
                                 <li>Impressão e digitalização de documentos e arquivos </li>
+                                <li>Desconto na sala de reunião. </li>
                             </ul>
                         </div>
                     </div>
