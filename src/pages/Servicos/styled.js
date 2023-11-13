@@ -58,15 +58,29 @@ opacity: 0.5;
 
 }
 
+
 &.rolagem {
 .cx{
 opacity: 1;
 transition: 2s ;
 margin-top: 0;
-
+}
 }
 
-}//termino da rolagem
+@media (max-width:800px) {
+    .cx{
+        margin-top:0;
+        opacity: 1; 
+    }
+   
+}
+//termino da rolagem
+
+.cx img{
+    width: 60px;
+    height: 50px;
+   
+}
 
 .cx h2{
     font-size: 20px;
@@ -75,10 +89,7 @@ margin-top: 0;
     color:#ac7b40;
     color:#101010;
 }
-.cx img{
-    width: 60px;
-    height: 50px;
-}
+
 .cx p{
     font-size: 15px;
     margin-top: 30px;
