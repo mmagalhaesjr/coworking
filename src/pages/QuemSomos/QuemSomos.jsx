@@ -15,19 +15,25 @@ export default function QuemSomos() {
 
     const [pageLoaded, setPageLoaded] = useState(false);
 
-    useEffect(() => {
-        const handleLoad = () => {
-            setPageLoaded(true);
-        };
+   //---------------------------carregada
+   useEffect(() => {
+    const handleLoad = () => {
+        setPageLoaded(true);
+    };
 
-        // Adiciona um ouvinte de eventos para verificar quando o documento é carregado
-        window.addEventListener('load', handleLoad);
+    if (document.readyState === "complete") {
+        // Se o documento já estiver carregado, aciona manualmente handleLoad
+        handleLoad();
+    } else {
+        // Se o documento ainda não estiver carregado, adiciona um ouvinte de eventos
+        window.addEventListener("load", handleLoad);
+    }
 
-        // Limpa o ouvinte de eventos quando o componente é desmontado
-        return () => {
-            window.removeEventListener('load', handleLoad);
-        };
-    }, []);
+    // Limpa o ouvinte de eventos quando o componente é desmontado
+    return () => {
+        window.removeEventListener("load", handleLoad);
+    };
+}, []);
 
 
     return (

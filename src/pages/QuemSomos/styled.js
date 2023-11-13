@@ -47,6 +47,8 @@ h1{
     flex-direction: column;
     position: relative;
 
+   
+
     /* background-image: ${fotoCaminho};
     background-repeat:no-repeat ;
     background-size: 50%;
@@ -55,15 +57,18 @@ h1{
 
     #container img {
         position: absolute;
-        top: 19%;
+        top: 5%;
         transition: transform 5s linear ; 
         z-index: 2;
         width: 40%;
+       
     }
 
-  &:hover #container img {
+  &.paginaCarregada{
+   #container img{
     transform: rotatey(360deg); 
-  } 
+   }
+}
 
 
 
@@ -77,7 +82,7 @@ h1{
 #texto1{
     align-items: flex-start;
     justify-content: flex-start;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 #texto2{
    margin-top: 10%;
