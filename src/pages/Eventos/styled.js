@@ -297,6 +297,7 @@ justify-content: center;
     text-align: center;
  }
 #cxTexto h2{
+    margin-top: -10%;
     font-size: 2rem;
     line-height: 1.5;
 }

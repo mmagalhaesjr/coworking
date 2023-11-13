@@ -78,7 +78,7 @@ const contato = () => {
                             <h1>Sala de Reunião</h1>
                             <h2>
                                 A Sala <span>Nova York </span> é preparada para realizar
-                                qualquer tipo de reunião ou workshop. Ideal para trabalhar e organizar reuniões e treinamentos.
+                                qualquer tipo de reunião ou workshop. Ideal para trabalhar, organizar reuniões e treinamentos.
                             </h2>
 
                             <div><h4>Sala Nova York </h4> <BsFillPersonFill /> <h4>10</h4></div>

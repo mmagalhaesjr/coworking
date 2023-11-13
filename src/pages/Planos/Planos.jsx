@@ -302,7 +302,7 @@ export default function Planos() {
                         <div className="txt">
                             <h2>Sala Londres</h2>
                             <p>
-                                Sala de reunião para receber seus clientes e parceiros,
+                                Sala privativa para receber seus clientes e parceiros,
                                 com isolamento acústico, climatizada, com televisão e
                                 equipamento de áudio e vídeo.
                             </p>
@@ -338,7 +338,9 @@ export default function Planos() {
                         <div className="txt">
                             <h2>Sala Roma</h2>
                             <p>
-                                É preparada para realizar qualquer tipo de reunião. <br />
+                                Sala privativa para receber seus clientes e parceiros,
+                                com isolamento acústico, climatizada e
+                                preparada para realizar qualquer tipo de reunião. <br />
                                 Possui design moderno e intimista.
                             </p>
                             <div id="icones">

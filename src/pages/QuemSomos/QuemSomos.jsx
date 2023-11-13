@@ -1,11 +1,14 @@
 import { StyledQuemSomos } from "./styled"
 import { useState, useEffect } from "react";
+
 import foto from '../../assets/sobreNos/2.jpeg'
 import logo from '../../assets/sobreNos/logo.png'
+
 import Cabecalho2 from '../../components/Cabecalho2/Cabecalho2';
 import Rodape from '../../components/Rodape/Rodape';
 
 import { BsWhatsapp } from 'react-icons/bs';
+
 
 
 export default function QuemSomos() {
@@ -42,7 +45,6 @@ export default function QuemSomos() {
 
                 <div id="container">
 
-                    <img src={logo} alt="" />
 
                     <div id="texto1">
                         <div className="texto1">
@@ -54,6 +56,8 @@ export default function QuemSomos() {
                         </div>
                     </div>
 
+                    <img src={logo} alt="" />
+
                     <div id="texto2">
                         <div className="texto2">
                             <h2>
@@ -62,7 +66,6 @@ export default function QuemSomos() {
                                 possam atingir o ápice da sua performance.
                             </h2>
                         </div>
-                        {/* <img src={icone2} alt="" /> */}
                     </div>
 
                 </div>
@@ -93,7 +96,7 @@ export default function QuemSomos() {
 
             </StyledQuemSomos>
 
-           <Rodape/>
+           <Rodape />
         </>
 
     )

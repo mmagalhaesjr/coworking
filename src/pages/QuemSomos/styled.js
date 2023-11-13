@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 
+import foto from '../../assets/sobreNos/logo.png';
+
+const fotoCaminho = `url(${foto})`;
 
 export const StyledQuemSomos = styled.section`
 width: 100%;
 display: flex;
-
 flex-direction: column;
 
 
@@ -37,55 +39,51 @@ h1{
 }
 
 #container {
-    /* background-image: url(src/assets/sobreNos/logo.png);
-    background-repeat: no-repeat;
-    background-size: 40%;
-    background-position: center; */
     width: 100%;
-    height: 600px;
     margin-top: 3%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
     position: relative;
 
-  
+    /* background-image: ${fotoCaminho};
+    background-repeat:no-repeat ;
+    background-size: 50%;
+    background-position: center; */
+}
 
-    img {
+    #container img {
         position: absolute;
-        width: 40%;
+        top: 19%;
         transition: transform 5s linear ; 
+        z-index: 2;
+        width: 40%;
     }
-  }
 
   &:hover #container img {
     transform: rotatey(360deg); 
-  }
+  } 
 
 
 
 #texto1, #texto2{
     width: 100%;
     position: relative;
+    display: flex;
+    font-weight: 300;
+    z-index: 3;
 }
 #texto1{
-    top: -10%;
-    display: flex;
-    font-weight: 300;
-    
     align-items: flex-start;
     justify-content: flex-start;
-    
+    margin-top: 10%;
 }
 #texto2{
-    top: 10%;
-    display: flex;
-    font-weight: 300;
+   margin-top: 10%;
 
     align-items: flex-end;
     justify-content: flex-end;
-
 }
 .texto1, .texto2{
     font-size: 2.5rem;
@@ -102,6 +100,62 @@ margin-left: 10%;
     margin-right: 5%;
 }
 
+//responsivo container
+
+
+@media (max-width:900px){
+    #container{
+        height: 30%;
+    }
+    #container img{
+        width: 30%;
+        position: relative;
+        margin-top: 5%;
+    }
+   
+    #texto1, #texto2{
+        align-items: center;
+        justify-content: center;
+    }
+    #texto2{
+        margin-top: 5%;
+    }
+.texto1,.texto2{
+    width: 90%;
+    text-align: left;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 1.5rem;
+    font-weight: 300;
+
+}
+
+}
+@media (max-width:670px){
+    #container{
+        height: 25%;
+    }
+}
+
+@media (max-width:500px){
+    #container{
+        margin-top: 10%;
+        justify-content: space-evenly;
+    }
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 #container2{
 margin-bottom: 5%;
@@ -110,6 +164,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 margin-top: 5%;
+z-index: 3;
 
 .titulos{
     width: 70%;
@@ -145,10 +200,8 @@ h1{
         padding-left: 10%;
         line-height: 1.3;
     }
-
-    
 }
-//responsivo-------------------------------
+//responsivo container2
 @media (max-width:1200px){
 #container2 .titulos h1{
     font-size: 1.5rem;
@@ -156,71 +209,30 @@ h1{
 }
 
 @media (max-width:990px){
-    .titulos{
-        margin-top: 10%;
-    }
-    #container2{
-        display: flex;
-        flex-direction: column;
-    }
-    #container2 .titulos {
-    width: 90%;
-    }
-    
-    #lista{
-        display: flex;
-        flex-direction: column; 
-    }
-    .lista{
-        
-    }
-    /* #lista .titulos{
-        margin-bottom: 10%;
-    } */
-    #lista img{
-        margin-top: 20%;
-    }
-    #lista ul{
-        margin-top: 10%;  
-        padding-left: 0%;
-    }
-    
-}
-@media (max-width:890px){
-    #container{
-        height: 30%;
-    }
-    #container img{
-        margin-top: 30%;
-        width: 55%;
-    }
-    #texto1, #texto2{
-        align-items: center;
-        justify-content: center;
-    }
-    #texto2{
-        margin-top: 5%;
-    }
-.texto1,.texto2{
-    width: 90%;
-    text-align: left;
-    margin-left: 0%;
-    margin-right: 0%;
-    font-size: 1.5rem;
-}
-
-}
-
-@media (max-width:670px){
-    #container{
-        height: 25%;
-    }
-}
-#container img{
-        margin-top: 15%;
-        width: 45%;
-    }
    
+   #container2{
+       display: flex;
+       flex-direction: column;
+   }
+   .titulos{
+       margin-top: 10%;
+       width: 90%;
+   }
+   
+   #lista{
+       display: flex;
+       flex-direction: column; 
+   }
+  
+   #lista img{
+       margin-top: 20%;
+   }
+   #lista ul{
+       margin-top: 10%;  
+       padding-left: 0%;
+   }
+   
+}
 @media (max-width:667px){
     .titulos{
         display: flex;
@@ -234,12 +246,7 @@ h1{
         
     }
 }
-@media (max-width:500px){
-    #container img{
-        margin-top: 15%;
-        width: 70%;
-    }
-}
+
 @media (max-width:437px){
     .titulos{
         display: flex;
