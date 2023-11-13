@@ -50,9 +50,9 @@ export default function Blog1() {
                         </div>
                         <div className="texto">
                             <p>
-                                A flexibilidade também é uma vantagem do <span>coworking</span> , onde os membros podem alugar
-                                espaços de trabalho individuais, salas privadas ou escritórios compartilhados, como salas
-                                de reunião e cozinha compartilhada.
+                            A flexibilidade também é uma vantagem do <span>coworking</span>, 
+                            onde os membros têm a opção de alugar espaços de trabalho individuais, 
+                            salas privadas, escritórios compartilhados e salas de reunião.
 
                             </p>
                         </div>

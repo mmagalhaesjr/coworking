@@ -29,8 +29,6 @@ export const StyledCabecalho = styled.header`
 
   ul li a {
    color: #ffffff;
-  
-
     cursor: pointer;
     &:hover {
       color: #000000;
@@ -73,44 +71,45 @@ export const StyledCabecalho = styled.header`
  }
 
  &.rolagem {
-
-
-
-nav {
-    height: 60px;
-    -webkit-backdrop-filter: blur(10px);
-    -webkit-background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);  
-    display: flex;
-    justify-content: center;
-  }
-    nav .logo2 img {
+        nav {
+            height: 60px;
+            -webkit-backdrop-filter: blur(10px);
+            -webkit-background-color: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);  
+            display: flex;
+            justify-content: center;
+        }
+        nav .logo2 img {
         display: block; 
-
-    }
-    nav .logo img{
-        display: none;
-    }
-    ul li a{
-        color:#000000 ;
-        &:hover {
-      color: #ffffff;
-      transition: 0.3s;
-    }
-
-    }
-    button{
-        margin-top: -60px;
-    }    
-    .linha{
-        background-color: #000000;
-        color: #000000;
-    }
-
-
+            }
+        @media (max-width:900px) {
+            nav .logo2 img{
+                margin-left: -20%;
+        }
+        }
+        nav .logo img{
+            display: none;
+        }
+            ul li a{
+                color:#000000 ;
+                &:hover {
+                color: #ffffff;
+                transition: 0.3s;
+        }
+        }
+        button{
+            margin-top: -60px;
+        }    
+        .linha{
+            background-color: #000000;
+            color: #000000;
+        }
     }//termino da rolagem
+
+
+
 
  ${({ mobile }) => mobile && css`
    .linha:nth-child(1){

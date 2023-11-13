@@ -81,7 +81,7 @@ export default function MCompartilhada() {
                             <ul>
                                 <li>Ambiente climatizado e Wifi de alta velocidade</li>
                                 <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
-                                <li>Desconto na Sala de Reunião</li>
+                                <li>Horas na Sala de Reunião</li>
                                 <li>Impressão e digitalização de documentos e arquivos </li>
                             </ul>
                         </div>

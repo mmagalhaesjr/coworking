@@ -51,7 +51,7 @@ export default function Cabecalho() {
                     <a href="/" className="logo2"><img src={logo2} alt='logo' /></a>
 
                     <ul className="nav-list">
-                        <li><a onClick={() => navegar("/quem-somos")}>Sobre nós</a></li>
+                        <li><a onClick={() => navegar("/quem-somos")}>Quem Somos</a></li>
                         <li><a href="#espacos">Espaços</a></li>
                         <li><a href="#servicos">Serviços</a></li>
                         <li><a onClick={() => navegar("/planos")}>Planos</a></li>

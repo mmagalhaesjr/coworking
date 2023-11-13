@@ -119,7 +119,7 @@ section{
     right: 15%;
     top: 3%;
     z-index: 4;
-    width: 50%;
+    width: 40%;
     min-width: 400px;
     max-width: 600px;
     height: 25%;
@@ -142,8 +142,7 @@ section{
 
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 .hora{
     color: #ffffff;
@@ -151,8 +150,11 @@ section{
     /* line-height: 2; */
     margin-top:2%;
     margin-bottom: 2%;
+    margin-left:1% ;
+    margin-right: 1%;
 }
 .hora h2{
+   
     margin-top:2%;
     margin-bottom: 2%;
 }
@@ -298,7 +300,7 @@ justify-content: center;
  }
 #cxTexto h2{
     margin-top: -10%;
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: 1.5;
 }
 #cxForm{
