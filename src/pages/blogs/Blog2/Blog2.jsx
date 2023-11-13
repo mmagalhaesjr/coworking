@@ -4,6 +4,7 @@ import Cabecalho2 from '../../../components/Cabecalho2/Cabecalho2';
 import Rodape from '../../../components/Rodape/Rodape';
 
 import { BsWhatsapp } from 'react-icons/bs';
+import ReactPlayer from 'react-player';
 
 import foto1 from '../../../assets/blog/blog2-f1.png'
 import foto2 from '../../../assets/blog/blog2-f2.png'
@@ -66,10 +67,7 @@ export default function Blog2() {
                             </p>
                         </div>
                         <div className="img">
-                            <video width="640" height="360" controls>
-                                <source src='src/assets/blog/blog2-video.webm' type="video/webm" />
-                                Seu navegador não suporta o elemento de vídeo.
-                            </video>
+                        <ReactPlayer url='src/assets/blog/blog2-video.webm' controls width="640px" height="360px" />
                         </div>
                         <div className="texto">
                             <p>
