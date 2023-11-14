@@ -395,9 +395,7 @@ section{
 }
 .valor{
     background-color:  #101010;
-    width: 30%;
-    min-width: 170px;
-    max-width: 200px;
+    width: 200px;
     height: 80px;
     border-radius:200px ;
   
@@ -415,17 +413,18 @@ display: flex;
 .valor h4{
     margin-top: 0px;
     color: #ffffff;
+    font-size: 1rem;
 }
 .valor h3{
-font-size:2rem;
+font-size:1.5rem;
 margin-top: 5px;
 margin-left: 7px;
 color: #ffffff;
 }
 .valor p{
-font-size: 20px;
+font-size: 1rem;
 
-margin-top: 15px;
+margin-top: 10px;
 font-weight: 500;
 color: #ffffff;
 }

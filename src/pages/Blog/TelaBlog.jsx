@@ -4,11 +4,11 @@ import { useNavigate } from 'react-router-dom';
 
 import { BsWhatsapp } from 'react-icons/bs';
 
-import foto1 from "../../assets/blog/foto1.png"
-import foto2 from "../../assets/blog/blog2-f1.png"
-import foto3 from "../../assets/blog/blog3-f1.png"
+import foto1 from "../../assets/blog/foto1.webp"
+import foto2 from "../../assets/blog/blog2-f1.webp"
+import foto3 from "../../assets/blog/blog3-f1.webp"
 // import foto4 from "../../assets/blog/blog4-f1.png"
-import foto5 from "../../assets/blog/blog5-f1.png"
+import foto5 from "../../assets/blog/blog5-f1.webp"
 
 
 import Cabecalho2 from '../../components/Cabecalho2/Cabecalho2';
