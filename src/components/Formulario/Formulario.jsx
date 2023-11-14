@@ -8,7 +8,7 @@ export default function Formulario() {
 
             <form action="https://formsubmit.co/contato@temasekjf.com.br" method="POST">
            
-                <input type="hidden" name="_next" value='http://localhost:5173/confirmar/' />
+                <input type="hidden" name="_next" value='http://www.temasekjf.com.br/' />
                 <input type="hidden" name="_captcha" value="false"></input>
 
                 <div className="inputBox">
