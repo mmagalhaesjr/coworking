@@ -34,6 +34,10 @@ export default function QuemSomos() {
         window.removeEventListener("load", handleLoad);
     };
 }, []);
+//--------------------------
+useEffect(() => {
+    window.scrollTo(0, 0);
+}, []);
 
 
     return (
