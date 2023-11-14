@@ -70,7 +70,7 @@ export default function SAtendimento() {
             <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
                 <div id="container">
-
+                    
                     <div id="containerTexto">
                         <div id="texto">
                             <h1>Sala para Atendimento</h1>
@@ -84,10 +84,10 @@ export default function SAtendimento() {
 
                             <h3>Vantagens</h3>
                             <ul>
-                                <li>Ambiente climatizado e com Wifi de alta velocidade</li>
-                                <li>Possui um divã e duas poltronas e ambiente climatizado</li>
-                                <li>Impressão e digitalização de documentos e arquivos</li>
+                                <li>Ambiente climatizado e Wifi de alta velocidade</li>
+                                <li>Possui um divã e duas poltronas</li>
                                 <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li> 
+                                <li>Impressão e digitalização de documentos e arquivos</li>
                             </ul>
                         </div>
                     </div>

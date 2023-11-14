@@ -87,10 +87,10 @@ const contato = () => {
                             
                             <h3>Vantagens</h3>
                             <ul>
-                                <li>Wifi de alta velocidade e ambiente climatizado</li>
+                                <li>Ambiente climatizado e Wifi de alta velocidade</li>
+                                <li>Horas na Sala de Reunião. </li>
                                 <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
                                 <li>Impressão e digitalização de documentos e arquivos </li>
-                                <li>Horas na Sala de Reunião. </li>
                             </ul>
                         </div>
                     </div>
