@@ -12,7 +12,7 @@ height:80vh;
 background-color: #F4F3F0;
 margin: auto;
 padding: 20px;
-gap: 5%;
+gap: 5.1%;
 background-image: ${fotoCaminho};
 background-repeat: no-repeat;
 background-size: cover;
