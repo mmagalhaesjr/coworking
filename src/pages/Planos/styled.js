@@ -318,9 +318,11 @@ flex-direction: column;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 
     width:75%;
-    height:20rem;
+    height:22rem;
     display: flex;
     align-items: center;
+
+  
 }
 
 .img{
@@ -357,7 +359,6 @@ flex-direction: column;
 }
 .txt p{
     margin-top: 10px;
-    
     font-size: 20px;
     color: #ffffff;
     
@@ -383,20 +384,20 @@ flex-direction: column;
 }
 section{
     width: 100%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 50px;
+    margin-bottom: 5px;
 
     display: flex;
     align-items: center;
 
     justify-content: space-between;
     /* justify-content: center; */
-
 }
 .valor{
     background-color:  #101010;
     width: 30%;
-    min-width: 150px;
+    min-width: 170px;
+    max-width: 200px;
     height: 80px;
     border-radius:200px ;
   
@@ -405,6 +406,7 @@ section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 5%;
 }
 .valor div{
 display: flex;

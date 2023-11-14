@@ -84,12 +84,10 @@ export default function SAtendimento() {
 
                             <h3>Vantagens</h3>
                             <ul>
-                                <li>Possui um divã e duas poltronas</li>
-                                <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
-                                <li>Wifi de alta velocidade e serviços de impressão</li>
-                                <li>Serviços de recepção e gerenciamento de correspondência</li>
                                 <li>Ambiente climatizado e com Wifi de alta velocidade</li>
-                                
+                                <li>Possui um divã e duas poltronas e ambiente climatizado</li>
+                                <li>Impressão e digitalização de documentos e arquivos</li>
+                                <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li> 
                             </ul>
                         </div>
                     </div>

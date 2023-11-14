@@ -168,7 +168,7 @@ export default function Planos() {
                     <div className="texto">
                         <div className="txt">
                             <h2> Estação de Trabalho Dedicada</h2>
-                            <p>Acesso exclusivo à sua posição de trabalho fixa, <br />
+                            <p>Acesso exclusivo à sua posição de trabalho fixa,
                                 em um ambiente compartilhado. </p>
                             <p>A mesa dedicada é ideal para 1 pessoa e equipes reduzidas.</p>
 
@@ -198,10 +198,9 @@ export default function Planos() {
                     <div className="texto">
                         <div className="txt">
                             <h2> Estação de Trabalho Rotativa </h2>
-                            <p>Acesso diário a uma mesa compartilhada em um espaço <br />
+                            <p>Acesso diário a uma mesa compartilhada em um espaço
                                 comum com toda a estrutura do Temasek Coworking. </p>
                             <p>A mesa rotativa é ideal para 1 pessoa e equipes reduzidas.</p>
-                            <p> </p>
                             <section>
                                 <div className="valor">
                                     <h4>Planos a partir de</h4>

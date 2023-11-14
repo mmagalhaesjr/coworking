@@ -136,8 +136,8 @@ section{
     overflow: hidden; 
 }
 .horarios{
-    width: 90%;
-    height: 90%;
+    width: 95%;
+    height: 95%;
     border: solid 2px #ffffff;
 
     display: flex;
@@ -152,6 +152,10 @@ section{
     margin-bottom: 2%;
     margin-left:1% ;
     margin-right: 1%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .hora h2{
    
@@ -240,6 +244,7 @@ section{
         left: 0;
         top: 0;
         margin-bottom: 5%;
+        height: 300px;
     }
     .hora h2{
         margin-top:5%;
@@ -247,6 +252,7 @@ section{
 }
     .hora{
         color: #000000;
+        justify-content: space-evenly;
     }
     .fotos{
         width: 95%;
@@ -268,7 +274,7 @@ section{
     .horarios{
         display: flex;
         align-items: center;
-        justify-content: center;
+        
       
     }
    
