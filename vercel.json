@@ -4,6 +4,7 @@
       {
         "source": "/assets/:path*",
         "destination": "/assets/:path*"
+        
       }
     ]
   }
