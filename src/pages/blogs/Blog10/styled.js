@@ -9,6 +9,20 @@ display: flex;
 flex-direction: column;
 align-items: center;
 
+#whattsapp{
+    z-index: 8;
+    position: fixed;
+    font-size: 3rem;
+    right: 25px;
+    top:90%;
+    cursor: pointer;
+    color: #15da0e;
+    text-decoration: none;
+}
+#whattsapp:hover{
+    color: #398462;
+    transition:0.3s;
+}
 
 #container1{
 margin-top: 10%;
@@ -29,7 +43,6 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-bottom: 5%;
-background-color: #ffffff;
 
 }
 
@@ -48,6 +61,18 @@ margin-top:5% ;
 font-size: 2rem;
 margin-bottom: 3%; 
 }
+
+.subTitulo{
+    margin-top: 5%;
+    width: 100%;
+    text-align: left;
+}
+.subTitulo p{
+    font-size: 1.5rem;
+    margin-bottom: 3%;
+    font-weight: 500;
+}
+
 
 
 span{

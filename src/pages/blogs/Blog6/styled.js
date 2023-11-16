@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 
 
-export const StyledBlog3 = styled.section`
+export const StyledBlog6 = styled.section`
 
 display: flex;
 flex-direction: column;
@@ -19,7 +19,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 border: solid 20px ;
-border-image: linear-gradient(to left,#ac7b40 , #101010) 4 repeat;
+border-image: linear-gradient(to left,#ac7b40 , #101010) 5 repeat;
 }
 
 #container2{
@@ -29,7 +29,6 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-bottom: 5%;
-background-color: #ffffff;
 
 }
 
@@ -37,8 +36,8 @@ background-color: #ffffff;
 #titulo{
 margin-top: 5%;
 width: 70%;
-text-align: center;
 }
+
 #titulo h1{
 font-size: 2rem;
 margin-bottom: 3%;
@@ -47,6 +46,17 @@ h1{
 margin-top:5% ;
 font-size: 2rem;
 margin-bottom: 3%; 
+}
+
+.subTitulo{
+    margin-top: 5%;
+    width: 100%;
+    text-align: left;
+}
+.subTitulo p{
+    font-size: 1.5rem;
+    margin-bottom: 3%;
+    font-weight: 500;
 }
 
 span{

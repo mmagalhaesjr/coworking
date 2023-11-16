@@ -54,9 +54,11 @@ export default function Blog3() {
                         <div className="img">
                             <img src={foto1} alt="" />
                         </div>
-                        <h1>
-                            Aprovação
-                        </h1>
+                        <div className="subTitulo">
+                            <p>
+                                Aprovação
+                            </p>
+                        </div>
                         <div className="texto">
                             <p>
                                 As pioneiras a adotar e abraçar o modelo de <span>espaço de trabalho compartilhado</span> foram as
@@ -76,9 +78,12 @@ export default function Blog3() {
                                 disseminar inovação em suas respectivas áreas de atuação.
                             </p>
                         </div>
-                        <h1>
-                            Quem criou o coworking
-                        </h1>
+                        <div className="subTitulo">
+                            <p>
+                                Quem criou o coworking
+                            </p>
+                        </div>
+
                         <div className="texto">
                             <p>
                                 A pessoa por trás do termo <span>“coworking” </span>é o designer e escritor americano Bernie De Koven.
@@ -109,9 +114,11 @@ export default function Blog3() {
                                 fins lucrativos, na Spiral Muse, na cidade de São Francisco, na Califórnia.
                             </p>
                         </div>
-                        <h1>
-                            Algumas características dos coworkers
-                        </h1>
+                        <div className="subTitulo">
+                            <p>
+                                Algumas características dos coworkers
+                            </p>
+                        </div>
 
                         <div className="texto">
                             <p>

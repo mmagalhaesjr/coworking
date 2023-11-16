@@ -29,8 +29,6 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-bottom: 5%;
-background-color: #ffffff;
-
 }
 
 
@@ -47,6 +45,17 @@ h1{
 margin-top:5% ;
 font-size: 2rem;
 margin-bottom: 3%; 
+}
+
+.subTitulo{
+    margin-top: 5%;
+    width: 100%;
+    text-align: left;
+}
+.subTitulo p{
+    font-size: 1.5rem;
+    margin-bottom: 3%;
+    font-weight: 500;
 }
 
 span{

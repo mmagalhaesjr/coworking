@@ -35,9 +35,11 @@ export default function Blog4() {
 
                             </p>
                         </div>
-                        <h1>
-                            Salas privadas
-                        </h1>
+                        <div className="subTitulo">
+                            <p>
+                                Salas privadas
+                            </p>
+                        </div>
                         <div className="texto">
                             <p>
                                 Geralmente, os coworkings oferecem salas ou escritórios privados que podem ser
@@ -45,47 +47,55 @@ export default function Blog4() {
                                 reuniões, chamadas telefônicas ou trabalho concentrado.
                             </p>
                         </div>
-                        <h1>
-                            Divisórias e estações de trabalho designadas:
-                        </h1>
+                        <div className="subTitulo">
+                            <p>
+                                SDivisórias e estações de trabalho designadas:
+                            </p>
+                        </div>
                         <div className="texto">
                             <p>
                                 Alguns espaços de escritório compartilhado têm divisórias ou estações de trabalho
                                 designadas que oferecem um certo grau de separação visual e acústica entre os ocupantes.
                             </p>
                         </div>
-                        <h1>
-                            Salas de reunião privadas
-                        </h1>
+                        <div className="subTitulo">
+                            <p>
+                                Salas de reunião privadas
+                            </p>
+                        </div>
                         <div className="texto">
                             <p>
                                 A maioria dos espaços de coworking oferece salas de reunião que podem ser reservadas
                                 para reuniões privadas ou chamadas telefônicas importantes.
                             </p>
                         </div>
-                        <h1>
-                            Uso de fones de ouvido
-                        </h1>
+                        <div className="subTitulo">
+                            <p>
+                                Uso de fones de ouvido
+                            </p>
+                        </div>
                         <div className="texto">
                             <p>
                                 Para tarefas que requerem concentração, como programação ou redação, o uso de fones de
                                 ouvido pode ajudar a bloquear ruídos e criar uma sensação de privacidade.
                             </p>
                         </div>
-                        <h1>
-                            Horários flexíveis
-                        </h1>
+                        <div className="subTitulo">
+                            <p>
+                                UHorários flexíveis
+                            </p>
+                        </div>
                         <div className="texto" >
                             <p>
                                 Escolher horários de trabalho mais flexíveis pode permitir que você aproveite momentos em
                                 que o espaço de coworking está menos movimentado, proporcionando mais privacidade.
                             </p>
                         </div>
-
-                        <h1>
-                            Escolha do local de trabalho
-                        </h1>
-
+                        <div className="subTitulo">
+                            <p>
+                                Escolha do local de trabalho
+                            </p>
+                        </div>
                         <div className="texto" >
                             <p>
                                 Alguns espaços de trabalho compartilhado oferecem áreas mais tranquilas e isoladas,

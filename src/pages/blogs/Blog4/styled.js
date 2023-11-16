@@ -69,6 +69,17 @@ margin-top:5% ;
 font-size: 1.5rem;
 margin-bottom: 3%; 
 }
+.subTitulo{
+    margin-top: 5%;
+    width: 100%;
+    text-align: left;
+}
+.subTitulo p{
+    font-size: 1.5rem;
+    margin-bottom: 3%;
+    font-weight: 500;
+}
+
 
 
 .texto{
