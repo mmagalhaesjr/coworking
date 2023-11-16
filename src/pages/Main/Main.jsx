@@ -18,7 +18,6 @@ export default function TelaInicial() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
-        console.log(`Vai ser ${homeComponent}`)
         const component = document.getElementById(homeComponent);
         if (component) {
             component.scrollIntoView({ behavior: 'smooth' });

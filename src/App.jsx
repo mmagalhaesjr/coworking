@@ -34,31 +34,31 @@ export default function App() {
                     <Routes>
 
 
-                        <Route path="/" element={<Main />} />
-                        <Route path="/compartilhada" element={<MCompartilhada />} />
-                        <Route path="/dedicada" element={<MDedicada />} />
-                        <Route path="/privativa" element={<SPrivativa />} />
-                        <Route path="/reuniao" element={<SReuniao />} />
-                        <Route path="/atendimento" element={<SAtendimento />} />
-                        <Route path="/quem-somos" element={<QuemSomos />} />
+                        <Route path="/" exact element={<Main />} />
+                        <Route path="/compartilhada" exact element={<MCompartilhada />} />
+                        <Route path="/dedicada" exact element={<MDedicada />} />
+                        <Route path="/privativa" exact element={<SPrivativa />} />
+                        <Route path="/reuniao" exact element={<SReuniao />} />
+                        <Route path="/atendimento" exact element={<SAtendimento />} />
+                        <Route path="/quem-somos" exact element={<QuemSomos />} />
 
-                        <Route path="/planos" element={<Planos />} />
-                        <Route path="/eventos" element={<Eventos />} />
+                        <Route path="/planos" exact element={<Planos />} />
+                        <Route path="/eventos" exact element={<Eventos />} />
 
-                        <Route path="/blog" element={<TelaBlog />} />
+                        <Route path="/blog" exact element={<TelaBlog />} />
 
-                        <Route path="/blog1" element={<Blog1 />} />
-                        <Route path="/blog2" element={<Blog2 />} />
-                        <Route path="/blog3" element={<Blog3 />} />
-                        <Route path="/blog4" element={<Blog4 />} />
-                        <Route path="/blog5" element={<Blog5 />} />
+                        <Route path="/blog1" exact element={<Blog1 />} />
+                        <Route path="/blog2" exact element={<Blog2 />} />
+                        <Route path="/blog3" exact element={<Blog3 />} />
+                        <Route path="/blog4" exact element={<Blog4 />} />
+                        <Route path="/blog5" exact element={<Blog5 />} />
                         {/* <Route path="/blog6" element={<Blog6 />} />
                         <Route path="/blog7" element={<Blog7 />} />
                         <Route path="/blog8" element={<Blog8 />} />
                         <Route path="/blog9" element={<Blog9 />} />
                         <Route path="/blog10" element={<Blog10 />} /> */}
 
-                        <Route path="/confirmar" element={<ConfirmarEnvio />} />
+                        <Route path="/confirmar" exact element={<ConfirmarEnvio />} />
 
 
                     </Routes>

@@ -19,7 +19,6 @@ export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
     const { setHomeComponent} = useContext(HomeContext)
 
     const component = (componentName) => {
-        console.log(componentName)
        setMobileAtivado(false)
         setHomeComponent(componentName)
         navegar('/');
