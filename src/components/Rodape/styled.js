@@ -59,6 +59,9 @@ h3{
     font-size: 15px;
 
    
+@media (max-width:700px){
+align-items: center;
+}
 }
 
 .cxRedes{

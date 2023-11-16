@@ -135,8 +135,13 @@ color: #fff;
 }
 }
 
-@media (max-width:600px){
-    margin-top: -10%;
+@media (max-width:700px){
+
+    h3{
+        opacity: 1;
+        font-size: 30px;
+    }
+    
   height: 450px;
   #titulos {
     width: 80%;

@@ -8,10 +8,26 @@ import Cabecalho from "../../components/Cabecalho/Cabecalho"
 import Servicos2 from "../Servicos2/Servicos2";
 import Rodape from "../../components/Rodape/Rodape"
 import Contato from "../Contato/Contato";
+import { useContext, useEffect } from "react";
+import { HomeContext } from "../../contexts/HomeContext";
 
 
 export default function TelaInicial() {
+    
+    const {homeComponent, setHomeComponent} = useContext(HomeContext)
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+        console.log(`Vai ser ${homeComponent}`)
+        const component = document.getElementById(homeComponent);
+        if (component) {
+            component.scrollIntoView({ behavior: 'smooth' });
+          setHomeComponent('')
+        }
+      }, []); 
+
+    
+      
     return (
         <StyledTelaInicial>
             <Cabecalho />

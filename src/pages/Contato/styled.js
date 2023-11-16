@@ -8,7 +8,6 @@ export const StyledContato = styled.section`
 display: flex;
 justify-content: center;
 align-items: center;
-height:80vh;
 background-color: #F4F3F0;
 margin: auto;
 padding: 20px;

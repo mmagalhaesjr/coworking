@@ -9,7 +9,6 @@ import { HomeContext } from '../../contexts/HomeContext';
 
 
 export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
-    // const navegar = useNavigate();
     const navegar = useNavigate();
 
     useEffect(() => {
@@ -19,23 +18,28 @@ export default function MenuMobile({ mobileAtivado, setMobileAtivado }) {
     
     const { setHomeComponent} = useContext(HomeContext)
 
+    const component = (componentName) => {
+        console.log(componentName)
+       setMobileAtivado(false)
+        setHomeComponent(componentName)
+        navegar('/');
+    };
+
     return (
 
         <StyledMenuMobile mobile={mobileAtivado}>
 
             <nav className="nav-lista" >
                 <a onClick={() => navegar("/quem-somos")}  >QUEM SOMOS</a>
-                <a onClick={() => {setMobileAtivado(false),setHomeComponent('espacos'), navegar("/")} }>ESPAÇOS</a>
-                <a onClick={() => {setMobileAtivado(false),setHomeComponent('servicos'), navegar("/")} }>SERVIÇOS</a>
-                <a onClick={() => {setMobileAtivado(false),navegar("/planos")}}>PLANOS</a>
+                <a href="#espacos" onClick={() => component('espacos')}>ESPAÇOS</a>
+                <a href="#servicos" onClick={() => component('servicos')}>SERVIÇOS</a>
+                <a onClick={() => {navegar("/planos")}}>PLANOS</a>
                 <a onClick={() => navegar("/eventos")}>EVENTOS</a>
-                <a onClick={() => {setMobileAtivado(false),setHomeComponent('contato'), navegar("/")} }>CONTATO</a>
+                <a href="#contato" onClick={() => component('contato')} > CONTATO</a>
                 <a onClick={() => navegar("/blog")} >BLOG</a>
                 <a href='https://temasekcoworking.conexa.app' >ÁREA DO CLIENTE</a>
-                <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp /> - WHATSAPP</a>
             </nav>
 
-            <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
         </StyledMenuMobile>
 

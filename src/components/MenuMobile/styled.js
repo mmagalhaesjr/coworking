@@ -9,27 +9,12 @@ background-color: #000000;
     /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(7,101,59,0.88032212885154) 100%); */
     position: fixed;
     width: 100%;
-    height: 100vh;
+    height: 1000px;
     z-index:5;
     opacity: 0;
     pointer-events:none;
     transition: 0.5s;
     color: #ffffff;
-
-    #whattsapp{
-    z-index: 8;
-    position: fixed;
-    font-size: 3rem;
-    right: 25px;
-    top:89%;
-    cursor: pointer;
-    color: #15da0e;
-    text-decoration: none;
-}
-#whattsapp:hover{
-    color: #398462;
-    transition:0.3s;
-}
 
   
     .nav-lista{
@@ -43,10 +28,10 @@ nav{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 2rem;
     transform: scale(0);
     transition: 1s;
     color: #ffffff;
+    gap: 1rem;
 }
 
  a{

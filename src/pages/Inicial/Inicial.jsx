@@ -16,27 +16,10 @@ import foto1 from '../../assets/capa/foto.jpg'
 import foto2 from '../../assets/capa/sala2.webp'
 import foto3 from '../../assets/capa/sala3.webp'
 import foto4 from '../../assets/capa/sala4.webp'
-import { useContext, useEffect } from "react";
-import { HomeContext } from "../../contexts/HomeContext";
-
-
 
 
 
 export default function Inicial() {
-    
-    const {homeComponent, setHomeComponent} = useContext(HomeContext)
-
-    useEffect(() => {
-        window.scrollTo(0, 0);
-        const contatoElement = document.getElementById(homeComponent);
-        if (contatoElement) {
-          contatoElement.scrollIntoView({ behavior: 'smooth' });
-          setHomeComponent('')
-
-        }
-      }, []); 
-
     
 
     return (

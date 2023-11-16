@@ -9,12 +9,14 @@ export const StyledCabecalho = styled.header`
   nav {
     width: 100%;
     height: 100px;
+    
     background-color: transparent;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     z-index: 5;
     position: fixed;  
+    
     
   }
 
