@@ -165,13 +165,14 @@ export default function Blog() {
                         </div>
                         <div className="texto">
                             <h1>
-                                Desbloqueando o Potencial:
-                                Estratégias para Maximizar sua Experiência em um Coworking
+                                Descubra o cenário ideal: Como
+                                encontrar o espaço de coworking
+                                perfeito
                             </h1>
                         </div>
                         <p>
-                            Para tirar o máximo proveito de seu espaço de coworking ,
-                            é importante adotar uma abordagem estratégica, confira a seguir:...
+                            Vamos explorar as características que definem os melhores
+                            espaços...
                         </p>
                     </div>
 

@@ -122,7 +122,7 @@ section{
     width: 40%;
     min-width: 400px;
     max-width: 600px;
-    height: 25%;
+    height: 30%;
 
     -webkit-backdrop-filter: blur(10px);
     -webkit-background-color: rgba(18, 18, 18, 0.2);
@@ -148,8 +148,8 @@ section{
     color: #ffffff;
     font-size: .92rem; 
     /* line-height: 2; */
-    margin-top:2%;
-    margin-bottom: 2%;
+    margin-top:3%;
+    margin-bottom: 3%;
     margin-left:1% ;
     margin-right: 1%;
 

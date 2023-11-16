@@ -15,12 +15,11 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
-    background-color: #101010;
+    color:#101010 ;
     -webkit-backdrop-filter: blur(10px);
-    -webkit-background-color: rgba(18, 18, 18, 0.2);
+    -webkit-background-color: rgba(18, 18, 18, 0.458);
     backdrop-filter: blur(10px);
-    background-color: rgba(18, 18, 18, 0.2);
+    background-color: rgba(12, 12, 12, 0.333);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 
   
