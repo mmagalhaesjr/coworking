@@ -13,7 +13,7 @@ a{
 }
 
 #whattsapp{
-    z-index: 8;
+    z-index: 9;
     position: fixed;
     font-size: 3rem;
     right: 25px;
@@ -39,6 +39,7 @@ a{
     background-size:cover;
 
     background-attachment: fixed;
+   
 
     
     @media(max-width:1120px){

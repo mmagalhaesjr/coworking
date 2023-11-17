@@ -9,13 +9,7 @@ justify-content: center;
 align-items: center;
 color: #ffffff;
 text-align: center;
-
-
-
-
-
-
-
+z-index: 5;
 
 #container{
     width: 100%;
@@ -24,7 +18,7 @@ text-align: center;
     align-items: center;
     gap: 5%;
     bottom:0;
-    z-index: 8;
+   
 }
 h3{
     margin-top: -30px;

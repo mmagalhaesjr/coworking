@@ -3,9 +3,7 @@ import { css } from 'styled-components';
 
 
 export const StyledCabecalho = styled.header`
-
-
-
+ 
   nav {
     width: 100%;
     height: 100px;
@@ -14,12 +12,9 @@ export const StyledCabecalho = styled.header`
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    z-index: 5;
-    position: fixed;  
-    
-    
+    position: fixed;   
+    z-index: 9;
   }
-
   ul {
     width: 80%;
     display: flex;
@@ -37,7 +32,6 @@ export const StyledCabecalho = styled.header`
       transition: 0.3s;
     }
   }
-
   .logo2 img {
     display: none;
     width: 200px;
@@ -45,14 +39,12 @@ export const StyledCabecalho = styled.header`
     margin-top: 7px;
     background: none; 
     }
-
   img {
     width: 200px;
     height: 50px;
     margin-top: 18px;
     background: none;
   }
-
   button{
     height: 100px;
     display: none;
@@ -60,6 +52,7 @@ export const StyledCabecalho = styled.header`
     border: none;
     cursor: pointer;
     margin-top: -50px;
+    z-index: 9;
   }
  .linha{
     position: relative;
@@ -71,7 +64,6 @@ export const StyledCabecalho = styled.header`
     transform-origin:center;
     transition:.5s;
  }
-
  &.rolagem {
         nav {
             height: 60px;
@@ -82,6 +74,7 @@ export const StyledCabecalho = styled.header`
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);  
             display: flex;
             justify-content: center;
+            z-index: 9;
         }
         nav .logo2 img {
         display: block; 

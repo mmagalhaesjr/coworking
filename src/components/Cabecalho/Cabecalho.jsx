@@ -66,7 +66,6 @@ export default function Cabecalho() {
                         <span className='linha'></span>
                         <span className='linha'></span>
                     </button>
-
                 </nav>
 
             </StyledCabecalho>

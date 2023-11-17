@@ -10,7 +10,7 @@ background-color: #000000;
     position: fixed;
     width: 100%;
     height: 1000px;
-    z-index:10;
+    z-index:8;
     opacity: 0;
     pointer-events:none;
     transition: 0.5s;

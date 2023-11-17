@@ -5,12 +5,11 @@ import styled from 'styled-components';
 export const StyledInicial = styled.section`
 width: 100%;
 height: 100vh;
-
 display: flex;
 align-items: center;
 justify-content: center;
-
 position: relative;
+
 
 /* background-image: url(src/assets/foto-capa.jpg);
 background-repeat: no-repeat;
@@ -44,6 +43,7 @@ color: #fff;
 .salas{
     width: 100%;
     height: 100%;
+   
 
 }
 
