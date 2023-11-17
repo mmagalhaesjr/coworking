@@ -20,25 +20,29 @@ export function TermosU() {
 
             <h2>3. Isenção de responsabilidade</h2>
             <ol>
-                <li>Os materiais no site da <span>temasekjf</span> são fornecidos como estão. <span>temasekjf</span> não oferece garantias, expressas ou implícitas, e, por este meio, isenta e nega todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de comercialização, adequação a um fim específico ou não violação de propriedade intelectual ou outra violação de direitos.</li>
+                <li>Os materiais no site do <span>temasekjf</span> são fornecidos como estão. <span>temasekjf</span> não oferece garantias, expressas ou implícitas, e, por este meio, isenta e nega todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de comercialização, adequação a um fim específico ou não violação de propriedade intelectual ou outra violação de direitos.</li>
                 <li>Além disso, o <span>temasekjf</span> não garante ou faz qualquer representação relativa à precisão, aos resultados prováveis ou à confiabilidade do uso dos materiais em seu site ou de outra forma relacionado a esses materiais ou em sites vinculados a este site.</li>
             </ol>
 
             <h2>4. Limitações</h2>
-            <p>Em nenhum caso o <span>temasekjf</span> ou seus fornecedores serão responsáveis por quaisquer danos (incluindo, sem limitação, danos por perda de dados ou lucro ou devido a interrupção dos negócios) decorrentes do uso ou da incapacidade de usar os materiais em <span>temasekjf</span>, mesmo que temasekjf ou um representante autorizado da <span>temasekjf</span> tenha sido notificado oralmente ou por escrito da possibilidade de tais danos. Como algumas jurisdições não permitem limitações em garantias implícitas, ou limitações de responsabilidade por danos conseqüentes ou incidentais, essas limitações podem não se aplicar a você.</p>
+            <p>Em nenhum caso o <span>temasekjf</span> ou seus fornecedores serão responsáveis por quaisquer danos (incluindo, sem limitação, danos por perda de dados ou lucro ou devido a interrupção dos negócios) decorrentes do uso ou da incapacidade de usar os materiais em <span>temasekjf</span>, mesmo que  <span>temasekjf</span> ou um representante autorizado do <span>temasekjf</span> tenha sido notificado oralmente ou por escrito da possibilidade de tais danos. Como algumas jurisdições não permitem limitações em garantias implícitas, ou limitações de responsabilidade por danos conseqüentes ou incidentais, essas limitações podem não se aplicar a você.</p>
 
             <h2>5. Precisão dos materiais</h2>
-            <p>Os materiais exibidos no site da temasekjf podem incluir erros técnicos, tipográficos ou fotográficos. temasekjf não garante que qualquer material em seu site seja preciso, completo ou atual. temasekjf pode fazer alterações nos materiais contidos em seu site a qualquer momento, sem aviso prévio. No entanto, <span>temasekjf</span> não se compromete a atualizar os materiais.</p>
+            <p>Os materiais exibidos no site da temasekjf podem incluir erros técnicos, tipográficos ou fotográficos. <span>temasekjf</span> não garante que qualquer material em seu site seja preciso, completo ou atual. temasekjf pode fazer alterações nos materiais contidos em seu site a qualquer momento, sem aviso prévio. No entanto, <span>temasekjf</span> não se compromete a atualizar os materiais.</p>
 
             <h2>6. Links</h2>
-            <p>O temasekjf não analisou todos os sites vinculados ao seu site e não é responsável pelo conteúdo de nenhum site vinculado. A inclusão de qualquer link não implica endosso por <span>temasekjf</span> do site. O uso de qualquer site vinculado é por conta e risco do usuário.</p>
-            <p><br></br></p>
+            <p>
+                O <span>temasekjf</span> não analisou todos os sites vinculados ao seu site e não é responsável pelo conteúdo de nenhum site vinculado. A inclusão de qualquer link não implica endosso por <span>temasekjf</span> do site. O uso de qualquer site vinculado é por conta e risco do usuário.
+            </p>
+
 
             <h3>Modificações</h3>
             <p>O <span>temasekjf</span> pode revisar estes termos de serviço do site a qualquer momento, sem aviso prévio. Ao usar este site, você concorda em ficar vinculado à versão atual desses termos de serviço.</p>
 
             <h3>Lei aplicável</h3>
-            <p>Estes termos e condições são regidos e interpretados de acordo com as leis do <span>temasekjf</span> e você se submete irrevogavelmente à jurisdição exclusiva dos tribunais naquele estado ou localidade.</p>
+            <p>
+                Estes termos e condições são regidos e interpretados de acordo com a legislação vigente e regimento do <span>temasekjf</span> e você se submete irrevogavelmente à jurisdição exclusiva dos tribunais naquele estado ou localidade.
+            </p>
         </StyledTermosU>
     )
 }
