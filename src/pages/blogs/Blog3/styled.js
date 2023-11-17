@@ -8,9 +8,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 
-span{
-    font-weight: 700;
-}
 
 #whattsapp{
     z-index: 8;
@@ -26,6 +23,11 @@ span{
     color: #398462;
     transition:0.3s;
 }
+
+span{
+    font-weight: 700;
+}
+
 
 #container1{
 margin-top: 10%;
@@ -46,11 +48,14 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-bottom: 5%;
+
+
 }
+
 
 #titulo{
 margin-top: 5%;
-width: 100%;
+width: 95%;
 text-align: center;
 }
 #titulo h1{
@@ -63,26 +68,7 @@ font-size: 2rem;
 margin-bottom: 3%; 
 }
 
-.subTitulo{
-    margin-top: 5%;
-    width: 100%;
-    text-align: left;
-}
-.subTitulo p{
-    font-size: 1.5rem;
-    margin-bottom: 3%;
-    font-weight: 500;
-}
 
-#container{
-width: 50%;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-margin-bottom: 5%;
-
-}
 .texto{
     margin-top: 2%;
     width: 100%;
@@ -93,24 +79,40 @@ margin-bottom: 5%;
 font-size: 1.2rem;
 }
 .img{
-    margin-top:5%;
-    margin-bottom:5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     width: 100%;
 }
 .img img{
     width: 100%;
 }
 
+video{
+    width: 100%;
+}
 
+
+@media(max-width:1140px) {
+   #bloco2{
+    height: 700px;
+   }
+}
 
 @media(max-width:800px) {
-    #container{
+    #container2{
         width: 90%;
     }
+    #bloco1, #bloco2{
+        display:none ;
+    }
 }
-@media(max-width:480px) {
-    .texto{
-   
+@media(max-width:500px) {
+    #container1{
+        border: none;
+    }
+#titulo h1{
+    font-size: 1.5rem;
+    text-align: left;
 }
 .texto p{
 font-size: 1rem;

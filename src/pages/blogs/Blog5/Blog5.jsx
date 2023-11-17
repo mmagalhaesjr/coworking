@@ -6,6 +6,7 @@ import Rodape from '../../../components/Rodape/Rodape';
 import { BsWhatsapp } from 'react-icons/bs';
 
 import foto1 from '../../../assets/blog/blog5-f1.webp'
+import video from '../../../assets/blog/blog5-video.mp4'
 
 
 
@@ -98,8 +99,8 @@ export default function Blog5() {
                         </div>
 
                         <div className="img">
-                            <video width="640" height="360" controls>
-                                <source src='src/assets/blog/blog5-video.mp4' type="video/mp4" />
+                            <video controls>
+                                <source src={video} type="video/mp4" />
                                 Seu navegador não suporta o elemento de vídeo.
                             </video>
                         </div>

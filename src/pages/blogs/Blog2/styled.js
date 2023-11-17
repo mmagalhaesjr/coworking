@@ -56,7 +56,7 @@ margin-bottom: 5%;
 
 #titulo{
 margin-top: 5%;
-width: 70%;
+width: 95%;
 text-align: center;
 }
 #titulo h1{
@@ -88,6 +88,9 @@ font-size: 1.2rem;
     width: 100%;
 }
 
+video{
+    width: 100%;
+}
 
 
 @media(max-width:1140px) {
@@ -104,9 +107,13 @@ font-size: 1.2rem;
         display:none ;
     }
 }
-@media(max-width:480px) {
-    .texto{
-   
+@media(max-width:500px) {
+    #container1{
+        border: none;
+    }
+#titulo h1{
+    font-size: 1.5rem;
+    text-align: left;
 }
 .texto p{
 font-size: 1rem;
