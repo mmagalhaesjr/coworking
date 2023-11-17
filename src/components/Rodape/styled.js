@@ -24,7 +24,7 @@ text-align: center;
     align-items: center;
     gap: 5%;
     bottom:0;
-    z-index: 9;
+    z-index: 8;
 }
 h3{
     margin-top: -30px;
@@ -129,6 +129,10 @@ h6{
     gap:5px;   
 }
 
+h6 a{
+color: #926F5D;
+cursor: pointer;
+}
 
 @media (max-width:1050px) {
     height: 100%;

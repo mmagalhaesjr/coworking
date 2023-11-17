@@ -6,9 +6,14 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 import { ImLocation2 } from 'react-icons/im';
 import {MdEmail} from 'react-icons/md';
 
+import { useNavigate } from 'react-router-dom';
+
 import { StyledRodape } from "./styled"
 
 export default function Rodape() {
+
+    const navegar = useNavigate();
+
     return (
 
         <StyledRodape>
@@ -56,9 +61,13 @@ export default function Rodape() {
             </div>
             <h6>
                 © 2023
-                Todos os direitos reservados | Temasek Coworking | Política de Privacidade
+                Todos os direitos reservados | Temasek Coworking | 
+                <a href="/politicaDePrivacidade" target="_blank" rel="noopener noreferrer"> Política de Privacidade</a> |
+                <a href="/termosDeUso" target="_blank" rel="noopener noreferrer"> Termos de uso</a>
             </h6>
         </StyledRodape>
 
     )
 }
+
+

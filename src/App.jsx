@@ -24,6 +24,8 @@ import Blog7 from './pages/blogs/Blog7/Blog7';
 import Blog8 from './pages/blogs/Blog8/Blog8';
 import Blog9 from './pages/blogs/Blog9/Blog9';
 import Blog10 from './pages/blogs/Blog10/Blog10';
+import { PoliticaP } from "./pages/PoliticaP/PoliticaP";
+import { TermosU } from "./pages/TermosU/TermosU";
 
 export default function App() {
 
@@ -46,6 +48,9 @@ export default function App() {
 
                         <Route path="/planos" exact element={<Planos />} />
                         <Route path="/eventos" exact element={<Eventos />} />
+
+                        <Route path="/politicaDePrivacidade" exact element={<PoliticaP />} />
+                        <Route path="/termosDeUso" exact element={<TermosU />} />
 
                         <Route path="/blog" exact element={<TelaBlog />} />
 
