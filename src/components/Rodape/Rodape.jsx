@@ -6,13 +6,13 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 import { ImLocation2 } from 'react-icons/im';
 import {MdEmail} from 'react-icons/md';
 
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 import { StyledRodape } from "./styled"
 
 export default function Rodape() {
 
-    const navegar = useNavigate();
+    // const navegar = useNavigate();
 
     return (
 
