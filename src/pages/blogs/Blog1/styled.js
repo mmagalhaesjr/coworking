@@ -78,6 +78,17 @@ margin-bottom: 3%;
 .texto p{
 font-size: 1.2rem;
 }
+
+.subTitulo{
+  width: 100%;
+  text-align: left;
+  margin-top: 3%;
+  
+} 
+.subTitulo p{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
 .img{
     margin-top: 5%;
     margin-bottom: 5%;

@@ -27,7 +27,7 @@ export default function Blog9() {
                     </div>
 
                     <div id="container2">
-                        <div className="subTutulo">
+                        <div className="subTitulo">
                             <p>
                                 Neste blog, exploraremos como criar um espaço de
                                 <span>coworking</span> que priorize o bem-estar dos membros e promova

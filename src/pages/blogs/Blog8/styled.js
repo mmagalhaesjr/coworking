@@ -69,6 +69,16 @@ font-size: 2rem;
 margin-bottom: 3%; 
 }
 
+.subTitulo{
+  width: 100%;
+  text-align: left;
+  margin-top: 3%;
+  
+} 
+.subTitulo p{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
 
 .texto{
     margin-top: 2%;
