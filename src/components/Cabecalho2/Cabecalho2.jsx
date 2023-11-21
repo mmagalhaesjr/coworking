@@ -25,11 +25,15 @@ export default function Cabecalho2() {
                     <a href="/" className="logo"><img src={logo} alt='logo' /></a>
                     <ul className="nav-list">
                         <li><a onClick={() => navegar("/")}>Home</a></li>
-                        <li><a onClick={() => navegar("/quem-somos")}>Quem somos</a></li>
+
+                        {/* <li><a onClick={() => navegar("/quem-somos")}>Quem somos</a></li>
                         <li><a onClick={() => navegar("/planos")}>Planos</a></li>
-                        <li><a onClick={() => navegar("/eventos")}>Eventos</a></li>
+                        <li><a onClick={() => navegar("/eventos")}>Eventos</a></li> */}
+                        <li><a href="/quem-somos"  >Quem somos</a></li>
+                        <li><a href="/planos"  >Planos</a></li>
+                        <li><a href="/eventos"  >Eventos</a></li>
                         <li><a href='https://temasekcoworking.conexa.app' target="_blank" rel="noreferrer">Área do cliente</a></li>
-                        <li><a onClick={() => navegar("/blog")}>Blog</a></li>
+                        <li><a href="/blog"  >Blog</a></li>
                     </ul>
                     <button onClick={mobile}>
                         <span className='linha'></span>

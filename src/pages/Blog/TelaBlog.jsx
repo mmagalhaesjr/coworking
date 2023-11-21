@@ -1,6 +1,6 @@
 import { StyledBlog } from "./styled";
 
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 import { BsWhatsapp } from 'react-icons/bs';
 
@@ -24,7 +24,7 @@ import Rodape from '../../components/Rodape/Rodape';
 
 export default function Blog() {
 
-    const navegar = useNavigate()
+    // const navegar = useNavigate()
 
 
     return (
@@ -44,8 +44,8 @@ export default function Blog() {
 
                 <div id="container">
 
-
-                    <div className="materia" onClick={() => navegar('/blog1')}>
+                {/* <a href="/eventos"  >Eventos</a> */}
+                    <a className="materia" href="/blog1" >
                         <div className="foto">
                             <img src={foto1} alt="" />
                         </div>
@@ -59,9 +59,9 @@ export default function Blog() {
                             O coworking abrange um espaço de trabalho compartilhado por profissionais
                             independentes...
                         </p>
-                    </div>
+                    </a>
 
-                    <div className="materia" onClick={() => navegar('/blog2')}>
+                    <a className="materia" href="/blog2">
                         <div className="foto">
                             <img src={foto2} alt="" />
                         </div>
@@ -74,9 +74,9 @@ export default function Blog() {
                             Conheça algumas estratégias que podem aumentar suas
                             oportunidades de negócio...
                         </p>
-                    </div>
+                    </a>
 
-                    <div className="materia" onClick={() => navegar('/blog3')}>
+                    <a className="materia" href="/blog3">
                         <div className="foto">
                             <img src={foto3} alt="" />
                         </div>
@@ -90,9 +90,9 @@ export default function Blog() {
                             compartilhados
 
                         </p>
-                    </div>
+                    </a>
 
-                    <div className="materia" onClick={() => navegar('/blog4')}>
+                    <a className="materia" href="/blog4">
                         <div className="foto">
                             <img src={foto4} alt="" />
                         </div>
@@ -107,9 +107,9 @@ export default function Blog() {
                             Confira abaixo algumas maneiras de garantir a privacidade
                             em um espaço de coworking...
                         </p>
-                    </div>
+                    </a>
 
-                    <div className="materia" onClick={() => navegar('/blog5')}>
+                    <a className="materia" href="/blog5">
                         <div className="foto">
                             <img src={foto5} alt="" />
                         </div>
@@ -123,9 +123,9 @@ export default function Blog() {
                             Descubra neste blog como esses espaços de trabalho
                             compartilhados podem revolucionar...
                         </p>
-                    </div>
+                    </a>
 
-                    <div className="materia" onClick={() => navegar('/blog6')}>
+                    <a className="materia" href="/blog6">
                         <div className="foto">
                             <img src={foto6} alt="" />
                         </div>
@@ -139,9 +139,9 @@ export default function Blog() {
                             Para tirar o máximo proveito de seu espaço de coworking ,
                             é importante adotar uma abordagem estratégica, confira a seguir:...
                         </p>
-                    </div>
+                    </a>
 
-                    < div className="materia" onClick={() => navegar('/blog7')}>
+                    <a  className="materia" href="/blog7">
                         <div className="foto">
                             <img src={foto7} alt="" />
                         </div>
@@ -157,9 +157,9 @@ export default function Blog() {
                             Neste blog, exploraremos como os coworkings estão
                             revolucionando a maneira como trabalhamos...
                         </p>
-                    </div>
+                    </a>
 
-                    <div className="materia" onClick={() => navegar('/blog8')}>
+                    <a className="materia" href="/blog8">
                         <div className="foto">
                             <img src={foto8} alt="" />
                         </div>
@@ -174,9 +174,9 @@ export default function Blog() {
                             Vamos explorar as características que definem os melhores
                             espaços...
                         </p>
-                    </div>
+                    </a>
 
-                    <div className="materia" onClick={() => navegar('/blog9')}>
+                    <a className="materia" href="/blog9">
                         <div className="foto">
                             <img src={foto9} alt="" />
                         </div>
@@ -190,9 +190,9 @@ export default function Blog() {
                             Neste blog, exploraremos como criar um espaço de
                             coworking que priorize o bem-estar dos membros e promova...
                         </p>
-                    </div>
+                    </a>
 
-                    <div className="materia" onClick={() => navegar('/blog10')}>
+                    <a className="materia" href="/blog10">
                         <div className="foto">
                             <img src={foto10} alt="" />
                         </div>
@@ -206,7 +206,7 @@ export default function Blog() {
                             A pergunta que muitos profissionais se fazem é: &quot;Quanto eu
                             devo gastar em um coworking	&quot;...
                         </p>
-                    </div>
+                    </a>
 
 
                 </div>

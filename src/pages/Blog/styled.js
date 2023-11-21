@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 
+
+
 export const StyledBlog = styled.main`
 width: 100%;
 
@@ -48,6 +50,9 @@ font-weight: 700;
 }
 
 
+a{
+    color:#000000;
+}
 .materia{
     width:20%;
     min-width:350px ;
@@ -63,6 +68,7 @@ font-weight: 700;
         background-color: #bfbfbf;
     }
 }
+
 .texto{
     width: 95%;
 }
