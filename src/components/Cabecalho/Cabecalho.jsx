@@ -1,10 +1,12 @@
-import logo from '../../assets/logo.png';
-import logo2 from '../../assets/logo-preto.png';
+
 import { useState } from "react";
 import { useEffect } from 'react';
 // import { useNavigate } from 'react-router-dom';
 import MenuMobile from '../MenuMobile/MenuMobile';
 import { StyledCabecalho } from './styled';
+
+import logo from '../../assets/logo.png';
+import logo2 from '../../assets/logo-preto.png';
 
 
 

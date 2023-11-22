@@ -53,7 +53,7 @@ export default function Blog2() {
 
 
                         <div className="img">
-                            <img src={foto1} alt="" />
+                            <img src={foto1} alt="foto coworking" />
                         </div>
                         <div className="texto">
                             <p>
@@ -70,7 +70,7 @@ export default function Blog2() {
                         </div>
                         <div className="img">
                             <video controls>
-                                <source src={video} type="video/mp4" />
+                                <source src={video} type="video/mp4" alt="foto coworking" />
                                 Seu navegador não suporta o elemento de vídeo.
                             </video>
                         </div>
@@ -96,7 +96,7 @@ export default function Blog2() {
                             </p>
                         </div>
                         <div className="img">
-                            <img src={foto2} alt="" />
+                            <img src={foto2} alt="foto coworking" />
                         </div>
                         <div className="texto">
                             <p>

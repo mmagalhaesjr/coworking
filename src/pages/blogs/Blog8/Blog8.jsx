@@ -45,7 +45,7 @@ export default function Blog8() {
 
 
                         <div className="img">
-                            <img src={foto1} alt="" />
+                            <img src={foto1} alt="foto coworking" />
                         </div>
                         <div className="subTitulo">
                             <p>

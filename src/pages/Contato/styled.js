@@ -14,7 +14,7 @@ padding: 20px;
 gap: 5.1%;
 
 height: 100vh;
-background-image: ${fotoCaminho};
+background-image: ${fotoCaminho } ;
 background-repeat: no-repeat;
 background-size:cover;
 

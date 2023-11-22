@@ -107,9 +107,9 @@ export default function MDedicada() {
 
                                 className="swiper-slide"
                             >
-                                <SwiperSlide><img className="foto" src={foto1} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto2} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto3} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto1} alt="coworking" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto2} alt="coworking" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto3} alt="coworking" /></SwiperSlide>
 
 
                             </Swiper>
@@ -155,23 +155,23 @@ export default function MDedicada() {
                     </div>
                     <div id="container1">
                         <div className="cxImg">
-                            <img src={ico1} alt="" />
+                            <img src={ico1} alt="icone"/>
                             <p>Serviço de Concierge</p>
                         </div>
                         <div className="cxImg">
-                            <img src={ico2} alt="" />
+                            <img src={ico2} alt="icone" />
                             <p>Linha telefônica privativa</p>
                         </div>
                         <div className="cxImg">
-                            <img src={ico3} alt="" />
+                            <img src={ico3} alt="icone" />
                             <p>Ambiente climatizado</p>
                         </div>
                         <div className="cxImg">
-                            <img src={ico4} alt="" />
+                            <img src={ico4} alt="icone" />
                             <p>Cozinha compartilhada</p>
                         </div>
                         <div className="cxImg">
-                            <img src={ico5} alt="" />
+                            <img src={ico5} alt="icone" />
                             <p>Acesso com leitor facial</p>
                         </div>
                         <div className="cxImg">
@@ -179,27 +179,27 @@ export default function MDedicada() {
                             <p>Gerenciamento de correspondência</p>
                         </div>
                         <div className="cxImg">
-                            <img src={ico7} alt="" />
+                            <img src={ico7} alt="icone" />
                             <p>Endereço fiscal e comercial</p>
                         </div>
                         <div className="cxImg">
-                            <img src={ico8} alt="" />
+                            <img src={ico8} alt="icone" />
                             <p>Contas essenciais inclusas</p>
                         </div>
                         <div className="cxImg">
-                            <img src={ico9} alt="" />
+                            <img src={ico9} alt="icone" />
                             <p>Limpeza e manutenção</p>
                         </div>
                         <div className="cxImg">
-                            <img src={ico10} alt="" />
+                            <img src={ico10} alt="icone" />
                             <p>Segurança 24h</p>
                         </div>
                         <div className="cxImg">
-                            <img src={ico11} alt="" />
+                            <img src={ico11} alt="icone" />
                             <p>Recepção</p>
                         </div>
                         <div className="cxImg">
-                            <img src={ico12} alt="" />
+                            <img src={ico12} alt="icone" />
                             <p>Armários</p>
                         </div>
 
@@ -214,21 +214,21 @@ export default function MDedicada() {
                         <div className="box">
 
                             <div className="cxIcone">
-                                <img src={icone1} alt="" />
+                                <img src={icone1} alt="icone"/>
                                 <p>Empresas</p>
                             </div>
                             <div className="cxIcone">
-                                <img src={icone2} alt="" />
+                                <img src={icone2} alt="icone" />
                                 <p>Autônomos</p>
                             </div>
 
                             <div className="cxIcone">
-                                <img src={icone3} alt="" />
+                                <img src={icone3} alt="icone" />
                                 <p>Startups</p>
                             </div>
 
                             <div className="cxIcone">
-                                <img src={icone4} alt="" />
+                                <img src={icone4} alt="icone" />
                                 <p>Empresas remotas</p>
                             </div>
 

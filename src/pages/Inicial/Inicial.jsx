@@ -44,7 +44,7 @@ export default function Inicial() {
                 <SwiperSlide>
 
                     <div id="sala1" className="salas">
-                        <img src={foto1} alt='' />
+                        <img src={foto1} alt="coworking" />
 
                     </div>
 
@@ -53,7 +53,7 @@ export default function Inicial() {
                 <SwiperSlide>
 
                     <div id="sala2" className="salas">
-                        <img src={foto2} alt='' />
+                        <img src={foto2} alt="coworking" />
                        
 
                     </div>
@@ -62,7 +62,7 @@ export default function Inicial() {
                 <SwiperSlide>
 
                     <div id="sala3" className="salas">
-                        <img src={foto3} alt='' />
+                        <img src={foto3} alt="coworking" />
                         
 
                     </div>
@@ -71,7 +71,7 @@ export default function Inicial() {
                 <SwiperSlide>
 
                     <div id="sala3" className="salas">
-                        <img src={foto4} alt='' />
+                        <img src={foto4} alt="coworking" />
                         
 
                     </div>

@@ -108,8 +108,8 @@ export default function Planos() {
 
                 <div id="container" >
 
-                    <img className="imgTemasek" src={temasek} alt="" />
-                    <img className="imgCoworking" src={coworking} alt="" />
+                    <img className="imgTemasek" src={temasek} alt="coworking" />
+                    <img className="imgCoworking" src={coworking} alt="coworking" />
 
                     <div className="inicio">
 
@@ -163,7 +163,7 @@ export default function Planos() {
 
                 <div className="cxEstacao">
                     <div className="img">
-                        <img src={foto1} alt="" />
+                        <img src={foto1} alt="coworking" />
                     </div>
                     <div className="texto">
                         <div className="txt">
@@ -193,7 +193,7 @@ export default function Planos() {
 
                 <div className="cxEstacao">
                     <div className="img">
-                        <img src={foto2} alt="" />
+                        <img src={foto2} alt="coworking" />
                     </div>
                     <div className="texto">
                         <div className="txt">
@@ -222,7 +222,7 @@ export default function Planos() {
 
                 <div className="cxEstacao">
                     <div className="img">
-                        <img src={foto3} alt="" />
+                        <img src={foto3} alt="coworking" />
                     </div>
                     <div className="texto">
                         <div className="txt">
@@ -260,7 +260,7 @@ export default function Planos() {
 
                 <div className="cxEstacao">
                     <div className="img">
-                        <img src={foto4} alt="" />
+                        <img src={foto4} alt="coworking" />
                     </div>
                     <div className="texto">
                         <div className="txt">
@@ -298,7 +298,7 @@ export default function Planos() {
 
                 <div className="cxEstacao">
                     <div className="img">
-                        <img src={foto6} alt="" />
+                        <img src={foto6} alt="coworking" />
                     </div>
                     <div className="texto">
                         <div className="txt">
@@ -337,7 +337,7 @@ export default function Planos() {
 
                 <div className="cxEstacao">
                     <div className="img">
-                        <img src={foto5} alt="" />
+                        <img src={foto5} alt="coworking" />
                     </div>
                     <div className="texto">
                         <div className="txt">

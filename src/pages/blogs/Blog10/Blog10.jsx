@@ -40,7 +40,7 @@ export default function Blog10() {
                         </div>
 
                         <div className="img">
-                            <img src={foto1} alt="" />
+                            <img src={foto1} alt="foto coworking"/>
                         </div>
                         <div className="texto">
                             <p>
@@ -110,7 +110,7 @@ export default function Blog10() {
                             </p>
                         </div>
                         <div className="img">
-                            <img src={foto2} alt="" />
+                            <img src={foto2} alt="foto coworking" />
                         </div>
                         <div className="texto">
                             <p>

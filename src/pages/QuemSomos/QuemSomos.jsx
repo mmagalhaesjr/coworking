@@ -90,7 +90,7 @@ useEffect(() => {
                     </div>
 
                     <div id='lista'>
-                        <img src={foto}></img>
+                        <img src={foto} alt="coworking"></img>
                         <ul>
                             <li>Ética</li>
                             <li>Qualidade</li>

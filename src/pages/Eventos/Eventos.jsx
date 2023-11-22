@@ -105,10 +105,10 @@ export default function Eventos() {
 
                                 className="swiper-slide"
                             >
-                                <SwiperSlide><img className="foto" src={foto1} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto2} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto3} alt="" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto4} alt="" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto1} alt="coworking" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto2} alt="coworking" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto3} alt="coworking" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto4} alt="coworking" /></SwiperSlide>
 
                             </Swiper>
                         </div>

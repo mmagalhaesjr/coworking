@@ -47,7 +47,7 @@ export default function Blog() {
                 {/* <a href="/eventos"  >Eventos</a> */}
                     <a className="materia" href="/blog1" >
                         <div className="foto">
-                            <img src={foto1} alt="" />
+                            <img src={foto1} alt="foto coworking" />
                         </div>
                         <div className="texto">
                             <h1>
@@ -63,7 +63,7 @@ export default function Blog() {
 
                     <a className="materia" href="/blog2">
                         <div className="foto">
-                            <img src={foto2} alt="" />
+                            <img src={foto2} alt="foto coworking" />
                         </div>
                         <div className="texto">
                             <h1>
@@ -78,7 +78,7 @@ export default function Blog() {
 
                     <a className="materia" href="/blog3">
                         <div className="foto">
-                            <img src={foto3} alt="" />
+                            <img src={foto3} alt="foto coworking" />
                         </div>
                         <div className="texto">
                             <h1>
@@ -94,7 +94,7 @@ export default function Blog() {
 
                     <a className="materia" href="/blog4">
                         <div className="foto">
-                            <img src={foto4} alt="" />
+                            <img src={foto4} alt="foto coworking" />
                         </div>
                         <div className="texto">
                             <h1>
@@ -111,7 +111,7 @@ export default function Blog() {
 
                     <a className="materia" href="/blog5">
                         <div className="foto">
-                            <img src={foto5} alt="" />
+                            <img src={foto5} alt="foto coworking" />
                         </div>
                         <div className="texto">
                             <h1>
@@ -127,7 +127,7 @@ export default function Blog() {
 
                     <a className="materia" href="/blog6">
                         <div className="foto">
-                            <img src={foto6} alt="" />
+                            <img src={foto6} alt="foto coworking" />
                         </div>
                         <div className="texto">
                             <h1>
@@ -143,7 +143,7 @@ export default function Blog() {
 
                     <a  className="materia" href="/blog7">
                         <div className="foto">
-                            <img src={foto7} alt="" />
+                            <img src={foto7} alt="foto coworking" />
                         </div>
                         <div className="texto">
                             <h1>
@@ -161,7 +161,7 @@ export default function Blog() {
 
                     <a className="materia" href="/blog8">
                         <div className="foto">
-                            <img src={foto8} alt="" />
+                            <img src={foto8} alt="foto coworking" />
                         </div>
                         <div className="texto">
                             <h1>
@@ -178,7 +178,7 @@ export default function Blog() {
 
                     <a className="materia" href="/blog9">
                         <div className="foto">
-                            <img src={foto9} alt="" />
+                            <img src={foto9} alt="foto coworking" />
                         </div>
                         <div className="texto">
                             <h1>
@@ -194,7 +194,7 @@ export default function Blog() {
 
                     <a className="materia" href="/blog10">
                         <div className="foto">
-                            <img src={foto10} alt="" />
+                            <img src={foto10} alt="foto coworking" />
                         </div>
                         <div className="texto">
                             <h1>

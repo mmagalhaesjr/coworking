@@ -43,47 +43,47 @@ export default function Servicos() {
 
             <div id="container" >
                 <div className="cx" >
-                    <img src={img1} alt="" />
+                    <img src={img1} alt="icone" />
                     <h2>Wifi</h2>
                     <p>Fornecemos internet sem fio de alta velocidade.</p>
                 </div>
                 <div className="cx" >
-                    <img src={img2} alt="" />
+                    <img src={img2} alt="icone" />
                     <h2>Coffee break</h2>
                     <p>A copa compartilhada oferece máquina de café e água para chá.</p>
                 </div>
                 <div className="cx" >
-                    <img src={img3} alt="" />
+                    <img src={img3} alt="icone" />
                     <h2>Armários</h2>
                     <p> Espaços individuais para armazenar seus pertences com segurança.</p>
                 </div>
                 <div className="cx" >
-                    <img src={img4} alt="" />
+                    <img src={img4} alt="icone" />
                     <h2>Impressora</h2>
                     <p>Impressão e digitalização para você ter sempre em mãos o que precisa.</p>
                 </div>
                 <div className="cx" >
-                    <img src={img5} alt="" />
+                    <img src={img5} alt="icone" />
                     <h2>Ambientes climatizados</h2>
                     <p>Salas climatizadas para acomodar sua equipe e convidados em reuniões.</p>
                 </div>
                 <div className="cx" >
-                    <img src={img6} alt="" />
+                    <img src={img6} alt="icone" />
                     <h2>Reconhecimento facial</h2>
                     <p>Acesso por reconhecimento facial para todos os membros.</p>
                 </div>
                 <div className="cx" >
-                    <img src={img7} alt="" />
+                    <img src={img7} alt="icone" />
                     <h2>Equipe dedicada</h2>
                     <p>Nossa equipe oferece suporte para otimizar o ambiente de trabalho compartilhado.</p>
                 </div>
                 <div className="cx" >
-                    <img src={img8} alt="" />
+                    <img src={img8} alt="icone" />
                     <h2>Cabine  privativa</h2>
                     <p>Área reservada para chamadas telefônicas e videoconferências</p>
                 </div>
                 <div className="cx" >
-                    <img src={img9} alt="" />
+                    <img src={img9} alt="icone" />
                     <h2>Endereço Fiscal e Comercial</h2>
                     <p>Gestão e recebimento de correspondências</p>
                 </div>

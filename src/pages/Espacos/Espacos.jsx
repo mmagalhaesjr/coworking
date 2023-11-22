@@ -47,7 +47,7 @@ const Espacos = () => {
                     <SwiperSlide>
                         <a onClick={() => navegar('/dedicada')}>
                             <div className="salas">
-                                <img src={foto1} alt='' />
+                                <img src={foto1} alt="coworking" />
                                 <h3>Estação de Trabalho Dedicada</h3>
                             </div>
                         </a>
@@ -56,7 +56,7 @@ const Espacos = () => {
                     <SwiperSlide>
                         <a onClick={() => navegar('/compartilhada')}>
                             <div className="salas">
-                                <img src={foto2} alt='' />
+                                <img src={foto2} alt="coworking"/>
                                 <h3>Estação de Trabalho Rotativa</h3>
                             </div>
                         </a>
@@ -65,7 +65,7 @@ const Espacos = () => {
                     <SwiperSlide>
                         <a onClick={() => navegar('/atendimento')}>
                             <div className="salas">
-                                <img src={foto5} alt='' />
+                                <img src={foto5} alt="coworking"/>
                                 <h3>Sala para Atendimento</h3>
                             </div>
                         </a>
@@ -74,7 +74,7 @@ const Espacos = () => {
                     <SwiperSlide>
                         <a onClick={() => navegar('/privativa')}>
                             <div className="salas">
-                                <img src={foto4} alt='' />
+                                <img src={foto4} alt="coworking" />
                                 <h3>Salas Privativas</h3>
                             </div>
                         </a>
@@ -83,7 +83,7 @@ const Espacos = () => {
                     <SwiperSlide>
                         <a onClick={() => navegar('/reuniao')}>
                             <div className="salas">
-                                <img src={foto3} alt='' />
+                                <img src={foto3} alt="coworking" />
                                 <h3>Sala de Reunião</h3>
                             </div>
                         </a>
