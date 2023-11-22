@@ -12,6 +12,8 @@ import { useContext, useEffect } from "react";
 import { HomeContext } from "../../contexts/HomeContext";
 
 
+
+
 export default function TelaInicial() {
     
     const {homeComponent, setHomeComponent} = useContext(HomeContext)
