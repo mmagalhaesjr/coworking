@@ -5,8 +5,8 @@ import Rodape from '../../../components/Rodape/Rodape';
 
 import { BsWhatsapp } from 'react-icons/bs';
 
-import foto1 from '../../../assets/blog/blog5-f1.webp'
-import video from '../../../assets/blog/blog5-video.mp4'
+import foto1 from '../../../assets/blog/blog5/foto1.webp'
+import video from '../../../assets/blog/blog5/blog5-video.mp4'
 
 
 

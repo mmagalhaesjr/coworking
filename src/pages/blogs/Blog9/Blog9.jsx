@@ -1,6 +1,6 @@
 import { StyledBlog9 } from "./styled"
 
-import foto1 from '../../../assets/blog/blog9-f1.webp'
+import foto1 from '../../../assets/blog/blog9/blog9-f1.webp'
 
 import { BsWhatsapp } from 'react-icons/bs';
 

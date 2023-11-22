@@ -1,6 +1,6 @@
 import { StyledBlog8 } from "./styled"
 
-import foto1 from '../../../assets/blog/blog8-f1.jpeg'
+import foto1 from '../../../assets/blog/blog8/blog8-f1.jpeg'
 
 import Cabecalho2 from '../../../components/Cabecalho2/Cabecalho2';
 import Rodape from '../../../components/Rodape/Rodape';

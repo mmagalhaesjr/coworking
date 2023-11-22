@@ -6,7 +6,7 @@ import Rodape from '../../../components/Rodape/Rodape';
 
 import { BsWhatsapp } from 'react-icons/bs';
 
-import foto1 from '../../../assets/blog/blog4-f1.webp'
+import foto1 from '../../../assets/blog/blog4/blog4-f1.webp'
 
 
 

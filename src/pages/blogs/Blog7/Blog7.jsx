@@ -1,6 +1,6 @@
 import { StyledBlog7 } from "./styled"
 
-import foto1 from '../../../assets/blog/blog7-f1.webp'
+import foto1 from '../../../assets/blog/blog7/blog7-f1.webp'
 
 
 import Cabecalho2 from '../../../components/Cabecalho2/Cabecalho2';

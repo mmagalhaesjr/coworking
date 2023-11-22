@@ -4,16 +4,16 @@ import { StyledBlog } from "./styled";
 
 import { BsWhatsapp } from 'react-icons/bs';
 
-import foto1 from "../../assets/blog/foto1.webp"
-import foto2 from "../../assets/blog/blog2-f1.webp"
-import foto3 from "../../assets/blog/blog3-f1.webp"
-import foto4 from "../../assets/blog/blog4-f1.webp"
-import foto5 from "../../assets/blog/blog5-f1.webp"
-import foto6 from "../../assets/blog/blog6-f1.webp"
-import foto7 from "../../assets/blog/blog7-f1.webp"
-import foto8 from "../../assets/blog/blog8-capa.webp"
-import foto9 from "../../assets/blog/blog9-f2.webp"
-import foto10 from "../../assets/blog/blog10-f1.webp"
+import foto1 from "../../assets/blog/blog1/foto1.webp"
+import foto2 from "../../assets/blog/blog2/foto1.webp"
+import foto3 from "../../assets/blog/blog3/foto1.webp"
+import foto4 from "../../assets/blog/blog4/blog4-f1.webp"
+import foto5 from "../../assets/blog/blog5/foto1.webp"
+import foto6 from "../../assets/blog/blog6/blog6-f1.webp"
+import foto7 from "../../assets/blog/blog7/blog7-f1.webp"
+import foto8 from "../../assets/blog/blog8/blog8-capa.webp"
+import foto9 from "../../assets/blog/blog9/blog9-f2.webp"
+import foto10 from "../../assets/blog/blog10/blog10-f1.webp"
 
 
 import Cabecalho2 from '../../components/Cabecalho2/Cabecalho2';

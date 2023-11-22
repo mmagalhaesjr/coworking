@@ -1,7 +1,8 @@
 import { StyledBlog6 } from "./styled"
 
-import foto1 from '../../../assets/blog/blog6-f1.webp'
-import foto2 from '../../../assets/blog/blog6-f2.webp'
+import foto1 from '../../../assets/blog/blog6/blog6-f1.webp'
+import foto2 from '../../../assets/blog/blog6/blog6-f2.webp'
+
 import Cabecalho2 from '../../../components/Cabecalho2/Cabecalho2';
 import Rodape from '../../../components/Rodape/Rodape';
 
