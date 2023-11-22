@@ -8,13 +8,15 @@ import { StyledCabecalho } from './styled';
 import logo from '../../assets/logo.png';
 import logo2 from '../../assets/logo-preto.png';
 
+import { Helmet } from 'react-helmet';
+
 
 
 export default function Cabecalho() {
     // const navegar = useNavigate();
     const [scrollY, setScrollY] = useState(0);
 
-    
+
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => {
@@ -41,6 +43,12 @@ export default function Cabecalho() {
     return (
 
         <>
+
+            <Helmet>
+                <title>temasek | Coworking JF</title>
+                <meta name="description" content="Bem-vindo ao Temasek Coworking JF - O melhor espaço de coworking em Juiz de Fora. Oferecemos ambientes colaborativos para trabalho, networking e eventos. Conheça nossos espaços e planos." />
+            </Helmet>
+
             <MenuMobile
                 mobileAtivado={mobileAtivado}
                 setMobileAtivado={setMobileAtivado} />
@@ -62,9 +70,9 @@ export default function Cabecalho() {
                         {/* <li><a onClick={() => navegar("/eventos")}>Eventos</a></li> */}
                         <li><a href="/eventos"  >Eventos</a></li>
                         <li><a href="#contato">Contato</a></li>
-                       
-                       
-                       
+
+
+
                         <li><a href='https://temasekcoworking.conexa.app' target="_blank" rel="noreferrer" >Área do cliente</a></li>
                         {/* <li><a onClick={() => navegar("/blog")} >Blog</a></li> */}
                         <li><a href="/blog"  >Blog</a></li>

@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomeContextProvider from "./contexts/HomeContext";
+import { Helmet } from 'react-helmet';
 
 import ConfirmarEnvio from './pages/ConfirmarEnvio/ConfirmarEnvio';
 import Main from './pages/Main/Main'
@@ -35,19 +36,25 @@ import Erro from './components/Erro/Erro';
 export default function App() {
 
     return (
+        <>
 
-        <BrowserRouter>
+            <Helmet>
+                <title>temasek | Coworking JF | aluguel | espaço | trabalho</title>
+                <meta name="description" content="Bem-vindo ao Temasek Coworking JF - O melhor espaço de coworking em Juiz de Fora. Oferecemos ambientes colaborativos para trabalho, networking e eventos. Conheça nossos espaços e planos." />
+            </Helmet>
 
-            <HomeContextProvider>
-                <div className="App">
-                    <Routes>
+            <BrowserRouter>
+
+                <HomeContextProvider>
+                    <div className="App">
+                        <Routes>
 
 
-                       
 
 
 
-                            <Route path="/" exact element={<Main />}  />
+
+                            <Route path="/" exact element={<Main />} />
                             <Route path="/compartilhada" exact element={<MCompartilhada />} />
                             <Route path="/dedicada" exact element={<MDedicada />} />
                             <Route path="/privativa" exact element={<SPrivativa />} />
@@ -77,12 +84,14 @@ export default function App() {
                             <Route path="/confirmar" exact element={<ConfirmarEnvio />} />
                             <Route path="*" element={<Erro />} />
 
-                        
-                    </Routes>
-                </div>
-            </HomeContextProvider>
 
-        </BrowserRouter>
+                        </Routes>
+                    </div>
+                </HomeContextProvider>
+
+            </BrowserRouter>
+
+        </>
 
 
     )

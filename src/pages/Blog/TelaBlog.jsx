@@ -20,7 +20,7 @@ import Cabecalho2 from '../../components/Cabecalho2/Cabecalho2';
 import Rodape from '../../components/Rodape/Rodape';
 
 
-
+import { Helmet } from 'react-helmet';
 
 export default function Blog() {
 
@@ -28,7 +28,15 @@ export default function Blog() {
 
 
     return (
+
+
         <>
+
+            <Helmet>
+                <title>temasek | blog Coworking JF</title>
+                <meta name="description" content="Bem-vindo ao Temasek Coworking JF - O melhor espaço de coworking em Juiz de Fora. Oferecemos ambientes colaborativos para trabalho, networking e eventos. Conheça nossos espaços e planos. confira nosso conteudo em blog" />
+            </Helmet>
+
             <Cabecalho2 />
 
             <StyledBlog>
@@ -44,7 +52,7 @@ export default function Blog() {
 
                 <div id="container">
 
-                {/* <a href="/eventos"  >Eventos</a> */}
+                    {/* <a href="/eventos"  >Eventos</a> */}
                     <a className="materia" href="/blog1" >
                         <div className="foto">
                             <img src={foto1} alt="foto coworking" />
@@ -141,7 +149,7 @@ export default function Blog() {
                         </p>
                     </a>
 
-                    <a  className="materia" href="/blog7">
+                    <a className="materia" href="/blog7">
                         <div className="foto">
                             <img src={foto7} alt="foto coworking" />
                         </div>

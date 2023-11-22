@@ -11,35 +11,44 @@ import Contato from "../Contato/Contato";
 import { useContext, useEffect } from "react";
 import { HomeContext } from "../../contexts/HomeContext";
 
+import { Helmet } from 'react-helmet';
+
 
 
 
 export default function TelaInicial() {
-    
-    const {homeComponent, setHomeComponent} = useContext(HomeContext)
+
+    const { homeComponent, setHomeComponent } = useContext(HomeContext)
 
     useEffect(() => {
         window.scrollTo(0, 0);
         const component = document.getElementById(homeComponent);
         if (component) {
             component.scrollIntoView({ behavior: 'smooth' });
-          setHomeComponent('')
+            setHomeComponent('')
         }
-      }, []); 
+    }, []);
 
-    
-      
+
+
     return (
-        <StyledTelaInicial>
-            <Cabecalho />
-            <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
-            <Inicial />
-            <Espacos />
-            <Servicos />
-            <Servicos2 />
-            <Contato />
-            <Rodape />
+        <>
+            <Helmet>
+                <title>temasek | Coworking JF | escritorios compartilhados | aluguel </title>
+                <meta name="description" content="Bem-vindo ao Temasek Coworking JF - O melhor espaço de coworking em Juiz de Fora. Oferecemos ambientes colaborativos para trabalho, networking e eventos. Conheça nossos espaços e planos e aluguel." />
+            </Helmet>
 
-        </StyledTelaInicial>
+            <StyledTelaInicial>
+                <Cabecalho />
+                <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
+                <Inicial />
+                <Espacos />
+                <Servicos />
+                <Servicos2 />
+                <Contato />
+                <Rodape />
+
+            </StyledTelaInicial>
+        </>
     )
 }

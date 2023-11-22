@@ -15,88 +15,97 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { useNavigate } from 'react-router-dom';
 
+import { Helmet } from 'react-helmet';
+
 const Espacos = () => {
 
     const navegar = useNavigate()
 
     return (
-        <StyledEspacos id="espacos">
-            <div id="titulos">
-                <h1>
-                    Um espaço de trabalho compartilhado
-                    que valoriza a qualidade e a elegância
-                    em seu design e funcionalidade.
-                </h1>
-            </div>
+        <>
+            <Helmet>
+                <title>temasek | Coworking JF </title>
+                <meta name="description" content="Bem-vindo ao Temasek Coworking JF - O melhor espaço de coworking em Juiz de Fora. Oferecemos ambientes colaborativos para trabalho, networking e eventos. Conheça nossos espaços e planos." />
+            </Helmet>
 
-            <div id="container">
-
-                <div id='bloco1'>
+            <StyledEspacos id="espacos">
+                <div id="titulos">
+                    <h1>
+                        Um espaço de trabalho compartilhado
+                        que valoriza a qualidade e a elegância
+                        em seu design e funcionalidade.
+                    </h1>
                 </div>
 
-                <div id='bloco2'>
+                <div id="container">
+
+                    <div id='bloco1'>
+                    </div>
+
+                    <div id='bloco2'>
+                    </div>
+
+                    <Swiper
+                        modules={[Navigation, Pagination, A11y]}
+                        navigation
+                        pagination={{ clickable: true }}
+                        slidesPerView={window.innerWidth < 700 ? 1 : 3}
+                    >
+
+                        <SwiperSlide>
+                            <a onClick={() => navegar('/dedicada')}>
+                                <div className="salas">
+                                    <img src={foto1} alt="coworking" />
+                                    <h3>Estação de Trabalho Dedicada</h3>
+                                </div>
+                            </a>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <a onClick={() => navegar('/compartilhada')}>
+                                <div className="salas">
+                                    <img src={foto2} alt="coworking" />
+                                    <h3>Estação de Trabalho Rotativa</h3>
+                                </div>
+                            </a>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <a onClick={() => navegar('/atendimento')}>
+                                <div className="salas">
+                                    <img src={foto5} alt="coworking" />
+                                    <h3>Sala para Atendimento</h3>
+                                </div>
+                            </a>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <a onClick={() => navegar('/privativa')}>
+                                <div className="salas">
+                                    <img src={foto4} alt="coworking" />
+                                    <h3>Salas Privativas</h3>
+                                </div>
+                            </a>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <a onClick={() => navegar('/reuniao')}>
+                                <div className="salas">
+                                    <img src={foto3} alt="coworking" />
+                                    <h3>Sala de Reunião</h3>
+                                </div>
+                            </a>
+                        </SwiperSlide>
+
+
+
+                    </Swiper>
+
                 </div>
-                
-                <Swiper
-                    modules={[Navigation, Pagination, A11y]}
-                    navigation
-                    pagination={{ clickable: true }}
-                    slidesPerView={window.innerWidth < 700 ? 1 : 3}
-                >
-
-                    <SwiperSlide>
-                        <a onClick={() => navegar('/dedicada')}>
-                            <div className="salas">
-                                <img src={foto1} alt="coworking" />
-                                <h3>Estação de Trabalho Dedicada</h3>
-                            </div>
-                        </a>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <a onClick={() => navegar('/compartilhada')}>
-                            <div className="salas">
-                                <img src={foto2} alt="coworking"/>
-                                <h3>Estação de Trabalho Rotativa</h3>
-                            </div>
-                        </a>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <a onClick={() => navegar('/atendimento')}>
-                            <div className="salas">
-                                <img src={foto5} alt="coworking"/>
-                                <h3>Sala para Atendimento</h3>
-                            </div>
-                        </a>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <a onClick={() => navegar('/privativa')}>
-                            <div className="salas">
-                                <img src={foto4} alt="coworking" />
-                                <h3>Salas Privativas</h3>
-                            </div>
-                        </a>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <a onClick={() => navegar('/reuniao')}>
-                            <div className="salas">
-                                <img src={foto3} alt="coworking" />
-                                <h3>Sala de Reunião</h3>
-                            </div>
-                        </a>
-                    </SwiperSlide>
 
 
-
-                </Swiper>
-
-            </div>
-
-
-        </StyledEspacos>
+            </StyledEspacos>
+        </>
     );
 };
 
