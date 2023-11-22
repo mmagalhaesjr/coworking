@@ -43,18 +43,19 @@ import icone4 from '../../../assets/icones2/remotas.png'
 
 import Cabecalho2 from '../../../components/Cabecalho2/Cabecalho2';
 import Rodape from '../../../components/Rodape/Rodape';
+import { Helmet } from "react-helmet";
 
 
 export default function MCompartilhada() {
 
-   
+
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
 
     //-----------------------------------mover para contato
     const navegar = useNavigate()
-    const { setHomeComponent} = useContext(HomeContext)
+    const { setHomeComponent } = useContext(HomeContext)
     const contato = () => {
         setHomeComponent('contato')
         navegar('/');
@@ -62,17 +63,22 @@ export default function MCompartilhada() {
 
     return (
         <>
-        <Cabecalho2/>
-      
+            <Helmet>
+                <title>mesas compartilhadas</title>
+                <meta name="description" content="Bem-vindo ao Temasek Coworking JF - aqui você encontra ambiente com mesas compartilhadas" />
+            </Helmet>
+
+            <Cabecalho2 />
+
             <StyledMCompartilhada>
-            <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
+                <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
                 <div id="titulo">
                 </div>
 
                 <div id="container">
                     <div id="containerTexto">
                         <div id="texto">
-                            <h1>Mesas Rotativas</h1>
+                            <h1 id="titulo">Mesas Rotativas</h1>
                             <h2>
                                 Acesso diário a uma mesa compartilhada em um espaço comum
                                 com toda a estrutura do Temasek Coworking. Ideal para 1 pessoa e equipes reduzidas.
@@ -108,9 +114,9 @@ export default function MCompartilhada() {
 
                                 className="swiper-slide"
                             >
-                                <SwiperSlide><img className="foto" src={foto1}alt="foto coworking" /></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto1} alt="foto coworking" /></SwiperSlide>
                                 <SwiperSlide><img className="foto" src={foto2} alt="foto coworking" /></SwiperSlide>
-                                <SwiperSlide><img className="foto" src={foto3} alt="foto coworking"/></SwiperSlide>
+                                <SwiperSlide><img className="foto" src={foto3} alt="foto coworking" /></SwiperSlide>
 
                             </Swiper>
 
@@ -257,7 +263,7 @@ export default function MCompartilhada() {
 
             </Styled2>
 
-            <Rodape/>
+            <Rodape />
 
         </>
     )

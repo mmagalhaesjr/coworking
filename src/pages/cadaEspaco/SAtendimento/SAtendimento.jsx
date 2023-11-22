@@ -42,11 +42,12 @@ import icone4 from '../../../assets/icones2/remotas.png'
 
 import Cabecalho2 from "../../../components/Cabecalho2/Cabecalho2";
 import Rodape from "../../../components/Rodape/Rodape";
+import { Helmet } from "react-helmet";
 
 
 export default function SAtendimento() {
 
-    
+
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -54,7 +55,7 @@ export default function SAtendimento() {
 
     //-----------------------------------mover para contato
     const navegar = useNavigate()
-    const { setHomeComponent} = useContext(HomeContext)
+    const { setHomeComponent } = useContext(HomeContext)
     const contato = () => {
         setHomeComponent('contato')
         navegar('/');
@@ -64,16 +65,21 @@ export default function SAtendimento() {
     return (
 
         <>
-        <Cabecalho2/>
+            <Helmet>
+                <title>sala de atendimento</title>
+                <meta name="description" content=" proporcionamos ambientes ideais para profissionais que buscam espaços dedicados para atendimento. Se você é psicólogo ou realiza atendimentos em geral, nossas salas oferecem o ambiente perfeito para suas necessidades. " />
+            </Helmet>
+
+            <Cabecalho2 />
             <StyledSAtendimento>
 
-            <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
+                <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
                 <div id="container">
-                    
+
                     <div id="containerTexto">
                         <div id="texto">
-                            <h1>Sala para Atendimento</h1>
+                            <h1 id="titulo">Sala para Atendimento</h1>
                             <h2>
                                 A <span>Sala Paris </span> é ideal para atendimentos de profissionais como: terapeutas, psicólogos, fonoaudiólogos,
                                 dentre outros.
@@ -86,7 +92,7 @@ export default function SAtendimento() {
                             <ul>
                                 <li>Ambiente climatizado e Wifi de alta velocidade</li>
                                 <li>Possui um divã e duas poltronas</li>
-                                <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li> 
+                                <li>Reserve o dia que deseja trabalhar, sem compromisso mensal</li>
                                 <li>Impressão e digitalização de documentos e arquivos</li>
                             </ul>
                         </div>
@@ -138,7 +144,7 @@ export default function SAtendimento() {
                     </div>
                     <div id="container1">
                         <div className="cxImg">
-                            <img src={ico1} alt="icone"/>
+                            <img src={ico1} alt="icone" />
                             <p>Serviço de Concierge</p>
                         </div>
                         <div className="cxImg">
@@ -197,7 +203,7 @@ export default function SAtendimento() {
                         <div className="box">
 
                             <div className="cxIcone">
-                                <img src={icone1} alt="icone"/>
+                                <img src={icone1} alt="icone" />
                                 <p>Empresas</p>
                             </div>
                             <div className="cxIcone">
@@ -239,7 +245,7 @@ export default function SAtendimento() {
 
             </Styled2>
 
-            <Rodape/>
+            <Rodape />
 
         </>
     )

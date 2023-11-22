@@ -41,18 +41,19 @@ import icone4 from '../../../assets/icones2/remotas.png'
 
 import Cabecalho2 from "../../../components/Cabecalho2/Cabecalho2";
 import Rodape from "../../../components/Rodape/Rodape";
+import { Helmet } from "react-helmet";
 
 
 export default function MDedicada() {
 
-   useEffect(() => {
+    useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
 
 
-//-----------------------------------mover para contato
+    //-----------------------------------mover para contato
     const navegar = useNavigate()
-    const { setHomeComponent} = useContext(HomeContext)
+    const { setHomeComponent } = useContext(HomeContext)
     const contato = () => {
         setHomeComponent('contato')
         navegar('/');
@@ -61,16 +62,21 @@ export default function MDedicada() {
     return (
 
         <>
-        <Cabecalho2/>
+            <Helmet>
+                <title>mesas dedicadas</title>
+                <meta name="description" content="Bem-vindo ao Temasek Coworking JF - aqui você encontra ambiente com mesas dedicadas" />
+            </Helmet>
+            
+            <Cabecalho2 />
             <StyledMDedicada>
 
-            <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
+                <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
                 <div id="container">
 
                     <div id="containerTexto">
                         <div id="texto">
-                            <h1>Estação de Trabalho Dedicada </h1>
+                            <h1 id="titulo">Estação de Trabalho Dedicada </h1>
                             <h2>
                                 Acesso exclusivo à sua posição fixa de trabalho, em um ambiente compartilhado.
                                 Ideal para 1 pessoa e equipes reduzidas.
@@ -155,7 +161,7 @@ export default function MDedicada() {
                     </div>
                     <div id="container1">
                         <div className="cxImg">
-                            <img src={ico1} alt="icone"/>
+                            <img src={ico1} alt="icone" />
                             <p>Serviço de Concierge</p>
                         </div>
                         <div className="cxImg">
@@ -214,7 +220,7 @@ export default function MDedicada() {
                         <div className="box">
 
                             <div className="cxIcone">
-                                <img src={icone1} alt="icone"/>
+                                <img src={icone1} alt="icone" />
                                 <p>Empresas</p>
                             </div>
                             <div className="cxIcone">
@@ -256,7 +262,7 @@ export default function MDedicada() {
                 </div>
 
             </Styled2>
-            <Rodape/>
+            <Rodape />
         </>
 
     )

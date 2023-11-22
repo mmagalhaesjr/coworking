@@ -45,46 +45,51 @@ import icone4 from '../../../assets/icones2/remotas.png'
 
 import Cabecalho2 from '../../../components/Cabecalho2/Cabecalho2';
 import Rodape from '../../../components/Rodape/Rodape';
+import { Helmet } from "react-helmet";
 
 export default function SPrivativa() {
 
-   
+
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
 
-//-----------------------------------mover para contato
-const navegar = useNavigate()
-const { setHomeComponent} = useContext(HomeContext)
-const contato = () => {
-    setHomeComponent('contato')
-    navegar('/');
-};
+    //-----------------------------------mover para contato
+    const navegar = useNavigate()
+    const { setHomeComponent } = useContext(HomeContext)
+    const contato = () => {
+        setHomeComponent('contato')
+        navegar('/');
+    };
 
 
     return (
 
         <>
+            <Helmet>
+                <title>sala privativa</title>
+                <meta name="description" content=" proporcionamos ambientes ideais para profissionais que buscam espaços privado para reuniões ou trabalhar em um espaço privado .nossas salas oferecem o ambiente perfeito para suas necessidades. " />
+            </Helmet>
 
-        <Cabecalho2/>
+            <Cabecalho2 />
             <StyledSPrivativa>
 
-            <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
+                <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
                 <div id="container">
 
                     <div id="containerTexto">
                         <div id="texto">
-                            <h1>Salas Privativas</h1>
+                            <h1 id="titulo">Salas Privativas</h1>
                             <h2>
-                                As Salas <span> Roma e Londres</span> são preparadas para realizar qualquer tipo de reunião. 
+                                As Salas <span> Roma e Londres</span> são preparadas para realizar qualquer tipo de reunião.
                                 Possui design moderno e intimista.
                             </h2>
-                            
-                                <div> <h4>Sala Londres</h4> <BsFillPersonFill /> <h4>4   </h4></div>
-                                <div> <h4>Sala Roma</h4> <BsFillPersonFill /> <h4>4   </h4></div>
-                            
+
+                            <div> <h4>Sala Londres</h4> <BsFillPersonFill /> <h4>4   </h4></div>
+                            <div> <h4>Sala Roma</h4> <BsFillPersonFill /> <h4>4   </h4></div>
+
                             <h3>Vantagens</h3>
                             <ul>
                                 <li>Ambiente climatizado e Wifi de alta velocidade</li>
@@ -143,7 +148,7 @@ const contato = () => {
                     </div>
                     <div id="container1">
                         <div className="cxImg">
-                            <img src={ico1} alt="icone"/>
+                            <img src={ico1} alt="icone" />
                             <p>Serviço de Concierge</p>
                         </div>
                         <div className="cxImg">
@@ -202,7 +207,7 @@ const contato = () => {
                         <div className="box">
 
                             <div className="cxIcone">
-                                <img src={icone1} alt="icone"/>
+                                <img src={icone1} alt="icone" />
                                 <p>Empresas</p>
                             </div>
                             <div className="cxIcone">
@@ -245,7 +250,7 @@ const contato = () => {
 
             </Styled2>
 
-            <Rodape/>
+            <Rodape />
 
         </>
     )
