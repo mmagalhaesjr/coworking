@@ -8,9 +8,6 @@ export default function Formulario() {
     const handleSubmit = (event) => {
         event.preventDefault();
 
-        // Lógica de envio do formulário, se necessário
-
-        // Marcar o formulário como enviado
         setSubmitted(true);
 
         // Criar um elemento de link e clicar nele para redirecionar
@@ -50,7 +47,7 @@ export default function Formulario() {
 
             </form>
             {submitted && (
-                <p>O formulário foi enviado com sucesso! Você será redirecionado em breve.</p>
+                <p>Enviando...</p>
             )}
            
         </StyledFormulario >
