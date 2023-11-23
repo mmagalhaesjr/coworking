@@ -29,7 +29,7 @@ import Blog9 from './pages/blogs/Blog9/Blog9';
 import Blog10 from './pages/blogs/Blog10/Blog10';
 import { PoliticaP } from "./pages/PoliticaP/PoliticaP";
 import { TermosU } from "./pages/TermosU/TermosU";
-import Erro from './components/Erro/Erro';
+import Erro from './components/Error/Error';
 
 
 

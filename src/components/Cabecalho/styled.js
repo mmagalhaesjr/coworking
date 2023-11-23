@@ -2,8 +2,10 @@ import styled from 'styled-components';
 import { css } from 'styled-components';
 
 
+
+
 export const StyledCabecalho = styled.header`
- 
+
   nav {
     width: 100%;
     height: 100px;
