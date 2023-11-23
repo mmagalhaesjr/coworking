@@ -15,10 +15,6 @@ background-color: #F4F3F0 ;
 margin-bottom: 5%;
 
 
-
-
-
-
 #titulos {
     width: 70%;
     height: 10%;
