@@ -34,7 +34,6 @@ export default function TelaInicial() {
     return (
         <>
             <Helmet>
-                <title>temasek | Coworking JF | escritorios compartilhados | aluguel </title>
                 <meta name="description" content="Bem-vindo ao Temasek Coworking JF - O melhor espaço de coworking em Juiz de Fora. Oferecemos ambientes colaborativos para trabalho, networking e eventos. Conheça nossos espaços e planos e aluguel." />
             </Helmet>
 

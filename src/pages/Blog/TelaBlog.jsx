@@ -33,7 +33,7 @@ export default function Blog() {
         <>
 
             <Helmet>
-                <title>temasek | blog Coworking JF</title>
+                <title>Temasek Coworking Blog</title>
                 <meta name="description" content="Bem-vindo ao Temasek Coworking JF - O melhor espaço de coworking em Juiz de Fora. Oferecemos ambientes colaborativos para trabalho, networking e eventos. Conheça nossos espaços e planos. confira nosso conteudo em blog" />
             </Helmet>
 

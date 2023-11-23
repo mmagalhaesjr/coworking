@@ -64,7 +64,6 @@ export default function Inicial() {
                     <div id="sala3" className="salas">
                         <img src={foto3} alt="coworking" />
                         
-
                     </div>
 
                 </SwiperSlide>
@@ -72,8 +71,7 @@ export default function Inicial() {
 
                     <div id="sala3" className="salas">
                         <img src={foto4} alt="coworking" />
-                        
-
+                
                     </div>
 
                 </SwiperSlide>
