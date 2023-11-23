@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomeContextProvider from "./contexts/HomeContext";
 import { Helmet } from 'react-helmet';
 
-import ConfirmarEnvio from './pages/ConfirmarEnvio/ConfirmarEnvio';
+
 import Main from './pages/Main/Main'
 import MDedicada from './pages/cadaEspaco/MDedicada/MDedicada';
 import SPrivativa from './pages/cadaEspaco/SPrivativa/SPrivativa';
@@ -13,6 +13,10 @@ import QuemSomos from "./pages/QuemSomos/QuemSomos";
 import Planos from './pages/Planos/Planos';
 import Eventos from "./pages/Eventos/Eventos";
 import TelaBlog from './pages/Blog/TelaBlog';
+import { PoliticaP } from "./pages/PoliticaP/PoliticaP";
+import { TermosU } from "./pages/TermosU/TermosU";
+import ConfirmarEnvio from './pages/ConfirmarEnvio/ConfirmarEnvio';
+import Erro from './components/Error/Error';
 
 
 
@@ -27,9 +31,7 @@ import Blog7 from './pages/blogs/Blog7/Blog7';
 import Blog8 from './pages/blogs/Blog8/Blog8';
 import Blog9 from './pages/blogs/Blog9/Blog9';
 import Blog10 from './pages/blogs/Blog10/Blog10';
-import { PoliticaP } from "./pages/PoliticaP/PoliticaP";
-import { TermosU } from "./pages/TermosU/TermosU";
-import Erro from './components/Error/Error';
+
 
 
 
@@ -74,11 +76,11 @@ export default function App() {
                             <Route path="/blog3" exact element={<Blog3 />} />
                             <Route path="/blog4" exact element={<Blog4 />} />
                             <Route path="/blog5" exact element={<Blog5 />} />
-                            <Route path="/blog6" element={<Blog6 />} />
-                            <Route path="/blog7" element={<Blog7 />} />
-                            <Route path="/blog8" element={<Blog8 />} />
-                            <Route path="/blog9" element={<Blog9 />} />
-                            <Route path="/blog10" element={<Blog10 />} />
+                            <Route path="/blog6" exact element={<Blog6 />} />
+                            <Route path="/blog7" exact element={<Blog7 />} />
+                            <Route path="/blog8" exact element={<Blog8 />} />
+                            <Route path="/blog9" exact element={<Blog9 />} />
+                            <Route path="/blog10" exact element={<Blog10 />} />
 
                             <Route path="/confirmar" exact element={<ConfirmarEnvio />} />
                             <Route path="*" element={<Erro />} />
