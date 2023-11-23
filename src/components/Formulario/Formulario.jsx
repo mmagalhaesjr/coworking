@@ -1,23 +1,51 @@
 import { StyledFormulario } from "./styled";
-import { useState } from "react";
+import { useState,useContext } from "react";
+import { HomeContext } from "../../contexts/HomeContext";
+import { useNavigate } from "react-router-dom";
 
 
 export default function Formulario() {
     const [submitted, setSubmitted] = useState(false);
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
-
-        setSubmitted(true);
-
-        // Criar um elemento de link e clicar nele para redirecionar
-        const link = document.createElement('a');
-        link.href ="/confirmar";
-        // link.target = '_blank';
-        link.rel = 'noreferrer';
-        link.click();
+    const navegar = useNavigate()
+    const { setHomeComponent } = useContext(HomeContext)
+    const contato = () => {
+        setHomeComponent('contato')
+        navegar('/confirmar');
     };
+
     
+  
+
+const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    try {
+        // Enviar dados para o servidor
+        const response = await fetch("https://formsubmit.co/contato@temasekjf.com.br", {
+            method: "POST",
+            body: new FormData(event.target),
+        });
+        contato();
+
+        if (response.ok) {
+            // Lidar com o envio bem-sucedido (redirecionar, exibir mensagem, etc.)
+            console.log("Formulário enviado com sucesso!");
+            contato();
+            
+        } else {
+            // Lidar com erros no envio
+            console.error("Erro ao enviar o formulário:", response.statusText);
+        }
+    } catch (error) {
+        console.error("Erro ao enviar o formulário", error);
+    } finally {
+        setSubmitted(true);
+    }
+};
+
+
+
 
     return (
         <StyledFormulario id="contato" >
@@ -46,9 +74,7 @@ export default function Formulario() {
                 <button type="submit">ENVIAR</button>
 
             </form>
-            {submitted && (
-                <p>Enviando...</p>
-            )}
+            {submitted && <p>Enviando</p>}
            
         </StyledFormulario >
     )
