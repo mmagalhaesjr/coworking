@@ -1,15 +1,16 @@
+
 import { StyledFormulario } from "./styled";
 
 
-
 export default function Formulario() {
-    
+
+  
 
     return (
         <StyledFormulario id="contato" >
 
-            <form  action="https://formsubmit.co/contato@temasekjf.com.br" method="POST">
-           
+            <form action="https://formsubmit.co/contato@temasekjf.com.br" method="POST"  >
+
                 <input type="hidden" name="_next" value='https://www.temasekjf.com.br/' />
                 <input type="hidden" name="_captcha" value="false"></input>
 
@@ -29,11 +30,18 @@ export default function Formulario() {
                     <label htmlFor="email" className="labelInput">Mensagem:</label>
                     <textarea id="msg" className="imputMesnsagem" name="msg" rows="4" cols="50"></textarea>
                 </div>
-                <button type="submit">ENVIAR</button>
-
+              
+                <button>ENVIAR</button>
+                     
             </form>
-            
+
+          
+          
+
            
+            
+
+
         </StyledFormulario >
     )
 }
