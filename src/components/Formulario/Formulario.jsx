@@ -11,8 +11,10 @@ export default function Formulario() {
 
             <form action="https://formsubmit.co/contato@temasekjf.com.br" method="POST"  >
 
-                <input type="hidden" name="_next" value='https://www.temasekjf.com.br/' />
+                
                 <input type="hidden" name="_captcha" value="false"></input>
+                <input type="hidden" name="email" placeholder="email" />
+                <input type="hidden" name="_next" value='https://www.temasekjf.com.br/confirmar' />
 
                 <div className="inputBox">
                     <input type="text" name="nome" id="nome" className="inputUser" required />
