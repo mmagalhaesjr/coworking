@@ -32,6 +32,7 @@ import Blog8 from './pages/blogs/Blog8/Blog8';
 import Blog9 from './pages/blogs/Blog9/Blog9';
 import Blog10 from './pages/blogs/Blog10/Blog10';
 import Blog11 from './pages/blogs/Blog11/Blog11';
+import SalaParis from "./pages/LandingPages/SalaParis/SalaParis";
 
 
 
@@ -88,6 +89,7 @@ export default function App() {
                             <Route path="/confirmar" exact element={<ConfirmarEnvio />} />
                             <Route path="*" element={<Erro />} />
 
+                            <Route path="/salaparis" element={<SalaParis />} />
 
                         </Routes>
                     </div>
