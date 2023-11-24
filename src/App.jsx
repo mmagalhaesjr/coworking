@@ -31,6 +31,8 @@ import Blog7 from './pages/blogs/Blog7/Blog7';
 import Blog8 from './pages/blogs/Blog8/Blog8';
 import Blog9 from './pages/blogs/Blog9/Blog9';
 import Blog10 from './pages/blogs/Blog10/Blog10';
+import Blog11 from './pages/blogs/Blog11/Blog11';
+
 
 
 
@@ -81,6 +83,7 @@ export default function App() {
                             <Route path="/blog8" exact element={<Blog8 />} />
                             <Route path="/blog9" exact element={<Blog9 />} />
                             <Route path="/blog10" exact element={<Blog10 />} />
+                            <Route path="/blog11" exact element={<Blog11 />} />
 
                             <Route path="/confirmar" exact element={<ConfirmarEnvio />} />
                             <Route path="*" element={<Erro />} />
