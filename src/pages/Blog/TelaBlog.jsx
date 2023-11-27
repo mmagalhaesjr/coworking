@@ -15,6 +15,7 @@ import foto8 from "../../assets/blog/blog8/blog8-capa.webp"
 import foto9 from "../../assets/blog/blog9/blog9-f2.webp"
 import foto10 from "../../assets/blog/blog10/blog10-f1.webp"
 import foto11 from "../../assets/blog/blog11/foto1.png"
+import foto12 from "../../assets/blog/blog12/foto1.jpg"
 
 
 import Cabecalho2 from '../../components/Cabecalho2/Cabecalho2';
@@ -54,6 +55,23 @@ export default function Blog() {
                 <div id="container">
 
                     {/* <a href="/eventos"  >Eventos</a> */}
+
+                    <a className="materia" href="/blog12">
+                        <div className="foto">
+                            <img src={foto12} alt="foto coworking" />
+                        </div>
+                        <div className="texto">
+                            <h1>
+                                Mark Zuckerberg - Como construir o
+                                futuro
+                            </h1>
+                        </div>
+                        <p>
+                            Confira a entrevista com Mark Zuckerberg, co-fundador do
+                            Facebook e sua empresa-mãe Meta
+
+                        </p>
+                    </a>
 
 
                     <a className="materia" href="/blog11">
@@ -170,9 +188,9 @@ export default function Blog() {
                             Descubra neste blog como esses espaços de trabalho
                             compartilhados podem revolucionar...
                         </p>
-                    </a>  
+                    </a>
 
-                    
+
                     <a className="materia" href="/blog4">
                         <div className="foto">
                             <img src={foto4} alt="foto coworking" />
