@@ -50,7 +50,6 @@ export default function CadaCapaBlog() {
                 <div id="container">
 
                     <TelaBlog
-                        className="jhu"
                         link='/blog12'
                         img={foto12}
                         titulo=' Mark Zuckerberg - Como construir o futuro'

@@ -160,6 +160,7 @@ export default function MCompartilhada() {
                         <h1>Conheça nossa infraestrutura e serviços:</h1>
                     </div>
                     <div id="container1">
+
                         <div className="cxImg">
                             <img src={ico1} alt="icone" />
                             <p>Serviço de Concierge</p>

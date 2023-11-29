@@ -8,6 +8,7 @@ import MDedicada from './pages/cadaEspaco/MDedicada/MDedicada';
 import SPrivativa from './pages/cadaEspaco/SPrivativa/SPrivativa';
 import SReuniao from './pages/cadaEspaco/SReuniao/SReuniao';
 import MCompartilhada from './pages/cadaEspaco/MCompartilhada/MCompartilhada';
+
 import SAtendimento from './pages/cadaEspaco/SAtendimento/SAtendimento';
 import QuemSomos from "./pages/QuemSomos/QuemSomos";
 import Planos from './pages/Planos/Planos';
@@ -37,6 +38,7 @@ import Blog11 from './pages/blogs/Blog11/Blog11';
 
 import SalaParis from "./pages/LandingPages/SalaParis/SalaParis";
 import Blog12 from "./pages/blogs/Blog12/Blog12";
+
 
 
 
