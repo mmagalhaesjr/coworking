@@ -1,7 +1,8 @@
-import { StyledCadaCapaBlog } from "./styled";
+import { StyledBlogPagina } from "./styled";
 import { Helmet } from 'react-helmet';
 
-import TelaBlog from "../../pages/Blog/TelaBlog";
+import TelaBlog from "../../components/Blog/TelaBlog";
+
 import Cabecalho2 from '../../components/Cabecalho2/Cabecalho2';
 
 import Rodape from '../../components/Rodape/Rodape';
@@ -22,7 +23,7 @@ import foto11 from "../../assets/blog/blog11/foto1.png"
 import foto12 from "../../assets/blog/blog12/foto1.jpg"
 
 
-export default function CadaCapaBlog() {
+export default function BlogPagina() {
     return (
 
 
@@ -37,7 +38,7 @@ export default function CadaCapaBlog() {
 
 
 
-            <StyledCadaCapaBlog>
+            <StyledBlogPagina>
 
             <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
@@ -135,7 +136,7 @@ export default function CadaCapaBlog() {
                     />
                 </div>
 
-            </StyledCadaCapaBlog>
+            </StyledBlogPagina>
 
             <Rodape />
 

@@ -14,7 +14,8 @@ import QuemSomos from "./pages/QuemSomos/QuemSomos";
 import Planos from './pages/Planos/Planos';
 import Eventos from "./pages/Eventos/Eventos";
 // import TelaBlog from './pages/Blog/TelaBlog';
-import CadaCapaBlog from "./components/CadaCapaBlog/CadaCapaBlog";
+import BlogPagina from "./pages/BlogPagina/BlogPagina";
+
 import { PoliticaP } from "./pages/PoliticaP/PoliticaP";
 import { TermosU } from "./pages/TermosU/TermosU";
 import ConfirmarEnvio from './pages/ConfirmarEnvio/ConfirmarEnvio';
@@ -38,6 +39,8 @@ import Blog11 from './pages/blogs/Blog11/Blog11';
 
 import SalaParis from "./pages/LandingPages/SalaParis/SalaParis";
 import Blog12 from "./pages/blogs/Blog12/Blog12";
+
+
 
 
 
@@ -81,7 +84,7 @@ export default function App() {
                             <Route path="/termosDeUso" exact element={<TermosU />} />
 
                             {/* <Route path="/blog" exact element={<TelaBlog />} /> */}
-                            <Route path="/Blog" exact element={<CadaCapaBlog/>} />
+                            <Route path="/Blog" exact element={<BlogPagina/>} />
 
                             <Route path="/blog1" exact element={<Blog1 />} />
                             <Route path="/blog2" exact element={<Blog2 />} />

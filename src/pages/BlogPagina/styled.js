@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-export const StyledCadaCapaBlog = styled.main`
+export const StyledBlogPagina = styled.main`
 width: 100%;
 
 display: flex;
