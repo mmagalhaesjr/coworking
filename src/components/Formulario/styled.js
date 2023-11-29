@@ -79,7 +79,6 @@ input{
     left: 0px;
     pointer-events: none;
     transition: .5s;
-   
 } 
 #submit{
     background-color: #101010;
