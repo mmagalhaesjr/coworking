@@ -2,6 +2,7 @@ import { StyledBlogPagina } from "./styled";
 import { Helmet } from 'react-helmet';
 
 import TelaBlog from "../../components/Blog/TelaBlog";
+// import BlogGrande from '../../components/BlogGrande/BlogGrande'
 
 import Cabecalho2 from '../../components/Cabecalho2/Cabecalho2';
 
