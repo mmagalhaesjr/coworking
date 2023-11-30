@@ -38,7 +38,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 border: solid 20px ;
-border-image: linear-gradient(to left,#ac7b40 , #101010) 4 repeat;
+border-image: linear-gradient(to left,#ac7b40 , #101010) 5 repeat;
 }
 
 #container2{
@@ -100,6 +100,10 @@ font-size: 1.2rem;
 
 video{
     width: 100%;
+}
+
+#ultimoTexto{
+    margin-top: 20%;
 }
 
 

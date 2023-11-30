@@ -115,7 +115,7 @@ export default function Blog11() {
                                 Nenhum profissional alcança o sucesso sozinho. Invista tempo em construir e manter
                                 relacionamentos profissionais sólidos. Isso pode levar a oportunidades de colaboração que
                                 podem impulsionar sua carreira. Uma excelente alternativa para a colaboração são os
-                                espaços de<span>coworking</span> . No  <a href="https://www.temasekjf.com.br"><span>Temasek Coworking </span></a> o
+                                espaços de <span>coworking</span>. No  <a href="https://www.temasekjf.com.br"><span>Temasek Coworking </span></a> o
                                 networking acontece diariamente
                             </p>
                         </div>
@@ -177,7 +177,7 @@ export default function Blog11() {
 
                             </p>
                         </div>
-                        <div className="texto">
+                        <div className="texto" id="ultimoTexto">
                             <p>
                             Fique ligado nas nossas redes sociais para estar estar sempre atento às novidades queenvolvem o mundo do trabalho.
                             </p>

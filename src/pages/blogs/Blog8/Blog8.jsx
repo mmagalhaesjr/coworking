@@ -97,7 +97,7 @@ export default function Blog8() {
                         </div>
                         <div className="texto" >
                             <p>
-                                Um dos maiores benefícios dos<span>espaços de trabalho compartilhado </span> é a oportunidade de
+                                Um dos maiores benefícios dos <span>espaços de trabalho compartilhado </span> é a oportunidade de
                                 fazer networking e colaborar com outros profissionais. Os melhores espaços promovem uma
                                 comunidade ativa por meio de eventos, workshops e grupos de interesse comuns. Isso não
                                 apenas amplia sua rede profissional, mas também oferece a chance de aprender com os
@@ -151,7 +151,7 @@ export default function Blog8() {
                         </div>
                         <div className="texto" >
                             <p>
-                                Por fim, embora a qualidade seja importante, os melhores <span> espaços de escritório
+                                Por fim, embora a qualidade seja importante, os melhores espaços de <span> escritório
                                     compartilhado </span> também oferecem preços competitivos. Eles reconhecem a importância de
                                 ser acessível para uma ampla gama de profissionais e empresas, tornando-se uma opção
                                 atraente em comparação com os custos de alugar um escritório tradicional.
@@ -166,7 +166,7 @@ export default function Blog8() {
 
                             </p>
                         </div>
-                        <div className="texto" >
+                        <div className="texto" id="ultimoTexto" >
                             <p>
                                 Seja um membro do <span> Temasek Coworking!</span> Entre em contato conosco e confira os planos e
                                 benefícios disponíveis para você!

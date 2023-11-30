@@ -145,7 +145,7 @@ export default function Blog6() {
                             todas as oportunidades e recursos disponíveis em seu <span>coworking</span> escolhido.
                         </p>
                     </div>
-                    <div className="texto" >
+                    <div className="texto" id="ultimoTexto" >
                         <p>
                             Nós, do <span>Temasek Coworking</span>, estamos de portar abertas para receber você e sua empresa,
                             com o objetivo de alavancar seu desempenho por meio de nossas instalações e atendimento!

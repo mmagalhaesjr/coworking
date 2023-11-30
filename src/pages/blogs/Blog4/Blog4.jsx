@@ -110,7 +110,7 @@ export default function Blog4() {
                         <div className="img">
                             <img src={foto1} alt="foto coworking" />
                         </div>
-                        <div className="texto" >
+                        <div className="texto" id="ultimoTexto" >
                             <p>
                                 Para saber mais sobre o
                                 universo do coworking, fique atento às nossas redes sociais e aos nossos Blogs.

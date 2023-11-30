@@ -94,7 +94,7 @@ export default function Blog7() {
 
                             </p>
                         </div>
-                        <div className="texto">
+                        <div className="texto" id="ultimoTexto">
                             <p>
                                 Fique por dentro nas novidades sobre o mundo do <span>coworking</span>  em nosso blog e redes sociais!
                             </p>

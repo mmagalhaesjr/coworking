@@ -101,6 +101,10 @@ font-size: 1.2rem;
 video{
     width: 100%;
 }
+#ultimoTexto{
+    margin-top: 20%;
+}
+
 
 
 @media(max-width:1140px) {

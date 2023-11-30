@@ -61,7 +61,7 @@ export default function Blog10() {
                         <div className="texto">
                             <p>
                                 Espaço e Configuração: Você precisa de um escritório privativo, uma estação de
-                                trabalho dedicada ou está bem com um espaço flexível em uma área de <span>coworking</span>
+                                trabalho dedicada ou está bem com um espaço flexível em uma área de <span>coworking </span>
                                 compartilhada?
 
                             </p>
@@ -131,9 +131,9 @@ export default function Blog10() {
                                 certo entre preço e qualidade é a chave para fazer uma escolha inteligente e satisfatória.
                             </p>
                         </div>
-                        <div className="texto">
+                        <div className="texto" id="ultimoTexto">
                             <p>
-                                Para se manter atualizado sobre o mundo do<span>coworking</span> , acompanhe nosso Blog e nossas
+                                Para se manter atualizado sobre o mundo do <span>coworking</span> , acompanhe nosso Blog e nossas
                                 redes sociais!
                             </p>
                         </div>

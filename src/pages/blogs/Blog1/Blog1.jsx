@@ -105,7 +105,7 @@ export default function Blog1() {
                                 cada vez mais adaptável e interconectado.
                             </p>
                         </div>
-                        <div className="texto" >
+                        <div className="texto" id="ultimoTexto" >
                             <p>
                                 No <span>Temasek Coworking</span>, a inovação, sofisticação e flexibilidade, irão te proporcionar
                                 uma nova experiência de trabalho, potencializando o networking.

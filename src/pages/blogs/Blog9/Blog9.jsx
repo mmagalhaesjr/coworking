@@ -51,7 +51,7 @@ export default function Blog9() {
                         </div>
                         <div className="texto">
                             <p>
-                                O design do<span>espaço de trabalho compartilhado </span> desempenha um papel fundamental no
+                                O design do <span>espaço de trabalho compartilhado </span> desempenha um papel fundamental no
                                 bem-estar dos membros. Por exemplo, optar por móveis ergonômicos que ofereçem suporte
                                 adequado à postura evita tensões musculares. Além disso, é importante criar um layout que
                                 promova a circulação e a interação, evitando espaços apertados e desconfortáveis
@@ -122,7 +122,7 @@ export default function Blog9() {
                             <img src={foto1} alt="foto coworking" />
                         </div>
 
-                        <div className="texto">
+                        <div className="texto" id="ultimoTexto">
                             <p>
                                 Conte conosco do <span>Temasek Coworking</span> para tornar seus dias de trabalho mais agradáveis e
                                 produtivos. Possuímos infraestrutura inovadora que promove a colaboração e a

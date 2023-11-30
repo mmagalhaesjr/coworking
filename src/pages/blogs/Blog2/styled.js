@@ -103,6 +103,10 @@ video{
     width: 100%;
 }
 
+#ultimoTexto{
+    margin-top: 20%;
+}
+
 
 @media(max-width:1140px) {
    #bloco2{
