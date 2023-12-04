@@ -133,15 +133,25 @@ video{
     }
 }
 @media(max-width:500px) {
-    #container1{
-        border: none;
-    }
+#container1{
+    border: none;
+}
 #titulo h1{
     font-size: 1.5rem;
     text-align: left;
+    font-weight: 600;
+}
+li{
+    font-size: 1rem;
+}
+.texto{
+    margin-top: 4%;
 }
 .texto p{
-font-size: 1rem;
+font-size: 1.2rem;
+
 }
+
+
 }
 `
