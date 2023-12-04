@@ -1,4 +1,4 @@
-import { StyledBlog2 } from "./styled"
+import { StyledBlog } from "../styledBlogs/styled"
 
 import Cabecalho2 from '../../../components/Cabecalho2/Cabecalho2';
 import Rodape from '../../../components/Rodape/Rodape';
@@ -17,7 +17,7 @@ export default function Blog2() {
     return (
         <>
             <Cabecalho2 />
-            <StyledBlog2>
+            <StyledBlog>
 
                 <div id="container1">
 
@@ -122,7 +122,7 @@ export default function Blog2() {
                     </div>
 
                 </div>
-            </StyledBlog2>
+            </StyledBlog>
             <Rodape />
         </>
     )

@@ -1,4 +1,4 @@
-import { StyledBlog6 } from "./styled"
+import { StyledBlog } from "../styledBlogs/styled"
 
 import foto1 from '../../../assets/blog/blog6/blog6-f1.webp'
 import foto2 from '../../../assets/blog/blog6/blog6-f2.webp'
@@ -11,7 +11,7 @@ export default function Blog6() {
     return (
         <>
             <Cabecalho2 />
-            <StyledBlog6>
+            <StyledBlog>
 
                 <div id="container1">
 
@@ -156,7 +156,7 @@ export default function Blog6() {
 
                     </div>
                 </div>
-            </StyledBlog6>
+            </StyledBlog>
             <Rodape />
         </>
     )

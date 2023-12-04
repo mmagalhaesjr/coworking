@@ -22,6 +22,7 @@ import foto9 from "../../assets/blog/blog9/blog9-f2.webp"
 import foto10 from "../../assets/blog/blog10/blog10-f1.webp"
 import foto11 from "../../assets/blog/blog11/foto1.png"
 import foto12 from "../../assets/blog/blog12/foto1.jpg"
+import foto13 from "../../assets/blog/blog13/foto1.png"
 
 
 export default function BlogPagina() {
@@ -50,6 +51,14 @@ export default function BlogPagina() {
                 </div>
 
                 <div id="container">
+
+                    <TelaBlog
+                        link='/blog13'
+                        img={foto13}
+                        titulo=' 3 Dicas para se tornar um empreendedor de sucesso'
+                        texto='Vamos explorar três dicas fundamentais para ajudar você a trilhar
+                        o caminho do empreendedorismo de forma bem-sucedida.'
+                    />
 
                     <TelaBlog
                         link='/blog12'

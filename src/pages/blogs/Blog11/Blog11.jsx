@@ -1,4 +1,4 @@
-import { StyledBlog11 } from "./styled"
+import { StyledBlog } from "../styledBlogs/styled"
 
 import { BsWhatsapp } from 'react-icons/bs';
 
@@ -14,7 +14,7 @@ export default function Blog11() {
     return (
         <>
             <Cabecalho2 />
-            <StyledBlog11>
+            <StyledBlog>
 
                 <div id="container1">
 
@@ -187,7 +187,7 @@ export default function Blog11() {
                     </div>
 
                 </div>
-            </StyledBlog11>
+            </StyledBlog>
             <Rodape />
         </>
     )

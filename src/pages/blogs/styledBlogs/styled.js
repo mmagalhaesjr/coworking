@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 
 
-export const StyledBlog7 = styled.section`
+export const StyledBlog = styled.section`
 
 display: flex;
 flex-direction: column;
@@ -28,6 +28,7 @@ align-items: center;
 span{
     font-weight: 700;
 }
+
 
 
 #container1{
@@ -85,6 +86,13 @@ font-size: 1.2rem;
   margin-top: 3%;
   
 } 
+ul{
+    margin-top: 3%;
+    margin-left: 3%;
+}
+ul li{
+    font-size: 1.2rem;
+}
 .subTitulo p{
     font-weight: 600;
     font-size: 1.3rem;
@@ -97,7 +105,11 @@ font-size: 1.2rem;
 .img img{
     width: 100%;
 }
-
+#cxVideo{
+    margin-top: 5%;
+   
+   
+}
 video{
     width: 100%;
 }

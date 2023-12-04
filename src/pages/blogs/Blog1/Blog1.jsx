@@ -1,4 +1,4 @@
-import { StyledBlog1 } from "./styled"
+import { StyledBlog } from "../styledBlogs/styled"
 
 import Cabecalho2 from '../../../components/Cabecalho2/Cabecalho2';
 import Rodape from '../../../components/Rodape/Rodape';
@@ -15,7 +15,7 @@ export default function Blog1() {
     return (
         <>
             <Cabecalho2 />
-            <StyledBlog1>
+            <StyledBlog>
                 <div id="container1" >
 
                 <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
@@ -115,7 +115,7 @@ export default function Blog1() {
 
                     </div>
                 </div >
-            </StyledBlog1>
+            </StyledBlog>
 
             <Rodape style=" z-index: 8" />
 
