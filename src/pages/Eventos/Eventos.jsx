@@ -67,8 +67,9 @@ export default function Eventos() {
                 <div id="container">
                     <div id="cxTexto">
                         <h2>
-                            Nosso espaço possui 287m² 
-                            que contam com 58 cadeiras e mesas,
+                            Nosso espaço possui 270m²; 
+                            Equipado com 22 mesas no salão,
+                            com 58 cadeiras,
                             além de uma copa e banheiros feminino e masculino.
                             O ambiente é climatizado e possui serviço de recepção e wifi de alta velocidade.
                         </h2>
