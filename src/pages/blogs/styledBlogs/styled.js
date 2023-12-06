@@ -34,24 +34,21 @@ span{
 #container1{
 margin-top: 10%;
 margin-bottom: 10%;
-width: 80%;
+width: 90%;
+
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-border: solid 20px ;
-border-image: linear-gradient(to left,#ac7b40 , #101010) 4 repeat;
 }
 
 #container2{
-width: 60%;
+width: 90%;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-bottom: 5%;
-
-
 }
 
 
@@ -61,7 +58,7 @@ width: 95%;
 text-align: center;
 }
 #titulo h1{
-font-size: 2rem;
+font-size: 3rem;
 margin-bottom: 3%;
 }
 h1{
@@ -69,8 +66,6 @@ margin-top:5% ;
 font-size: 2rem;
 margin-bottom: 3%; 
 }
-
-
 .texto{
     margin-top: 2%;
     width: 100%;
@@ -84,19 +79,21 @@ font-size: 1.2rem;
   width: 100%;
   text-align: left;
   margin-top: 3%;
-  
+  margin-bottom: 3%;
 } 
+.subTitulo p{
+    font-weight: 600;
+    font-size: 1.7rem;
+}
 ul{
+    width: 100%;
     margin-top: 3%;
     margin-left: 3%;
 }
 ul li{
     font-size: 1.2rem;
 }
-.subTitulo p{
-    font-weight: 600;
-    font-size: 1.3rem;
-}
+
 .img{
     margin-top: 5%;
     margin-bottom: 5%;
@@ -107,8 +104,6 @@ ul li{
 }
 #cxVideo{
     margin-top: 5%;
-   
-   
 }
 video{
     width: 100%;
@@ -137,9 +132,12 @@ video{
     border: none;
 }
 #titulo h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: left;
     font-weight: 600;
+}
+.subTitulo{
+  text-align: left;
 }
 li{
     font-size: 1rem;
@@ -148,7 +146,7 @@ li{
     margin-top: 4%;
 }
 .texto p{
-font-size: 1.2rem;
+    font-size: 1.2rem;
 
 }
 
