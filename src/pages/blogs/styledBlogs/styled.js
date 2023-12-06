@@ -109,7 +109,7 @@ video{
     width: 100%;
 }
 #ultimoTexto{
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 

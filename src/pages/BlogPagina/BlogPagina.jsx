@@ -23,6 +23,7 @@ import foto10 from "../../assets/blog/blog10/blog10-f1.webp"
 import foto11 from "../../assets/blog/blog11/foto1.png"
 import foto12 from "../../assets/blog/blog12/foto1.jpg"
 import foto13 from "../../assets/blog/blog13/foto1.png"
+import foto14 from "../../assets/blog/blog14/1.webp"
 
 
 export default function BlogPagina() {
@@ -51,6 +52,13 @@ export default function BlogPagina() {
                 </div>
 
                 <div id="container">
+
+                    <TelaBlog
+                        link='/blog14'
+                        img={foto14}
+                        titulo='Zé das Flores: 35 Anos na Mesma Avenida de Juiz de Fora'
+                        texto='Mais de Três Décadas de Cores e Aromas na Avenida Central da cidade'
+                    />
 
                     <TelaBlog
                         link='/blog13'

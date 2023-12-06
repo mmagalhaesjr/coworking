@@ -40,6 +40,8 @@ import Blog11 from './pages/blogs/Blog11/Blog11';
 import SalaParis from "./pages/LandingPages/SalaParis/SalaParis";
 import Blog12 from "./pages/blogs/Blog12/Blog12";
 import Blog13 from './pages/blogs/Blog13/Blog13';
+import Blog14 from "./pages/blogs/Blog14/Blog14";
+
 
 
 
@@ -100,6 +102,7 @@ export default function App() {
                             <Route path="/blog11" exact element={<Blog11 />} />
                             <Route path="/blog12" exact element={<Blog12 />} />
                             <Route path="/blog13" exact element={<Blog13 />} />
+                            <Route path="/blog14" exact element={<Blog14 />} />
 
                             <Route path="/confirmar" exact element={<ConfirmarEnvio />} />
                             <Route path="*" element={<Erro />} />

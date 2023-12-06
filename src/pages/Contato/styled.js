@@ -37,13 +37,15 @@ background-size:cover;
 
 #titulos{
     width: 40%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
     font-weight:100;  
     line-height: 1.3;
     color:#ac7b40;
     color:#101010;
+    margin-top: -17%;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 #titulos h1{
