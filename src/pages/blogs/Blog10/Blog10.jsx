@@ -30,7 +30,7 @@ export default function Blog10() {
                     <div id="container2">
 
 
-                        <div className="subTitulo">
+                        <div className="subTitulo" id="subTitulo1">
                             <p>
                                 A pergunta que muitos profissionais se fazem é: &quot;Quanto eu
                                 devo gastar em um coworking?&quot; Vamos te ajudar a tomar uma

@@ -28,7 +28,7 @@ export default function Blog6() {
                     <div id="container2">
 
 
-                        <div className="subTitulo">
+                        <div className="subTitulo" id="subTitulo1">
                             <p>
                                 Para tirar o máximo proveito de seu espaço de <span>coworking</span> , é
                                 importante adotar uma abordagem estratégica, confira a

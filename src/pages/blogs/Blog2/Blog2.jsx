@@ -35,7 +35,7 @@ export default function Blog2() {
                     <div id="container2">
 
 
-                        <div className="texto">
+                        <div className="texto" >
                             <p>
                                 Economizar recursos e investir com sabedoria são práticas cruciais para o sucesso e
                                 crescimento de um negócio.

@@ -27,7 +27,7 @@ export default function Blog13() {
 
                     <div id="container2">
 
-                        <div className="subTitulo">
+                        <div className="subTitulo" id="subTitulo1">
                             <p>
                                 Vamos explorar três dicas fundamentais para ajudar você a trilhar
                                 o caminho do empreendedorismo de forma bem-sucedida.

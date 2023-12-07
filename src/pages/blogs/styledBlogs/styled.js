@@ -1,14 +1,11 @@
 import styled from 'styled-components';
 
 
-
-
 export const StyledBlog = styled.section`
 
 display: flex;
 flex-direction: column;
 align-items: center;
-
 
 #whattsapp{
     z-index: 8;
@@ -29,10 +26,7 @@ span{
     font-weight: 700;
 }
 
-
-
 #container1{
-margin-top: 10%;
 margin-bottom: 10%;
 width: 90%;
 
@@ -50,7 +44,6 @@ align-items: center;
 justify-content: center;
 margin-bottom: 5%;
 }
-
 
 #titulo{
 margin-top: 5%;
@@ -81,6 +74,10 @@ font-size: 1.2rem;
   margin-top: 3%;
   margin-bottom: 3%;
 } 
+#subTitulo1{
+  text-align:center;
+  
+}
 .subTitulo p{
     font-weight: 600;
     font-size: 1.7rem;
@@ -98,9 +95,14 @@ ul li{
     margin-top: 5%;
     margin-bottom: 5%;
     width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .img img{
     width: 100%;
+    max-width: 1000px;
 }
 #cxVideo{
     margin-top: 5%;
@@ -110,6 +112,11 @@ video{
 }
 #ultimoTexto{
     margin-top: 10%;
+}
+#central{
+    width: 90%;
+    margin-top: 10%; 
+    text-align: center;
 }
 
 
@@ -147,9 +154,8 @@ li{
 }
 .texto p{
     font-size: 1.2rem;
+}
 
 }
 
-
-}
 `

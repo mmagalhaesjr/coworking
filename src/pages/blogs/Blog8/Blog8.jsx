@@ -17,7 +17,7 @@ export default function Blog8() {
 
                 <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
-                    <div id="titulo">
+                    <div id="titulo" >
                         <h1>
                             Descubra o cenário ideal: Como
                             encontrar o espaço de coworking
@@ -27,7 +27,7 @@ export default function Blog8() {
 
                     <div id="container2">
 
-                        <div className="subTitulo">
+                        <div className="subTitulo" id="subTitulo1">
                             <p>
                                 Vamos explorar as características que definem os melhores
                                 espaços de <span>coworking</span>  e como eles podem beneficiar você e

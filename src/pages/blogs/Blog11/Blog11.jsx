@@ -30,7 +30,7 @@ export default function Blog11() {
                     <div id="container2">
 
 
-                        <div className="subTitulo">
+                        <div className="subTitulo" id="subTitulo1">
                             <p>
                                 Neste blog, vamos explorar alguns princípios básicos que podem
                                 ajudar você a alcançar o sucesso profissional que deseja.

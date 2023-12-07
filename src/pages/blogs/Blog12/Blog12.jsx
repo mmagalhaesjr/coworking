@@ -29,7 +29,7 @@ export default function Blog12() {
                     <div id="container2">
 
 
-                        <div className="subTitulo">
+                        <div className="subTitulo" id="subTitulo1">
                             <p>
                                 Confira a entrevista com Mark Zuckerberg, co-fundador do
                                 Facebook e sua empresa-mãe Meta

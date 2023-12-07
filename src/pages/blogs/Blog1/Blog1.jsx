@@ -28,7 +28,7 @@ export default function Blog1() {
                     </div>
 
                     <div id="container2">
-                        <div className="texto">
+                        <div className="texto" >
                             <p>
                                 O <span>coworking</span> abrange um <span> espaço de trabalho compartilhado </span> por profissionais
                                 independentes, empreendedores e empresas de diferentes ramos. É uma alternativa aos

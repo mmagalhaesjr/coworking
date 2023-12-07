@@ -26,7 +26,7 @@ export default function Blog14() {
 
                     <div id="container2">
 
-                        <div className="subTitulo">
+                        <div className="subTitulo" id="subTitulo1">
                             <p>
                                 Mais de Três Décadas de Cores e Aromas na Avenida Central da cidade
                             </p>
@@ -92,7 +92,7 @@ export default function Blog14() {
                                 Flores.
                             </p>
                         </div>
-                        <div id="ultimoTexto" className="texto">
+                        <div id="central" className="texto">
                             <p>
                                 Flor, amor e carinho.”
                             </p>
