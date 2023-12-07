@@ -64,6 +64,15 @@ export default function Blog12() {
 
                         </div>
 
+                        <div className="dedicatoria" >
+                            <p>
+                                Escrito por: Lais Sindorf
+                            </p>
+                            <p>
+                                Publicado em: 01/12/2023
+                            </p>
+                        </div>
+
 
 
                     </div>

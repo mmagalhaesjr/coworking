@@ -117,6 +117,15 @@ export default function Blog4() {
                             </p>
                         </div>
 
+                        <div className="dedicatoria" >
+                            <p>
+                                Escrito por: Lais Sindorf
+                            </p>
+                            <p>
+                                Publicado em: 13/11/2023
+                            </p>
+                        </div>
+
                     </div>
 
 

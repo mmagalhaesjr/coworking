@@ -97,6 +97,18 @@ export default function Blog14() {
                                 Flor, amor e carinho.”
                             </p>
                         </div>
+
+                        <div className="dedicatoria" >
+                            <p>
+                                Escrito por: Lais Sindorf
+                            </p>
+                            <p>
+                                Foto: Marjorie Barra
+                            </p>
+                            <p>
+                                Publicado em: 06/12/2023
+                            </p>
+                        </div>
                        
 
                     </div>

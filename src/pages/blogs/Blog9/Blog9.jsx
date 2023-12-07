@@ -130,6 +130,15 @@ export default function Blog9() {
                             </p>
                         </div>
 
+                        <div className="dedicatoria" >
+                            <p>
+                                Escrito por: Lais Sindorf
+                            </p>
+                            <p>
+                                Publicado em: 24/11/2023
+                            </p>
+                        </div>
+
 
                     </div>
 

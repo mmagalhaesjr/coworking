@@ -18,7 +18,7 @@ export default function Blog1() {
             <StyledBlog>
                 <div id="container1" >
 
-                <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
+                    <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
                     <div id="titulo">
                         <h1>
@@ -37,7 +37,6 @@ export default function Blog1() {
                             </p>
                         </div>
 
-
                         <div className="img">
                             <img src={foto1} alt="foto coworking" />
                         </div>
@@ -50,9 +49,9 @@ export default function Blog1() {
                         </div>
                         <div className="texto">
                             <p>
-                            A flexibilidade também é uma vantagem do <span>coworking</span>, 
-                            onde os membros têm a opção de alugar espaços de trabalho individuais, 
-                            salas privadas, escritórios compartilhados e salas de reunião.
+                                A flexibilidade também é uma vantagem do <span>coworking</span>,
+                                onde os membros têm a opção de alugar espaços de trabalho individuais,
+                                salas privadas, escritórios compartilhados e salas de reunião.
 
                             </p>
                         </div>
@@ -105,12 +104,22 @@ export default function Blog1() {
                                 cada vez mais adaptável e interconectado.
                             </p>
                         </div>
-                        <div className="texto" id="ultimoTexto" >
+                        <div className="texto"  >
                             <p>
                                 No <span>Temasek Coworking</span>, a inovação, sofisticação e flexibilidade, irão te proporcionar
                                 uma nova experiência de trabalho, potencializando o networking.
                             </p>
                         </div>
+
+                        <div className="dedicatoria" >
+                            <p>
+                                Escrito por: Lais Sindorf
+                            </p>
+                            <p>
+                                Publicado em: 06/11/2023
+                            </p>
+                        </div>
+
 
 
                     </div>

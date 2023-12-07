@@ -154,6 +154,15 @@ export default function Blog6() {
                         </p>
                     </div>
 
+                    <div className="dedicatoria" >
+                            <p>
+                                Escrito por: Lais Sindorf
+                            </p>
+                        </div>
+                        <p>
+                                Publicado em: 17/11/2023
+                            </p>
+
                     </div>
                 </div>
             </StyledBlog>

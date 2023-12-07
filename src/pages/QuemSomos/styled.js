@@ -192,7 +192,7 @@ h1{
     justify-content: space-around;
 
     img{
-       width: 80%;
+       width: 100%;
        box-shadow: 20px 20px 0px 0 #101010;
     }
     ul{
@@ -249,6 +249,18 @@ h1{
         text-align: center;
         font-size: 2rem;
         
+    }
+    #lista ul {
+        flex-wrap: wrap;
+        width:100%;
+        height: 90px;
+        margin-left: 70px;
+
+        display: flex;
+    }
+    
+    #lista ul li{
+        font-size: 1.2rem;
     }
 }
 

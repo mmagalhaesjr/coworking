@@ -172,6 +172,15 @@ export default function Blog8() {
                                 benefícios disponíveis para você!
                             </p>
                         </div>
+
+                        <div className="dedicatoria" >
+                            <p>
+                                Escrito por: Lais Sindorf
+                            </p>
+                            <p>
+                                Publicado em: 22/11/2023
+                            </p>
+                        </div>
                         
                     </div>
 

@@ -45,4 +45,10 @@ font-weight: 700;
     gap: 5%; 
 }
 
+@media(max-width:500px) {
+    #titulo{
+margin-top: 20%;
+    }
+}
+
 `

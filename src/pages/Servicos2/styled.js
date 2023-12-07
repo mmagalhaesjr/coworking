@@ -7,6 +7,7 @@ height:100vh;
 min-height: 200px;
 
 
+
 #container{
     height: 100%;
     display: flex;
@@ -150,6 +151,7 @@ ul{
 
 @media (max-width:600px){
     height: fit-content;
+    margin-top: 10%;
 
 #container{
     height: 90%;

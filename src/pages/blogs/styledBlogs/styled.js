@@ -7,6 +7,17 @@ display: flex;
 flex-direction: column;
 align-items: center;
 
+.dedicatoria{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+}
+
 #whattsapp{
     z-index: 8;
     position: fixed;
@@ -38,11 +49,14 @@ justify-content: center;
 
 #container2{
 width: 90%;
+max-width: 1000px;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-bottom: 5%;
+
+
 }
 
 #titulo{
@@ -117,6 +131,7 @@ video{
     width: 90%;
     margin-top: 10%; 
     text-align: center;
+    margin-bottom: 10%;
 }
 
 

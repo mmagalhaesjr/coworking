@@ -22,20 +22,20 @@ margin-bottom: 2.5%;
 }
 
 .texto{
-    width: 95%;
+    width: 90%;
+   
 }
 .materia h1{
     font-size: 1rem;
     text-align: center;
     margin-top: 5%;
-    font-weight: 700;
-
-    
+    font-weight: 700; 
 }
 .materia p{
     font-size: .7rem;
     margin-top: 10%;
     margin-bottom: 10%;
+    width: 90%;
 }
 .foto{
     width: 100%;

@@ -105,6 +105,15 @@ export default function Blog5() {
                             </video>
                         </div>
 
+                        <div className="dedicatoria" >
+                            <p>
+                                Escrito por: Lais Sindorf
+                            </p>
+                            <p>
+                                Publicado em: 15/11/2023
+                            </p>
+                        </div>
+
 
                     </div>
 
