@@ -24,6 +24,7 @@ import foto11 from "../../assets/blog/blog11/foto1.png"
 import foto12 from "../../assets/blog/blog12/foto1.jpg"
 import foto13 from "../../assets/blog/blog13/foto1.png"
 import foto14 from "../../assets/blog/blog14/1.webp"
+import foto15 from "../../assets/blog/blog15/foto1.png"
 
 
 export default function BlogPagina() {
@@ -31,7 +32,7 @@ export default function BlogPagina() {
 
 
         <>
-         <Helmet>
+            <Helmet>
                 <title>Temasek Coworking Blog</title>
                 <meta name="description" content="Bem-vindo ao Temasek Coworking JF - O melhor espaço de coworking em Juiz de Fora. Oferecemos ambientes colaborativos para trabalho, networking e eventos. Conheça nossos espaços e planos. confira nosso conteudo em blog" />
             </Helmet>
@@ -43,7 +44,7 @@ export default function BlogPagina() {
 
             <StyledBlogPagina>
 
-            <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
+                <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
                 <div id="titulo">
                     <h1>
@@ -52,6 +53,17 @@ export default function BlogPagina() {
                 </div>
 
                 <div id="container">
+
+                    <TelaBlog
+                        link='/blog15'
+                        img={foto15}
+                        titulo='Por que locar uma sala em um coworking é uma escolha inteligente?'
+                        texto='Neste blog, exploraremos uma opção que tem ganhado cada
+                        vez mais destaque no mundo profissional: a locação de salas
+                        em espaços de coworking
+                        '
+                    />
+
 
                     <TelaBlog
                         link='/blog14'
