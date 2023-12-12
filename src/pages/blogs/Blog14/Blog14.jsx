@@ -1,7 +1,7 @@
 import { StyledBlog } from "../styledBlogs/styled"
 
 import { BsWhatsapp } from 'react-icons/bs';
-import foto1 from '../../../assets/blog/blog14/1.webp'
+import foto1 from '../../../assets/blog/blog14/2.webp'
 
 
 import Cabecalho2 from '../../../components/Cabecalho2/Cabecalho2';
