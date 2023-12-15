@@ -31,7 +31,6 @@ export default function Blog13() {
                             <p>
                                 Vamos explorar três dicas fundamentais para ajudar você a trilhar
                                 o caminho do empreendedorismo de forma bem-sucedida.
-
                             </p>
                         </div>
                         <div className="texto">

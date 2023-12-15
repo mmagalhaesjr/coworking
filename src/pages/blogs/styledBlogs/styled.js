@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 
+
 export const StyledBlog = styled.section`
 
 display: flex;
@@ -69,9 +70,8 @@ font-size: 3rem;
 margin-bottom: 3%;
 }
 h1{
-margin-top:5% ;
+margin-top:5%;
 font-size: 2rem;
-margin-bottom: 3%; 
 }
 .texto{
     margin-top: 2%;
@@ -153,6 +153,9 @@ video{
 #container1{
     border: none;
 }
+#titulo{
+    margin-top: 20%;
+}
 #titulo h1{
     font-size: 2rem;
     text-align: left;
@@ -160,6 +163,12 @@ video{
 }
 .subTitulo{
   text-align: left;
+}
+#subTitulo1{
+    text-align: left;
+    p{
+        font-size: 1.2rem;
+    }  
 }
 li{
     font-size: 1rem;
