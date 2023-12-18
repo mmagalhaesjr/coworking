@@ -25,6 +25,7 @@ import foto12 from "../../assets/blog/blog12/foto1.jpg"
 import foto13 from "../../assets/blog/blog13/foto1.png"
 import foto14 from "../../assets/blog/blog14/1.webp"
 import foto15 from "../../assets/blog/blog15/foto1.png"
+import foto16 from "../../assets/blog/blog16/1.png"
 
 
 export default function BlogPagina() {
@@ -55,6 +56,14 @@ export default function BlogPagina() {
                 <div id="container">
 
                     <TelaBlog
+                        link='/blog16'
+                        img={foto16}
+                        titulo='Advocacia em Movimento'
+                        texto='Como os
+                        espaços de coworking transformam
+                        a rotina dos escritórios jurídicos'
+                    />
+                    <TelaBlog
                         link='/blog15'
                         img={foto15}
                         titulo='Por que locar uma sala em um coworking é uma escolha inteligente?'
@@ -63,15 +72,12 @@ export default function BlogPagina() {
                         em espaços de coworking
                         '
                     />
-
-
                     <TelaBlog
                         link='/blog14'
                         img={foto14}
                         titulo='Zé das Flores: 35 Anos na Mesma Avenida de Juiz de Fora'
                         texto='Mais de Três Décadas de Cores e Aromas na Avenida Central da cidade'
                     />
-
                     <TelaBlog
                         link='/blog13'
                         img={foto13}
@@ -79,7 +85,6 @@ export default function BlogPagina() {
                         texto='Vamos explorar três dicas fundamentais para ajudar você a trilhar
                         o caminho do empreendedorismo de forma bem-sucedida.'
                     />
-
                     <TelaBlog
                         link='/blog12'
                         img={foto12}
