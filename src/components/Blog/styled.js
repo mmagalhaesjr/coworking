@@ -20,8 +20,6 @@ margin-bottom: 2.5%;
     &:hover{
         background-color: #bfbfbf;
     }
-
-    border: solid 1px red;
 }
 
 .texto{
