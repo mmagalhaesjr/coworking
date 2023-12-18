@@ -36,7 +36,6 @@ font-weight: 700;
 #container{
     margin-top: 5%;
     width: 95%;
-    max-width: 1700px;
 
     display: flex;
     align-items: center;
@@ -45,7 +44,7 @@ font-weight: 700;
     flex-wrap: wrap; 
     gap: 5%; 
 
-    border: solid 1px red;
+   
 }
 
 @media(max-width:500px) {

@@ -10,6 +10,7 @@ margin-bottom: 2.5%;
 
 .materia{
     width: 100%;
+    max-width: 370px;
     height: 360px;
     display: flex;
     flex-direction: column;
@@ -19,6 +20,8 @@ margin-bottom: 2.5%;
     &:hover{
         background-color: #bfbfbf;
     }
+
+    border: solid 1px red;
 }
 
 .texto{
