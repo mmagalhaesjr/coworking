@@ -128,8 +128,6 @@ export default function Blog16() {
                                 Publicado em: 18/12/2023
                             </p>
                         </div>
-
-
                     </div>
 
                 </div>
