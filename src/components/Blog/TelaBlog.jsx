@@ -9,7 +9,7 @@ export default function Blog(p) {
             <a className="materia" href={p.link}  >
 
                 <div className="foto">
-                    <img src={p.img} alt="foto coworking" />
+                    <img src={p.img} alt="foto Coworking" />
                 </div>
                 <div className="texto">
                     <h1>
