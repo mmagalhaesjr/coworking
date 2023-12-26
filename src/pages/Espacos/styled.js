@@ -89,10 +89,11 @@ color: #fff;
     display: flex;
     align-items: center;
     margin: auto;
+
+    border: solid 2px red;
   }
   
   .salas {
-    
     border-right: 15px solid  transparent;
     border-left: 15px solid  transparent;
     overflow:hidden;    

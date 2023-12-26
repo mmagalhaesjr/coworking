@@ -26,6 +26,7 @@ import foto13 from "../../assets/blog/blog13/foto1.png"
 import foto14 from "../../assets/blog/blog14/1.webp"
 import foto15 from "../../assets/blog/blog15/foto1.png"
 import foto16 from "../../assets/blog/blog16/1.png"
+import foto17 from "../../assets/blog/blog17/foto1.png"
 
 
 export default function BlogPagina() {
@@ -54,6 +55,16 @@ export default function BlogPagina() {
                 </div>
 
                 <div id="container">
+
+                    <TelaBlog
+                        link='/blog17'
+                        img={foto17}
+                        titulo='Os 5 principais serviços de um
+                        coworking'
+                        texto='Neste blog, exploraremos os principais serviços que tornam
+                        os espaços de coworking uma escolha inteligente
+                        '
+                    />
 
                     <TelaBlog
                         link='/blog16'
