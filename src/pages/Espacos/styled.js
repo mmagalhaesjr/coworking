@@ -89,8 +89,6 @@ color: #fff;
     display: flex;
     align-items: center;
     margin: auto;
-
-    border: solid 2px red;
   }
   
   .salas {
