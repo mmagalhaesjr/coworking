@@ -27,6 +27,7 @@ import foto14 from "../../assets/blog/blog14/1.webp"
 import foto15 from "../../assets/blog/blog15/foto1.png"
 import foto16 from "../../assets/blog/blog16/1.png"
 import foto17 from "../../assets/blog/blog17/foto1.png"
+import foto18 from "../../assets/blog/blog18/1.png"
 
 
 export default function BlogPagina() {
@@ -55,6 +56,16 @@ export default function BlogPagina() {
                 </div>
 
                 <div id="container">
+
+
+                <TelaBlog
+                        link='/blog18'
+                        img={foto18}
+                        titulo='Coworking para Empreendedores'
+                        texto='A seguir, vamos falar sobre empreendedorismo e todas as
+                        potencialidades do coworking para seu negócio'
+                        
+                    />
 
                     <TelaBlog
                         link='/blog17'
