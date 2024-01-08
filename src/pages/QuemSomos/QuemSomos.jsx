@@ -28,7 +28,6 @@ export default function QuemSomos() {
         // Se o documento ainda não estiver carregado, adiciona um ouvinte de eventos
         window.addEventListener("load", handleLoad);
     }
-
     // Limpa o ouvinte de eventos quando o componente é desmontado
     return () => {
         window.removeEventListener("load", handleLoad);

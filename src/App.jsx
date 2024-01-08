@@ -41,20 +41,10 @@ import Blog15 from "./pages/blogs/Blog15/Blog15";
 import Blog16 from "./pages/blogs/Blog16/Blog16";
 import Blog17 from "./pages/blogs/Blog17/Blog16";
 import Blog18 from './pages/blogs/Blog18/Blog18';
+import Blog19 from "./pages/blogs/Blog19/Blog19";
 
 
 import SalaParis from "./pages/LandingPages/SalaParis/SalaParis";
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -72,12 +62,6 @@ export default function App() {
                 <HomeContextProvider>
                     <div className="App">
                         <Routes>
-
-
-
-
-
-
                             <Route path="/" exact element={<Main />} />
                             <Route path="/compartilhada" exact element={<MCompartilhada />} />
                             <Route path="/dedicada" exact element={<MDedicada />} />
@@ -113,6 +97,7 @@ export default function App() {
                             <Route path="/blog16" exact element={<Blog16/>} />
                             <Route path="/blog17" exact element={<Blog17/>} />
                             <Route path="/blog18" exact element={<Blog18/>} />
+                            <Route path="/blog19" exact element={<Blog19/>} />
 
                             <Route path="/confirmar" exact element={<ConfirmarEnvio />} />
                             <Route path="*" element={<Erro />} />

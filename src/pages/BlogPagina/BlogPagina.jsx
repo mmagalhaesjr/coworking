@@ -28,6 +28,8 @@ import foto15 from "../../assets/blog/blog15/foto1.png"
 import foto16 from "../../assets/blog/blog16/1.png"
 import foto17 from "../../assets/blog/blog17/foto1.png"
 import foto18 from "../../assets/blog/blog18/1.png"
+import foto19 from "../../assets/blog/blog19/1.png"
+
 
 
 export default function BlogPagina() {
@@ -57,6 +59,15 @@ export default function BlogPagina() {
 
                 <div id="container">
 
+                <TelaBlog
+                        link='/blog19'
+                        img={foto19}
+                        titulo='Home office: A importância de
+                        encontros presenciais no modelo
+                        de trabalho híbrido'
+                        texto='Entenda os 5 motivos pelos quais a interação face a face é
+                        crucial na eficácia do trabalho não presencial'
+                    />
 
                 <TelaBlog
                         link='/blog18'
@@ -64,7 +75,6 @@ export default function BlogPagina() {
                         titulo='Coworking para Empreendedores'
                         texto='A seguir, vamos falar sobre empreendedorismo e todas as
                         potencialidades do coworking para seu negócio'
-                        
                     />
 
                     <TelaBlog
