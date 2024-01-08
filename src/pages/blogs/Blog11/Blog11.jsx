@@ -23,7 +23,7 @@ export default function Blog11() {
                     <div id="titulo">
                         <h1>
                             Construindo uma carreira de sucesso:
-                            princípios e comportamentos essenciais
+                            Princípios e comportamentos essenciais
                         </h1>
                     </div>
 

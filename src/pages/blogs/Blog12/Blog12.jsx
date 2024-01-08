@@ -61,7 +61,6 @@ export default function Blog12() {
 
                         <div id="cxVideo">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/Lb4IcGF5iTQ?si=ID9c00QaH2rTT586" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
                         </div>
 
                         <div className="dedicatoria" >

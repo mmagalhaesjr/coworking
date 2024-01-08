@@ -19,9 +19,7 @@ export default function Blog6() {
 
                     <div id="titulo">
                         <h1>
-                            Desbloqueando o Potencial:
-                            Estratégias para Maximizar sua
-                            Experiência em um <span>Coworking</span>
+                            Desbloqueando o potencial: Estratégias para maximizar sua experiência em um Coworking
                         </h1>
                     </div>
 
