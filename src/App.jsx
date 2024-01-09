@@ -45,6 +45,7 @@ import Blog19 from "./pages/blogs/Blog19/Blog19";
 
 
 import SalaParis from "./pages/LandingPages/SalaParis/SalaParis";
+import BlogPagina2 from "./pages/BlogPagina2/BlogPagina2";
 
 
 
@@ -78,6 +79,7 @@ export default function App() {
 
                             {/* <Route path="/blog" exact element={<TelaBlog />} /> */}
                             <Route path="/Blog" exact element={<BlogPagina/>} />
+                            <Route path="/Blogpagina2" exact element={<BlogPagina2/>} />
 
                             <Route path="/blog1" exact element={<Blog1 />} />
                             <Route path="/blog2" exact element={<Blog2 />} />
