@@ -127,9 +127,9 @@ export default function BlogPagina() {
                     <TelaBlog
                         link='/blog11'
                         img={foto11}
-                        titulo=' Construindo uma carreira de sucesso:princípios e comportamentos essenciais'
+                        titulo=' Construindo uma carreira de sucesso: princípios e comportamentos essenciais'
                         texto=' Neste blog, vamos explorar alguns princípios básicos que podem
-                    ajudar você a alcançar o sucesso profissional que deseja.'
+                        ajudar você a alcançar o sucesso profissional que deseja.'
                     />
                     <TelaBlog
                         link='/blog10'
