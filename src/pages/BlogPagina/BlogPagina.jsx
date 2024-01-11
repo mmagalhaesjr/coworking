@@ -29,6 +29,8 @@ import foto16 from "../../assets/blog/blog16/1.png"
 import foto17 from "../../assets/blog/blog17/foto1.png"
 import foto18 from "../../assets/blog/blog18/1.png"
 import foto19 from "../../assets/blog/blog19/1.png"
+import foto20 from "../../assets/blog/blog20/1.png"
+
 
 
 
@@ -58,6 +60,15 @@ export default function BlogPagina() {
                 </div>
 
                 <div id="container">
+
+                <TelaBlog
+                        link='/blog20'
+                        img={foto20}
+                        titulo='É possível receber clientes em um
+                        coworking?'
+                        texto='Confira a seguir se é possível receber um cliente em um
+                        espaço de trabalho compartilhado'
+                    />
 
                 <TelaBlog
                         link='/blog19'
