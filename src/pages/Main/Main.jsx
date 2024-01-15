@@ -30,6 +30,15 @@ export default function TelaInicial() {
     }, []);
 
 
+    const whatsappClick = () => {
+        // Adicione aqui a chamada para o evento do Google Analytics
+        // Exemplo: window.gtag('event', 'chat_initiated');
+        window.gtag('event', 'chat_initiated');
+    
+        // Em seguida, redirecione para o link do WhatsApp
+        window.location.href = "https://api.whatsapp.com/send?phone=3298501001";
+    };
+
 
     return (
         <>
@@ -39,7 +48,19 @@ export default function TelaInicial() {
 
             <StyledTelaInicial>
                 <Cabecalho />
-                <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
+                
+                {/* <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer" ><BsWhatsapp id="whattsapp" /></a> */}
+
+                <a
+                    href="#"
+                    onClick={whatsappClick}
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <BsWhatsapp id="whattsapp" />
+                </a>
+
+
                 <Inicial />
                 <Espacos />
                 <Servicos />
