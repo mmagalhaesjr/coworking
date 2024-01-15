@@ -13,40 +13,18 @@ import SAtendimento from './pages/cadaEspaco/SAtendimento/SAtendimento';
 import QuemSomos from "./pages/QuemSomos/QuemSomos";
 import Planos from './pages/Planos/Planos';
 import Eventos from "./pages/Eventos/Eventos";
-// import TelaBlog from './pages/Blog/TelaBlog';
+
 import BlogPagina from "./pages/BlogPagina/BlogPagina";
+import Blog from "./pages/blogs/Blog/Blog";
+import BlogPagina2 from "./pages/BlogPagina2/BlogPagina2";
 
 import { PoliticaP } from "./pages/PoliticaP/PoliticaP";
 import { TermosU } from "./pages/TermosU/TermosU";
 import ConfirmarEnvio from './pages/ConfirmarEnvio/ConfirmarEnvio';
 import Erro from './components/Error/Error';
 
-
-
-import Blog1 from './pages/blogs/Blog1/Blog1';
-import Blog2 from "./pages/blogs/Blog2/Blog2";
-import Blog3 from "./pages/blogs/Blog3/Blog3";
-import Blog4 from "./pages/blogs/Blog4/Blog4";
-import Blog5 from './pages/blogs/Blog5/Blog5';
-import Blog6 from "./pages/blogs/Blog6/Blog6";
-import Blog7 from './pages/blogs/Blog7/Blog7';
-import Blog8 from './pages/blogs/Blog8/Blog8';
-import Blog9 from './pages/blogs/Blog9/Blog9';
-import Blog10 from './pages/blogs/Blog10/Blog10';
-import Blog11 from './pages/blogs/Blog11/Blog11';
-import Blog12 from "./pages/blogs/Blog12/Blog12";
-import Blog13 from './pages/blogs/Blog13/Blog13';
-import Blog14 from "./pages/blogs/Blog14/Blog14";
-import Blog15 from "./pages/blogs/Blog15/Blog15";
-import Blog16 from "./pages/blogs/Blog16/Blog16";
-import Blog17 from "./pages/blogs/Blog17/Blog16";
-import Blog18 from './pages/blogs/Blog18/Blog18';
-import Blog19 from "./pages/blogs/Blog19/Blog19";
-
-
 import SalaParis from "./pages/LandingPages/SalaParis/SalaParis";
-import BlogPagina2 from "./pages/BlogPagina2/BlogPagina2";
-import Blog20 from "./pages/blogs/Blog20/Blog20";
+
 
 
 
@@ -78,30 +56,10 @@ export default function App() {
                             <Route path="/politicaDePrivacidade" exact element={<PoliticaP />} />
                             <Route path="/termosDeUso" exact element={<TermosU />} />
 
-                            {/* <Route path="/blog" exact element={<TelaBlog />} /> */}
+                           
                             <Route path="/Blog" exact element={<BlogPagina/>} />
+                            <Route path="/blog/:blogId" element={<Blog />} />
                             <Route path="/Blogpagina2" exact element={<BlogPagina2/>} />
-
-                            <Route path="/blog1" exact element={<Blog1 />} />
-                            <Route path="/blog2" exact element={<Blog2 />} />
-                            <Route path="/blog3" exact element={<Blog3 />} />
-                            <Route path="/blog4" exact element={<Blog4 />} />
-                            <Route path="/blog5" exact element={<Blog5 />} />
-                            <Route path="/blog6" exact element={<Blog6 />} />
-                            <Route path="/blog7" exact element={<Blog7 />} />
-                            <Route path="/blog8" exact element={<Blog8 />} />
-                            <Route path="/blog9" exact element={<Blog9 />} />
-                            <Route path="/blog10" exact element={<Blog10 />} />
-                            <Route path="/blog11" exact element={<Blog11 />} />
-                            <Route path="/blog12" exact element={<Blog12 />} />
-                            <Route path="/blog13" exact element={<Blog13 />} />
-                            <Route path="/blog14" exact element={<Blog14 />} />
-                            <Route path="/blog15" exact element={<Blog15 />} />
-                            <Route path="/blog16" exact element={<Blog16/>} />
-                            <Route path="/blog17" exact element={<Blog17/>} />
-                            <Route path="/blog18" exact element={<Blog18/>} />
-                            <Route path="/blog19" exact element={<Blog19/>} />
-                            <Route path="/blog20" exact element={<Blog20/>} />
 
                             <Route path="/confirmar" exact element={<ConfirmarEnvio />} />
                             <Route path="*" element={<Erro />} />
