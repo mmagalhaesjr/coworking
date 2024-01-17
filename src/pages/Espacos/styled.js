@@ -33,6 +33,7 @@ export const StyledEspacos = styled.section`
     right: 0%;
     top: 35rem;
     background-color: #ac7b40;
+   
     
   }
   @media(max-width:800px) {
