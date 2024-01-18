@@ -18,8 +18,16 @@ import foto17 from "../../assets/blog/blog17/foto1.png"
 import foto18 from "../../assets/blog/blog18/1.png"
 import foto19 from "../../assets/blog/blog19/1.png"
 import foto20 from "../../assets/blog/blog20/1.png"
+import foto21 from "../../assets/blog/blog21/foto1.png"
 
 export const arrayBlogs = [
+    {
+        id: 21,
+        // link: '/blog21',
+        img: foto21,
+        titulo: 'A ascensão de espaço compartilhados no Brasil',
+        texto: 'O conceito de coworking chegou ao Brasil na virada do século. Confira a seguir como ocorreu essa revolução'
+    },
     {
         id: 20,
         // link: '/blog20',
