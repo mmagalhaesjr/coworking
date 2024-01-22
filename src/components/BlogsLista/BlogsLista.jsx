@@ -19,8 +19,17 @@ import foto18 from "../../assets/blog/blog18/1.png"
 import foto19 from "../../assets/blog/blog19/1.png"
 import foto20 from "../../assets/blog/blog20/1.png"
 import foto21 from "../../assets/blog/blog21/foto1.png"
+import foto22 from "../../assets/blog/blog22/1.png"
+
 
 export const arrayBlogs = [
+    {
+        id: 22,
+        // link: '/blog22',
+        img: foto22,
+        titulo: 'Redefinindo o trabalho: Inovações pós-pandemia',
+        texto: 'A seguir, exploraremos as inovações ocorridas durante e apósva pandemia, ressaltando...'
+    },
     {
         id: 21,
         // link: '/blog21',
