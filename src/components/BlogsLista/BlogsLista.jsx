@@ -20,9 +20,17 @@ import foto19 from "../../assets/blog/blog19/1.png"
 import foto20 from "../../assets/blog/blog20/1.png"
 import foto21 from "../../assets/blog/blog21/foto1.png"
 import foto22 from "../../assets/blog/blog22/1.png"
+import foto23 from "../../assets/blog/blog23/1.png"
 
 
 export const arrayBlogs = [
+    {
+        id: 23,
+        // link: '/blog22',
+        img: foto23,
+        titulo: 'Por que devo considerar um Endereço comercial e fiscal em um coworking?',
+        texto: 'Entenda por que adotar um endereço comercial e fiscal...'
+    },
     {
         id: 22,
         // link: '/blog22',
