@@ -84,8 +84,7 @@ font-size: 1.2rem;
 .subTitulo{
   width: 100%;
   text-align: left;
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-top: 7%;
 } 
 #subTitulo1{
   text-align:center;
