@@ -27,14 +27,12 @@ import foto24 from "../../assets/blog/blog24/1.png"
 export const arrayBlogs = [
     {
         id: 24,
-        // link: '/blog22',
         img: foto24,
         titulo: 'Como alugar uma sala de reunião por hora?',
         texto: 'Saiba neste blog os detalhes sobre o aluguel de salas...'
     },
     {
         id: 23,
-        // link: '/blog22',
         img: foto23,
         titulo: 'Por que devo considerar um Endereço comercial e fiscal em um coworking?',
         texto: 'Entenda por que adotar um endereço comercial e fiscal...'
