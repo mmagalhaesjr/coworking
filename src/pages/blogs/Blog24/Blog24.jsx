@@ -2,7 +2,7 @@ import { StyledBlog } from "../styledBlogs/styled"
 
 import { BsWhatsapp } from 'react-icons/bs';
 
-import foto1 from '../../../assets/blog/blog23/1.png'
+import foto1 from '../../../assets/blog/blog24/1.png'
 
 
 
