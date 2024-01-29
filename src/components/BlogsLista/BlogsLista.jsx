@@ -21,9 +21,17 @@ import foto20 from "../../assets/blog/blog20/1.png"
 import foto21 from "../../assets/blog/blog21/foto1.png"
 import foto22 from "../../assets/blog/blog22/1.png"
 import foto23 from "../../assets/blog/blog23/1.png"
+import foto24 from "../../assets/blog/blog24/1.png"
 
 
 export const arrayBlogs = [
+    {
+        id: 24,
+        // link: '/blog22',
+        img: foto24,
+        titulo: 'Como alugar uma sala de reunião por hora?',
+        texto: 'Saiba neste blog os detalhes sobre o aluguel de salas...'
+    },
     {
         id: 23,
         // link: '/blog22',
