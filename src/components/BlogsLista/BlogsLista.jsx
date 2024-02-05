@@ -22,9 +22,16 @@ import foto21 from "../../assets/blog/blog21/foto1.png"
 import foto22 from "../../assets/blog/blog22/1.png"
 import foto23 from "../../assets/blog/blog23/1.png"
 import foto24 from "../../assets/blog/blog24/1.png"
+import foto25 from "../../assets/blog/blog25/1.png"
 
 
 export const arrayBlogs = [
+    {
+        id: 25,
+        img: foto25,
+        titulo: ' Os benefícios do coworking para empresas iniciantes',
+        texto: 'Descubra como o espaço de coworking age como facilitador...'
+    },
     {
         id: 24,
         img: foto24,

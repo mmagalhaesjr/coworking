@@ -11,9 +11,6 @@ ReactGA.send({ hitType: "pageview", page: "/", title: "www.temasekjf.com.br" });
 
 
 
-
-
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <GlobalStyle/>

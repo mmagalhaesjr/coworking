@@ -16,7 +16,7 @@ import Eventos from "./pages/Eventos/Eventos";
 
 import BlogPagina from "./pages/BlogPagina/BlogPagina";
 import Blog from "./pages/blogs/Blog/Blog";
-import BlogPagina2 from "./pages/BlogPagina2/BlogPagina2";
+
 
 import { PoliticaP } from "./pages/PoliticaP/PoliticaP";
 import { TermosU } from "./pages/TermosU/TermosU";
@@ -59,7 +59,7 @@ export default function App() {
                            
                             <Route path="/Blog" exact element={<BlogPagina/>} />
                             <Route path="/blog/:blogId" element={<Blog />} />
-                            <Route path="/Blogpagina2" exact element={<BlogPagina2/>} />
+                           
 
                             <Route path="/confirmar" exact element={<ConfirmarEnvio />} />
                             <Route path="*" element={<Erro />} />
