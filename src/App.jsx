@@ -14,8 +14,8 @@ import QuemSomos from "./pages/QuemSomos/QuemSomos";
 import Planos from './pages/Planos/Planos';
 import Eventos from "./pages/Eventos/Eventos";
 
-import BlogPagina from "./pages/BlogPagina/BlogPagina";
-import Blog from "./pages/blogs/Blog/Blog";
+import BlogsPagina from "./pages/BlogsPagina/BlogsPagina";
+import Blog from "./pages/blogs/BlogId/BlogId";
 
 
 import { PoliticaP } from "./pages/PoliticaP/PoliticaP";
@@ -57,7 +57,7 @@ export default function App() {
                             <Route path="/termosDeUso" exact element={<TermosU />} />
 
                            
-                            <Route path="/Blog" exact element={<BlogPagina/>} />
+                            <Route path="/Blog" exact element={<BlogsPagina/>} />
                             <Route path="/blog/:blogId" element={<Blog />} />
                            
 

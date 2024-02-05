@@ -11,7 +11,7 @@ import Rodape from '../../components/Rodape/Rodape';
 
 
 
-export default function BlogPagina() {
+export default function BlogsPagina() {
     
     return (
 
