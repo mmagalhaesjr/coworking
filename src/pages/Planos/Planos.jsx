@@ -246,8 +246,8 @@ export default function Planos() {
                                         <p>R$</p><h3>100,00</h3>
                                     </div>
                                 </div>
-                                <button onClick={contato}>
-                                    <h5>Contratar agora  </h5>
+                                <button className="indisponivel" /*onClick={contato}*/> 
+                                    <h5>Indisponível </h5>
                                     <div className="icone" >
                                         <CgArrowLongRight />
                                     </div>

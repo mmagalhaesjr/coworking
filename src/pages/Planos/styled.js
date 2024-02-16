@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { color } from 'framer-motion';
 
 
 
@@ -306,6 +307,7 @@ flex-direction: column;
     font-weight: 700;
 }
 
+
 .cxEstacao{
     margin-top: 25px;
     margin-bottom: 25px;
@@ -441,9 +443,30 @@ color: #ffffff;
     justify-content: center;
     color: #ffffff;
     font-weight: 700;
+    cursor: pointer;
     &:hover{
         border: solid 2px #000000;
         color: #000000;
+    }
+
+}
+.indisponivel{
+    width: 40%;
+    min-width: 250px;
+    height: 40px;
+    
+    background-color: #ee000051;
+    border: solid 2px #F4F3F0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 700;
+    &:hover{
+        background-color: #ee000051;
+        border: solid 2px #F4F3F0;
+        color: #ffffff;
     }
 
 }

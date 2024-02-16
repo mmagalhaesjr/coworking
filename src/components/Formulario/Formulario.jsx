@@ -50,7 +50,7 @@ export default function Formulario() {
 
                 <div className="inputBox">
                     <input type="number" name="telefone" id="email" className="inputUser" required />
-                    <label htmlFor="telefone" className="labelInput">Numero</label>
+                    <label htmlFor="telefone" className="labelInput">Número</label>
                 </div>
 
               
