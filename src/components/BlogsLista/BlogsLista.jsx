@@ -23,9 +23,16 @@ import foto22 from "../../assets/blog/blog22/1.png"
 import foto23 from "../../assets/blog/blog23/1.png"
 import foto24 from "../../assets/blog/blog24/1.png"
 import foto25 from "../../assets/blog/blog25/1.png"
+import foto26 from "../../assets/blog/blog26/1.png"
 
 
 export const arrayBlogs = [
+    {
+        id: 26,
+        img: foto26,
+        titulo: 'Por que ter uma identidade visual é crucial para qualquer negócio?',
+        texto: 'A seguir, vamos desvendar por que ter uma identidade visual...'
+    },
     {
         id: 25,
         img: foto25,
