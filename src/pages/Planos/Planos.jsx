@@ -136,7 +136,7 @@ export default function Planos() {
                         <div id="circulo">
                             <h3>Valor da diária</h3>
                             <div>
-                                <p>R$ </p><h2>120,00</h2>
+                                <p>R$ </p><h2>90,00</h2>
                             </div>
 
                         </div>
@@ -161,6 +161,36 @@ export default function Planos() {
                     <h1>Conheça os nossos planos</h1>
                 </div>
 
+                {/* DEDICADA */}
+                <div className="cxEstacao">
+                    <div className="img">
+                        <img src={foto2} alt="coworking" />
+                    </div>
+                    <div className="texto">
+                        <div className="txt">
+                            <h2> Estação de Trabalho Rotativa </h2>
+                            <p>Acesso diário a uma mesa compartilhada em um espaço
+                                comum com toda a estrutura do Temasek Coworking. </p>
+                            <p>A mesa rotativa é ideal para 1 pessoa e equipes reduzidas.</p>
+                            <section>
+                                <div className="valor">
+                                    <h4>Mensal</h4>
+                                    <div>
+                                        <p>R$</p><h3>200,00</h3>
+                                    </div>
+                                </div>
+                                <button onClick={contato}>
+                                    <h5>Contratar agora  </h5>
+                                    <div className="icone" onClick={contato}>
+                                        <CgArrowLongRight />
+                                    </div>
+                                </button>
+                            </section>
+                        </div>
+                    </div>
+                    {/* foto */}
+                </div>
+                {/* ROTATIVA */}
                 <div className="cxEstacao">
                     <div className="img">
                         <img src={foto1} alt="coworking" />
@@ -176,7 +206,7 @@ export default function Planos() {
                                 <div className="valor">
                                     <h4>Mensal</h4>
                                     <div>
-                                        <p>R$</p><h3>800,00</h3>
+                                        <p>R$</p><h3>600,00</h3>
                                     </div>
                                 </div>
 
@@ -191,35 +221,48 @@ export default function Planos() {
                     </div>
                 </div>
 
+
+
+                {/* PARIS */}
                 <div className="cxEstacao">
                     <div className="img">
-                        <img src={foto2} alt="coworking" />
+                        <img src={foto4} alt="coworking" />
                     </div>
                     <div className="texto">
                         <div className="txt">
-                            <h2> Estação de Trabalho Rotativa </h2>
-                            <p>Acesso diário a uma mesa compartilhada em um espaço
-                                comum com toda a estrutura do Temasek Coworking. </p>
-                            <p>A mesa rotativa é ideal para 1 pessoa e equipes reduzidas.</p>
+                            <h2>Sala Paris</h2>
+                            <p>
+                                Sala para atendimento com isolamento acústico,
+                                climatizada e com equipamento de áudio e vídeo.
+                                Possui 2 poltronas e 1 divã.
+                            </p>
+                            <div id="icones">
+                                <div className="numeros"><BsPersonFill /><p>4</p> </div>
+                                <div className="numeros"><LuArmchair /><p>3</p> </div>
+                                <div className="numeros"> <AiOutlineAudio /> <AiOutlineVideoCameraAdd /> </div>
+                                <PiSnowflakeDuotone />
+                                <HiWifi />
+                            </div>
                             <section>
                                 <div className="valor">
-                                    <h4>Planos a partir de</h4>
+                                    <h4>Por hora</h4>
                                     <div>
-                                        <p>R$</p><h3>90,00</h3>
+                                        <p>R$</p><h3>40,00</h3>
                                     </div>
                                 </div>
                                 <button onClick={contato}>
                                     <h5>Contratar agora  </h5>
-                                    <div className="icone" onClick={contato}>
+                                    <div className="icone" >
                                         <CgArrowLongRight />
                                     </div>
                                 </button>
                             </section>
                         </div>
                     </div>
-                   {/* foto */}
+                    {/* foto */}
                 </div>
 
+                {/* NOVA YORK */}
                 <div className="cxEstacao">
                     <div className="img">
                         <img src={foto3} alt="coworking" />
@@ -246,7 +289,7 @@ export default function Planos() {
                                         <p>R$</p><h3>100,00</h3>
                                     </div>
                                 </div>
-                                <button /*className="indisponivel"*/ onClick={contato}> 
+                                <button /*className="indisponivel"*/ onClick={contato}>
                                     <h5>Contratar agora </h5>
                                     <div className="icone" >
                                         <CgArrowLongRight />
@@ -257,36 +300,36 @@ export default function Planos() {
                         </div>
                     </div>
                 </div>
-
+                {/* LONDRES */}
                 <div className="cxEstacao">
                     <div className="img">
-                        <img src={foto4} alt="coworking" />
+                        <img src={foto5} alt="coworking" />
                     </div>
                     <div className="texto">
                         <div className="txt">
-                            <h2>Sala Paris</h2>
+                            <h2>Sala Roma</h2>
                             <p>
-                                Sala para atendimento com isolamento acústico,
-                                climatizada e com equipamento de áudio e vídeo.
-                                Possui 2 poltronas e 1 divã.
+                                Sala privativa para receber seus clientes e parceiros,
+                                com isolamento acústico, climatizada.
+                                Possui design moderno e intimista.
                             </p>
                             <div id="icones">
                                 <div className="numeros"><BsPersonFill /><p>4</p> </div>
-                                <div className="numeros"><LuArmchair /><p>3</p> </div>
                                 <div className="numeros"> <AiOutlineAudio /> <AiOutlineVideoCameraAdd /> </div>
                                 <PiSnowflakeDuotone />
                                 <HiWifi />
                             </div>
+
                             <section>
                                 <div className="valor">
-                                    <h4>Pacote com 10h</h4>
+                                    <h4>Mensal</h4>
                                     <div>
-                                        <p>R$</p><h3>400,00</h3>
+                                        <p>R$</p><h3>1.700,00</h3>
                                     </div>
                                 </div>
                                 <button onClick={contato}>
                                     <h5>Contratar agora  </h5>
-                                    <div className="icone" >
+                                    <div className="icone">
                                         <CgArrowLongRight />
                                     </div>
                                 </button>
@@ -295,7 +338,7 @@ export default function Planos() {
                     </div>
                     {/* foto */}
                 </div>
-
+                {/* ROMA */}
                 <div className="cxEstacao">
                     <div className="img">
                         <img src={foto6} alt="coworking" />
@@ -321,7 +364,7 @@ export default function Planos() {
                                 <div className="valor">
                                     <h4>Mensal</h4>
                                     <div>
-                                        <p>R$</p><h3>2.500,00</h3>
+                                        <p>R$</p><h3>1.950,00</h3>
                                     </div>
                                 </div>
                                 <button onClick={contato}>
@@ -335,43 +378,7 @@ export default function Planos() {
                     </div>
                 </div>
 
-                <div className="cxEstacao">
-                    <div className="img">
-                        <img src={foto5} alt="coworking" />
-                    </div>
-                    <div className="texto">
-                        <div className="txt">
-                            <h2>Sala Roma</h2>
-                            <p>
-                                Sala privativa para receber seus clientes e parceiros,
-                                com isolamento acústico, climatizada.
-                                Possui design moderno e intimista.
-                            </p>
-                            <div id="icones">
-                                <div className="numeros"><BsPersonFill /><p>4</p> </div>
-                                <div className="numeros"> <AiOutlineAudio /> <AiOutlineVideoCameraAdd /> </div>
-                                <PiSnowflakeDuotone />
-                                <HiWifi />
-                            </div>
 
-                            <section>
-                                <div className="valor">
-                                    <h4>Mensal</h4>
-                                    <div>
-                                        <p>R$</p><h3>2.300,00</h3>
-                                    </div>
-                                </div>
-                                <button onClick={contato}>
-                                    <h5>Contratar agora  </h5>
-                                    <div className="icone">
-                                        <CgArrowLongRight />
-                                    </div>
-                                </button>
-                            </section>
-                        </div>
-                    </div>
-                    {/* foto */}
-                </div>
 
             </StyledPlanos2>
 

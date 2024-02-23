@@ -40,7 +40,7 @@ export default function Eventos() {
             <Cabecalho2 />
             <StyledEventos >
 
-            <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
+                <a href="https://api.whatsapp.com/send?phone=3298501001" target="_blank" rel="noreferrer"><BsWhatsapp id="whattsapp" /></a>
 
                 <div id="container">
                     <div id="cxTexto">
@@ -55,9 +55,8 @@ export default function Eventos() {
 
                         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/7t3Uky-dKLE?si=uotXoqRu1Q6M0Y5_"
                             title="YouTube video player" frameBorder="0" allow="accelerometer; 
-                    autoplay; clipboard-write; encrypted-media; gyroscope; 
-                    picture-in-picture; web-share" allowfullscreen></iframe>
-
+                            autoplay; clipboard-write; encrypted-media; gyroscope; 
+                            picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
 
@@ -67,7 +66,7 @@ export default function Eventos() {
                 <div id="container">
                     <div id="cxTexto">
                         <h2>
-                            Nosso espaço possui 270m²; 
+                            Nosso espaço possui 270m²;
                             equipado com 22 mesas no salão,
                             com 58 cadeiras,
                             além de uma copa e banheiros feminino e masculino.
