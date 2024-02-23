@@ -26,7 +26,7 @@ export default function Rodape() {
                             <BsFillTelephoneFill /> <p>(32) 99850-1001</p>
                         </div>
                         <div className="icones" >
-                            <MdEmail /><p>contato@temasekjf.com.br</p>
+                            <MdEmail /><p>coworking@temasekjf.com.br</p>
                         </div>
                     </div>
                 </div>
