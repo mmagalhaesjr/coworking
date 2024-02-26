@@ -24,9 +24,16 @@ import foto23 from "../../assets/blog/blog23/1.png"
 import foto24 from "../../assets/blog/blog24/1.png"
 import foto25 from "../../assets/blog/blog25/1.png"
 import foto26 from "../../assets/blog/blog26/1.png"
+import foto27 from "../../assets/blog/blog27/1.png"
 
 
 export const arrayBlogs = [
+    {
+        id: 27,
+        img: foto27,
+        titulo: 'FAQ: Respostas para as perguntas mais frequentes sobre coworking',
+        texto: 'Este blog tem as informações que você procura para aproveitar ao máximo seu espaço de trabalho compartilhado'
+    },
     {
         id: 26,
         img: foto26,
