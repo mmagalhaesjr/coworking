@@ -15,6 +15,7 @@ import Planos from './pages/Planos/Planos';
 import Eventos from "./pages/Eventos/Eventos";
 
 import BlogsPagina from "./pages/BlogsPagina/BlogsPagina";
+
 import Blog from "./pages/blogs/BlogId/BlogId";
 
 

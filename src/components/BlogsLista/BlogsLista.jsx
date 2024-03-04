@@ -25,9 +25,16 @@ import foto24 from "../../assets/blog/blog24/1.png"
 import foto25 from "../../assets/blog/blog25/1.png"
 import foto26 from "../../assets/blog/blog26/1.png"
 import foto27 from "../../assets/blog/blog27/1.png"
+import foto28 from "../../assets/blog/blog28/1.png"
 
 
 export const arrayBlogs = [
+    {
+        id: 28,
+        img: foto28,
+        titulo: 'Como ser produtivo no home office?',
+        texto: 'Se você está em busca de dicas práticas e insights para otimizar seu desempenho no home office, este blog é para você'
+    },
     {
         id: 27,
         img: foto27,
