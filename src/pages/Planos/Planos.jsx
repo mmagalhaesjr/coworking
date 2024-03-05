@@ -232,14 +232,14 @@ export default function Planos() {
                         <div className="txt">
                             <h2>Sala Paris</h2>
                             <p>
-                                Sala para atendimento com isolamento acústico,
-                                climatizada e com equipamento de áudio e vídeo.
+                                Sala para atendimento com isolamento acústico e
+                                climatizada.
                                 Possui 2 poltronas e 1 divã.
                             </p>
                             <div id="icones">
                                 <div className="numeros"><BsPersonFill /><p>4</p> </div>
                                 <div className="numeros"><LuArmchair /><p>3</p> </div>
-                                <div className="numeros"> <AiOutlineAudio /> <AiOutlineVideoCameraAdd /> </div>
+                                { <div className="numeros">  </div> }
                                 <PiSnowflakeDuotone />
                                 <HiWifi />
                             </div>
