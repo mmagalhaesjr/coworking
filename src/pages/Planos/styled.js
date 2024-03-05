@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { color } from 'framer-motion';
+
 
 
 
@@ -450,7 +450,7 @@ color: #ffffff;
     }
 
 }
-.indisponivel{
+.indisponivel{ //usar no botao de contratar
     width: 40%;
     min-width: 250px;
     height: 40px;
@@ -463,11 +463,6 @@ color: #ffffff;
     justify-content: center;
     color: #ffffff;
     font-weight: 700;
-    &:hover{
-        background-color: #ee000051;
-        border: solid 2px #F4F3F0;
-        color: #ffffff;
-    }
 
 }
 button h5{

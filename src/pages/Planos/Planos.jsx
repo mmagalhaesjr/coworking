@@ -300,7 +300,8 @@ export default function Planos() {
                         </div>
                     </div>
                 </div>
-                {/* LONDRES */}
+
+               {/* ROMA */}
                 <div className="cxEstacao">
                     <div className="img">
                         <img src={foto5} alt="coworking" />
@@ -327,8 +328,8 @@ export default function Planos() {
                                         <p>R$</p><h3>1.700,00</h3>
                                     </div>
                                 </div>
-                                <button onClick={contato}>
-                                    <h5>Contratar agora  </h5>
+                                <button onClick={''} className="indisponivel">
+                                    <h5>Indisponivel </h5>
                                     <div className="icone">
                                         <CgArrowLongRight />
                                     </div>
@@ -338,8 +339,9 @@ export default function Planos() {
                     </div>
                     {/* foto */}
                 </div>
-                {/* ROMA */}
-                <div className="cxEstacao">
+
+                {/* LONDRES */}
+                <div className="cxEstacao" >
                     <div className="img">
                         <img src={foto6} alt="coworking" />
                     </div>
@@ -360,15 +362,15 @@ export default function Planos() {
                                 <HiWifi />
                             </div>
 
-                            <section>
+                            <section >
                                 <div className="valor">
                                     <h4>Mensal</h4>
-                                    <div>
+                                    <div >
                                         <p>R$</p><h3>1.950,00</h3>
                                     </div>
                                 </div>
-                                <button onClick={contato}>
-                                    <h5>Contratar agora  </h5>
+                                <button onClick={contato} >
+                                    <h5 >Contratar agora  </h5>
                                     <div className="icone" >
                                         <CgArrowLongRight />
                                     </div>
