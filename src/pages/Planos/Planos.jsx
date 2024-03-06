@@ -237,11 +237,12 @@ export default function Planos() {
                                 Possui 2 poltronas e 1 divã.
                             </p>
                             <div id="icones">
-                                <div className="numeros"><BsPersonFill /><p>4</p> </div>
+                                <div className="numeros"><BsPersonFill/><p>4</p> </div>
                                 <div className="numeros"><LuArmchair /><p>3</p> </div>
-                                { <div className="numeros">  </div> }
-                                <PiSnowflakeDuotone />
-                                <HiWifi />
+                                 <div className="numeros"> <PiSnowflakeDuotone /></div> 
+                                 <div className="numeros">  <HiWifi /> </div> 
+                               
+                              
                             </div>
                             <section>
                                 <div className="valor">
