@@ -26,9 +26,16 @@ import foto25 from "../../assets/blog/blog25/1.png"
 import foto26 from "../../assets/blog/blog26/1.png"
 import foto27 from "../../assets/blog/blog27/1.png"
 import foto28 from "../../assets/blog/blog28/1.png"
+import foto29 from "../../assets/blog/blog29/1.png"
 
 
 export const arrayBlogs = [
+    {
+        id: 29,
+        img: foto29,
+        titulo: 'Elevando sua presença profissional: A importância de um coworking bem equipado e sofisticado', 
+        texto: 'Neste blog, vamos clarear a sua mente sobre o porque que escolher um local moderno e bem equipado não é apenas uma questão de estética'
+    },
     {
         id: 28,
         img: foto28,
