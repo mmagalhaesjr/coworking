@@ -80,7 +80,7 @@ export default function Blog29() {
                                 qualidade da comunidade que ele atrai. Em ambientes modernos, você tem a oportunidade de
                                 interagir com profissionais que compartilham o mesmo comprometimento com a excelência. O
                                 networking em um ambiente tão propício pode resultar em colaborações valiosas e
-                                oportunidades de negócios
+                                oportunidades de negócios.
                             </p>
                         </div>
                         <div className="subTitulo">
