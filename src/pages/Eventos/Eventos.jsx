@@ -75,7 +75,7 @@ export default function Eventos() {
                     </div>
 
                     <section>
-                        <div id="cxHorario">
+                        {/* <div id="cxHorario">
                             <div className="horarios">
                                 <div className="hora">
                                     <h2>Eventos de segunda a quinta-feira das 20h às 01h.</h2>
@@ -85,7 +85,7 @@ export default function Eventos() {
                                     <h2>Eventos domingo das 19h às 01h.</h2>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="fotos">
                             <Swiper
