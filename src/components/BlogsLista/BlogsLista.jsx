@@ -27,9 +27,16 @@ import foto26 from "../../assets/blog/blog26/1.png"
 import foto27 from "../../assets/blog/blog27/1.png"
 import foto28 from "../../assets/blog/blog28/1.png"
 import foto29 from "../../assets/blog/blog29/1.png"
+import foto30 from "../../assets/blog/blog30/1.png"
 
 
 export const arrayBlogs = [
+    {
+        id: 30,
+        img: foto30,
+        titulo: 'Guia definitivo: Como criar um modelo de negócios ideal para a sua empresa', 
+        texto: 'Descubra os passos essenciais para desenvolver um modelo de negócios robusto e adaptável às necessidades do seu empreendimento'
+    },
     {
         id: 29,
         img: foto29,

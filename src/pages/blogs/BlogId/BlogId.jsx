@@ -29,6 +29,7 @@ import Blog26 from '../Blog26/Blog26';
 import Blog27 from '../Blog27/Blog27';
 import Blog28 from '../Blog28/Blog28';
 import Blog29 from '../Blog29/Blog29';
+import Blog30 from '../Blog30/Blog30';
 
 
 
@@ -68,6 +69,7 @@ export default function BlogId() {
         27: <Blog27/>,
         28: <Blog28/>,
         29: <Blog29/>,
+        30: <Blog30/>,
     };
 
     const selectedBlog = blogComponents[blogId];
