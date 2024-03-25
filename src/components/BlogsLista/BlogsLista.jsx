@@ -28,9 +28,16 @@ import foto27 from "../../assets/blog/blog27/1.png"
 import foto28 from "../../assets/blog/blog28/1.png"
 import foto29 from "../../assets/blog/blog29/1.png"
 import foto30 from "../../assets/blog/blog30/1.png"
+import foto31 from "../../assets/blog/blog31/1.png"
 
 
 export const arrayBlogs = [
+    {
+        id: 31,
+        img: foto31,
+        titulo: 'Histórias de sucesso: Empresas que surgiram em espaços de coworking', 
+        texto: 'Neste blog, vamos explorar algumas histórias inspiradoras de grandes empresas que começaram sua jornada em espaços de coworking e alcançaram o sucesso além das expectativas.'
+    },
     {
         id: 30,
         img: foto30,
